@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Articles &middot; DrBull</title>
+<meta name="description" content="Long reads on the diseases hitting India hardest, with every figure sourced: stroke, fatty liver and what actually lowers the risk.">
+<link rel="canonical" href="https://drbull.in/articles/">
+<link rel="icon" type="image/png" sizes="64x64" href="../assets/favicon.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<meta name="theme-color" content="#0c0a0b">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="DrBull">
+<meta property="og:title" content="Articles &middot; DrBull">
+<meta property="og:description" content="Long reads on the diseases hitting India hardest, with every figure sourced: stroke, fatty liver and what actually lowers the risk.">
+<meta property="og:url" content="https://drbull.in/articles/">
+<meta property="og:image" content="https://drbull.in/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --ink: #0c0a0b; --smoke: #161213; --ash: #2c2426; --bone: #efe9e6; --dust: #a3999b;
+    --horn: #e2262c; --ember: #ff4d45;
+    --display: "Barlow Semi Condensed", Bahnschrift, "Arial Narrow", sans-serif;
+    --body: Barlow, Bahnschrift, "Segoe UI", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", Consolas, "Courier New", monospace;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ink); color: var(--bone); font: 400 18px/1.7 var(--body); }
+  a { color: inherit; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--ember); outline-offset: 3px; border-radius: 4px; }
+  img { max-width: 100%; display: block; }
+  h1, h2, h3 { font-family: var(--display); font-weight: 700; line-height: 1.05; margin: 0; text-wrap: balance; }
+  .wrap { max-width: 1180px; margin-inline: auto; padding-inline: clamp(16px, 4vw, 40px); }
+  .eyebrow { font: 600 13px/1 var(--display); letter-spacing: .22em; text-transform: uppercase; color: var(--dust); display: flex; align-items: center; gap: 12px; margin: 0; }
+  .eyebrow::before { content: ""; width: 26px; height: 2px; background: var(--horn); flex: none; }
+
+  header.top { border-bottom: 1px solid var(--ash); }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 16px; flex-wrap: wrap; }
+  .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+  .brand img { height: 38px; width: auto; }
+  .word { font: 700 23px/1 var(--display); }
+  .word b { color: var(--horn); }
+  nav.top-nav { display: flex; align-items: center; gap: 22px; font: 600 14px/1 var(--display); letter-spacing: .12em; text-transform: uppercase; }
+  nav.top-nav a { text-decoration: none; color: var(--dust); }
+  nav.top-nav a:hover, nav.top-nav a[aria-current] { color: var(--bone); }
+
+  /* ---------- the list ---------- */
+  .intro { padding-block: clamp(30px, 5vw, 54px) 6px; }
+  .intro h1 { font-size: clamp(36px, 5.4vw, 66px); margin-block: 12px 14px; }
+  .intro p { margin: 0; color: #d7cfcc; max-width: 40em; }
+  .list { list-style: none; margin: clamp(26px, 4vw, 44px) 0 clamp(50px, 8vw, 90px); padding: 0; border-top: 1px solid var(--ash); }
+  .list li { border-bottom: 1px solid var(--ash); }
+  .list a { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 22px; padding: 22px 4px; text-decoration: none; align-items: start; }
+  .list a:hover { background: rgba(22,18,19,.8); }
+  .list a:hover h2 { color: var(--horn); }
+  .list h2 { font-size: clamp(24px, 3vw, 34px); transition: color .2s; }
+  .list .dek { grid-column: 1; color: var(--dust); margin: 0; max-width: 44em; font-size: 16px; }
+  .list .meta { grid-column: 2; grid-row: 1 / span 2; color: var(--dust); font: 400 13px/1.7 var(--mono); text-align: right; white-space: nowrap; }
+  .list .meta b { display: block; color: var(--horn); font: 600 12px/1.6 var(--display); letter-spacing: .14em; text-transform: uppercase; }
+
+  /* ---------- the article ---------- */
+  article { padding-block: clamp(30px, 5vw, 56px) 0; }
+  .head { max-width: 46rem; }
+  .head h1 { font-size: clamp(34px, 5vw, 60px); margin-block: 12px 16px; }
+  .head .dek { color: #d7cfcc; font-size: clamp(18px, 1.8vw, 21px); margin: 0 0 18px; }
+  .byline { display: flex; flex-wrap: wrap; gap: 8px 18px; color: var(--dust); font: 400 14px var(--mono); border-top: 1px solid var(--ash); border-bottom: 1px solid var(--ash); padding-block: 12px; }
+  .prose { max-width: 38rem; padding-block: clamp(26px, 4vw, 40px); }
+  .prose p { margin: 0 0 20px; }
+  .prose h2 { font-size: clamp(25px, 2.8vw, 33px); margin-block: 42px 14px; }
+  .prose h2::before { content: ""; display: block; width: 34px; height: 2px; background: var(--horn); margin-bottom: 14px; }
+  .prose ul { margin: 0 0 20px; padding-left: 0; list-style: none; }
+  .prose ul li { padding-left: 22px; position: relative; margin-bottom: 9px; }
+  .prose ul li::before { content: ""; position: absolute; left: 3px; top: 13px; width: 7px; height: 2px; background: var(--horn); }
+  .prose blockquote { margin: 26px 0; padding-left: 20px; border-left: 2px solid var(--horn); font: 500 clamp(20px, 2.3vw, 26px)/1.35 var(--display); color: var(--bone); }
+  .prose strong { color: #fff; font-weight: 600; }
+  .prose sup a { color: var(--horn); font: 500 12px var(--mono); text-decoration: none; padding: 0 1px; }
+  .prose sup a:hover { text-decoration: underline; }
+  .fact { display: grid; gap: 6px; border-left: 2px solid var(--horn); padding-left: 18px; margin: 30px 0; }
+  .fact b { font: 700 clamp(40px, 5.4vw, 62px)/1 var(--display); color: var(--horn); font-variant-numeric: tabular-nums; }
+  .fact span { color: #d7cfcc; }
+  .fact small { color: var(--dust); font: 400 13px/1.5 var(--mono); }
+
+  .sources { max-width: 46rem; margin-block: 14px clamp(44px, 7vw, 80px); }
+  .sources h2 { font-size: clamp(22px, 2.4vw, 28px); margin-bottom: 6px; }
+  .sources > p { color: var(--dust); margin: 0 0 14px; font-size: 15px; }
+  .sources ol { list-style: none; counter-reset: s; margin: 0; padding: 0; border-top: 1px solid var(--ash); }
+  .sources li { counter-increment: s; border-bottom: 1px solid var(--ash); display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 12px; padding: 13px 4px; }
+  .sources li::before { content: "[" counter(s) "]"; color: var(--horn); font: 500 13px var(--mono); padding-top: 3px; }
+  .sources .t { color: #d7cfcc; font-size: 15.5px; line-height: 1.5; }
+  .sources a { color: var(--bone); font: 400 13px var(--mono); word-break: break-word; }
+
+  .after { max-width: 46rem; display: grid; gap: 14px; margin-bottom: clamp(44px, 7vw, 80px); }
+  .box { border: 1px solid var(--ash); border-radius: 13px; background: rgba(22,18,19,.75); padding: 18px 20px; color: var(--dust); font-size: 15.5px; line-height: 1.6; }
+  .box b { color: var(--bone); }
+  .box a { color: var(--bone); }
+  .btn { display: inline-flex; align-items: center; gap: 10px; padding: 13px 22px; border-radius: 999px; font: 600 15px/1 var(--display); letter-spacing: .08em; text-transform: uppercase; text-decoration: none; border: 1.5px solid var(--horn); }
+  .btn.solid { background: var(--horn); color: #fff; }
+  .btn.line { border-color: rgba(239,233,230,.35); color: var(--bone); }
+  .cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 4px; }
+
+  footer { border-top: 1px solid var(--ash); }
+  footer .wrap { display: grid; gap: 10px; padding-block: 26px; color: var(--dust); font-size: 14px; }
+  footer b { color: var(--bone); }
+
+  @media (max-width: 860px) {
+    nav.top-nav { order: 3; width: 100%; gap: 18px; font-size: 13px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
+    nav.top-nav::-webkit-scrollbar { display: none; }
+    nav.top-nav a { white-space: nowrap; }
+    .list a { grid-template-columns: 1fr; }
+    .list .meta { grid-column: 1; grid-row: 3; text-align: left; }
+  }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../index.html" aria-label="DrBull home">
+      <img src="../assets/bull_mark.webp" alt="" width="76" height="96">
+      <span class="word">DR <b>BULL</b></span>
+    </a>
+    <nav class="top-nav" aria-label="Main">
+      <a href="../">Home</a>
+      <a href="../atlas/">Atlas</a>
+      <a href="../articles/" aria-current="page">Articles</a>
+      <a href="../#library">Videos</a>
+      <a href="../sources/">Sources</a>
+      <a href="../#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap"><section class="intro">
+<p class="eyebrow">Articles</p>
+<h1>The long version, in writing</h1>
+<p>A film takes thirteen minutes and you cannot scroll back to a number. These are the same stories in text, with every figure carrying the population it describes and the years the data covers &mdash; and a link to the paper it came from.</p>
+</section>
+<ul class="list">
+<li><a href="slim-and-fatty-liver/"><h2>You can be slim and still have a fatty liver</h2><p class="dek">A normal weight, a normal check-up and a liver quietly filling with fat. In pooled Indian studies, 38.6% of adults have it &mdash; and the thin ones are not spared.</p><span class="meta"><b>Liver</b>20 September 2026<br>5 min &middot; 9 sources</span></a></li>
+<li><a href="stroke-a-decade-early/"><h2>Why stroke hits Indians a decade early</h2><p class="dek">The average patient in India's stroke hospitals is 59. In England, Wales and Northern Ireland the middle patient is 76. Most of that gap is not bad luck, and it is not narrow arteries.</p><span class="meta"><b>Stroke</b>20 September 2026<br>8 min &middot; 22 sources</span></a></li>
+</ul></main>
+<footer>
+  <div class="wrap">
+    <span><b>DrBull</b> &middot; medical science in 3D &middot; <a href="https://www.youtube.com/@drbull2795" target="_blank" rel="noopener">YouTube</a> &middot; <a href="mailto:contact@drbull.in">contact@drbull.in</a></span>
+    <span><b>Educational only, not medical advice.</b> Watching a video or reading this page does not create a doctor-patient relationship. Always consult a qualified doctor about your own health, and don't start, stop or change any medicine without their advice.</span>
+  </div>
+</footer>
+</body>
+</html>

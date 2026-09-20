@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Why stroke hits Indians a decade early &middot; DrBull</title>
+<meta name="description" content="The average patient in India's stroke hospitals is 59. In England, Wales and Northern Ireland the middle patient is 76. Most of that gap is not bad luck, and it is not narrow arteries.">
+<link rel="canonical" href="https://drbull.in/articles/stroke-a-decade-early/">
+<link rel="icon" type="image/png" sizes="64x64" href="../../assets/favicon.png">
+<link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png">
+<meta name="theme-color" content="#0c0a0b">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="DrBull">
+<meta property="og:title" content="Why stroke hits Indians a decade early &middot; DrBull">
+<meta property="og:description" content="The average patient in India's stroke hospitals is 59. In England, Wales and Northern Ireland the middle patient is 76. Most of that gap is not bad luck, and it is not narrow arteries.">
+<meta property="og:url" content="https://drbull.in/articles/stroke-a-decade-early/">
+<meta property="og:image" content="https://drbull.in/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --ink: #0c0a0b; --smoke: #161213; --ash: #2c2426; --bone: #efe9e6; --dust: #a3999b;
+    --horn: #e2262c; --ember: #ff4d45;
+    --display: "Barlow Semi Condensed", Bahnschrift, "Arial Narrow", sans-serif;
+    --body: Barlow, Bahnschrift, "Segoe UI", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", Consolas, "Courier New", monospace;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ink); color: var(--bone); font: 400 18px/1.7 var(--body); }
+  a { color: inherit; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--ember); outline-offset: 3px; border-radius: 4px; }
+  img { max-width: 100%; display: block; }
+  h1, h2, h3 { font-family: var(--display); font-weight: 700; line-height: 1.05; margin: 0; text-wrap: balance; }
+  .wrap { max-width: 1180px; margin-inline: auto; padding-inline: clamp(16px, 4vw, 40px); }
+  .eyebrow { font: 600 13px/1 var(--display); letter-spacing: .22em; text-transform: uppercase; color: var(--dust); display: flex; align-items: center; gap: 12px; margin: 0; }
+  .eyebrow::before { content: ""; width: 26px; height: 2px; background: var(--horn); flex: none; }
+
+  header.top { border-bottom: 1px solid var(--ash); }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 16px; flex-wrap: wrap; }
+  .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+  .brand img { height: 38px; width: auto; }
+  .word { font: 700 23px/1 var(--display); }
+  .word b { color: var(--horn); }
+  nav.top-nav { display: flex; align-items: center; gap: 22px; font: 600 14px/1 var(--display); letter-spacing: .12em; text-transform: uppercase; }
+  nav.top-nav a { text-decoration: none; color: var(--dust); }
+  nav.top-nav a:hover, nav.top-nav a[aria-current] { color: var(--bone); }
+
+  /* ---------- the list ---------- */
+  .intro { padding-block: clamp(30px, 5vw, 54px) 6px; }
+  .intro h1 { font-size: clamp(36px, 5.4vw, 66px); margin-block: 12px 14px; }
+  .intro p { margin: 0; color: #d7cfcc; max-width: 40em; }
+  .list { list-style: none; margin: clamp(26px, 4vw, 44px) 0 clamp(50px, 8vw, 90px); padding: 0; border-top: 1px solid var(--ash); }
+  .list li { border-bottom: 1px solid var(--ash); }
+  .list a { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 22px; padding: 22px 4px; text-decoration: none; align-items: start; }
+  .list a:hover { background: rgba(22,18,19,.8); }
+  .list a:hover h2 { color: var(--horn); }
+  .list h2 { font-size: clamp(24px, 3vw, 34px); transition: color .2s; }
+  .list .dek { grid-column: 1; color: var(--dust); margin: 0; max-width: 44em; font-size: 16px; }
+  .list .meta { grid-column: 2; grid-row: 1 / span 2; color: var(--dust); font: 400 13px/1.7 var(--mono); text-align: right; white-space: nowrap; }
+  .list .meta b { display: block; color: var(--horn); font: 600 12px/1.6 var(--display); letter-spacing: .14em; text-transform: uppercase; }
+
+  /* ---------- the article ---------- */
+  article { padding-block: clamp(30px, 5vw, 56px) 0; }
+  .head { max-width: 46rem; }
+  .head h1 { font-size: clamp(34px, 5vw, 60px); margin-block: 12px 16px; }
+  .head .dek { color: #d7cfcc; font-size: clamp(18px, 1.8vw, 21px); margin: 0 0 18px; }
+  .byline { display: flex; flex-wrap: wrap; gap: 8px 18px; color: var(--dust); font: 400 14px var(--mono); border-top: 1px solid var(--ash); border-bottom: 1px solid var(--ash); padding-block: 12px; }
+  .prose { max-width: 38rem; padding-block: clamp(26px, 4vw, 40px); }
+  .prose p { margin: 0 0 20px; }
+  .prose h2 { font-size: clamp(25px, 2.8vw, 33px); margin-block: 42px 14px; }
+  .prose h2::before { content: ""; display: block; width: 34px; height: 2px; background: var(--horn); margin-bottom: 14px; }
+  .prose ul { margin: 0 0 20px; padding-left: 0; list-style: none; }
+  .prose ul li { padding-left: 22px; position: relative; margin-bottom: 9px; }
+  .prose ul li::before { content: ""; position: absolute; left: 3px; top: 13px; width: 7px; height: 2px; background: var(--horn); }
+  .prose blockquote { margin: 26px 0; padding-left: 20px; border-left: 2px solid var(--horn); font: 500 clamp(20px, 2.3vw, 26px)/1.35 var(--display); color: var(--bone); }
+  .prose strong { color: #fff; font-weight: 600; }
+  .prose sup a { color: var(--horn); font: 500 12px var(--mono); text-decoration: none; padding: 0 1px; }
+  .prose sup a:hover { text-decoration: underline; }
+  .fact { display: grid; gap: 6px; border-left: 2px solid var(--horn); padding-left: 18px; margin: 30px 0; }
+  .fact b { font: 700 clamp(40px, 5.4vw, 62px)/1 var(--display); color: var(--horn); font-variant-numeric: tabular-nums; }
+  .fact span { color: #d7cfcc; }
+  .fact small { color: var(--dust); font: 400 13px/1.5 var(--mono); }
+
+  .sources { max-width: 46rem; margin-block: 14px clamp(44px, 7vw, 80px); }
+  .sources h2 { font-size: clamp(22px, 2.4vw, 28px); margin-bottom: 6px; }
+  .sources > p { color: var(--dust); margin: 0 0 14px; font-size: 15px; }
+  .sources ol { list-style: none; counter-reset: s; margin: 0; padding: 0; border-top: 1px solid var(--ash); }
+  .sources li { counter-increment: s; border-bottom: 1px solid var(--ash); display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 12px; padding: 13px 4px; }
+  .sources li::before { content: "[" counter(s) "]"; color: var(--horn); font: 500 13px var(--mono); padding-top: 3px; }
+  .sources .t { color: #d7cfcc; font-size: 15.5px; line-height: 1.5; }
+  .sources a { color: var(--bone); font: 400 13px var(--mono); word-break: break-word; }
+
+  .after { max-width: 46rem; display: grid; gap: 14px; margin-bottom: clamp(44px, 7vw, 80px); }
+  .box { border: 1px solid var(--ash); border-radius: 13px; background: rgba(22,18,19,.75); padding: 18px 20px; color: var(--dust); font-size: 15.5px; line-height: 1.6; }
+  .box b { color: var(--bone); }
+  .box a { color: var(--bone); }
+  .btn { display: inline-flex; align-items: center; gap: 10px; padding: 13px 22px; border-radius: 999px; font: 600 15px/1 var(--display); letter-spacing: .08em; text-transform: uppercase; text-decoration: none; border: 1.5px solid var(--horn); }
+  .btn.solid { background: var(--horn); color: #fff; }
+  .btn.line { border-color: rgba(239,233,230,.35); color: var(--bone); }
+  .cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 4px; }
+
+  footer { border-top: 1px solid var(--ash); }
+  footer .wrap { display: grid; gap: 10px; padding-block: 26px; color: var(--dust); font-size: 14px; }
+  footer b { color: var(--bone); }
+
+  @media (max-width: 860px) {
+    nav.top-nav { order: 3; width: 100%; gap: 18px; font-size: 13px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
+    nav.top-nav::-webkit-scrollbar { display: none; }
+    nav.top-nav a { white-space: nowrap; }
+    .list a { grid-template-columns: 1fr; }
+    .list .meta { grid-column: 1; grid-row: 3; text-align: left; }
+  }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../../index.html" aria-label="DrBull home">
+      <img src="../../assets/bull_mark.webp" alt="" width="76" height="96">
+      <span class="word">DR <b>BULL</b></span>
+    </a>
+    <nav class="top-nav" aria-label="Main">
+      <a href="../../">Home</a>
+      <a href="../../atlas/">Atlas</a>
+      <a href="../../articles/" aria-current="page">Articles</a>
+      <a href="../../#library">Videos</a>
+      <a href="../../sources/">Sources</a>
+      <a href="../../#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap"><article>
+<div class="head">
+<p class="eyebrow">Stroke</p>
+<h1>Why stroke hits Indians a decade early</h1>
+<p class="dek">The average patient in India's stroke hospitals is 59. In England, Wales and Northern Ireland the middle patient is 76. Most of that gap is not bad luck, and it is not narrow arteries.</p>
+<div class="byline"><span>20 September 2026</span><span>8 min read</span><span>22 sources</span><span>checked 15 September 2026</span></div>
+</div>
+<div class="prose">
+<p>India's largest hospital stroke registry followed 34,792 patients through 30 centres between 2020 and 2022. Their average age was 59.4 <sup><a href="#s1">[1]</a></sup>.</p>
+<p>In England, Wales and Northern Ireland, the national stroke audit counted 92,414 patients admitted between April 2024 and March 2025. The middle patient there was 76 <sup><a href="#s2">[2]</a></sup>.</p>
+<div class="fact"><b>59 vs 76</b><span>the average age in India's stroke hospitals, against the median age in England, Wales and Northern Ireland</span><small>India: ICMR-NSRP hospital registry, 34,792 patients, data 2020&ndash;22 <sup><a href="#s1">[1]</a></sup> &middot; UK: SSNAP national audit 2024&ndash;25, 92,414 patients <sup><a href="#s2">[2]</a></sup></small></div>
+<p>Two things have to be said before that comparison is allowed to do any work. They are different statistics &mdash; one is a mean, one is a median &mdash; and they describe two groups of <strong>hospital patients</strong>, not two countries. And India's population is younger to begin with, so some of the gap is simple demography rather than disease.</p>
+<p>What survives all of that is still a gap of roughly a decade and a half, in the years of life when people are earning, raising children and paying for everyone else. In the Indian registry, 61% of patients were under 65, and roughly one in seven was under 45 <sup><a href="#s1">[1]</a></sup>.</p>
+<h2>The number nobody quotes at home</h2>
+<p>Stroke in India is not a rare event that happens to old people. In 2023 the Global Burden of Disease study estimated about <strong>18.7 lakh new strokes</strong> in India in a single year &mdash; roughly one every 17 seconds, if you spread the year's total evenly across it <sup><a href="#s4">[4]</a></sup>.</p>
+<p>Deaths have gone the way you would expect from that. India recorded an estimated 4.2 lakh stroke deaths in 1990 and 10.3 lakh in 2023: a rise of 148% in one generation <sup><a href="#s3">[3]</a></sup>.</p>
+<p>That number needs its own warning label, and it is the reason most people misread it. The <em>rate</em> of dying from stroke &mdash; once you adjust for the fact that there are more Indians and that they are older than they were &mdash; fell by about 11% over the same period. Worldwide it fell by 52% <sup><a href="#s3">[3]</a></sup><sup><a href="#s4">[4]</a></sup>. India did not get worse at treating stroke. India got bigger and older, and improved far too slowly to keep up.</p>
+<blockquote>The rate fell. The toll rose. Both are true, and only one of them is comforting.</blockquote>
+<p>And stroke mostly does not kill. About 1.36 crore Indians alive today have survived one <sup><a href="#s4">[4]</a></sup>.</p>
+<h2>What is actually happening in there</h2>
+<p>Two completely different accidents share one name.</p>
+<p>In an <strong>ischaemic stroke</strong>, a clot plugs an artery and the brain beyond it starves. In a <strong>haemorrhagic stroke</strong>, a vessel bursts and blood pushes into the tissue. In the Indian registry, 60% of strokes were clots and 34.2% were bleeds <sup><a href="#s1">[1]</a></sup>.</p>
+<p>That second figure is where India diverges sharply. In the English, Welsh and Northern Irish audit, bleeds were 13.4% of strokes &mdash; 12,406 of 92,414 <sup><a href="#s2">[2]</a></sup>. India's stroke hospitals see roughly two and a half times that share, and bleeds are the deadlier kind: in the same Indian registry, 36.1% of patients with a bleed had died at three months, against 21.8% of those with a clot <sup><a href="#s1">[1]</a></sup>.</p>
+<p>Either way, the clock is brutal. In a large-vessel ischaemic stroke left untreated, an estimated <strong>1.9 million neurons are lost every minute</strong> <sup><a href="#s5">[5]</a></sup>. That figure is a model, built for a typical untreated large-vessel stroke, not a measurement taken in Indians &mdash; but it is the right order of magnitude for why an hour spent deciding whether to go to hospital is not a neutral hour.</p>
+<h2>Why the vessels fail here</h2>
+<p>Across 32 countries and 26,919 people, the INTERSTROKE study found that about <strong>nine in ten strokes are linked to risks that can be changed</strong> &mdash; 90.7%, and 92.2% among people aged 55 and under <sup><a href="#s6">[6]</a></sup>. The largest single one, by a distance, is blood pressure: 47.9% of strokes were attributed to hypertension, ahead of too little exercise at 35.8%, blood lipids at 26.8%, diet quality at 23.2% and belly fat at 18.6% <sup><a href="#s6">[6]</a></sup>. Those shares overlap and do not add to 100.</p>
+<p>In India's stroke hospitals, 74.5% of patients had high blood pressure <sup><a href="#s1">[1]</a></sup>.</p>
+<p>There is no threshold below which blood pressure stops mattering. Pooling 61 studies and about a million adults, risk of dying of a stroke rose steadily from 115/75 mmHg upwards, roughly doubling for every extra 20 mmHg on the top number &mdash; measured in adults aged 40 to 69 <sup><a href="#s7">[7]</a></sup>.</p>
+<p>Which would be manageable, if it were being treated. Among 1,267,786 young Indians in the National Family Health Survey &mdash; women aged 15&ndash;49, men 15&ndash;54, surveyed 2019&ndash;21 &mdash; 18.3% had hypertension. Of those:</p>
+<ul><li>70.5% had ever had their blood pressure checked</li><li>34.3% knew they had it</li><li>13.7% were being treated</li><li><strong>7.8% had it under control</strong> <sup><a href="#s8">[8]</a></sup></li></ul>
+<p>The newer NFHS-6 round (2023&ndash;24, provisional) puts high blood pressure at 19.4% of women and 22.1% of men aged 15 and over, without publishing the cascade <sup><a href="#s9">[9]</a></sup>.</p>
+<div class="fact"><b>7.8%</b><span>of young Indians with high blood pressure had it under control</span><small>NFHS-5, 1,267,786 people, women 15&ndash;49 and men 15&ndash;54, surveyed 2019&ndash;21; 18.3% had hypertension <sup><a href="#s8">[8]</a></sup></small></div>
+<h2>The myth that Indians have narrow arteries</h2>
+<p>You will hear it in waiting rooms: Indian arteries are just smaller. It is worth killing, because it turns a treatable disease into a fate.</p>
+<p>What is different is <em>where</em> the plaque sits. In a ten-year Hyderabad registry at Nizam's Institute of Medical Sciences, of 779 large-artery strokes, 610 &mdash; 78.3% &mdash; had the narrowing <strong>inside the skull</strong> rather than in the neck <sup><a href="#s10">[10]</a></sup>. That is one hospital, one city, and data from 2001&ndash;11, so it should not be read as a national figure. But it matters clinically: a carotid scan of the neck can be clean while the diseased artery is out of its reach.</p>
+<p>As for the arteries themselves: 289 Indian CT angiograms put the middle cerebral artery at 3.33 mm across, give or take 0.62 mm <sup><a href="#s11">[11]</a></sup> &mdash; squarely in the range reported elsewhere. The pipes are normal. What runs through them is not.</p>
+<h2>Born with it, and on your plate</h2>
+<p>Some of the risk does arrive at birth. <strong>Lipoprotein(a)</strong> is an inherited particle that ordinary cholesterol tests do not measure; about one in four South Asians carries a high level, above 50 mg/dL <sup><a href="#s12">[12]</a></sup>. Pooling four case-control studies of stroke patients under 65, the odds of carrying a raised Lp(a) were 1.43 times those of people the same age without a stroke <sup><a href="#s13">[13]</a></sup> &mdash; odds of carrying it, which is not the same as the risk of having a stroke. It is measured once in a lifetime, and almost nobody in India is offered it.</p>
+<p>Some of it arrives with body shape. Indian guidance sets the obesity threshold for Asian Indians at a BMI of 23, not the WHO's 30 <sup><a href="#s14">[14]</a></sup>, because the same weight sits differently: less room under the skin, so fat spills into the liver, the pancreas and around the organs. Slim is not the same as metabolically safe.</p>
+<p>And a great deal of it arrives on the plate. The ICMR's National NCD Monitoring Survey measured salt intake in 3,000 nationally representative adults in 2017&ndash;18: an average of <strong>8.0 g a day</strong> against the WHO limit of 5 g &mdash; 8.9 g in men, 7.1 g in women <sup><a href="#s15">[15]</a></sup>.</p>
+<p>The useful part is where the salt comes from. In a 24-hour dietary recall of 1,283 people in North and South India, <strong>more than eight grams in ten were added at home</strong>, in the cooking or at the table <sup><a href="#s16">[16]</a></sup>. Not packets. The kitchen.</p>
+<h2>The golden hour that isn't</h2>
+<p>There are two treatments that reverse an ischaemic stroke rather than merely manage it. A clot-busting drug, given within 4.5 hours of the first symptom. And clot removal with a wire, within 6 hours &mdash; and in carefully selected patients chosen by brain imaging, out to 24 <sup><a href="#s17">[17]</a></sup>.</p>
+<p>Now the Indian numbers from the same registry of 34,792 patients <sup><a href="#s1">[1]</a></sup>:</p>
+<ul><li><strong>20.1%</strong> reached hospital within 4.5 hours</li><li><strong>37.8%</strong> arrived after a full day had passed</li><li><strong>4.6%</strong> of ischaemic strokes got the clot-busting drug</li><li><strong>0.7%</strong> got clot removal</li></ul>
+<p>Why so late? A study of 683 patients across 13 stroke-ready hospitals in West Bengal, surveyed between March and May 2024, found that only about <strong>one in ten</strong> patients or families recognised what was happening as a stroke, and only 44.1% went straight to a hospital that could treat it <sup><a href="#s18">[18]</a></sup>. That is one state, not the country. It is still the clearest picture available of what the delay is made of: recognition, then routing.</p>
+<p>Geography does the rest. A national mapping using March 2021 centre data put the typical Indian <strong>115 km</strong> from the nearest hospital able to give the clot-busting drug, with 26.3% of the population &mdash; about one in four &mdash; within an hour's drive of one <sup><a href="#s19">[19]</a></sup>.</p>
+<p>Three months after a stroke, in the Indian registry: 27.8% of patients had died, and 29.7% were alive but needed help with everyday life <sup><a href="#s1">[1]</a></sup>.</p>
+<h2>What actually moves the number</h2>
+<p>Nothing on this list is exotic, which is rather the point.</p>
+<p><strong>Blood pressure, treated to target.</strong> Across 123 randomised trials and 613,815 people, every 10 mmHg taken off the top number cut strokes by about 27% <sup><a href="#s20">[20]</a></sup>. No other single intervention comes close.</p>
+<p><strong>Less salt, and the swap.</strong> In 502 rural Indians with high blood pressure, replacing ordinary salt with a potassium-enriched substitute lowered blood pressure by 4.6 mmHg over three months <sup><a href="#s21">[21]</a></sup>. In a much larger trial of 20,995 people in rural China &mdash; all of whom had either had a stroke or were over 60 with high blood pressure &mdash; the same swap cut strokes by 14% over about five years <sup><a href="#s22">[22]</a></sup>. Two different populations: the blood-pressure fall is the Indian finding, the stroke reduction is the Chinese one, and they should not be merged into a single claim.</p>
+<p><strong>One warning.</strong> Potassium salt substitutes are not for everyone. If you have kidney disease, or take a potassium-sparing diuretic or certain blood-pressure drugs, they can be dangerous. Ask your doctor before switching, not after.</p>
+<p><strong>Knowing what a stroke looks like.</strong> Face drooping, arm weakness, speech difficulty &mdash; time to call. In India that call is <strong>108</strong> or <strong>112</strong>. Recognition is free, available to everyone, and by the West Bengal data it is the step most often missed <sup><a href="#s18">[18]</a></sup>.</p>
+<blockquote>Nine in ten strokes are linked to something that can be changed. The decade India loses is not written in anyone's genes.</blockquote>
+</div>
+<section class="sources"><h2>Sources</h2>
+<p>Every figure above, with the population it describes and the years the data covers. Indian data first, newest evidence first.</p>
+<ol>
+<li id="s1"><span class="t"><strong>Mathur P et al. (ICMR-NSRP Investigators).</strong> Stroke patterns, risk factors, management, and outcomes from hospital-based stroke registries in India. <em>Int J Stroke</em> 2026;21(6):827&ndash;838. <strong>34,792 patients, 30 Indian hospitals, data 2020&ndash;22 &mdash; hospital patients, not a national sample.</strong><br><a href="https://doi.org/10.1177/17474930251393187" target="_blank" rel="noopener">https://doi.org/10.1177/17474930251393187</a></span></li>
+<li id="s2"><span class="t"><strong>Sentinel Stroke National Audit Programme (SSNAP).</strong> <em>State of the Nation 2025</em>, Table 1. Stroke hospitals in England, Wales and Northern Ireland (not Scotland), admissions April 2024 &ndash; March 2025: 92,414 patients, median age 76 (IQR 65&ndash;84); intracerebral haemorrhage 12,406 (13.4%).<br><a href="https://www.hqip.org.uk/wp-content/uploads/2026/04/SSNAP-State-of-the-Nation-2025-FINALv2.pdf" target="_blank" rel="noopener">https://www.hqip.org.uk/wp-content/uploads/2026/04/SSNAP-State-of-the-Nation-2025-FINALv2.pdf</a></span></li>
+<li id="s3"><span class="t"><strong>GBD 2023 Causes of Death Collaborators.</strong> Global burden of 292 causes of death, 1990&ndash;2023. <em>Lancet</em> 2025;406(10513):1811&ndash;1872. India stroke deaths 416,865 (1990) and 1,034,795 (2023), mortality table S7. <strong>Modelled estimates.</strong><br><a href="https://pubmed.ncbi.nlm.nih.gov/41092928/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/41092928/</a></span></li>
+<li id="s4"><span class="t"><strong>GBD 2023 Diseases and Injuries / Risk Factors Collaborators.</strong> <em>Lancet</em> 2025;406(10513):1873&ndash;1922. India 2023: incidence, prevalent survivors and DALYs; risk-attributable shares in appendix 3, table 13B. <strong>Modelled estimates.</strong><br><a href="https://pubmed.ncbi.nlm.nih.gov/41092926/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/41092926/</a></span></li>
+<li id="s5"><span class="t"><strong>Saver JL.</strong> Time is brain &mdash; quantified. <em>Stroke</em> 2006;37(1):263&ndash;266. Modelled for a typical large-vessel ischaemic stroke, untreated; not a measurement in Indian patients.<br><a href="https://doi.org/10.1161/01.STR.0000196957.55928.ab" target="_blank" rel="noopener">https://doi.org/10.1161/01.STR.0000196957.55928.ab</a></span></li>
+<li id="s6"><span class="t"><strong>O'Donnell MJ et al. (INTERSTROKE).</strong> Global and regional effects of potentially modifiable risk factors associated with acute stroke in 32 countries. <em>Lancet</em> 2016;388(10046):761&ndash;775. 26,919 people, 32 countries including India. Population-attributable fractions overlap and do not total 100.<br><a href="https://doi.org/10.1016/S0140-6736(16)30506-2" target="_blank" rel="noopener">https://doi.org/10.1016/S0140-6736(16)30506-2</a></span></li>
+<li id="s7"><span class="t"><strong>Lewington S et al. (Prospective Studies Collaboration).</strong> Age-specific relevance of usual blood pressure to vascular mortality. <em>Lancet</em> 2002;360(9349):1903&ndash;1913. 61 prospective studies, about one million adults, mostly Western; the doubling applies to stroke <strong>death</strong>, ages 40&ndash;69.<br><a href="https://doi.org/10.1016/s0140-6736(02)11911-8" target="_blank" rel="noopener">https://doi.org/10.1016/s0140-6736(02)11911-8</a></span></li>
+<li id="s8"><span class="t"><strong>Rao Guthi V et al.</strong> Hypertension treatment cascade among men and women of reproductive age group in India: analysis of NFHS-5 (2019&ndash;2021). <em>Lancet Reg Health Southeast Asia</em> 2023;23:100271. 1,267,786 people; women 15&ndash;49, men 15&ndash;54; fieldwork 2019&ndash;21.<br><a href="https://doi.org/10.1016/j.lansea.2023.100271" target="_blank" rel="noopener">https://doi.org/10.1016/j.lansea.2023.100271</a></span></li>
+<li id="s9"><span class="t"><strong>International Institute for Population Sciences / MoHFW.</strong> <em>National Family Health Survey (NFHS-6) 2023&ndash;24, India Fact Sheet</em> (provisional), items 84&ndash;89. Fieldwork May 2023 &ndash; December 2024. High BP or on medicine, age 15+: women 19.4%, men 22.1%. No treatment cascade published.</span></li>
+<li id="s10"><span class="t"><strong>Kaul S et al.</strong> Intracranial atherosclerosis is the most common stroke subtype: ten-year data from Hyderabad Stroke Registry (India). <em>Ann Indian Acad Neurol</em> 2018;21(3):209&ndash;213. Nizam's Institute of Medical Sciences, 2001&ndash;2011; of 779 large-artery strokes, 610 (78.3%) intracranial. <strong>One registry, one city, old data.</strong><br><a href="https://doi.org/10.4103/aian.AIAN_86_18" target="_blank" rel="noopener">https://doi.org/10.4103/aian.AIAN_86_18</a></span></li>
+<li id="s11"><span class="t"><strong>Sharma U, Verma P, Adithan S.</strong> <em>Surg Radiol Anat</em> 2023;45(8):939&ndash;945. 289 Indian CT angiograms; middle cerebral artery 3.33 &plusmn; 0.62 mm.<br><a href="https://doi.org/10.1007/s00276-023-03148-1" target="_blank" rel="noopener">https://doi.org/10.1007/s00276-023-03148-1</a></span></li>
+<li id="s12"><span class="t"><strong>Patel D et al.</strong> Role of lipoprotein(a) in atherosclerotic cardiovascular disease in South Asian individuals. <em>J Am Heart Assoc</em> 2025. High Lp(a) taken as above 50 mg/dL (about 125 nmol/L).<br><a href="https://doi.org/10.1161/JAHA.124.040361" target="_blank" rel="noopener">https://doi.org/10.1161/JAHA.124.040361</a></span></li>
+<li id="s13"><span class="t"><strong>Koh MY et al.</strong> Elevated lipoprotein(a) and ischaemic stroke in young patients: systematic review and meta-analysis. <em>J Stroke Cerebrovasc Dis</em> 2024;33(11):107960. The &ge;30 mg/dL analysis pools 4 case-control studies of stroke patients under 65 against age-matched controls: odds ratio 1.43 (1.08&ndash;1.88) for <strong>carrying</strong> raised Lp(a).<br><a href="https://doi.org/10.1016/j.jstrokecerebrovasdis.2024.107960" target="_blank" rel="noopener">https://doi.org/10.1016/j.jstrokecerebrovasdis.2024.107960</a></span></li>
+<li id="s14"><span class="t"><strong>Asian Indian obesity guideline.</strong> <em>Diabetes Metab Syndr</em> 2025. Stage 1 obesity from BMI 23 in Asian Indians, against the WHO's global threshold of 30. A definition, not a measurement.<br><a href="https://doi.org/10.1016/j.dsx.2024.102989" target="_blank" rel="noopener">https://doi.org/10.1016/j.dsx.2024.102989</a></span></li>
+<li id="s15"><span class="t"><strong>Mathur P et al.</strong> Awareness, behavior, and determinants of dietary salt intake in adults: National NCD Monitoring Survey, India. <em>Sci Rep</em> 2023;13:15890. 3,000 nationally representative adults aged 18&ndash;69, surveyed 2017&ndash;18; mean 8.0 g/day (men 8.9, women 7.1).<br><a href="https://doi.org/10.1038/s41598-023-42694-x" target="_blank" rel="noopener">https://doi.org/10.1038/s41598-023-42694-x</a></span></li>
+<li id="s16"><span class="t"><strong>Johnson C et al.</strong> Sources of dietary salt in North and South India estimated from 24 hour dietary recall. <em>Nutrients</em> 2019;11(2):318. 1,283 people, data collected 2014.<br><a href="https://pubmed.ncbi.nlm.nih.gov/30717304/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/30717304/</a></span></li>
+<li id="s17"><span class="t"><strong>Prabhakaran S et al.</strong> 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke. <em>Stroke</em> 2026;57(8):e316&ndash;e436 (AHA/ASA). IV thrombolysis within 4.5 h; thrombectomy within 6 h, and 6&ndash;24 h in selected patients chosen by imaging. A guideline, not a promise of treatment.<br><a href="https://doi.org/10.1161/STR.0000000000000513" target="_blank" rel="noopener">https://doi.org/10.1161/STR.0000000000000513</a></span></li>
+<li id="s18"><span class="t"><strong>Dutta A et al.</strong> Factors associated with prehospital delay in stroke: a multicentre study from eastern India. <em>Indian J Med Res</em> 2026;164(3):412&ndash;416. 683 patients, 13 stroke-ready hospitals in <strong>West Bengal</strong>, surveyed March&ndash;May 2024; 10% recognised the symptoms as stroke, 44.1% went directly to a stroke-ready hospital. <strong>One state, not India.</strong><br><a href="https://doi.org/10.25259/IJMR_285_2026" target="_blank" rel="noopener">https://doi.org/10.25259/IJMR_285_2026</a></span></li>
+<li id="s19"><span class="t"><strong>Asif KS et al.</strong> Geo-spatial analysis of acute ischemic stroke reperfusion treatment in India. <em>Int J Stroke</em> 2025;20(6):708&ndash;720. Centre data from March 2021; 566 thrombolysis-capable and 361 thrombectomy-capable centres; 26.3% of Indians within an hour's drive.<br><a href="https://doi.org/10.1177/17474930241312598" target="_blank" rel="noopener">https://doi.org/10.1177/17474930241312598</a></span></li>
+<li id="s20"><span class="t"><strong>Ettehad D et al.</strong> Blood pressure lowering for prevention of cardiovascular disease and death: systematic review and meta-analysis. <em>Lancet</em> 2016;387(10022):957&ndash;967. 123 randomised trials, 613,815 participants; stroke relative risk 0.73 per 10 mmHg systolic.<br><a href="https://doi.org/10.1016/S0140-6736(15)01225-8" target="_blank" rel="noopener">https://doi.org/10.1016/S0140-6736(15)01225-8</a></span></li>
+<li id="s21"><span class="t"><strong>Salt Substitute in India Study (SSiIS).</strong> <em>Am J Clin Nutr</em> 2021. 502 rural Indian adults with high blood pressure; systolic fall of 4.6 mmHg over three months.<br><a href="https://doi.org/10.1093/ajcn/nqab054" target="_blank" rel="noopener">https://doi.org/10.1093/ajcn/nqab054</a></span></li>
+<li id="s22"><span class="t"><strong>Neal B et al. (SSaSS).</strong> Effect of salt substitution on cardiovascular events and death. <em>N Engl J Med</em> 2021. 20,995 people in rural <strong>China</strong> with a history of stroke or aged 60+ with high blood pressure; 14% fewer strokes over about five years.<br><a href="https://doi.org/10.1056/NEJMoa2105675" target="_blank" rel="noopener">https://doi.org/10.1056/NEJMoa2105675</a></span></li>
+</ol></section>
+<div class="after"><div class="box"><b>Watch it instead.</b> This article is the written version of <a href="https://www.youtube.com/watch?v=ywkA5RLSwsE" target="_blank" rel="noopener">Why Stroke Hits Indians a Decade Early</a>, where the same thing happens in 3D.<div class="cta" style="margin-top:14px"><a class="btn solid" href="https://www.youtube.com/watch?v=ywkA5RLSwsE" target="_blank" rel="noopener">Watch on YouTube</a><a class="btn line" href="../../atlas/">Open the atlas</a></div></div><div class="box"><b>How this was checked.</b> Every figure here is drawn from the video's own data ledger: the source, the population it describes and the years the data covers are recorded before a single frame is rendered, and the full source list is <a href="../../sources/">on the sources page</a>. A number without its population and its years is not a number &mdash; if one here looks wrong, <a href="mailto:contact@drbull.in?subject=DrBull%%20article%%20correction">tell me</a> and the correction gets published.</div><div class="box"><b>Educational only, not medical advice.</b> Always consult a qualified doctor about your own health, and don't start, stop or change any medicine without their advice.</div></div>
+</article></main>
+<footer>
+  <div class="wrap">
+    <span><b>DrBull</b> &middot; medical science in 3D &middot; <a href="https://www.youtube.com/@drbull2795" target="_blank" rel="noopener">YouTube</a> &middot; <a href="mailto:contact@drbull.in">contact@drbull.in</a></span>
+    <span><b>Educational only, not medical advice.</b> Watching a video or reading this page does not create a doctor-patient relationship. Always consult a qualified doctor about your own health, and don't start, stop or change any medicine without their advice.</span>
+  </div>
+</footer>
+</body>
+</html>

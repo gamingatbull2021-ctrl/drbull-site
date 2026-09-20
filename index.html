@@ -129,6 +129,27 @@
   .disclaimer { margin-top: 24px; padding: 18px 20px; border-radius: 12px; border: 1px solid var(--ash); background: rgba(22,18,19,.8); color: var(--dust); font-size: 15px; line-height: 1.55; }
   .disclaimer b { color: var(--bone); }
 
+  /* ---------- atlas + articles ---------- */
+  .beta { display: inline-block; vertical-align: 16%; margin-left: 12px; padding: 6px 9px; border-radius: 6px;
+          background: var(--horn); color: #fff; font: 700 12px/1 var(--display); letter-spacing: .2em; text-transform: uppercase; }
+  .organs { display: grid; grid-template-columns: repeat(auto-fit, minmax(122px, 1fr)); gap: 14px; }
+  .organs a { text-decoration: none; display: grid; gap: 9px; align-content: start; }
+  .organs .pic { aspect-ratio: 1; border-radius: 14px; overflow: hidden; border: 1px solid var(--ash);
+                 background: radial-gradient(120% 100% at 50% 0%, #1a1416 0%, #0c0a0b 70%); transition: border-color .2s; }
+  .organs a:hover .pic { border-color: var(--horn); }
+  .organs .pic img { width: 100%; height: 100%; object-fit: contain; }
+  .organs .nm { font: 600 16px/1.1 var(--display); }
+  .organs .ct { color: var(--dust); font: 400 12.5px var(--mono); }
+
+  .reads { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ash); }
+  .reads li { border-bottom: 1px solid var(--ash); }
+  .reads a { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 22px; padding: 20px 4px; text-decoration: none; align-items: start; }
+  .reads a:hover { background: rgba(22,18,19,.8); }
+  .reads a:hover .t { color: var(--horn); }
+  .reads .t { font: 700 clamp(21px, 2.4vw, 28px)/1.1 var(--display); transition: color .2s; }
+  .reads .d { grid-column: 1; color: var(--dust); font-size: 15.5px; line-height: 1.5; max-width: 44em; }
+  .reads .n { grid-column: 2; grid-row: 1 / span 2; color: var(--dust); font: 400 13px/1.6 var(--mono); text-align: right; white-space: nowrap; }
+
   /* ---------- work with us ---------- */
   .work { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: clamp(28px, 5vw, 64px); align-items: start; }
   .work h2 { font-size: clamp(32px, 4.2vw, 52px); margin-block: 14px 18px; }
@@ -182,6 +203,10 @@
     .lib .ttl { grid-column: 1 / -1; grid-row: 2; }
     .lib .kind { grid-column: 2; grid-row: 1; justify-self: end; }
     .lib .len, .lib .arr { display: none; }
+    .organs { gap: 10px; }
+    .organs .nm { font-size: 15px; }
+    .reads a { grid-template-columns: 1fr; }
+    .reads .n { grid-column: 1; grid-row: 3; text-align: left; }
   }
   @media (prefers-reduced-motion: reduce) {
     body.anim .rise { opacity: 1; transform: none; transition: none; }
@@ -203,9 +228,8 @@
         <span class="word">DR <b>BULL</b></span>
       </a>
       <nav class="top-nav" aria-label="Main">
-        <a href="#brain">Brain</a>
-        <a href="#heart">Heart</a>
-        <a href="#liver">Liver</a>
+        <a href="atlas/">Atlas</a>
+        <a href="articles/">Articles</a>
         <a href="#library">Videos</a>
         <a href="#sources">Sources</a>
         <a href="#about">About</a>
@@ -281,6 +305,35 @@
     </div>
   </section>
 
+  <section class="block" id="atlas">
+    <div class="wrap">
+      <div class="head2">
+        <div>
+          <p class="eyebrow">The atlas</p>
+          <h2>Turn the body over in your hands<span class="beta">Beta</span></h2>
+        </div>
+        <p>Seven models to spin and zoom, 45 labelled structures. <a href="atlas/">Open the atlas &#8599;</a></p>
+      </div>
+      <div class="organs">
+        <a href="atlas/#heart"><span class="pic"><img src="atlas/assets/thumb_heart.webp" alt="" width="420" height="420" loading="lazy"></span><span class="nm">Heart</span><span class="ct">cut open &middot; 5</span></a>
+        <a href="atlas/#coronary"><span class="pic"><img src="atlas/assets/thumb_coronary.webp" alt="" width="420" height="420" loading="lazy"></span><span class="nm">Heart's arteries</span><span class="ct">6 structures</span></a>
+        <a href="atlas/#brain"><span class="pic"><img src="atlas/assets/thumb_brain.webp" alt="" width="420" height="420" loading="lazy"></span><span class="nm">Brain</span><span class="ct">6 structures</span></a>
+        <a href="atlas/#arteries"><span class="pic"><img src="atlas/assets/thumb_arteries.webp" alt="" width="420" height="420" loading="lazy"></span><span class="nm">Brain's arteries</span><span class="ct">7 structures</span></a>
+        <a href="atlas/#lungs"><span class="pic"><img src="atlas/assets/thumb_lungs.webp" alt="" width="420" height="420" loading="lazy"></span><span class="nm">Lungs</span><span class="ct">6 structures</span></a>
+        <a href="atlas/#liver"><span class="pic"><img src="atlas/assets/thumb_liver.webp" alt="" width="420" height="420" loading="lazy"></span><span class="nm">Liver</span><span class="ct">7 structures</span></a>
+        <a href="atlas/#kidneys"><span class="pic"><img src="atlas/assets/thumb_kidneys.webp" alt="" width="420" height="420" loading="lazy"></span><span class="nm">Kidneys</span><span class="ct">8 structures</span></a>
+      </div>
+      <p class="srcnote" style="margin-top:24px"><b>Every label sits on a real structure.</b> For five of the
+        six scenes each one is a separate named mesh in an open anatomy library, and its pin is that mesh's own
+        position, projected through the same camera that rendered the picture &mdash; not a dot placed by eye.
+        The cut-open heart is a licensed model with no named parts, so its labels were placed by hand from
+        features that cannot be mistaken and checked at every angle; the page says so on the scene itself.
+        Meshes: BodyParts3D (CC BY-SA 2.1 JP) and Z-Anatomy (CC BY-SA 4.0), rendered here in Blender.
+        <b>The atlas is in beta</b> &mdash; if a label looks wrong,
+        <a href="mailto:contact@drbull.in?subject=DrBull%20atlas%20correction">tell me</a>.</p>
+    </div>
+  </section>
+
   <section class="rail-block" id="latest">
     <div class="wrap">
       <div class="head2">
@@ -305,6 +358,28 @@
       </div>
       <div class="chips" id="chips" role="group" aria-label="Filter by topic"></div>
       <ul class="lib" id="lib"></ul>
+    </div>
+  </section>
+
+  <section class="block" id="articles">
+    <div class="wrap">
+      <div class="head2">
+        <div>
+          <p class="eyebrow">Articles</p>
+          <h2>The long version, in writing</h2>
+        </div>
+        <p>Every figure with its population and its years. <a href="articles/">All articles &#8599;</a></p>
+      </div>
+      <ul class="reads">
+        <li><a href="articles/stroke-a-decade-early/">
+          <span class="t">Why stroke hits Indians a decade early</span>
+          <span class="d">The average patient in India's stroke hospitals is 59. In England, Wales and Northern Ireland the middle patient is 76. Most of that gap is not bad luck, and it is not narrow arteries.</span>
+          <span class="n">Stroke<br>22 sources</span></a></li>
+        <li><a href="articles/slim-and-fatty-liver/">
+          <span class="t">You can be slim and still have a fatty liver</span>
+          <span class="d">A normal weight, a normal check-up and a liver quietly filling with fat. In pooled Indian studies, 38.6% of adults have it &mdash; and the thin ones are not spared.</span>
+          <span class="n">Liver<br>9 sources</span></a></li>
+      </ul>
     </div>
   </section>
 
