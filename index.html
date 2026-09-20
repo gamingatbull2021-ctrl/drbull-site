@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DrBull &middot; Medical science in 3D</title>
+<meta name="description" content="Stroke, heart attack, fatty liver and first aid, animated in 3D and explained with Indian data first.">
+<link rel="canonical" href="https://drbull.in/">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="theme-color" content="#0c0a0b">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="DrBull">
+<meta property="og:title" content="DrBull &middot; Medical science in 3D">
+<meta property="og:description" content="Travel through the body: the brain, the heart, the liver, the lungs, and what goes wrong with each one in India.">
+<meta property="og:url" content="https://drbull.in/">
+<meta property="og:image" content="https://drbull.in/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<title>DrBull Body Scroll</title>
+<style>
+  :root {
+    --ink: #0c0a0b; --smoke: #161213; --ash: #2c2426; --bone: #efe9e6; --dust: #a3999b;
+    --horn: #e2262c; --ember: #ff4d45;
+    --display: "Barlow Semi Condensed", Bahnschrift, "Arial Narrow", sans-serif;
+    --body: Barlow, Bahnschrift, "Segoe UI", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", Consolas, "Courier New", monospace;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ink); color: var(--bone); font: 400 17px/1.6 var(--body); overflow-x: hidden; }
+  a { color: inherit; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--ember); outline-offset: 3px; border-radius: 4px; }
+  img { max-width: 100%; display: block; }
+  h1, h2, h3 { font-family: var(--display); font-weight: 700; line-height: 1.02; margin: 0; text-wrap: balance; }
+  .wrap { max-width: 1180px; margin-inline: auto; padding-inline: clamp(16px, 4vw, 40px); }
+  .eyebrow { font: 600 13px/1 var(--display); letter-spacing: .22em; text-transform: uppercase; color: var(--dust); display: flex; align-items: center; gap: 12px; margin: 0; }
+  .eyebrow::before { content: ""; width: 26px; height: 2px; background: var(--horn); flex: none; }
+  .btn { display: inline-flex; align-items: center; gap: 10px; padding: 13px 22px; border-radius: 999px; font: 600 15px/1 var(--display); letter-spacing: .08em; text-transform: uppercase; text-decoration: none; border: 1.5px solid var(--horn); transition: background .2s, border-color .2s; }
+  .btn.solid { background: var(--horn); color: #fff; }
+  .btn.solid:hover { background: var(--ember); border-color: var(--ember); }
+  .btn.line { border-color: rgba(239,233,230,.35); }
+  .btn.line:hover { border-color: var(--bone); }
+
+  /* the 3D layer sits behind everything and never eats clicks */
+  #stage { position: fixed; inset: 0; z-index: 0; pointer-events: none; opacity: 0; transition: opacity 1.2s ease; }
+  #stage.on { opacity: 1; }
+  .layer { position: relative; z-index: 1; }
+
+  header.top { position: absolute; inset: 0 0 auto 0; z-index: 3; }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 18px; }
+  .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+  .brand img { height: 42px; width: auto; }
+  .word { font: 700 25px/1 var(--display); }
+  .word b { color: var(--horn); }
+  nav.top-nav { display: flex; align-items: center; gap: 24px; font: 600 14px/1 var(--display); letter-spacing: .12em; text-transform: uppercase; }
+  nav.top-nav a { text-decoration: none; color: var(--dust); }
+  nav.top-nav a:hover { color: var(--bone); }
+  nav.top-nav .btn { color: #fff; padding: 10px 18px; }
+
+  /* sections: the copy column sits opposite the organ */
+  .scene { min-height: clamp(560px, 94vh, 940px); display: grid; align-items: center; }
+  .scene > .wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 40px; }
+  .scene.right > .wrap > .copy { grid-column: 1; }       /* organ on the right */
+  .scene.left > .wrap > .copy { grid-column: 2; }        /* organ on the left */
+  .copy { display: grid; gap: 20px; align-content: center; padding-block: 64px; }
+  .hero h1 { font-size: clamp(42px, 6vw, 82px); }
+  .hero h1 em { font-style: normal; color: var(--horn); }
+  .lede { margin: 0; color: #d7cfcc; font-size: clamp(17px, 1.5vw, 19px); max-width: 32em; }
+  .cta { display: flex; flex-wrap: wrap; gap: 12px; }
+  .scene h2 { font-size: clamp(34px, 4.6vw, 58px); }
+  .fact { display: grid; gap: 6px; border-left: 2px solid var(--horn); padding-left: 16px; }
+  .fact b { font: 700 clamp(40px, 5vw, 64px)/1 var(--display); color: var(--horn); font-variant-numeric: tabular-nums; }
+  .fact span { color: #d7cfcc; }
+  .fact small { color: var(--dust); font: 400 13px/1.5 var(--mono); }
+  .vids { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ash); max-width: 34em; }
+  .vids a { display: grid; grid-template-columns: 1fr auto 16px; gap: 14px; align-items: baseline; padding: 12px 2px; border-bottom: 1px solid var(--ash); text-decoration: none; }
+  .vids a:hover { background: rgba(22,18,19,.75); }
+  .vids a:hover .arr { color: var(--horn); }
+  .vids .len { color: var(--dust); font: 400 14px var(--mono); font-variant-numeric: tabular-nums; }
+  .vids .arr { color: var(--dust); }
+
+  /* reveal on scroll, from a visible resting state (never parked invisible) */
+  .rise { opacity: 1; transform: none; }
+  body.anim .rise { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
+  body.anim .rise.in { opacity: 1; transform: none; }
+
+  .rail-block { padding-block: clamp(56px, 8vw, 96px); background: linear-gradient(180deg, transparent, rgba(12,10,11,.92) 18%, var(--ink)); }
+  .rail { display: grid; grid-auto-flow: column; grid-auto-columns: clamp(150px, 17vw, 190px); gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 12px; }
+  .short { scroll-snap-align: start; text-decoration: none; display: grid; gap: 9px; align-content: start; }
+  .short .pic { aspect-ratio: 9/16; border-radius: 12px; overflow: hidden; border: 1px solid var(--ash); background: var(--smoke); }
+  .short .pic img { width: 100%; height: 100%; object-fit: cover; }
+  .short .ttl { font-weight: 600; font-size: 15px; line-height: 1.3; }
+  .short .meta { color: var(--dust); font: 400 13px var(--mono); }
+  .head2 { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 28px; }
+  .head2 h2 { font-size: clamp(30px, 3.6vw, 44px); margin-top: 12px; }
+  .head2 p { margin: 0; color: var(--dust); }
+
+  footer { border-top: 1px solid var(--ash); background: var(--ink); }
+  footer .wrap { display: grid; gap: 10px; padding-block: 28px; color: var(--dust); font-size: 14px; }
+  footer b { color: var(--bone); }
+
+  /* ---------- library + about ---------- */
+  section.block { padding-block: clamp(56px, 8vw, 104px); }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+  .chip { font: 600 14px/1 var(--display); letter-spacing: .08em; text-transform: uppercase; padding: 10px 14px; border-radius: 999px; border: 1px solid var(--ash); background: rgba(12,10,11,.6); color: var(--dust); cursor: pointer; }
+  .chip:hover { color: var(--bone); border-color: #4a3e41; }
+  .chip[aria-pressed="true"] { background: var(--bone); color: var(--ink); border-color: var(--bone); }
+  .chip .n { font-family: var(--mono); font-weight: 500; margin-left: 6px; opacity: .75; }
+  .lib { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ash); }
+  .lib a { display: grid; grid-template-columns: 76px minmax(0, 1fr) auto 52px 18px; gap: 16px; align-items: baseline; padding: 14px 6px; border-bottom: 1px solid var(--ash); text-decoration: none; }
+  .lib a:hover { background: rgba(22,18,19,.8); }
+  .lib a:hover .arr { color: var(--horn); }
+  .lib .d, .lib .len { color: var(--dust); font: 400 14px var(--mono); font-variant-numeric: tabular-nums; }
+  .lib .len { text-align: right; }
+  .lib .ttl { font-weight: 500; }
+  .lib .kind { font: 600 12px/1 var(--display); letter-spacing: .14em; text-transform: uppercase; color: var(--dust); white-space: nowrap; }
+  .lib .kind.film { color: var(--horn); }
+  .lib .arr { color: var(--dust); transition: color .2s; }
+  .about { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 64px); }
+  .about h2 { font-size: clamp(32px, 4.2vw, 52px); margin-block: 14px 18px; }
+  .about p { margin: 0 0 14px; color: #d7cfcc; max-width: 36em; }
+  .method { list-style: none; margin: 14px 0 0; padding: 0; border-top: 1px solid var(--ash); }
+  .method li { padding: 15px 0; border-bottom: 1px solid var(--ash); display: grid; gap: 4px; }
+  .method b { font: 700 19px/1.2 var(--display); }
+  .method span { color: var(--dust); font-size: 15px; }
+  .disclaimer { margin-top: 24px; padding: 18px 20px; border-radius: 12px; border: 1px solid var(--ash); background: rgba(22,18,19,.8); color: var(--dust); font-size: 15px; line-height: 1.55; }
+  .disclaimer b { color: var(--bone); }
+
+  /* ---------- work with us ---------- */
+  .work { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: clamp(28px, 5vw, 64px); align-items: start; }
+  .work h2 { font-size: clamp(32px, 4.2vw, 52px); margin-block: 14px 18px; }
+  .work p { margin: 0 0 16px; color: #d7cfcc; max-width: 34em; }
+  .offers { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+  .offers li { border: 1px solid var(--ash); border-radius: 12px; background: rgba(22,18,19,.72); padding: 18px 20px; display: grid; gap: 6px; }
+  .offers b { font: 700 20px/1.2 var(--display); }
+  .offers span { color: var(--dust); font-size: 15px; }
+  .mailrow { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-top: 4px; }
+  .mailrow .addr { font: 500 17px/1 var(--mono); color: var(--bone); word-break: break-all; }
+  .rules { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--ash); color: var(--dust); font-size: 15px; line-height: 1.55; }
+  .rules b { color: var(--bone); }
+
+  @media (max-width: 860px) {
+    .scene > .wrap { grid-template-columns: 1fr; }
+    .scene.left > .wrap > .copy, .scene.right > .wrap > .copy { grid-column: 1; }
+    .copy { padding-block: 88px; }
+    nav.top-nav a:not(.btn) { display: none; }
+    .scene { min-height: clamp(520px, 88vh, 820px); }
+    .about, .work { grid-template-columns: 1fr; }
+    .lib a { grid-template-columns: 1fr auto; gap: 4px 12px; }
+    .lib .d { grid-column: 1; grid-row: 1; }
+    .lib .ttl { grid-column: 1 / -1; grid-row: 2; }
+    .lib .kind { grid-column: 2; grid-row: 1; justify-self: end; }
+    .lib .len, .lib .arr { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    body.anim .rise { opacity: 1; transform: none; transition: none; }
+  }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+</head>
+<body>
+<canvas id="stage" aria-hidden="true"></canvas>
+
+<div class="layer">
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="DrBull home">
+        <img src="assets/bull_mark.webp" alt="" width="76" height="96">
+        <span class="word">DR <b>BULL</b></span>
+      </a>
+      <nav class="top-nav" aria-label="Main">
+        <a href="#brain">Brain</a>
+        <a href="#heart">Heart</a>
+        <a href="#liver">Liver</a>
+        <a href="#library">Videos</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="btn solid" href="https://www.youtube.com/@drbull2795?sub_confirmation=1" target="_blank" rel="noopener">Subscribe</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="scene right hero" id="top" data-organ="heart" data-spin="0.5">
+    <div class="wrap">
+      <div class="copy">
+        <p class="eyebrow rise">Medical science in 3D</p>
+        <h1 class="rise">See what really happens <em>inside your body.</em></h1>
+        <p class="lede rise">Scroll down and travel through it: the brain, the heart, the liver, the lungs, and what goes wrong with each one in India.</p>
+        <div class="cta rise">
+          <a class="btn solid" href="#brain">Start the tour</a>
+          <a class="btn line" href="https://www.youtube.com/@drbull2795?sub_confirmation=1" target="_blank" rel="noopener">Subscribe on YouTube</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="scene left" id="brain" data-organ="brain" data-spin="-0.45">
+    <div class="wrap">
+      <div class="copy">
+        <p class="eyebrow rise">The brain</p>
+        <h2 class="rise">Stroke arrives a decade early here</h2>
+        <div class="fact rise">
+          <b>59</b>
+          <span>the average age of a stroke patient in Indian stroke hospitals, against 76 in England, Wales and Northern Ireland</span>
+          <small>ICMR National Stroke Registry, 34,792 patients, 30 hospitals, 2020&ndash;22 &middot; SSNAP 2025</small>
+        </div>
+        <ul class="vids rise"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="scene right" id="heart" data-organ="heart" data-spin="0.5">
+    <div class="wrap">
+      <div class="copy">
+        <p class="eyebrow rise">The heart</p>
+        <h2 class="rise">A heart attack is a plumbing problem</h2>
+        <p class="lede rise">Not a weak heart: a blocked artery. What opens it again is medicine, a balloon, and sometimes a stent, and every minute of delay costs muscle.</p>
+        <ul class="vids rise"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="scene left" id="liver" data-organ="liver" data-spin="-0.4">
+    <div class="wrap">
+      <div class="copy">
+        <p class="eyebrow rise">The liver</p>
+        <h2 class="rise">You can be slim and still have a fatty liver</h2>
+        <div class="fact rise">
+          <b>38.6%</b>
+          <span>of Indian adults have fatty liver, and plenty of them are thin</span>
+          <small>Pooled Indian studies: 50 studies, 23,581 people, to April 2021</small>
+        </div>
+        <ul class="vids rise"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="scene right" id="lungs" data-organ="lungs" data-spin="0.42">
+    <div class="wrap">
+      <div class="copy">
+        <p class="eyebrow rise">The lungs</p>
+        <h2 class="rise">Lung disease isn't only a smoker's story</h2>
+        <p class="lede rise">Scarring, dust, infection and inherited disease can take the same lungs apart, sometimes before a person ever lights a cigarette.</p>
+        <ul class="vids rise"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="rail-block" id="latest">
+    <div class="wrap">
+      <div class="head2">
+        <div>
+          <p class="eyebrow">Latest</p>
+          <h2>Fresh from the channel</h2>
+        </div>
+        <p>Seven newest. <a href="#library">All 41, by topic ↓</a></p>
+      </div>
+      <div class="rail" id="rail"></div>
+    </div>
+  </section>
+
+  <section class="block" id="library">
+    <div class="wrap">
+      <div class="head2">
+        <div>
+          <p class="eyebrow">Library</p>
+          <h2>Every video, by topic</h2>
+        </div>
+        <p id="libcount"></p>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="Filter by topic"></div>
+      <ul class="lib" id="lib"></ul>
+    </div>
+  </section>
+
+  <section class="block" id="about">
+    <div class="wrap about">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2>Your body, shown the way no textbook can</h2>
+        <p>DrBull explains the diseases hitting India hardest, like stroke, heart attack and fatty liver, and busts the myths around them, with 3D animation that shows what actually happens inside you.</p>
+        <p>Shorts take one disease or one myth in about a minute. Long-form films go deep, from the first warning sign to what actually lowers your risk.</p>
+        <div class="disclaimer"><b>Educational only, not medical advice.</b> Watching a video does not create a doctor-patient relationship. Always consult a qualified doctor about your own health, and don't start, stop or change any medicine without their advice.</div>
+      </div>
+      <div>
+        <p class="eyebrow">How the numbers are checked</p>
+        <ul class="method">
+          <li><b>Newest evidence first</b><span>The latest guidelines and studies, read in full, not summaries.</span></li>
+          <li><b>Indian data first</b><span>ICMR, national registries and Indian studies before Asian or Western ones.</span></li>
+          <li><b>Every number labelled</b><span>Who was studied and in which years, so a hospital figure never passes for all of India.</span></li>
+          <li><b>Sources in the description</b><span>New videos list every source, with a link.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="contact">
+    <div class="wrap work">
+      <div>
+        <p class="eyebrow">Work with DrBull</p>
+        <h2>Sponsorships, collaborations and press</h2>
+        <p>The channel makes 3D medical explainers for an Indian audience: Shorts that take one disease or myth in about a minute, and long-form films that go deep on one of them.</p>
+        <div class="mailrow">
+          <a class="btn solid" href="mailto:contact@drbull.in?subject=DrBull%20%E2%80%94%20enquiry">Email DrBull</a>
+          <span class="addr">contact@drbull.in</span>
+        </div>
+        <div class="rules">
+          <b>How sponsorships work here.</b> Every paid collaboration is disclosed in the video and in its description. I won't claim more for a product than its evidence supports, and I don't promote prescription medicines. A script's medical content stays mine.
+        </div>
+      </div>
+      <ul class="offers">
+        <li><b>Brands</b><span>Integrations in Shorts and long-form films, made to fit the story rather than interrupt it.</span></li>
+        <li><b>Doctors and hospitals</b><span>Review a script, collaborate on a topic, or lend expert input on a film before it goes out.</span></li>
+        <li><b>Press and media</b><span>Interviews, quotes, and licensing a clip for editorial use.</span></li>
+        <li><b>Viewers</b><span>Suggest a topic, or tell me about a number that looks wrong. Corrections get pinned.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <span><b>DrBull</b> &middot; medical science in 3D &middot; <a href="https://www.youtube.com/@drbull2795" target="_blank" rel="noopener">YouTube</a> &middot; <a href="mailto:contact@drbull.in">contact@drbull.in</a></span>
+      <span>Every organ here is rendered in Blender, 40 frames per turn, and scrubbed as you scroll.</span>
+      <span>Brain: BodyParts3D, &copy; The Database Center for Life Science, CC BY-SA 2.1 Japan. Heart: licensed model, rendered for this site. Liver and lungs: DrBull's own shot assets.</span>
+      <span><b>Educational only, not medical advice.</b> Always consult a qualified doctor about your own health.</span>
+    </div>
+  </footer>
+</div>
+
+<script>
+  // ---------- content ----------
+  const VIDS = {
+    brain: [["ywkA5RLSwsE", "Why Stroke Hits Indians a Decade Early", "12:59", 1],
+            ["ACyi0an3Hio", "Why 59 is the new age of stroke in India", "0:41"],
+            ["WOaAObXTPLY", "1 in 7 stroke patients in India is under 45", "0:50"],
+            ["LgqDSZiXRYc", "Why strokes in India are 3x more deadly", "0:49"]],
+    heart: [["6ydHwERoIrk", "When a balloon can't open a heart blockage", "0:35"],
+            ["KvtDXYgG0K8", "The silent killer inside your arteries", "0:35"],
+            ["Zvj0MrGXjzo", "This road took 20 years to close. So did your artery.", "0:33"]],
+    liver: [["Z5EjyxR95s8", "Slim people, fatty liver?", "1:03"]],
+    lungs: [["wRpocbipLiI", "When a 6-year-old gets a smoker's lung disease", "1:38"]],
+  };
+  const RAIL = [["Z5EjyxR95s8", "Slim people, fatty liver?", "18 Sep", "1:03"],
+                ["6ydHwERoIrk", "When a balloon can't open a heart blockage", "15 Sep", "0:35"],
+                ["SOARLhErMqw", "Why Indians get more strokes", "12 Sep", "0:53"],
+                ["rIMckxiNIlo", "Carotid scan: why it's not enough for Indians", "10 Sep", "0:47"],
+                ["LgqDSZiXRYc", "Why strokes in India are 3x more deadly", "9 Sep", "0:49"],
+                ["WOaAObXTPLY", "1 in 7 stroke patients in India is under 45", "7 Sep", "0:50"],
+                ["ACyi0an3Hio", "Why 59 is the new age of stroke in India", "6 Sep", "0:41"]];
+  const el = (t, c, x) => { const e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
+  const link = (id, film) => { const a = el("a"); a.href = film ? "https://www.youtube.com/watch?v=" + id : "https://www.youtube.com/shorts/" + id; a.target = "_blank"; a.rel = "noopener"; return a; };
+
+  for (const [organ, list] of Object.entries(VIDS)) {
+    const ul = document.querySelector("#" + organ + " .vids");
+    for (const [id, title, len, film] of list) {
+      const a = link(id, film);
+      a.append(el("span", null, title), el("span", "len", len), el("span", "arr", "↗"));
+      const li = el("li"); li.append(a); ul.append(li);
+    }
+  }
+  const rail = document.getElementById("rail");
+  for (const [id, title, date, len] of RAIL) {
+    const a = link(id); a.className = "short";
+    const pic = el("div", "pic"); const img = el("img");
+    img.src = "assets/t_" + id + ".jpg"; img.alt = ""; img.loading = "lazy"; img.width = 360; img.height = 640;
+    pic.append(img);
+    a.append(pic, el("span", "ttl", title), el("span", "meta", date + " · " + len));
+    rail.append(a);
+  }
+
+  // reveal on scroll; everything stays visible if this never runs
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (!reduce) {
+    document.body.classList.add("anim");
+    const io = new IntersectionObserver((es) => {
+      for (const e of es) if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+    }, { rootMargin: "0px 0px -12% 0px" });
+    for (const r of document.querySelectorAll(".rise")) io.observe(r);
+  }
+</script>
+
+<script>
+  // The channel's public videos, read from vidIQ on 2026-09-19. Titles cleaned of hashtags.
+  // [id, title, date, length, topic, long-form?]
+  (function () {
+    const VIDEOS = [
+      ["HKGRPVyKIHw", "Stroke at 59? Indians get it a decade early", "2026-09-19", "0:34", "stroke"],
+      ["ywkA5RLSwsE", "Why Stroke Hits Indians a Decade Early", "2026-09-19", "12:59", "stroke", true],
+      ["Z5EjyxR95s8", "Slim people, fatty liver?", "2026-09-18", "1:03", "liver"],
+      ["6ydHwERoIrk", "What happens when a balloon can't open a heart blockage?", "2026-09-15", "0:35", "heart"],
+      ["qYbIB6W6OM0", "What actually happens when you tie a rope after a snake bite", "2026-09-14", "0:42", "firstaid"],
+      ["SOARLhErMqw", "Why Indians get more strokes (it's not narrow arteries)", "2026-09-12", "0:53", "stroke"],
+      ["rIMckxiNIlo", "Carotid scan: why it's not enough for Indians", "2026-09-10", "0:47", "stroke"],
+      ["LgqDSZiXRYc", "Why strokes in India are 3x more deadly", "2026-09-09", "0:49", "stroke"],
+      ["9EuCkWK0biE", "Why ibuprofen or diclofenac can give you hives (it's not an allergy)", "2026-09-08", "0:47", "meds"],
+      ["WOaAObXTPLY", "1 in 7 stroke patients in India is under 45", "2026-09-07", "0:50", "stroke"],
+      ["ACyi0an3Hio", "Why 59 is the new age of stroke in India", "2026-09-06", "0:41", "stroke"],
+      ["1jtmWFU-CeQ", "Is this the fastest way to stop hiccups?", "2026-09-04", "0:53", "body"],
+      ["N9uOdJyIjiA", "What happens to your brain when you eat ice cream too fast", "2026-09-03", "0:42", "body"],
+      ["jrRo9x9c7Bc", "What if you only needed 4 hours of sleep?", "2026-09-02", "1:07", "body"],
+      ["hrFi3lD19ms", "Why you get chills: it's not the lyrics", "2026-09-01", "0:56", "body"],
+      ["_UDIdgMwXSA", "Why you can't eat when you're stressed", "2026-08-31", "1:43", "body"],
+      ["rNdtUJ1vuQk", "Stop eating these 3 foods before you know this", "2026-08-30", "1:12", "body"],
+      ["ipFs1WX8WcM", "Why does your nose run when eating spicy food?", "2026-08-29", "1:08", "body"],
+      ["SHUG4WkzQ-U", "What your body is trying to tell you: 3 weird symptoms", "2026-08-27", "1:37", "body"],
+      ["WIVQNvGkUHs", "Why you should never use cotton swabs again", "2026-08-26", "1:36", "body"],
+      ["9444T0Q1uD0", "3 weird body reflexes you didn't know you had", "2026-08-25", "1:31", "body"],
+      ["yeYweSmubns", "Those glowing sparks in the sky aren't floaters", "2026-08-24", "1:31", "body"],
+      ["2vLJizmg0JI", "3 first-aid instincts that make injuries worse", "2026-08-23", "1:21", "firstaid"],
+      ["fp_Jih24G00", "Sudden hair loss? Why it might not be genetics", "2026-08-22", "1:29", "body"],
+      ["Ty7BsBW0BXU", "What happens when your body mistakes sleep for a fall?", "2026-08-21", "1:21", "body"],
+      ["qo7bCP4c2Bk", "The most dangerous “superpower” in the world", "2026-08-20", "1:23", "rare"],
+      ["mneuNKvEAQg", "Inside the medical mystery: why this boy can't leave water", "2026-08-19", "1:21", "rare"],
+      ["HpZ2A58e_qk", "3 diseases so rare, most doctors never see one", "2026-08-18", "1:34", "rare"],
+      ["W3GerkZ1Vz0", "3 ‘hidden’ genes that sound fake but aren't", "2026-08-17", "1:08", "body"],
+      ["FGA8PHX0vHk", "The most dangerous second of your surgery isn't what you think", "2026-08-16", "1:01", "meds"],
+      ["epUMHoPVNPI", "Your legs just… disconnected? (1 in 100,000)", "2026-08-14", "0:47", "rare"],
+      ["Zvj0MrGXjzo", "This road took 20 years to close. So did your artery.", "2026-08-13", "0:33", "heart"],
+      ["KvtDXYgG0K8", "The silent killer inside your arteries", "2026-08-12", "0:35", "heart"],
+      ["CidseLRjR_s", "How long until retinol actually works?", "2026-08-11", "0:22", "meds"],
+      ["nol0w8JkHN4", "1 in 10,000 people have this", "2026-08-10", "0:40", "rare"],
+      ["u5ZJdsVdBUY", "What glutathione actually does", "2026-08-10", "1:03", "meds"],
+      ["dw4cFBNLPDk", "Is your blood sugar ruining your teeth?", "2026-08-09", "1:07", "body"],
+      ["W9ZbfquHC2w", "Ozempic vs. reality: the rebound effect", "2026-08-09", "0:35", "meds"],
+      ["DAiemAjJKQY", "How braces actually move your teeth", "2026-08-08", "0:56", "body"],
+      ["wRpocbipLiI", "When a 6-year-old gets a smoker's lung disease", "2026-08-07", "1:38", "rare"],
+      ["PGNgs_AE2no", "He took a pill and everything turned blue", "2026-08-06", "0:27", "meds"],
+    ];
+    const TOPICS = [["all", "All"], ["stroke", "Stroke"], ["heart", "Heart"], ["liver", "Liver"],
+                    ["firstaid", "First aid"], ["rare", "Rare diseases"], ["meds", "Medicines & procedures"],
+                    ["body", "How the body works"]];
+    const NAME = Object.fromEntries(TOPICS);
+    const el = (t, c, x) => { const e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
+    const fmt = (d) => new Date(d + "T12:00:00").toLocaleDateString("en-IN", { day: "numeric", month: "short" });
+    const lib = document.getElementById("lib"), chips = document.getElementById("chips"), count = document.getElementById("libcount");
+    let current = "all";
+
+    function render() {
+      lib.replaceChildren();
+      const list = VIDEOS.filter((v) => current === "all" || v[4] === current);
+      for (const v of list) {
+        const a = el("a");
+        a.href = v[5] ? "https://www.youtube.com/watch?v=" + v[0] : "https://www.youtube.com/shorts/" + v[0];
+        a.target = "_blank"; a.rel = "noopener";
+        a.append(el("span", "d", fmt(v[2])), el("span", "ttl", v[1]),
+                 el("span", "kind" + (v[5] ? " film" : ""), v[5] ? "Film" : NAME[v[4]]),
+                 el("span", "len", v[3]), el("span", "arr", "↗"));
+        const li = el("li"); li.append(a); lib.append(li);
+      }
+      count.textContent = list.length + (list.length === 1 ? " video" : " videos") +
+        (current === "all" ? ", newest first. Each one opens on YouTube." : " on " + NAME[current].toLowerCase() + ".");
+      for (const c of chips.children) c.setAttribute("aria-pressed", String(c.dataset.t === current));
+    }
+    for (const [key, label] of TOPICS) {
+      const n = key === "all" ? VIDEOS.length : VIDEOS.filter((v) => v[4] === key).length;
+      const b = el("button", "chip", label);
+      b.type = "button"; b.id = "chip-" + key; b.dataset.t = key;
+      b.append(el("span", "n", String(n)));
+      b.addEventListener("click", () => { current = key; render(); });
+      chips.append(b);
+    }
+    render();
+  })();
+</script>
+
+<script>
+  // ---------- the organs ----------
+  // Pre-rendered in Blender (Cycles, 40 frames each) and scrubbed by scroll, so the
+  // site carries the channel's own render look -- and the purchased heart, whose
+  // licence allows rendering but not handing the mesh to visitors.
+  (function () {
+    const FRAMES = 40, COLS = 8, TILE = 512;   // one sprite sheet per organ, 8 x 5 tiles
+    const canvas = document.getElementById("stage");
+    const ctx = canvas.getContext("2d", { alpha: true });
+    const scenes = [...document.querySelectorAll(".scene")];
+    const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const organs = {};
+    let shown = false;
+
+    for (const s of scenes) {
+      const name = s.dataset.organ;
+      if (!organs[name]) organs[name] = { sheet: null, started: false, alpha: 0, frame: 0 };
+    }
+
+    function load(name) {
+      const o = organs[name];
+      if (o.started) return;
+      o.started = true;
+      const img = new Image();
+      img.decoding = "async";
+      img.src = "assets/organ_" + name + ".webp";
+      img.onload = () => {
+        o.sheet = img;
+        if (!shown) { canvas.classList.add("on"); shown = true; }
+        draw();
+      };
+    }
+
+    function size() {
+      const dpr = Math.min(devicePixelRatio || 1, 2);
+      canvas.width = Math.round(innerWidth * dpr);
+      canvas.height = Math.round(innerHeight * dpr);
+      canvas.style.width = innerWidth + "px";
+      canvas.style.height = innerHeight + "px";
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    addEventListener("resize", () => { size(); draw(); }, { passive: true });
+    size();
+
+    function measure() {
+      const vh = innerHeight, wide = innerWidth > 860;
+      const out = [];
+      for (const s of scenes) {
+        const r = s.getBoundingClientRect();
+        const mid = r.top + r.height / 2;
+        const dist = Math.abs(mid - vh / 2);
+        if (dist < vh * 2.2) load(s.dataset.organ);   // fetch a screen ahead, so nothing pops in
+        const presence = Math.max(0, 1 - dist / (vh * 0.62));
+        if (presence <= 0) continue;
+        // how far we are through this section drives which frame shows
+        const t = Math.min(1, Math.max(0, (vh - r.top) / (vh + r.height)));
+        const dir = parseFloat(s.dataset.spin || "0.4") >= 0 ? 1 : -1;
+        const side = s.classList.contains("left") ? -1 : 1;
+        out.push({ name: s.dataset.organ, presence, t, dir, side, wide });
+      }
+      return out;
+    }
+
+    let queued = false;
+    function draw() {
+      queued = false;
+      const vis = measure();
+      ctx.clearRect(0, 0, innerWidth, innerHeight);
+      const want = {};
+      for (const v of vis) want[v.name] = Math.max(want[v.name] || 0, v.presence);
+      let easing = false;
+      for (const [name, o] of Object.entries(organs)) {
+        const target = want[name] || 0;
+        o.alpha += (target - o.alpha) * (reduce ? 1 : 0.3);
+        if (Math.abs(target - o.alpha) > 0.008) easing = true;
+        else o.alpha = target;
+        if (o.alpha < 0.012) continue;
+        const v = vis.find((x) => x.name === name);
+        if (!v) continue;
+        const idx = (Math.round(v.t * (FRAMES - 1) * 1.6 * v.dir) % FRAMES + FRAMES) % FRAMES;
+        o.frame = idx;
+        if (!o.sheet) continue;
+        const sx = (idx % COLS) * TILE, sy = Math.floor(idx / COLS) * TILE;
+        let box = v.wide ? Math.min(innerHeight * 0.66, innerWidth * 0.40)
+                         : Math.min(innerWidth * 0.86, innerHeight * 0.44);
+        box *= 0.9 + 0.1 * Math.min(1, o.alpha);
+        const cx = v.wide ? innerWidth / 2 + v.side * innerWidth * 0.245 : innerWidth / 2;
+        const cy = innerHeight / 2 + (v.wide ? 0 : -innerHeight * 0.12);
+        ctx.globalAlpha = Math.min(1, o.alpha) * (v.wide ? 1 : 0.5);
+        ctx.drawImage(o.sheet, sx, sy, TILE, TILE, cx - box / 2, cy - box / 2, box, box);
+      }
+      ctx.globalAlpha = 1;
+      if (easing) tick();
+    }
+    function tick() { if (!queued) { queued = true; requestAnimationFrame(draw); } }
+
+    addEventListener("scroll", tick, { passive: true });
+    // first organ up front, the rest as they come near
+    load(scenes[0].dataset.organ);
+    draw();
+  })();
+</script>
+
+</body>
+</html>
