@@ -74,6 +74,7 @@
   .fact b { font: 700 clamp(40px, 5vw, 64px)/1 var(--display); color: var(--horn); font-variant-numeric: tabular-nums; }
   .fact span { color: #d7cfcc; }
   .fact small { color: var(--dust); font: 400 13px/1.5 var(--mono); }
+  .fact small a, .method span a { color: var(--bone); }
   .vids { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ash); max-width: 34em; }
   .vids a { display: grid; grid-template-columns: 1fr auto 16px; gap: 14px; align-items: baseline; padding: 12px 2px; border-bottom: 1px solid var(--ash); text-decoration: none; }
   .vids a:hover { background: rgba(22,18,19,.75); }
@@ -156,11 +157,24 @@
   .srcnote b { color: var(--bone); }
   .srcnote a { color: var(--bone); }
 
+  .vidlist { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ash); }
+  .vidlist li { border-bottom: 1px solid var(--ash); }
+  .vidlist a { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 14px; align-items: baseline; padding: 15px 4px; text-decoration: none; }
+  .vidlist a:hover { background: rgba(22,18,19,.8); }
+  .vidlist .t { font-weight: 500; }
+  .vidlist .n { color: var(--dust); font: 400 14px var(--mono); white-space: nowrap; }
+
   @media (max-width: 860px) {
     .scene > .wrap { grid-template-columns: 1fr; }
     .scene.left > .wrap > .copy, .scene.right > .wrap > .copy { grid-column: 1; }
     .copy { padding-block: 88px; }
-    nav.top-nav a:not(.btn) { display: none; }
+    header .wrap { flex-wrap: wrap; row-gap: 10px; }
+    nav.top-nav { order: 3; width: 100%; gap: 18px; font-size: 13px; overflow-x: auto; padding-bottom: 2px;
+                  scrollbar-width: none; }
+    nav.top-nav::-webkit-scrollbar { display: none; }
+    nav.top-nav a { white-space: nowrap; }
+    nav.top-nav .btn { order: -1; }
+    .hero .wrap { padding-top: 132px; }
     .scene { min-height: clamp(520px, 88vh, 820px); }
     .about, .work { grid-template-columns: 1fr; }
     .lib a { grid-template-columns: 1fr auto; gap: 4px 12px; }
@@ -223,7 +237,7 @@
         <div class="fact rise">
           <b>59</b>
           <span>the average age of a stroke patient in Indian stroke hospitals, against 76 in England, Wales and Northern Ireland</span>
-          <small>ICMR National Stroke Registry, 34,792 patients, 30 hospitals, 2020&ndash;22 &middot; SSNAP 2025</small>
+          <small>ICMR National Stroke Registry, 34,792 patients, 30 hospitals, 2020&ndash;22 &middot; SSNAP 2025 &middot; <a href="#sources">sources</a></small>
         </div>
         <ul class="vids rise"></ul>
       </div>
@@ -249,7 +263,7 @@
         <div class="fact rise">
           <b>38.6%</b>
           <span>of Indian adults have fatty liver, and plenty of them are thin</span>
-          <small>Pooled Indian studies: 50 studies, 23,581 people, to April 2021</small>
+          <small>Pooled Indian studies: 50 studies, 23,581 people, to April 2021 &middot; <a href="#sources">sources</a></small>
         </div>
         <ul class="vids rise"></ul>
       </div>
@@ -309,7 +323,7 @@
           <li><b>Newest evidence first</b><span>The latest guidelines and studies, read in full, not summaries.</span></li>
           <li><b>Indian data first</b><span>ICMR, national registries and Indian studies before Asian or Western ones.</span></li>
           <li><b>Every number labelled</b><span>Who was studied and in which years, so a hospital figure never passes for all of India.</span></li>
-          <li><b>Sources in the description</b><span>New videos list every source, with a link.</span></li>
+          <li><b>Sources in the description</b><span>New videos list every source, with a link — and the key papers are <a href="#sources">on this page</a>.</span></li>
         </ul>
       </div>
     </div>
@@ -319,58 +333,18 @@
     <div class="wrap">
       <div class="head2">
         <div>
-          <p class="eyebrow">References</p>
-          <h2>Where the numbers come from</h2>
+          <p class="eyebrow">Sources</p>
+          <h2>Every video, and what it stands on</h2>
         </div>
-        <p>Indian data first, newest evidence first, and every figure labelled with who was studied and when.</p>
+        <p>Indian data first, newest evidence first, every figure labelled with who was studied and when.</p>
       </div>
-      <div class="srcwrap">
-        <div class="srcgroup">
-          <h3>Brain and stroke</h3>
-          <p>Including the 59-against-76 comparison on this page: Indian stroke-hospital patients, not all of India.</p>
-          <ul class="cites">
-          <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13291390/" target="_blank" rel="noopener"><span class="t">ICMR National Stroke Registry Programme: how old India's stroke patients are</span><span class="ref">Mathur P et al. Int J Stroke 2026;21(6):827-838 ↗</span></a></li>
-          <li><a href="https://www.hqip.org.uk/wp-content/uploads/2026/04/SSNAP-State-of-the-Nation-2025-FINALv2.pdf" target="_blank" rel="noopener"><span class="t">SSNAP State of the Nation 2025 — the England, Wales & Northern Ireland comparison</span><span class="ref">Healthcare Quality Improvement Partnership, 2025 ↗</span></a></li>
-          <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12535838/" target="_blank" rel="noopener"><span class="t">Global Burden of Disease 2023: causes of death</span><span class="ref">Lancet 2025;406(10513):1811-1872 ↗</span></a></li>
-          <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12535840/" target="_blank" rel="noopener"><span class="t">Global Burden of Disease 2023: burden and risk factors</span><span class="ref">Lancet 2025;406(10513):1873-1922 ↗</span></a></li>
-          <li><a href="https://doi.org/10.1016/S0140-6736(16)30506-2" target="_blank" rel="noopener"><span class="t">INTERSTROKE: the risk factors behind stroke worldwide</span><span class="ref">O'Donnell MJ et al. Lancet 2016;388(10046):761-775 ↗</span></a></li>
-          <li><a href="https://doi.org/10.1016/s0140-6736(02)11911-8" target="_blank" rel="noopener"><span class="t">Blood pressure and death from stroke</span><span class="ref">Lewington S et al. Lancet 2002;360(9349):1903-1913 ↗</span></a></li>
-          <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10884964/" target="_blank" rel="noopener"><span class="t">High blood pressure in young Indians (NFHS-5)</span><span class="ref">Rao Guthi V et al. Lancet Reg Health Southeast Asia 2023;23:100271 ↗</span></a></li>
-          <li><a href="https://doi.org/10.1161/STR.0000000000000513" target="_blank" rel="noopener"><span class="t">AHA/ASA 2026 guideline for acute ischaemic stroke</span><span class="ref">Stroke 2026;57(8):e316-e436 ↗</span></a></li>
-          </ul>
-        </div>
-        <div class="srcgroup">
-          <h3>Heart</h3>
-          <p>Heart attacks, delay to treatment, and opening a calcified artery.</p>
-          <ul class="cites">
-          <li><a href="https://www.icmr.gov.in/icmrobject/uploads/STWs/1768823344_cardiology-1.pdf" target="_blank" rel="noopener"><span class="t">ICMR Standard Treatment Workflows — STEMI and UA/NSTEMI</span><span class="ref">Indian Council of Medical Research, revised January 2026 ↗</span></a></li>
-          <li><a href="https://doi.org/10.1093/eurheartj/ehad191" target="_blank" rel="noopener"><span class="t">2023 ESC guidelines for acute coronary syndromes</span><span class="ref">Byrne RA et al. Eur Heart J 2023 ↗</span></a></li>
-          <li><a href="https://doi.org/10.1080/14796678.2025.2541525" target="_blank" rel="noopener"><span class="t">How long South Asians wait before reaching hospital</span><span class="ref">Ramamurthy D et al. Future Cardiol 2025 (meta-analysis) ↗</span></a></li>
-          <li><a href="https://doi.org/10.1016/j.ihj.2024.11.001" target="_blank" rel="noopener"><span class="t">What the plaques look like in young Indians with heart attacks</span><span class="ref">Kaul U et al. Indian Heart J 2024 (OCT imaging) ↗</span></a></li>
-          <li><a href="https://doi.org/10.1161/01.CIR.0000121424.76486.20" target="_blank" rel="noopener"><span class="t">Every minute of delay counts</span><span class="ref">De Luca G et al. Circulation 2004 ↗</span></a></li>
-          <li><a href="https://doi.org/10.1016/0002-9149(83)90180-7" target="_blank" rel="noopener"><span class="t">The wave front of myocardial cell death</span><span class="ref">Reimer KA et al. Am J Cardiol 1983 ↗</span></a></li>
-          <li><a href="https://doi.org/10.1093/eurheartj/ehad342" target="_blank" rel="noopener"><span class="t">Heavily calcified coronary stenoses: EAPCI consensus</span><span class="ref">Barbato E et al. Eur Heart J 2023;44:4340-56 ↗</span></a></li>
-          <li><a href="https://doi.org/10.1016/S0140-6736(25)00450-7" target="_blank" rel="noopener"><span class="t">ECLIPSE: atherectomy before stenting in severely calcified lesions</span><span class="ref">Lancet 2025 ↗</span></a></li>
-          <li><a href="https://doi.org/10.1016/j.jacc.2020.09.603" target="_blank" rel="noopener"><span class="t">Disrupt CAD III: lithotripsy for severely calcified coronary disease</span><span class="ref">Hill JM et al. JACC 2020 ↗</span></a></li>
-          </ul>
-        </div>
-        <div class="srcgroup">
-          <h3>Liver</h3>
-          <p>Including the 38.6% figure: pooled Indian studies, 50 studies and 23,581 people, to April 2021.</p>
-          <ul class="cites">
-          <li><a href="https://doi.org/10.1016/j.jceh.2021.11.010" target="_blank" rel="noopener"><span class="t">Fatty liver across India: systematic review and meta-analysis</span><span class="ref">Shalimar et al. J Clin Exp Hepatol 2022;12(3):818-829 ↗</span></a></li>
-          <li><a href="https://doi.org/10.7759/cureus.92747" target="_blank" rel="noopener"><span class="t">Liver fat in 688 healthy medical students, Belagavi</span><span class="ref">Desai GS et al. Cureus 2025;17(9):e92747 ↗</span></a></li>
-          <li><a href="https://doi.org/10.1016/j.lansea.2026.100753" target="_blank" rel="noopener"><span class="t">DiaFib-Liver: liver fibrosis in type 2 diabetes in India</span><span class="ref">Kumar A et al. Lancet Reg Health Southeast Asia 2026;47:100753 ↗</span></a></li>
-          <li><a href="https://doi.org/10.25259/IJMR_2953_2025" target="_blank" rel="noopener"><span class="t">Non-obese fatty liver: lifestyle trial at PGIMER Chandigarh</span><span class="ref">Bhagat N et al. Indian J Med Res 2026;163(4):477-485 ↗</span></a></li>
-          <li><a href="https://doi.org/10.1016/j.jceh.2026.103632" target="_blank" rel="noopener"><span class="t">Structured lifestyle change in normal-BMI fatty liver, Jaipur</span><span class="ref">Sharanabasava et al. J Clin Exp Hepatol 2026;16(6):103632 ↗</span></a></li>
-          <li><a href="https://doi.org/10.1016/j.jceh.2022.11.014" target="_blank" rel="noopener"><span class="t">INASL guidance paper on fatty liver disease</span><span class="ref">Duseja A et al. J Clin Exp Hepatol 2023;13(2):273-302 ↗</span></a></li>
-          <li><a href="https://doi.org/10.1016/j.jceh.2025.102590" target="_blank" rel="noopener"><span class="t">INASL adopts the MASLD name</span><span class="ref">Duseja A et al. J Clin Exp Hepatol 2025;15(5):102590 ↗</span></a></li>
-          <li><a href="https://doi.org/10.1016/j.beem.2026.102107" target="_blank" rel="noopener"><span class="t">Lean MASLD: current insights</span><span class="ref">Raj PS et al. Best Pract Res Clin Endocrinol Metab 2026;40(4):102107 ↗</span></a></li>
-          <li><a href="https://doi.org/10.1016/j.jhep.2024.04.031" target="_blank" rel="noopener"><span class="t">EASL-EASD-EASO clinical practice guidelines on MASLD</span><span class="ref">J Hepatol 2024;81(3):492-542 ↗</span></a></li>
-          </ul>
-        </div>
-        <p class="srcnote"><b>Every video carries its own full list.</b> The long-form film's 31 sources, each tied to the timestamp where it is used, are in <a href="https://docs.google.com/document/d/1Dmsy5cyiiyXq98iG6GivaSKkdoZJgLU2OXZ5It0RZhI/view" target="_blank" rel="noopener">this document</a>; the Shorts list theirs in the video description. Found a figure that looks wrong? Write to <a href="mailto:contact@drbull.in">contact@drbull.in</a> — corrections get pinned.</p>
-      </div>
+      <ul class="vidlist">
+        <li><a href="sources/#film"><span class="t">Why Stroke Hits Indians a Decade Early</span><span class="n">36 sources</span></a></li>
+        <li><a href="sources/"><span class="t">Slim people, fatty liver?</span><span class="n">10 sources</span></a></li>
+        <li><a href="sources/"><span class="t">This road took 20 years to close. So did your artery.</span><span class="n">10 sources</span></a></li>
+        <li><a href="sources/"><span class="t">When a balloon can't open a heart blockage</span><span class="n">8 sources</span></a></li>
+      </ul>
+      <div class="cta" style="margin-top:22px"><a class="btn line" href="sources/">All sources</a></div>
     </div>
   </section>
 

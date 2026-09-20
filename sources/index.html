@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sources &middot; DrBull</title>
+<meta name="description" content="The papers and guidelines behind each DrBull video, video by video.">
+<link rel="canonical" href="https://drbull.in/sources/">
+<link rel="icon" type="image/png" sizes="64x64" href="../assets/favicon.png">
+<meta name="theme-color" content="#0c0a0b">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Sources &middot; DrBull">
+<meta property="og:description" content="The papers and guidelines behind each DrBull video.">
+<meta property="og:image" content="https://drbull.in/assets/og.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root { --ink:#0c0a0b; --smoke:#161213; --ash:#2c2426; --bone:#efe9e6; --dust:#a3999b;
+          --horn:#e2262c; --ember:#ff4d45;
+          --display:"Barlow Semi Condensed",Bahnschrift,"Arial Narrow",sans-serif;
+          --body:Barlow,Bahnschrift,"Segoe UI",system-ui,sans-serif;
+          --mono:"IBM Plex Mono",Consolas,"Courier New",monospace; color-scheme: dark; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--ink); color:var(--bone); font:400 17px/1.65 var(--body); }
+  a { color:var(--bone); }
+  a:hover { color:var(--ember); }
+  a:focus-visible { outline:2px solid var(--ember); outline-offset:3px; border-radius:4px; }
+  .wrap { max-width:860px; margin-inline:auto; padding-inline:clamp(16px,4vw,40px); }
+  header.top { border-bottom:1px solid var(--ash); background:rgba(12,10,11,.92); position:sticky;
+               top:env(safe-area-inset-top,0px); z-index:5; backdrop-filter:blur(8px); }
+  header .wrap { display:flex; align-items:center; justify-content:space-between; gap:16px; padding-block:14px; }
+  .brand { display:flex; align-items:center; gap:10px; text-decoration:none; }
+  .brand img { height:34px; width:auto; display:block; }
+  .word { font:700 22px/1 var(--display); }
+  .word b { color:var(--horn); }
+  header nav { display:flex; gap:18px; font:600 13px/1 var(--display); letter-spacing:.12em; text-transform:uppercase; }
+  header nav a { color:var(--dust); text-decoration:none; white-space:nowrap; }
+  header nav a:hover { color:var(--bone); }
+  main { padding-block:clamp(32px,6vw,56px) 72px; }
+  .eyebrow { font:600 13px/1 var(--display); letter-spacing:.22em; text-transform:uppercase; color:var(--dust);
+             display:flex; align-items:center; gap:12px; margin:0 0 14px; }
+  .eyebrow::before { content:""; width:26px; height:2px; background:var(--horn); flex:none; }
+  h1 { font:700 clamp(34px,5vw,54px)/1.03 var(--display); margin:0 0 14px; text-wrap:balance; }
+  .lede { color:#d7cfcc; font-size:clamp(17px,1.6vw,19px); max-width:40em; margin:0 0 8px; }
+  .vid { margin-top:46px; }
+  .vid h2 { font:700 clamp(24px,3vw,32px)/1.12 var(--display); margin:0 0 4px; text-wrap:balance; }
+  .vid .watch { display:inline-flex; gap:8px; font:600 13px/1 var(--display); letter-spacing:.12em;
+                text-transform:uppercase; color:var(--horn); text-decoration:none; margin-bottom:6px; }
+  .vid .watch:hover { color:var(--ember); }
+  .refs { list-style:none; margin:14px 0 0; padding:0; border-top:1px solid var(--ash); counter-reset:r; }
+  .refs li { border-bottom:1px solid var(--ash); }
+  .refs a { display:grid; grid-template-columns:34px minmax(0,1fr) auto; gap:10px 14px; align-items:baseline;
+            padding:13px 4px; text-decoration:none; }
+  .refs a:hover { background:rgba(22,18,19,.8); }
+  .refs a:hover .go { color:var(--horn); }
+  .refs .n { counter-increment:r; color:var(--dust); font:400 13px var(--mono); }
+  .refs .n::before { content:counter(r) "."; }
+  .refs .t { line-height:1.4; }
+  .refs .t em { font-style:normal; color:var(--dust); font:400 13px/1.5 var(--mono); display:block; margin-top:2px; }
+  .refs .go { color:var(--dust); font-size:14px; }
+  .card { border:1px solid var(--ash); border-radius:12px; background:rgba(22,18,19,.72); padding:18px 20px;
+          margin:26px 0 0; color:var(--dust); font-size:15px; line-height:1.55; }
+  .card b { color:var(--bone); }
+  footer { border-top:1px solid var(--ash); }
+  footer .wrap { display:grid; gap:8px; padding-block:26px; color:var(--dust); font-size:14px; }
+  footer b { color:var(--bone); }
+  @media (max-width:720px) {
+    header .wrap { flex-wrap:wrap; row-gap:8px; }
+    header nav { width:100%; overflow-x:auto; }
+    .refs a { grid-template-columns:28px minmax(0,1fr); }
+    .refs .go { display:none; }
+  }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../"><img src="../assets/bull_mark.webp" alt="" width="76" height="96"><span class="word">DR <b>BULL</b></span></a>
+    <nav><a href="../">Home</a><a href="../#library">Videos</a><a href="../#contact">Contact</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <p class="eyebrow">Sources</p>
+  <h1>What each video is built on</h1>
+  <p class="lede">Indian data first, newest evidence first. Every paper and guideline behind a video, listed under it.</p>
+  <section class="vid">
+    <h2>Why Stroke Hits Indians a Decade Early</h2>
+    <a class="watch" href="https://www.youtube.com/watch?v=ywkA5RLSwsE" target="_blank" rel="noopener">Watch ↗</a>
+    <ol class="refs">
+      <li><a href="https://doi.org/10.1177/17474930251393187" target="_blank" rel="noopener"><span class="n"></span><span class="t">Mathur P et al., ICMR-NSRP Investigators. Stroke patterns, risk factors, management, and outcomes from hospital-based stroke registries in India<em>Int J Stroke 2026;21(6):827–38. PMID 41502107 · doi 10.1177/17474930251393187 · PMC13291390. "One in 7 stroke were in the young."</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://www.hqip.org.uk/wp-content/uploads/2026/04/SSNAP-State-of-the-Nation-2025-FINALv2.pdf" target="_blank" rel="noopener"><span class="n"></span><span class="t">Sentinel Stroke National Audit Programme (SSNAP). State of the Nation 2025, Table 1 (PDF)<em>Stroke hospitals in England, Wales and Northern Ireland (not Scotland), admissions April 2024–March 2025: 92,414 patients, median age 76 (IQR 65–84); intracerebral haemorrhage 12,406 (13.4%). Replaces the Oxford Vascular Study (Pendlebury, Lancet Neurol 2019, PMID 30784556: mean 74.4, one county, 2002–12, incl. TIA)</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.7759/cureus.55642" target="_blank" rel="noopener"><span class="n"></span><span class="t">Patil RS, Faruqi AA. A case report of simultaneous intracranial… (CVT)<em>Cureus 2024;16(3):e55642. PMC10996888 · doi 10.7759/cureus.55642. Image licence CC BY 4.0 — attribution required</em></span><span class="go">↗</span></a></li>
+      <li><a><span class="n"></span><span class="t">GBD 2023 Diseases and Injuries / Risk Factors Collaborators. Burden of 375 diseases and injuries, risk-attributable burden of 88 risk factors… 1990–2023<em>Lancet 2025;406(10513):1873–1922. PMID 41092926 · PMC12535840</em></span><span class="go">↗</span></a></li>
+      <li><a><span class="n"></span><span class="t">GBD 2023 Causes of Death Collaborators. Global burden of 292 causes of death… 1990–2023<em>Lancet 2025;406(10513):1811–1872. PMID 41092928 · PMC12535838</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1177/17474930211027834" target="_blank" rel="noopener"><span class="n"></span><span class="t">Jones SP et al. Stroke in India: a systematic review of the incidence, prevalence, and case fatality<em>Int J Stroke 2022;17(2):132–140 (online 2021). PMID 34114912 · doi 10.1177/17474930211027834. IN — crude incidence 108–172/100,000/yr (9 studies)</em></span><span class="go">↗</span></a></li>
+      <li><a><span class="n"></span><span class="t">Rangamani S et al. (ICMR population-based registries)<em>Lancet Reg Health SE Asia 2024;23:100308. PMID 38404513 · PMC10884975. IN — crude 138.1/100,000</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1161/01.STR.0000196957.55928.ab" target="_blank" rel="noopener"><span class="n"></span><span class="t">Saver JL. Time is brain—quantified<em>Stroke 2006;37(1):263–6. PMID 16339467 · doi 10.1161/01.STR.0000196957.55928.ab</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/S1474-4422(09" target="_blank" rel="noopener"><span class="n"></span><span class="t">(background since the 2026-09-14 audit) van Asch CJ et al. Incidence, case fatality, and functional outcome of intracerebral haemorrhage over time, according to age, sex, and ethnic origin<em>Lancet Neurol 2010;9(2):167–76. PMID 20056489 · doi 10.1016/S1474-4422(09)70340-070340-0). 36 studies, 8,145 patients; median 1-month case fatality 40.4%</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/j.lanepe.2024.101180" target="_blank" rel="noopener"><span class="n"></span><span class="t">(background since the audit) Wolsink A et al. Incidence, case fatality, and functional outcome of intracerebral haemorrhage, according to age, sex, and country income level<em>Lancet Reg Health Eur 2024;49:101180. PMID 39759582 · doi 10.1016/j.lanepe.2024.101180 · PMC11699750. 70 studies, 19,470 patients, 26 countries; 1-month case fatality 35.5%</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/S0140-6736(16" target="_blank" rel="noopener"><span class="n"></span><span class="t">O'Donnell MJ et al. (INTERSTROKE)<em>Global and regional effects of potentially modifiable risk factors associated with acute stroke in 32 countries. Lancet 2016;388:761–75. PMID 27431356 · doi 10.1016/S0140-6736(16)30506-230506-2). 26,919 participants</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/s0140-6736(02" target="_blank" rel="noopener"><span class="n"></span><span class="t">Lewington S et al. (Prospective Studies Collaboration)<em>Age-specific relevance of usual blood pressure to vascular mortality. Lancet 2002;360:1903–13. PMID 12493255 · doi 10.1016/s0140-6736(02)11911-811911-8)</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/j.lansea.2023.100271" target="_blank" rel="noopener"><span class="n"></span><span class="t">Rao Guthi V et al. Hypertension treatment cascade among men and women of reproductive age group in India: analysis of NFHS-5 (2019–2021)<em>Lancet Reg Health SE Asia 2023;23:100271. PMID 38404520 · doi 10.1016/j.lansea.2023.100271 · PMC10884964. 1,267,786 people</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.4103/aian.AIAN_86_18" target="_blank" rel="noopener"><span class="n"></span><span class="t">Kaul S et al. Intracranial atherosclerosis is the most common stroke subtype: ten-year data from Hyderabad Stroke Registry (India)<em>Ann Indian Acad Neurol 2018;21(3):209–13. PMID 30258264 · doi 10.4103/aian.AIAN_86_18 · PMC6137626. Nizam's Institute of Medical Sciences, 2001–2011; 2,642 patients; of 779 large-artery strokes, 610 (78.3%) intracranial</em></span><span class="go">↗</span></a></li>
+      <li><a><span class="n"></span><span class="t">De Silva DA et al. Neurol India 2021;69:1282–4<em>PMID 34747800. 216 South Asian patients; 3.01× adjusted odds of poor 6-month outcome</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1007/s00276-023-03148-1" target="_blank" rel="noopener"><span class="n"></span><span class="t">Sharma U, Verma P, Adithan S. Surg Radiol Anat 2023;45(8):939–945<em>PMID 37269412 · doi 10.1007/s00276-023-03148-1. 289 Indian CT angiograms</em></span><span class="go">↗</span></a></li>
+      <li><a><span class="n"></span><span class="t">International Institute for Population Sciences / MoHFW. National Family Health Survey (NFHS-6) 2023–24, India Fact Sheet (provisional)<em>Fieldwork 28 May 2023–31 Dec 2024; 716,397 women, 100,977 men. Items 84–89: BP ≥140/90 or taking medicine, age 15+ — women 19.4%, men 22.1%. No cascade rows</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1161/JAHA.124.040361" target="_blank" rel="noopener"><span class="n"></span><span class="t">Patel D et al. Role of lipoprotein(a) in atherosclerotic cardiovascular disease in South Asian individuals<em>J Am Heart Assoc 2025. PMID 40654252 · doi 10.1161/JAHA.124.040361</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/j.jstrokecerebrovasdis.2024.107960" target="_blank" rel="noopener"><span class="n"></span><span class="t">Koh MY et al. Association of elevated lipoprotein(a) levels with ischemic stroke in young patients — a systematic review and meta-analysis<em>J Stroke Cerebrovasc Dis 2024;33(11):107960. PMID 39222699 · doi 10.1016/j.jstrokecerebrovasdis.2024.107960. 5 case-control studies (1,345 patients under 65); the ≥30 mg/dL-only analysis, 4 studies: OR 1.43 (1.08–1.88)</em></span><span class="go">↗</span></a></li>
+      <li><a><span class="n"></span><span class="t">Tsimikas S et al. Eur Heart J 2020;41(24):2275–84<em>PMID 31111151. Statins raised Lp(a) 8.5–19.6% (6 RCTs, 5,256 patients)</em></span><span class="go">↗</span></a></li>
+      <li><a><span class="n"></span><span class="t">Bhatia HS et al. Circulation 2025;151(4):312–21<em>PMID 39492722</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/j.jacl.2025.06.012" target="_blank" rel="noopener"><span class="n"></span><span class="t">Misra A et al. Obesity, abdominal obesity, and adipose tissue depots in South Asians with specific reference to Asian Indians<em>J Clin Lipidol 2025. PMID 41293937 · doi 10.1016/j.jacl.2025.06.012</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1038/s41598-023-42694-x" target="_blank" rel="noopener"><span class="n"></span><span class="t">Mathur P et al. Awareness, behavior, and determinants of dietary salt intake in adults: results from the National NCD Monitoring Survey, India<em>Sci Rep 2023;13:15890. PMID 37741845 · doi 10.1038/s41598-023-42694-x · PMC10517942. 3,000 adults aged 18–69</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1371/journal.pone.0246712" target="_blank" rel="noopener"><span class="n"></span><span class="t">Mathur P et al. National NCD monitoring survey (NNMS) in India: estimating risk factor prevalence in adult population<em>PLoS One 2021;16(3):e0246712. PMID 33651825 · doi 10.1371/journal.pone.0246712. Mean salt 8 g/day (95% CI 7.8–8.2)</em></span><span class="go">↗</span></a></li>
+      <li><a><span class="n"></span><span class="t">Johnson C et al. Sources of dietary salt in North and South India estimated from 24 hour dietary recall<em>Nutrients 2019;11(2):318. PMID 30717304 · PMC6412427. 1,283 people</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1093/ajcn/nqab054" target="_blank" rel="noopener"><span class="n"></span><span class="t">SSiIS. Am J Clin Nutr 2021<em>PMID 33782684 · doi 10.1093/ajcn/nqab054. 502 rural Indian hypertensives</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1056/NEJMoa2105675" target="_blank" rel="noopener"><span class="n"></span><span class="t">Neal B et al. (SSaSS)<em>Effect of salt substitution on cardiovascular events and death. N Engl J Med 2021. PMID 34459569 · doi 10.1056/NEJMoa2105675. 20,995 people in rural China with a history of stroke, or aged 60+ with high blood pressure</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1021/acsnano.6b08551" target="_blank" rel="noopener"><span class="n"></span><span class="t">Miller MR et al. Inhaled nanoparticles accumulate at sites of vascular disease<em>ACS Nano 2017;11(5):4542–52. PMID 28443337 · doi 10.1021/acsnano.6b08551</em></span><span class="go">↗</span></a></li>
+      <li><a><span class="n"></span><span class="t">GBD 2023 Risk Factors Collaborators. Lancet 2025;406(10513):1873–1922<em>PMID 41092926 · PMC12535840. India stroke-DALY shares from its appendix 3, table 13B (GHDx), rebuilt for all three stroke types: high systolic BP 53.6%, air pollution 34.9% (modelled)</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1161/STR.0000000000000513" target="_blank" rel="noopener"><span class="n"></span><span class="t">Prabhakaran S et al. 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke: a guideline from the American Heart Association/American Stroke Association<em>Stroke 2026;57(8):e316–e436. PMID 41582814 · doi 10.1161/STR.0000000000000513. IV thrombolysis within 4.5 h (Sec 4.6.1); thrombectomy within 6 h and in selected patients 6–24 h (Sec 4.7.2). Correction: doi 10.1161/STR.0000000000000530</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.25259/IJMR_285_2026" target="_blank" rel="noopener"><span class="n"></span><span class="t">Dutta A et al. Factors associated with prehospital delay in stroke: a multicentre study from eastern India<em>Indian J Med Res 2026;164(3):412–416. PMID 42690856 · doi 10.25259/IJMR_285_2026 · PMC13541205. 10% of patients or families recognised the symptoms as stroke; 44.1% went directly to a stroke-ready hospital</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1177/17474930241312598" target="_blank" rel="noopener"><span class="n"></span><span class="t">Asif KS et al. Geo-spatial analysis of acute ischemic stroke reperfusion treatment in India<em>Int J Stroke 2025;20(6):708–20. PMID 39719435 · doi 10.1177/17474930241312598. Centre data March 2021; 566 thrombolysis-capable / 361 thrombectomy-capable centres</em></span><span class="go">↗</span></a></li>
+      <li><a><span class="n"></span><span class="t">Union Health Secretary Punya Salila Srivastava, National Stroke Summit, New Delhi, 22 Jan 2025: "Nearly 500 stroke units are currently operational across the country" (All India Radio, newsonair.gov.in). Official statement, not a peer-reviewed source</span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/S0140-6736(15" target="_blank" rel="noopener"><span class="n"></span><span class="t">Ettehad D et al. Blood pressure lowering for prevention of cardiovascular disease and death: a systematic review and meta-analysis<em>Lancet 2016;387:957–67. PMID 26724178 · doi 10.1016/S0140-6736(15)01225-801225-8). 613,815 participants; stroke RR 0.73 per 10 mmHg</em></span><span class="go">↗</span></a></li>
+      <li><a><span class="n"></span><span class="t">Kronenberg F et al. (European Atherosclerosis Society consensus)<em>Lipoprotein(a) in atherosclerotic cardiovascular disease and aortic stenosis. Eur Heart J 2022;43:3925–46. PMID 36036785 · PMC9639807</em></span><span class="go">↗</span></a></li>
+      <li><a><span class="n"></span><span class="t">Service facts: 112 = India's national Emergency Response Support System number; 108 = medical-emergency ambulance (National Health Mission: 35 States/UTs dial 108 or 102)</span><span class="go">↗</span></a></li>
+    </ol>
+  </section>
+  <section class="vid">
+    <h2>Slim people, fatty liver?</h2>
+    <a class="watch" href="https://www.youtube.com/shorts/Z5EjyxR95s8" target="_blank" rel="noopener">Watch ↗</a>
+    <ol class="refs">
+      <li><a href="https://doi.org/10.1016/j.jceh.2021.11.010" target="_blank" rel="noopener"><span class="n"></span><span class="t">Shalimar et al. Prevalence of NAFLD in India: systematic review and meta-analysis<em>J Clin Exp Hepatol 2022;12(3):818-829</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.7759/cureus.92747" target="_blank" rel="noopener"><span class="n"></span><span class="t">Desai GS et al. Liver fat in 688 healthy medical students, Belagavi<em>Cureus 2025;17(9):e92747</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/j.lansea.2026.100753" target="_blank" rel="noopener"><span class="n"></span><span class="t">Kumar A et al. DiaFib-Liver: liver fibrosis burden in type 2 diabetes in India<em>Lancet Reg Health Southeast Asia 2026;47:100753</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.25259/IJMR_2953_2025" target="_blank" rel="noopener"><span class="n"></span><span class="t">Bhagat N et al. Non-obese MASLD, lifestyle vs lifestyle plus a drug: randomised trial, PGIMER Chandigarh<em>Indian J Med Res 2026;163(4):477-485</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.25259/IJMR_2511_2025" target="_blank" rel="noopener"><span class="n"></span><span class="t">Tiwari AK et al. Drug or supplement vs lifestyle in MASLD: 3-arm randomised trial, BHU Varanasi<em>Indian J Med Res 2026;163(5):598-605</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/j.jceh.2022.11.014" target="_blank" rel="noopener"><span class="n"></span><span class="t">Duseja A et al. INASL guidance paper on NAFLD<em>J Clin Exp Hepatol 2023;13(2):273-302</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/j.jceh.2025.102590" target="_blank" rel="noopener"><span class="n"></span><span class="t">Duseja A et al. INASL adopts the MASLD name<em>J Clin Exp Hepatol 2025;15(5):102590</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/j.jceh.2026.103632" target="_blank" rel="noopener"><span class="n"></span><span class="t">Sharanabasava et al. Structured lifestyle change in normal-BMI NAFLD, Jaipur<em>J Clin Exp Hepatol 2026;16(6):103632</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/j.beem.2026.102107" target="_blank" rel="noopener"><span class="n"></span><span class="t">Raj PS et al. Lean MASLD: current insights<em>Best Pract Res Clin Endocrinol Metab 2026;40(4):102107</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/j.jhep.2024.04.031" target="_blank" rel="noopener"><span class="n"></span><span class="t">EASL-EASD-EASO Clinical Practice Guidelines on MASLD (Europe). J Hepatol 2024;81(3):492-542</span><span class="go">↗</span></a></li>
+    </ol>
+  </section>
+  <section class="vid">
+    <h2>This road took 20 years to close. So did your artery.</h2>
+    <a class="watch" href="https://www.youtube.com/shorts/Zvj0MrGXjzo" target="_blank" rel="noopener">Watch ↗</a>
+    <ol class="refs">
+      <li><a href="https://www.icmr.gov.in/icmrobject/uploads/STWs/1768823344_cardiology-1.pdf" target="_blank" rel="noopener"><span class="n"></span><span class="t">ICMR Standard Treatment Workflows — STEMI &amp; UA/NSTEMI (revised Jan 2026)</span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1093/eurheartj/ehad191" target="_blank" rel="noopener"><span class="n"></span><span class="t">Byrne RA et al. 2023 ESC Guidelines for acute coronary syndromes<em>Eur Heart J 2023</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1080/14796678.2025.2541525" target="_blank" rel="noopener"><span class="n"></span><span class="t">Ramamurthy D et al. AMI treatment delay in South Asia (meta-analysis)<em>Future Cardiol 2025</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/j.ihj.2024.11.001" target="_blank" rel="noopener"><span class="n"></span><span class="t">Kaul U et al. Plaques in young Indians with ACS (OCT)<em>Indian Heart J 2024</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/j.resuscitation.2017.01.030" target="_blank" rel="noopener"><span class="n"></span><span class="t">Silvain J et al. Thrombus composition in STEMI<em>Resuscitation 2017</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/0002-9149(83)90180-7" target="_blank" rel="noopener"><span class="n"></span><span class="t">Reimer KA et al. Wave front of myocardial cell death<em>Am J Cardiol 1983</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1161/01.CIR.0000121424.76486.20" target="_blank" rel="noopener"><span class="n"></span><span class="t">De Luca G et al. Every minute of delay counts<em>Circulation 2004</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.7759/cureus.17369" target="_blank" rel="noopener"><span class="n"></span><span class="t">Panda P et al. Delay in seeking treatment for ACS (PGIMER)<em>Cureus 2021</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1093/postmj/qgae129" target="_blank" rel="noopener"><span class="n"></span><span class="t">Mathew A et al. TRUST registry, Kerala<em>Postgrad Med J 2025</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://nhm.gov.in/index1.php?lang=1&level=2&sublinkid=1217&lid=189" target="_blank" rel="noopener"><span class="n"></span><span class="t">National Health Mission — 108 emergency ambulance</span><span class="go">↗</span></a></li>
+    </ol>
+  </section>
+  <section class="vid">
+    <h2>When a balloon can't open a heart blockage</h2>
+    <a class="watch" href="https://www.youtube.com/shorts/6ydHwERoIrk" target="_blank" rel="noopener">Watch ↗</a>
+    <ol class="refs">
+      <li><a href="https://doi.org/10.1093/eurheartj/ehad342" target="_blank" rel="noopener"><span class="n"></span><span class="t">Barbato E et al. Management strategies for heavily calcified coronary stenoses: an EAPCI clinical consensus statement<em>Eur Heart J 2023;44:4340-56</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/S0140-6736(25)00450-7" target="_blank" rel="noopener"><span class="n"></span><span class="t">ECLIPSE trial — orbital atherectomy vs balloon angioplasty before drug-eluting stents in severely calcified lesions. Lancet 2025</span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/j.jcin.2024.11.012" target="_blank" rel="noopener"><span class="n"></span><span class="t">ROLLER COASTR-EPIC22 — rotational atherectomy vs lithotripsy vs laser. JACC Cardiovasc Interv 2025</span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.4244/EIJ-D-26-00426" target="_blank" rel="noopener"><span class="n"></span><span class="t">ICARE OFDI — intravascular lithotripsy vs rotational atherectomy, randomised. EuroIntervention 2026</span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1016/j.jacc.2020.09.603" target="_blank" rel="noopener"><span class="n"></span><span class="t">Hill JM et al. Disrupt CAD III — intravascular lithotripsy for severely calcified coronary disease<em>JACC 2020</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1161/CIRCINTERVENTIONS.119.008434" target="_blank" rel="noopener"><span class="n"></span><span class="t">Ali ZA et al. Disrupt CAD II<em>Circ Cardiovasc Interv 2019</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.1177/17539447241263444" target="_blank" rel="noopener"><span class="n"></span><span class="t">Gupta A et al. Coronary intravascular lithotripsy in contemporary practice (review)<em>Ther Adv Cardiovasc Dis 2024</em></span><span class="go">↗</span></a></li>
+      <li><a href="https://doi.org/10.15420/icr.2024.16" target="_blank" rel="noopener"><span class="n"></span><span class="t">Khattak S et al. Atherectomy techniques: rotablation, orbital and laser (review)<em>Interv Cardiol 2024</em></span><span class="go">↗</span></a></li>
+    </ol>
+  </section>
+  <div class="card"><b>Older videos</b> carry their sources in the YouTube description. Spotted a figure that
+  looks wrong? Write to <a href="mailto:contact@drbull.in">contact@drbull.in</a> &mdash; corrections get pinned.</div>
+</main>
+<footer>
+  <div class="wrap">
+    <span><b>DrBull</b> &middot; medical science in 3D &middot; <a href="https://www.youtube.com/@drbull2795" target="_blank" rel="noopener">YouTube</a></span>
+    <span>Educational only, not medical advice. Always consult a qualified doctor about your own health.</span>
+  </div>
+</footer>
+</body>
+</html>
