@@ -79,6 +79,11 @@
   .prose strong { color: #fff; font-weight: 600; }
   .prose sup a { color: var(--horn); font: 500 12px var(--mono); text-decoration: none; padding: 0 1px; }
   .prose sup a:hover { text-decoration: underline; }
+  .prose table { width: 100%; border-collapse: collapse; margin: 30px 0; font-size: clamp(14px, 1.7vw, 16px); font-variant-numeric: tabular-nums; }
+  .prose th { text-align: left; font: 700 12px/1.4 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--dust); padding: 0 14px 10px 0; border-bottom: 1px solid var(--ash); }
+  .prose td { padding: 11px 14px 11px 0; border-bottom: 1px solid #221c1e; color: #d7cfcc; vertical-align: top; }
+  .prose tbody tr:last-child td { border-bottom: none; }
+  @media (max-width: 560px) { .prose table { font-size: 13px; } .prose th, .prose td { padding-right: 8px; } }
   .fact { display: grid; gap: 6px; border-left: 2px solid var(--horn); padding-left: 18px; margin: 30px 0; }
   .fact b { font: 700 clamp(40px, 5.4vw, 62px)/1 var(--display); color: var(--horn); font-variant-numeric: tabular-nums; }
   .fact span { color: #d7cfcc; }

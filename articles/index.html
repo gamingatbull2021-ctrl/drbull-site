@@ -79,6 +79,11 @@
   .prose strong { color: #fff; font-weight: 600; }
   .prose sup a { color: var(--horn); font: 500 12px var(--mono); text-decoration: none; padding: 0 1px; }
   .prose sup a:hover { text-decoration: underline; }
+  .prose table { width: 100%; border-collapse: collapse; margin: 30px 0; font-size: clamp(14px, 1.7vw, 16px); font-variant-numeric: tabular-nums; }
+  .prose th { text-align: left; font: 700 12px/1.4 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--dust); padding: 0 14px 10px 0; border-bottom: 1px solid var(--ash); }
+  .prose td { padding: 11px 14px 11px 0; border-bottom: 1px solid #221c1e; color: #d7cfcc; vertical-align: top; }
+  .prose tbody tr:last-child td { border-bottom: none; }
+  @media (max-width: 560px) { .prose table { font-size: 13px; } .prose th, .prose td { padding-right: 8px; } }
   .fact { display: grid; gap: 6px; border-left: 2px solid var(--horn); padding-left: 18px; margin: 30px 0; }
   .fact b { font: 700 clamp(40px, 5.4vw, 62px)/1 var(--display); color: var(--horn); font-variant-numeric: tabular-nums; }
   .fact span { color: #d7cfcc; }
@@ -139,6 +144,7 @@
 <p>A film takes thirteen minutes and you cannot scroll back to a number. These are the same stories in text, with every figure carrying the population it describes and the years the data covers &mdash; and a link to the paper it came from.</p>
 </section>
 <ul class="list">
+<li><a href="how-much-walking-for-bone/"><h2>How much walking actually reaches your hip</h2><p class="dek">Pooled across 124 randomised trials, brisk walking came top for bone density at every site measured, tied at the spine. In the paper's fracture analysis, it did not significantly reduce fractures.</p><span class="meta"><b>Bone</b>22 September 2026<br>8 min &middot; 5 sources</span></a></li>
 <li><a href="slim-and-fatty-liver/"><h2>You can be slim and still have a fatty liver</h2><p class="dek">A normal weight, a normal check-up and a liver quietly filling with fat. In pooled Indian studies, 38.6% of adults have it &mdash; and the thin ones are not spared.</p><span class="meta"><b>Liver</b>20 September 2026<br>5 min &middot; 9 sources</span></a></li>
 <li><a href="stroke-a-decade-early/"><h2>Why stroke hits Indians a decade early</h2><p class="dek">The average patient in India's stroke hospitals is 59. In England, Wales and Northern Ireland the middle patient is 76. Most of that gap is not bad luck, and it is not narrow arteries.</p><span class="meta"><b>Stroke</b>20 September 2026<br>8 min &middot; 22 sources</span></a></li>
 </ul></main>
