@@ -334,7 +334,7 @@
           <p class="eyebrow">Latest</p>
           <h2>Fresh from the channel</h2>
         </div>
-        <p>Seven newest. <a href="#library">All <span id="allcount">44</span>, by topic ↓</a></p>
+        <p>Seven newest. <a href="#library">All <span id="allcount">45</span>, by topic ↓</a></p>
       </div>
       <div class="rail" id="rail"></div>
     </div>
@@ -465,13 +465,13 @@
     liver: [["Z5EjyxR95s8", "Slim people, fatty liver?", "1:03"]],
     lungs: [["wRpocbipLiI", "When a 6-year-old gets a smoker's lung disease", "1:38"]],
   };
-  const RAIL = [["E9nnMc5C-sM", "Walking built the most bone. It didn't significantly cut fractures.", "23 Sep", "1:01"],
+  const RAIL = [["yeavI7MUoEk", "Trendelenburg gait: the limp of a weak hip", "25 Sep", "0:30"],
+                ["E9nnMc5C-sM", "Walking built the most bone. It didn't significantly cut fractures.", "23 Sep", "1:01"],
                 ["vh31vJ62XMA", "Only 1 in 5 reach hospital in time", "22 Sep", "0:40"],
                 ["YoedkJ9ye88", "Indians eat 8g of salt a day. The limit is 5", "20 Sep", "0:45"],
                 ["Z5EjyxR95s8", "Slim people, fatty liver?", "18 Sep", "1:03"],
                 ["6ydHwERoIrk", "When a balloon can't open a heart blockage", "15 Sep", "0:35"],
-                ["SOARLhErMqw", "Why Indians get more strokes", "12 Sep", "0:53"],
-                ["rIMckxiNIlo", "Carotid scan: why it's not enough for Indians", "10 Sep", "0:47"]];
+                ["SOARLhErMqw", "Why Indians get more strokes", "12 Sep", "0:53"]];
   const el = (t, c, x) => { const e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
   const link = (id, film) => { const a = el("a"); a.href = film ? "https://www.youtube.com/watch?v=" + id : "https://www.youtube.com/shorts/" + id; a.target = "_blank"; a.rel = "noopener"; return a; };
 
@@ -510,6 +510,7 @@
   // Titles cleaned of hashtags. [id, title, date, length, topic, long-form?]
   (function () {
     const VIDEOS = [
+      ["yeavI7MUoEk", "Trendelenburg gait: the limp of a weak hip", "2026-09-25", "0:30", "body"],
       ["E9nnMc5C-sM", "Walking built the most bone. It didn't significantly cut fractures.", "2026-09-23", "1:01", "body"],
       ["vh31vJ62XMA", "Only 1 in 5 reach hospital in time", "2026-09-22", "0:40", "stroke"],
       ["YoedkJ9ye88", "Indians eat 8g of salt a day. The limit is 5", "2026-09-20", "0:45", "stroke"],
