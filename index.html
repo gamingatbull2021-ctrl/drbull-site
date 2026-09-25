@@ -334,7 +334,7 @@
           <p class="eyebrow">Latest</p>
           <h2>Fresh from the channel</h2>
         </div>
-        <p>Seven newest. <a href="#library">All 41, by topic ↓</a></p>
+        <p>Seven newest. <a href="#library">All <span id="allcount">44</span>, by topic ↓</a></p>
       </div>
       <div class="rail" id="rail"></div>
     </div>
@@ -465,13 +465,13 @@
     liver: [["Z5EjyxR95s8", "Slim people, fatty liver?", "1:03"]],
     lungs: [["wRpocbipLiI", "When a 6-year-old gets a smoker's lung disease", "1:38"]],
   };
-  const RAIL = [["Z5EjyxR95s8", "Slim people, fatty liver?", "18 Sep", "1:03"],
+  const RAIL = [["E9nnMc5C-sM", "Walking built the most bone. It didn't significantly cut fractures.", "23 Sep", "1:01"],
+                ["vh31vJ62XMA", "Only 1 in 5 reach hospital in time", "22 Sep", "0:40"],
+                ["YoedkJ9ye88", "Indians eat 8g of salt a day. The limit is 5", "20 Sep", "0:45"],
+                ["Z5EjyxR95s8", "Slim people, fatty liver?", "18 Sep", "1:03"],
                 ["6ydHwERoIrk", "When a balloon can't open a heart blockage", "15 Sep", "0:35"],
                 ["SOARLhErMqw", "Why Indians get more strokes", "12 Sep", "0:53"],
-                ["rIMckxiNIlo", "Carotid scan: why it's not enough for Indians", "10 Sep", "0:47"],
-                ["LgqDSZiXRYc", "Why strokes in India are 3x more deadly", "9 Sep", "0:49"],
-                ["WOaAObXTPLY", "1 in 7 stroke patients in India is under 45", "7 Sep", "0:50"],
-                ["ACyi0an3Hio", "Why 59 is the new age of stroke in India", "6 Sep", "0:41"]];
+                ["rIMckxiNIlo", "Carotid scan: why it's not enough for Indians", "10 Sep", "0:47"]];
   const el = (t, c, x) => { const e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
   const link = (id, film) => { const a = el("a"); a.href = film ? "https://www.youtube.com/watch?v=" + id : "https://www.youtube.com/shorts/" + id; a.target = "_blank"; a.rel = "noopener"; return a; };
 
@@ -505,10 +505,14 @@
 </script>
 
 <script>
-  // The channel's public videos, read from vidIQ on 2026-09-19. Titles cleaned of hashtags.
-  // [id, title, date, length, topic, long-form?]
+  // The channel's public videos, read from vidIQ on 2026-09-19; the newer ones from each
+  // video's own YouTube page (publish date in IST, length in seconds), 2026-09-25.
+  // Titles cleaned of hashtags. [id, title, date, length, topic, long-form?]
   (function () {
     const VIDEOS = [
+      ["E9nnMc5C-sM", "Walking built the most bone. It didn't significantly cut fractures.", "2026-09-23", "1:01", "body"],
+      ["vh31vJ62XMA", "Only 1 in 5 reach hospital in time", "2026-09-22", "0:40", "stroke"],
+      ["YoedkJ9ye88", "Indians eat 8g of salt a day. The limit is 5", "2026-09-20", "0:45", "stroke"],
       ["HKGRPVyKIHw", "Stroke at 59? Indians get it a decade early", "2026-09-19", "0:34", "stroke"],
       ["ywkA5RLSwsE", "Why Stroke Hits Indians a Decade Early", "2026-09-19", "12:59", "stroke", true],
       ["Z5EjyxR95s8", "Slim people, fatty liver?", "2026-09-18", "1:03", "liver"],
@@ -558,6 +562,7 @@
     const el = (t, c, x) => { const e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
     const fmt = (d) => new Date(d + "T12:00:00").toLocaleDateString("en-IN", { day: "numeric", month: "short" });
     const lib = document.getElementById("lib"), chips = document.getElementById("chips"), count = document.getElementById("libcount");
+    document.getElementById("allcount").textContent = VIDEOS.length;
     let current = "all";
 
     function render() {
