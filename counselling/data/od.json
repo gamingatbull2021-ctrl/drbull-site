@@ -1,0 +1,349 @@
+{
+ "code": "OD",
+ "label": "Odisha",
+ "sub": "State quota, via the PG (Medical) Counselling Committee for DMET Odisha",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "g": {
+   "name": "Guidelines for Counseling and Admission, Post-Graduate (Medical) Selection Odisha 2025-26",
+   "short": "OD guidelines",
+   "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/Guidelines_PG_Medical_2025%20FINAL.pdf"
+  },
+  "faq": {
+   "name": "Convener's \"Some clarifications and FAQs\" on Round 2 (listed 18 Dec 2025)",
+   "short": "FAQs 18/12/2025",
+   "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/Some%20clarifications%20and%20FAQs_PGMCC_2025-26_18_12_2025.pdf"
+  },
+  "n26": {
+   "name": "Convener's clarification regarding Upgraded Round-1 (No. 70, 28/11/25; scanned)",
+   "short": "Notice 28/11/2025",
+   "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/Clarification%20regarding%20upgraded%20Round-1_28_11_2025.pdf"
+  },
+  "n28": {
+   "name": "Further clarification to point 2 of the FAQ of 18.12.2025 (listed 19 Dec 2025)",
+   "short": "Clarification 19/12/2025",
+   "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/Further%20Clarification%20to%20Point%20No.%202%20of%20FAQ%20dated%2018.12.2025.pdf"
+  },
+  "n32": {
+   "name": "Convener's notice on Round-2 admission and Round-3 (mop-up) participation (No. 102, 22/12/25; scanned)",
+   "short": "Notice 22/12/2025",
+   "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/NOTICE%20FOR%20ROUND-2_ADMISSION_AND_ROUND_3_22_12_2025.pdf"
+  },
+  "n30": {
+   "name": "Tentative schedule for Round-3 (Mop-Up) (No. 121, 04/02/26; scanned)",
+   "short": "Round 3 schedule 04/02/2026",
+   "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/Round-3%20schedule_4-2_2026.pdf"
+  },
+  "rw": {
+   "name": "Convener, PGMCC Odisha: Clarification regarding Resignation Rounds (State Quota Seats), 15/12/2025",
+   "short": "Clarification 15/12/2025",
+   "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/Clarification%20regarding%20Resignation%20Rounds_15_12_2025.pdf"
+  },
+  "fee": {
+   "name": "DMET Odisha: Instructions for payment of counselling fees",
+   "short": "Fee instructions",
+   "url": "https://dmetodisha.in/PGMCC_Static/DOWNLOADSPGM_22/INSTRUCTIONS%20FOR%20PAYMENT%20OF%20COUNSELING%20FEES.pdf"
+  }
+ },
+ "doc": "g",
+ "notes": [
+  [
+   "Odisha's guidelines set four rounds: two online, then a mop-up and a stray round in person, unless the committee moves them online in an emergency. Much of the 2025-26 detail came in the Convener's notices and FAQs, cited line by line.",
+   "g: cl. I.2, p.7"
+  ]
+ ],
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "Automatic upgrade before Round 2",
+     "ok"
+    ],
+    [
+     "Resign in the window: 10% kept",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "Register, pay the Rs 2,500 counselling fee, and attend document verification: those who miss it aren't on the merit list.",
+     "g: cl. I.3-5, p.7-8"
+    ],
+    [
+     "A doctor now on, or who left, a PG, DNB or diploma seat can take part after paying the monetary penalty and meeting the bond terms of these guidelines.",
+     "g: cl. D, p.4; cl. F.5, p.6"
+    ]
+   ],
+   "opts": [
+    [
+     "Take admission",
+     "Pay the admission fee and deposit your original College Leaving Certificate at the Convener's office, then report to the college in time.",
+     [
+      "Admission fee due",
+      "info"
+     ],
+     "The candidate has to deposit the original College Leaving Certificate/Transfer Certificate as the case may be and will be issued a provisional admission letter.",
+     "g: cl. I.7-8, p.9"
+    ],
+    [
+     "Not your first choice",
+     "Candidates not allotted their first choice are upgraded automatically, on merit, into seats left empty after Round 1 admission; no fresh choices are taken. The Convener's notice says such candidates may take admission, or not, or wait for the upgrade.",
+     [
+      "Automatic upgrade",
+      "ok"
+     ],
+     "Candidates admitted in the first round against clear vacancy shall be upgraded against any vacancy resulted in, for non reporting of candidates in first round.",
+     "g: cl. I.9, p.9; n26: p.1"
+    ],
+    [
+     "Resign in the window",
+     "After Round 1 the Convener opened resignation windows tied to MCC's Round 2. The one on 16-17 December was only for candidates taking a seat allotted in MCC's AIQ Round 2 by resigning an Odisha Round 1 seat; others didn't need to report. You resign in person at the Convener's office; 10% of the admission fee is kept and the rest is refunded later.",
+     [
+      "10% of the fee kept",
+      "warn"
+     ],
+     "As per the guideline, 10% of the admission fee will be deducted as processing charges and the rest amount will be refunded later, depends on Convener office.",
+     "faq: FAQ 9, p.2; g: cl. I.11, p.9; rw: p.1"
+    ]
+   ],
+   "gaps": [
+    "whether a candidate who waits for the automatic upgrade keeps the Round 1 seat meanwhile.",
+    "what happens if you don't take admission: the Convener's notice of 28/11/2025 says a candidate allotted their first choice who doesn't turn up won't be considered, while cl. I.12 treats not completing reporting at the college as resigning after admission (Rs 10,00,000). No document says which applies."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "Keep your seat or move up",
+     "info"
+    ],
+    [
+     "New seat: join, or lose both",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Everyone on the State merit list can lock choices; those admitted in Round 1 needn't resign first.",
+     "faq: FAQ 1, p.1; FAQ 6, p.2"
+    ],
+    [
+     "A candidate already admitted in their first preference shouldn't give choices; the Convener says this helps others plan theirs.",
+     "faq: FAQ 1, p.1"
+    ],
+    [
+     "Seats show as clear vacancies or as virtual vacancies (shown as zero, freed when others move up): list a college and subject even at zero to be considered for it.",
+     "faq: FAQ 2, p.1; n28: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted a new seat",
+     "Your Round 1 admission is cancelled automatically and you must take the new seat. If you don't, you lose both seats.",
+     [
+      "Join, or lose both",
+      "stop"
+     ],
+     "And you are bound to take admission in the allotted Round-2 college/subject, else, you will loose both your seat (Round-1 / Upgraded Round-1 admitted seat as well as Round-2 allotted seat).",
+     "faq: FAQ 3, p.1"
+    ],
+    [
+     "No new seat",
+     "Your Round 1 admission stays.",
+     [
+      "Seat kept",
+      "ok"
+     ],
+     "your Round-1 / Upgraded Round-1 admission will remain intact.",
+     "faq: FAQ 4, p.1"
+    ],
+    [
+     "Upgraded: fees",
+     "If you paid the admission fee in Round 1, you pay only the difference, if any.",
+     [
+      "Pay the difference",
+      "info"
+     ],
+     null,
+     "n32: p.1"
+    ]
+   ],
+   "gaps": [
+    "what \"float\" and \"freeze\", named in the guidelines, mean: none of the Odisha documents we hold defines them.",
+    "whether not taking a Round 2 seat also brings the Rs 10,00,000 penalty of cl. I.12 (see Round 1)."
+   ]
+  },
+  "r3": {
+   "title": "Round 3 (mop-up)",
+   "chips": [
+    [
+     "In person at Cuttack",
+     "info"
+    ],
+    [
+     "Admitted: final this round",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "In 2025-26 the Convener's notice of 22/12/2025 let every registered candidate on the State merit list take part in the mop-up, whether allotted, not allotted or admitted in State counselling, citing MCC's revised bulletin; it doesn't mention candidates holding an AIQ seat. The guidelines say seat-holders at the end of Round 2 may not take part in later counselling, or as MCC notifies; no document says that clause was withdrawn.",
+     "n32: p.1; g: cl. I.10, p.9"
+    ],
+    [
+     "Before this round, candidates admitted in Rounds 1 and 2 could resign in a window (5 to 7 February 2026).",
+     "n30: p.1"
+    ],
+    [
+     "It runs in person at the Convener's office, category by category, with the original College Leaving Certificate and the admission fee; late arrivals get only the seats left.",
+     "n30: p.1; g: cl. 13.7, p.10"
+    ]
+   ],
+   "opts": [
+    [
+     "Admitted",
+     "The seat is final for this round: you can't change seat or subject in the same mop-up. You can still resign through the college's Dean and Principal. Clause J(3) charges Rs 10,00,000 plus the stipend drawn, with no refund of admission fees, for resigning after admission, while clause I.12 ties that penalty to resigning after the mop-up round is complete; the guidelines don't reconcile the two.",
+     [
+      "Final this round",
+      "warn"
+     ],
+     "Candidates once admitted in a seat in mop up round is final and are not allowed to change the seat/subject in the same mop up counselling.",
+     "g: cl. 13.5, p.10; cl. I.12, p.9; cl. J(3), p.12"
+    ],
+    [
+     "Missing papers or fee",
+     "Without the original College Leaving Certificate and the fee you aren't admitted, and the next candidate is.",
+     [
+      "Seat goes to the next",
+      "stop"
+     ],
+     "The CLC in original and the admission fees are mandatory failing which, no admission will be given and the next candidate in merit will be admitted.",
+     "g: cl. 13.1, p.10"
+    ],
+    [
+     "Resign after this round",
+     "Resigning any time after the mop-up round is complete, or not completing reporting at the college in time, counts as resigning after admission: the Rs 10,00,000 penalty applies (see Leaving the course).",
+     [
+      "Rs 10,00,000",
+      "stop"
+     ],
+     "If the candidate resigns any time after the completion of mop up round or fails to complete formal physical reporting at the college within the stipulated time, it will be considered as resignation after admission but before course completion",
+     "g: cl. I.12, p.9-10; cl. J.3, p.12"
+    ]
+   ],
+   "gaps": []
+  },
+  "stray": {
+   "title": "Round 4 (stray vacancy)",
+   "chips": [
+    [
+     "Only if no seat joined",
+     "stop"
+    ],
+    [
+     "No resigning in this round",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "Candidates on the State merit list who haven't joined any AIQ or State quota seat; no fresh registration unless the cut-off is lowered.",
+     "g: cl. 14.3-14.4, p.11"
+    ],
+    [
+     "Unfilled in-service and direct seats convert to general category.",
+     "g: cl. 14.2, p.11"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted",
+     "Admission is on the spot, only with the original College Leaving Certificate and the admission fee; otherwise the next candidate is admitted.",
+     [
+      "On the spot",
+      "warn"
+     ],
+     "The CLC and the admission fees are mandatory failing which, no admission will be given and the next candidate in merit will be admitted.",
+     "g: cl. 14.7, p.11"
+    ],
+    [
+     "Resign",
+     "No resigning or surrendering an admitted seat during the stray round.",
+     [
+      "Not allowed",
+      "stop"
+     ],
+     "No candidate shall be allowed to resign/surrender from any admitted seat during stary vacancy round.",
+     "g: cl. 14.5, p.11"
+    ]
+   ],
+   "gaps": []
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "Rs 10,00,000 + stipend",
+     "stop"
+    ],
+    [
+     "Bond (amount not stated)",
+     "warn"
+    ]
+   ],
+   "who": [],
+   "opts": [
+    [
+     "Resign after admission",
+     "Before finishing the course: Rs 10,00,000 plus the stipend or salary received so far, and none of the admission fees back.",
+     [
+      "Rs 10,00,000 + stipend",
+      "stop"
+     ],
+     "he/ she has to pay a sum of Rs.10,00,000/-(Rupees ten lakh) as a financial penalty along with the amount of stipend/ salary received by him/ her till the date of resignation",
+     "g: cl. J.3, p.12"
+    ],
+    [
+     "Bond (government colleges)",
+     "Candidates (except in private colleges) submit a bond, signed with sureties, at provisional admission. The guidelines give no amount, and no years of service except for PSU in-service candidates who take the stipend: two years with the State Government.",
+     [
+      "Bond",
+      "warn"
+     ],
+     "Candidates (except those opting for seat in private medical colleges) selected for PG/Diploma course shall submit the bond in prescribed format duly signed by the candidate and sureties at the time of provisional admission.",
+     "g: cl. J.5, p.12; cl. M.4, p.14-15"
+    ]
+   ],
+   "gaps": [
+    "the bond's amount, and its years of service except for PSU in-service candidates who take the stipend (two years)."
+   ]
+  }
+ },
+ "cross": {},
+ "money": {
+  "reg": [
+   "Rs 2,500 counselling fee, non-refundable; a second Rs 2,500 if you also apply for the NBEMS diploma.",
+   "g: cl. I.5, p.8; fee: p.1"
+  ],
+  "dep": [
+   "No counselling security deposit is mentioned in the guidelines or fee notices. Admission fees at the Convener's office: Rs 58,800 for MD/MS in government colleges (including a Rs 15,000 refundable college deposit; university fees extra, hostel separate); private colleges charge more.",
+   "g: cl. K.1, p.12-13; fee: p.1"
+  ],
+  "lose": [
+   "Surrendering a seat in a resignation window: 10% of the admission fee.",
+   "g: cl. I.11, p.9; faq: FAQ 9, p.2"
+  ],
+  "back": [
+   "90% of the admission fee, refunded later.",
+   "g: cl. I.11, p.9; faq: FAQ 9, p.2"
+  ],
+  "leave": [
+   "Rs 10,00,000 + stipend or salary received; admission fees not refunded; a bond for government seats.",
+   "g: cl. J.3, J.5, p.12"
+  ]
+ }
+}

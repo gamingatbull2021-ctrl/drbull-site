@@ -1,0 +1,283 @@
+{
+ "code": "BR",
+ "label": "Bihar",
+ "sub": "State quota, via BCECEB",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "br": {
+   "name": "BCECEB Prospectus, Post Graduate Medical Admission Counselling-2025 (PGMAC-2025)",
+   "short": "BR prospectus",
+   "url": "https://bceceboard.bihar.gov.in/pdf_Pros/PROS_PGMAC25.pdf"
+  },
+  "a24": {
+   "name": "BCECEB Advt. No. BCECEB(PGMAC)-2025/24, 22.02.2026 (Stray Vacancy Round)",
+   "short": "Advt. 24",
+   "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_PGMAC25_24.pdf"
+  }
+ },
+ "doc": "br",
+ "notes": [
+  [
+   "Bihar's prospectus is in English, but its bond rules (Annexure-4) are in Hindi: the lines about the bond are our English.",
+   "Annexure-4, p.48"
+  ]
+ ],
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "Tick upgrade Yes or No",
+     "info"
+    ],
+    [
+     "No-show: rules conflict",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "NEET-PG 2025 candidates who applied online and paid the Rs 2,200 counselling fee and the security deposit; one registration covers Rounds 1 and 2.",
+     "cl. 8.4, p.12; p.10; p.2"
+    ],
+    [
+     "A doctor already admitted to a PG seat from an earlier test can take part, but can't be admitted to a course of another speciality unless they resign that seat within 7 days of the new allotment order, return all the pay and benefits taken for it, and pay any compensation the Government fixed before this counselling began.",
+     "cl. 9.2(ix), p.15"
+    ]
+   ],
+   "opts": [
+    [
+     "Want an upgrade",
+     "Tick upgrade \"Yes\" when you download the Round 1 allotment order. You still report for document verification and take admission at your Round 1 seat, then wait for the Round 2 result.",
+     [
+      "Report anyway",
+      "info"
+     ],
+     "If the candidate is not satisfied with their allotted seat, they must select up-gradation \"Yes\" in the process of downloading the Provisional Allotment Order of 1st round.",
+     "cl. 8.10, p.12; cl. 8.10(a), p.12"
+    ],
+    [
+     "Don't report or join",
+     "The seat is cancelled and you're treated as \"Free Exit\". Other clauses say a selected candidate who doesn't join loses the security deposit, and the prospectus doesn't reconcile the two.",
+     [
+      "Free Exit; other clauses: deposit lost",
+      "warn"
+     ],
+     "If candidate fails to complete Document Verification / Admission process, the allotted seat will get cancelled and candidae will be treated as \"Free Exit\".",
+     "cl. 8.10(a), p.12; cl. 9.2(iv), p.14; cl. 10(ix), p.16"
+    ]
+   ],
+   "gaps": [
+    "whether \"Free Exit\" covers a candidate who joins and then leaves before Round 2."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "Upgrade: move your certificates",
+     "info"
+    ],
+    [
+     "Don't join: deposit lost",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "Candidates who ticked upgrade \"Yes\" and verified in Round 1 wait for the Round 2 result; registration for Round 2 was part of Round 1's. Others may be allotted in Round 2 too (see below).",
+     "cl. 8.10, p.12; p.2"
+    ]
+   ],
+   "opts": [
+    [
+     "Upgraded",
+     "Take your original certificates back from the Round 1 college, and complete verification and admission at the new seat.",
+     [
+      "Move to the new seat",
+      "info"
+     ],
+     "If any candidate's upgradation for Round-2 Counselling is \"Yes\" and gets allotted a seat through Round-2 Counselling, he / she has to report physically at reporting centre by withdrawing his / her original certificate from the alloted institute alongwith Document Verification slip of Round-1 Counselling for Document Verification",
+     "cl. 8.10(b), p.12-13"
+    ],
+    [
+     "Don't complete admission",
+     "Your security deposit is forfeited and the Round 2 seat is cancelled.",
+     [
+      "Deposit lost",
+      "warn"
+     ],
+     "If candidate fails to complete Document Verification / Admission process, then in such case their paid Security Deposit will be forfeited and the allotted seat will be cancelled.",
+     "cl. 8.10(b), p.12-13"
+    ]
+   ],
+   "gaps": [
+    "what happens to your Round 1 seat if you don't take the Round 2 seat.",
+    "who else may take part in Round 2: the prospectus has no separate rule."
+   ]
+  },
+  "r3": {
+   "title": "Round 3",
+   "chips": [
+    [
+     "Few rules in the prospectus",
+     "info"
+    ],
+    [
+     "Don't join: deposit lost",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "The prospectus names Round 3 but gives no rules of its own for it. It says the updated NMC, MCC and NBEMS rules for each round will be followed, and that in any discrepancy the updated NMC or MCC rules or the prospectus are followed.",
+     "cl. 9.1(b), p.14; cl. 16, p.16; cl. 8.11, p.13"
+    ],
+    [
+     "In 2025-26, Round 2 allottees whose deposit was forfeited took part in Round 3 after paying the counselling fee and security deposit again.",
+     "a24: para 10(c), p.4"
+    ]
+   ],
+   "opts": [
+    [
+     "Don't join",
+     "The general rule: a selected candidate who doesn't join in time may be rejected, and loses the security deposit.",
+     [
+      "Deposit lost",
+      "warn"
+     ],
+     "A candidate, if found eligible in all respect after due verification of his documents and identity, will have to join the course within prescribed period of time failing which the candidature of the candidate may be rejected and deposited security deposit will be forfeited",
+     "cl. 9.2(iv), p.14"
+    ]
+   ],
+   "gaps": [
+    "who may take part in Round 3, and whether you can upgrade in it: the prospectus doesn't say, and the stray-round notice mentions only the fresh-payment case above."
+   ]
+  },
+  "stray": {
+   "title": "Stray vacancy round",
+   "chips": [
+    [
+     "Seat-holders out",
+     "stop"
+    ],
+    [
+     "Don't join: deposit lost + out",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Candidates who hadn't registered, or registered but didn't submit the application with the counselling fee and security deposit (and aren't admitted in any medical college in India); and earlier applicants who give consent online, unless excluded below.",
+     "a24: para 1, p.1"
+    ],
+    [
+     "Not eligible: anyone admitted in Rounds 1 or 2 or allotted in Round 3; anyone admitted through MCC's AIQ Rounds 1 to 3 or allotted in the AIQ stray round; anyone admitted in any medical college in India; and anyone excluded by the earlier rounds' advertisements, which we don't have.",
+     "a24: para 4, p.1"
+    ],
+    [
+     "A Round 2 allottee whose deposit was forfeited and who skipped Round 3 gives consent with a fresh counselling fee and security deposit.",
+     "a24: para 10(b), p.4"
+    ]
+   ],
+   "opts": [
+    [
+     "Don't join",
+     "You lose the security deposit and the seat, and can't take part in any further round.",
+     [
+      "Deposit lost + out",
+      "stop"
+     ],
+     "then their paid Security Deposit amount will be forfeited and the allotted seat will be cancelled as well as will not be eligible for further Round Counselling (if conducted).",
+     "a24: para 20, p.5"
+    ],
+    [
+     "Allotted in MCC's AIQ stray round",
+     "Candidates allotted a seat in MCC's AIQ stray round aren't eligible. If one still gets a seat here, it's cancelled and the security deposit forfeited.",
+     [
+      "Deposit lost",
+      "stop"
+     ],
+     "Such candidates who have been allotted a seat through Stray Vacancy Round Counselling of AIQ conducted by MCC are not eligible for PGMAC-2025 Stray Vacancy Round Counselling.",
+     "a24: para 7, p.1-2"
+    ]
+   ],
+   "gaps": []
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "Rs 15 lakh + stipend",
+     "stop"
+    ],
+    [
+     "3 years' service or Rs 25 lakh",
+     "warn"
+    ]
+   ],
+   "who": [],
+   "opts": [
+    [
+     "Leave after admission",
+     "In the State's government medical colleges you sign a bond at admission: leaving the course means paying Rs 15 lakh and repaying all the stipend received, in one sum.",
+     [
+      "Rs 15 lakh + stipend",
+      "stop"
+     ],
+     null,
+     "Annexure-4, p.48"
+    ],
+    [
+     "Service after PG",
+     "Serve the State Government for 3 years after passing PG, or pay Rs 25 lakh plus the salary received in that period. The State relaxed this bond for All-India-quota students in its government colleges who already serve the Union Government, another State or another state body.",
+     [
+      "3 years or Rs 25 lakh",
+      "warn"
+     ],
+     null,
+     "Annexure-4, p.48; Annexure-4(ii), p.51"
+    ],
+    [
+     "Move to another PG course",
+     "Taking a seat from this counselling ends your claim to an earlier PG course, and you refund all the stipend paid for it.",
+     [
+      "Refund stipend",
+      "warn"
+     ],
+     null,
+     "cl. 6.6(iv), p.7"
+    ]
+   ],
+   "gaps": [
+    "whether the Rs 15 lakh bond applies to someone who leaves between rounds: it says \"after admission\".",
+    "whether the bond covers private-college seats: the resolution's own text takes it from PG entrants 'in all medical colleges of the State', but its subject line and the prospectus (cl. 9.2(x)) speak only of government colleges."
+   ]
+  }
+ },
+ "cross": {},
+ "money": {
+  "reg": [
+   "Rs 2,200 counselling fee (all categories), non-refundable; a payment processing charge is extra.",
+   "p.10"
+  ],
+  "dep": [
+   "Rs 25,000 (Rs 12,500 SC/ST/EBC/BC) for government colleges; Rs 2,00,000 for private colleges, or both.",
+   "p.10"
+  ],
+  "lose": [
+   "A Round 2 seat whose admission you don't complete; a selected seat you don't join in time; a stray-round seat you don't take.",
+   "cl. 8.10(b), p.12-13; cl. 9.2(iv), p.14; a24: para 20, p.5"
+  ],
+  "back": [
+   "Security-deposit refunds, where due, start only after all the rounds, including the stray round, are over.",
+   "cl. 13, p.16"
+  ],
+  "leave": [
+   "Government colleges: Rs 15 lakh + all stipend received; after PG, 3 years' State service or Rs 25 lakh + salary.",
+   "Annexure-4, p.48"
+  ]
+ }
+}

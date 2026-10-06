@@ -1,0 +1,366 @@
+{
+ "code": "HP",
+ "label": "Himachal Pradesh",
+ "sub": "State quota, via AMRU Mandi for the Medical Education department",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "hp": {
+   "name": "AMRU Prospectus, PG MD/MS/DNB counselling, Session 2025-2026 (released 25/10/2025), with the Government's PG/SS Policy 2025 notification of 15.10.2025 bound in",
+   "short": "HP prospectus",
+   "url": "https://amruhp.ac.in/wp-content/uploads/2025/10/Final-Corrected-PG-MD-MS-2025-merged-prospcus-for-website.pdf"
+  },
+  "n14": {
+   "name": "AMRU notice and revised schedule for the 3rd round and stray round (hand-dated 10-02-2026)",
+   "short": "Notice 10/02/2026",
+   "url": "https://amruhp.ac.in/wp-content/uploads/2026/02/notice-and-revised-schedle-for-3rd-round-counselling-and-stray-round.pdf"
+  },
+  "n15": {
+   "name": "AMRU notice on vacating State quota seats after MCC's Round 3 (hand-dated, appears to read 06.02.2026)",
+   "short": "Notice after MCC Round 3",
+   "url": "https://amruhp.ac.in/wp-content/uploads/2026/02/pg-md-ms-seat-left-notice-3rd-round-counselling-2025.pdf"
+  },
+  "n13": {
+   "name": "AMRU notice of 16.02.2026 (vacating State quota seats with forfeiture of the token amount)",
+   "short": "Notice 16/02/2026",
+   "url": "https://amruhp.ac.in/wp-content/uploads/2026/02/notice-for-state-quota-candidate-vacant-their-seats-.pdf"
+  },
+  "n12": {
+   "name": "AMRU notice hand-dated 19-02-2026 (vacating seats before the stray round)",
+   "short": "Notice 19/02/2026",
+   "url": "https://amruhp.ac.in/wp-content/uploads/2026/02/Notice-for-vacante-PG-MD-MS-seats.pdf"
+  },
+  "n17": {
+   "name": "AMRU notice hand-dated 15-01-2026 (lowered NEET-PG cut-off; fresh applications for the 3rd round)",
+   "short": "Notice 15/01/2026",
+   "url": "https://amruhp.ac.in/wp-content/uploads/2026/01/PG-md-ms-cut-of-reduce.pdf"
+  }
+ },
+ "doc": "hp",
+ "notes": [
+  [
+   "Himachal runs each round by its own rules: once a round starts, the earlier round's rules no longer apply.",
+   "Chapter 6, p.17"
+  ]
+ ],
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "Join to upgrade later",
+     "info"
+    ],
+    [
+     "Don't join: seat lost",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "Register, pay the non-refundable registration fee, and fill and lock choices.",
+     "cl. 6.5.1, p.18"
+    ],
+    [
+     "AMRU bars candidates admitted through MCC's all-India counselling up to Round 3 from its State counselling; the prospectus words this as applying after such admission.",
+     "cl. 6.3, p.18; n15: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Join",
+     "Report in person to the allotted college with original documents. Only a candidate who has joined can upgrade in Round 2.",
+     [
+      "Join to upgrade",
+      "info"
+     ],
+     "Upgradation: Candidates wishing to upgrade to Round-2 must complete admission formalities in Round-1.",
+     "cl. 6.5.1(5), p.18; cl. 6.5.1(4), p.18"
+    ],
+    [
+     "Don't join",
+     "You lose the seat. Where a token amount was paid, it's forfeited when an allotted seat isn't joined.",
+     [
+      "Seat lost",
+      "warn"
+     ],
+     "Non-Joining: Candidates failing to report within the prescribed time shall forfeit their provisional allocation.",
+     "cl. 6.5.1(6), p.18; cl. 6.2.3, p.17"
+    ]
+   ],
+   "gaps": [
+    "whether a token amount is due in Round 1: this round's clause lists only the registration fee.",
+    "a free exit after joining. AMRU's later notices let admitted candidates vacate on set dates (see Round 3 and the stray round).",
+    "whether 'admitted' through MCC means joined or only allotted. The prospectus (cl. 6.3) and AMRU's notice of 06.02.2026 bar anyone admitted through MCC's counselling up to Round 3 from AMRU's State counselling after that, which on its face includes a seat taken before AMRU's Round 1."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "Token to take part",
+     "warn"
+    ],
+    [
+     "Upgrade or keep your seat",
+     "ok"
+    ]
+   ],
+   "who": [
+    [
+     "Round 1 registrants needn't register again; fresh registration is for new candidates only.",
+     "cl. 6.5.2, p.18-19"
+    ],
+    [
+     "Everyone fills and locks fresh choices with the applicable token amount: Rs 39,000 for government colleges, Rs 5,00,000 for private colleges.",
+     "cl. 6.5.2, p.18-19; cl. 6.2.1, p.17"
+    ],
+    [
+     "A token paid in an earlier round where no seat was allotted needn't be paid again.",
+     "cl. 6.2.2, p.17"
+    ]
+   ],
+   "opts": [
+    [
+     "Upgraded",
+     "You move to the new seat and lose any claim on the old one.",
+     [
+      "Old seat gone",
+      "info"
+     ],
+     "Candidates upgraded in Round-2 shall have no claim over the previous seat.",
+     "cl. 6.5.2, p.18-19"
+    ],
+    [
+     "Not upgraded",
+     "You may keep your earlier seat.",
+     [
+      "Seat kept",
+      "ok"
+     ],
+     "If no upgradation occurs, the candidate may retain the earlier seat.",
+     "cl. 6.5.2, p.18-19"
+    ],
+    [
+     "Don't join",
+     "The allotment lapses after the round's last date of admission, and the token is forfeited.",
+     [
+      "Token lost",
+      "warn"
+     ],
+     "It shall be forfeited if the candidate fails to join the allotted seat.",
+     "cl. 6.2.3, p.17-18; cl. 6.5.2(9), p.19"
+    ]
+   ],
+   "gaps": [
+    "whether a candidate who joined a Round 1 seat pays the token again to upgrade: not said in so many words, but Round 2 choice filling 'with applicable token amount' is mandatory (cl. 6.5.2(4)), only a token paid in a round with no seat is carried over (cl. 6.2.2), and a joined candidate's token goes to the college (cl. 6.2.3), so the rules point to paying again."
+   ]
+  },
+  "r3": {
+   "title": "Round 3",
+   "chips": [
+    [
+     "Don't join: no later rounds",
+     "stop"
+    ],
+    [
+     "Seats convert after this round",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Unregistered candidates can register; everyone fills and locks fresh choices; upgrading across colleges and subjects is allowed.",
+     "cl. 6.5.3, p.19"
+    ],
+    [
+     "In 2025-26, after the NEET-PG cut-off was lowered, AMRU invited fresh applications for this round.",
+     "n17: p.1"
+    ],
+    [
+     "In 2025-26, candidates admitted in State Rounds 1 or 2 who got a seat in MCC's Round 3 could vacate the State seat without losing the token, by 5 PM on 07.02.2026. Those who vacated couldn't take part in AMRU's State Round 3, and anyone admitted through MCC's counselling up to Round 3 can't take part in any State round.",
+     "n15: p.1"
+    ],
+    [
+     "At the end of this round, vacant reserved seats first go to the same category in the other quota (direct or in-service); then vacant SC seats go to ST candidates and vice versa, then to General, and vacant PwD seats go to General. Unused NRI seats become management seats, filled in this round.",
+     "cl. 6.6, p.19"
+    ]
+   ],
+   "opts": [
+    [
+     "Don't join",
+     "You can't take part in any later round, and the token is forfeited.",
+     [
+      "Out of later rounds",
+      "stop"
+     ],
+     "Non-joining after allotment in Round-3 shall render the candidate ineligible for further rounds.",
+     "cl. 6.5.3, p.19; cl. 6.2.3, p.17"
+    ],
+    [
+     "Upgraded",
+     "You lose any claim on the earlier seat.",
+     [
+      "Old seat gone",
+      "info"
+     ],
+     "Candidates upgraded in Round-3 shall have no claim on earlier seats.",
+     "cl. 6.5.3, p.19"
+    ],
+    [
+     "Don't want this round",
+     "In 2025-26, candidates who didn't want to take part were advised to reset or delete their choices by the extended deadline (2 PM, 11.02.2026); no request was taken after it.",
+     [
+      "Reset in time",
+      "info"
+     ],
+     "Candidates who are not willing to participate in the 3rd Round of Counselling are advised to reset/delete their choices through their respective logins within the above-mentioned time. After the stipulated time, no request in this regard shall be entertained.",
+     "n14: p.1"
+    ]
+   ],
+   "gaps": [
+    "whether \"admitted\" through MCC means joined, or only allotted."
+   ]
+  },
+  "stray": {
+   "title": "Stray round",
+   "chips": [
+    [
+     "Private-to-government upgrade only",
+     "info"
+    ],
+    [
+     "Don't report: out",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Registered candidates needn't register again; new candidates register with the full fee; everyone fills fresh choices.",
+     "cl. 6.7, p.20"
+    ],
+    [
+     "Not anyone admitted to a seat in AMRU's Rounds 1 to 3, or shown as admitted on MCC's portal after Round 3.",
+     "cl. 6.3, p.18; Section 12, p.6"
+    ],
+    [
+     "In 2025-26, candidates admitted in State Rounds 1 and 2 could vacate their seats by 2 PM on 17.02.2026, with the token forfeited. The notice gives seat allotments to candidates elsewhere as its reason, without explaining it.",
+     "n13: p.1"
+    ],
+    [
+     "A later notice let candidates admitted in an earlier round vacate by 7 PM on 19.02.2026, with the token forfeited; those who vacated couldn't take part in the next State round.",
+     "n12: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Upgrade",
+     "No moving between colleges or courses, except moving up from a private college to a government college, by merit and choices.",
+     [
+      "Private to government only",
+      "info"
+     ],
+     "No inter-shifting from one Medical College or Course to another Medical College or Course shall be allowed during the Stray Round of Counseling as per MCC guidelines. However, shifting for up-gradation of course and quota from Private Medical Colleges to Govt. Medical College in order of merit-cum choices/preferences of the course, college & quota shall be allowed",
+     "cl. 6.7, p.20"
+    ],
+    [
+     "Don't report",
+     "You lose the seat and can't take part in any later round.",
+     [
+      "Out",
+      "stop"
+     ],
+     "Candidates not reporting shall forfeit their seat and will not be eligible for further rounds.",
+     "cl. 6.7, p.20"
+    ]
+   ],
+   "gaps": [
+    "the rules of the second stray round held in 2025-26: the prospectus describes one stray round."
+   ]
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "Rs 10 lakh + 18% + stipend",
+     "stop"
+    ],
+    [
+     "Bond: 2 years or Rs 40 lakh",
+     "warn"
+    ]
+   ],
+   "who": [],
+   "opts": [
+    [
+     "Leave after the cut-off date (government college)",
+     "No fee is refunded if you leave after the last cut-off date of admission.",
+     [
+      "No refund",
+      "warn"
+     ],
+     "No fee shall be refunded if the candidate leaves the PG degree course after the last cut-off date of admission.",
+     "cl. 8.2.3, p.22"
+    ],
+    [
+     "Leave midway (government college)",
+     "A direct candidate pays the State Government Rs 10 lakh plus 18% interest a year, and the stipend drawn.",
+     [
+      "Rs 10 lakh + 18% + stipend",
+      "stop"
+     ],
+     null,
+     "notification cl. 6.2.3, p.55; cl. 9.3, p.58"
+    ],
+    [
+     "Service bond (government college)",
+     "Direct candidates on State or All India quota seats in government colleges serve the State for at least 2 years after the course, including 1 year of field posting, or pay Rs 40 lakh (Rs 90 lakh where bond periods are clubbed). The original bachelor degree is held until the bond period is served or the amount is paid.",
+     [
+      "2 years or Rs 40 lakh",
+      "warn"
+     ],
+     null,
+     "notification cl. 6.1, p.54; cl. 6.2.1-6.2.2, p.55"
+    ],
+    [
+     "Leave midway (in-service doctor)",
+     "A sponsored in-service doctor who leaves is barred from PG entrance exams in and outside Himachal for 5 years, and pays Rs 10 lakh plus 18% interest and the salary drawn. The Rs 10 lakh is waived for justified reasons if they leave within 90 days of the course starting.",
+     [
+      "5-year bar + Rs 10 lakh",
+      "stop"
+     ],
+     null,
+     "notification cl. 9.1-9.2, p.57"
+    ]
+   ],
+   "gaps": [
+    "whether vacating a seat between rounds counts as leaving \"midway\": the notification doesn't define it.",
+    "the private college's (MMMC Solan) bond, stipend and hostel terms: they're in its own prospectus. Its course-wise tuition fees (and NRI fees in USD) are in this prospectus (cl. 8.3)."
+   ]
+  }
+ },
+ "cross": {},
+ "money": {
+  "reg": [
+   "Rs 3,600 (General/EWS), Rs 2,500 (SC/ST), none for PwD. Non-refundable.",
+   "cover, p.1; cl. 5.2, p.14"
+  ],
+  "dep": [
+   "Token: Rs 39,000 for government colleges, Rs 5,00,000 for private colleges (the higher one if you opt for both State and Management quota).",
+   "cl. 6.2.1, p.17"
+  ],
+  "lose": [
+   "The token, for an allotted seat you don't join.",
+   "cl. 6.2.3, p.17-18"
+  ],
+  "back": [
+   "Refunded if no seat is allotted in any round, only to the account you paid from; claim within six months of the last date of admission. When you're admitted, it goes to the college after verification.",
+   "cl. 6.2.3, p.17-18"
+  ],
+  "leave": [
+   "Government college: no fee refund if you leave after the last cut-off date; a direct candidate who leaves midway pays Rs 10 lakh + 18% a year + the stipend drawn. Separately, the 2-year service bond (Rs 40 lakh if not served) applies after the course.",
+   "cl. 8.2.3, p.22; notification cl. 6.1, p.54; cl. 6.2.1, p.55; cl. 6.2.3, p.55"
+  ]
+ }
+}

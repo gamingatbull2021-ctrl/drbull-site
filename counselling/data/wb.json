@@ -1,0 +1,272 @@
+{
+ "code": "WB",
+ "label": "West Bengal",
+ "sub": "State quota, via WBMCC",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "wb": {
+   "name": "WBMCC Notice cum Information Bulletin, PG Medical 2025 (Memo HFW-23099/206/2023/M/2817, 03.11.2025)",
+   "short": "WB bulletin",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2025/11/20251103730738682.pdf",
+   "note": "The bulletin is a scanned image; its quotes were read from the page."
+  }
+ },
+ "doc": "wb",
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "Surrender free, but you're out",
+     "stop"
+    ],
+    [
+     "Say yes to Round 2 at admission",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Register, pay the Rs 3,000 counselling fee, pass the physical document check before choices, then fill and lock choices.",
+     "cl. 21 A, p.8; fee: cl. 24, pp.14-15"
+    ]
+   ],
+   "opts": [
+    [
+     "Join, try Round 2",
+     "At admission you're asked whether you want Round 2. Only a yes printed on the admission slip keeps you in.",
+     [
+      "Seat kept",
+      "ok"
+     ],
+     "During the admission process of round 1, the allotted candidate shall be asked to provide willingness for participation in subsequent round at the allotted college. If the willingness is affirmative, this shall be mentioned clearly in the server generated admission slip and then only the candidate remains eligible to participate in round 2.",
+     "p.9"
+    ],
+    [
+     "Don't report",
+     "You go on to Round 2 without registering or paying again.",
+     [
+      "Nothing to pay again",
+      "ok"
+     ],
+     "The Round 1 allotted but non-reported candidate is allowed to appear in Round 2 without fresh registration and without payment of fees for choice filling.",
+     "p.8"
+    ],
+    [
+     "Surrender after joining",
+     "No penalty money, but you're out of the counselling. You apply in person at the college in WBMCC's time slot and must get the server-generated surrender letter; otherwise you stay on the college's admitted list.",
+     [
+      "Free, then out",
+      "stop"
+     ],
+     "The seat surrender of the admitted candidate during the process of Round 1 admission is allowed without any penalty money.",
+     "p.8"
+    ]
+   ],
+   "gaps": [
+    "anything on candidates who hold an MCC seat."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "Surrender: admission fees lost",
+     "warn"
+    ],
+    [
+     "Don't report: pay again",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "Round 1 joiners who said yes; the verified who weren't allotted or didn't fill choices in Round 1; Round 1 non-reporters (no fee); those whose Round 1 seat was cancelled for documents but who remain eligible; those who missed document verification (after paying again); fresh registrations.",
+     "p.10"
+    ],
+    [
+     "Not those who joined in Round 1 without saying yes, or who surrendered a seat.",
+     "p.10"
+    ]
+   ],
+   "opts": [
+    [
+     "Upgraded",
+     "You lose any claim to the earlier seat.",
+     [
+      "Earlier seat gone",
+      "info"
+     ],
+     "The candidates who opt for up-gradation for the subsequent round/s, filled choice afresh in the subsequent round and upgraded accordingly as per the inter se merit, has no claim of the previously allotted seat.",
+     "p.7"
+    ],
+    [
+     "Don't report",
+     "You can enter Round 3 by paying the counselling fee again.",
+     [
+      "Rs 3,000 again",
+      "warn"
+     ],
+     "The non reported candidate in Round 2 allotted seat is allowed to appear in Round 3 without fresh registration but after payment of the counseling fees once again for choice filling.",
+     "p.8; fee: cl. 24, p.14"
+    ],
+    [
+     "Surrender after joining",
+     "Allowed, but you forfeit the admission fees and you're out of the counselling. You apply in person at the college in WBMCC's time slot and must get the server-generated surrender letter; otherwise you stay on the college's admitted list.",
+     [
+      "Admission fees lost",
+      "warn"
+     ],
+     "The seat surrender of the admitted candidate during the process of Round 2 admission is allowed but with forfeiture of admission fees.",
+     "p.8"
+    ]
+   ],
+   "gaps": []
+  },
+  "r3": {
+   "title": "Round 3",
+   "chips": [
+    [
+     "Joined: no surrender",
+     "stop"
+    ],
+    [
+     "Don't report: out",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "The verified who were not allotted till Round 2 or didn't fill choices (no fee again); Round 2 joiners who said yes; Round 2 non-reporters (after paying the counselling fee again); those whose Round 2 seat was cancelled for documents but who remain eligible; fresh registrations.",
+     "p.11"
+    ]
+   ],
+   "opts": [
+    [
+     "Join",
+     "You stay out of later rounds and can't surrender the seat while counselling runs.",
+     [
+      "Final seat",
+      "stop"
+     ],
+     "The seat surrender is not allowed from Round 3 counseling any further till the counseling process is over.",
+     "p.8; p.11"
+    ],
+    [
+     "Don't report",
+     "You're out of the counselling.",
+     [
+      "Out",
+      "stop"
+     ],
+     "The candidate who remains not reported in Round 3 after allotment are not allowed any further in counseling process and they are out of the counseling process.",
+     "p.11"
+    ]
+   ],
+   "gaps": []
+  },
+  "stray": {
+   "title": "Stray round",
+   "chips": [
+    [
+     "Joined: no surrender",
+     "stop"
+    ],
+    [
+     "No upgrade",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Fresh registration is open; registered candidates with no seat after Round 3 take part without paying again.",
+     "p.12"
+    ]
+   ],
+   "opts": [
+    [
+     "Join",
+     "You can't surrender the seat, and there's no upgrade in this round.",
+     [
+      "Final seat",
+      "stop"
+     ],
+     "Candidates who have admitted/joined the allotted seat in Online Stray Vacancy Round are not allowed to surrender their seats.",
+     "p.12"
+    ],
+    [
+     "Don't report",
+     "You're out of the counselling.",
+     [
+      "Out",
+      "stop"
+     ],
+     "The candidates who remain not reported during Online Stray Vacancy Round counseling are out of the Counseling process.",
+     "p.12"
+    ]
+   ],
+   "gaps": []
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "Rs 5 lakh degree / Rs 2 lakh diploma",
+     "stop"
+    ]
+   ],
+   "who": [],
+   "opts": [
+    [
+     "Surrender",
+     "From Round 3 on, a seat can't be surrendered until all rounds are over; after that, only by paying the bond penalty.",
+     [
+      "Bond penalty",
+      "stop"
+     ],
+     "The seat surrender with payment of bond penalty is possible only after the counseling of all rounds are over for the session 2025-26.",
+     "p.8"
+    ],
+    [
+     "Discontinue",
+     "Discontinuing the course at any time after admission, before it ends, costs Rs 5 lakh for a degree seat or Rs 2 lakh for a diploma seat. There is no discontinuation bond for DNB seats. Separately, open-category candidates who complete the course must serve the Government of West Bengal for 3 years (degree) or 2 years (diploma), or pay the penalty it fixes.",
+     [
+      "Rs 5 lakh / Rs 2 lakh",
+      "stop"
+     ],
+     "Discontinuation of course at any time after admission before completion of the course tenure will attract penalty of Rs. 5 lakhs for PG Medical Degree seats and Rs.2 lakhs for PG Diploma seats",
+     "cl. 12, p.3"
+    ]
+   ],
+   "gaps": [
+    "whether the \"bond penalty\" for surrender is the Rs 5 lakh / Rs 2 lakh above.",
+    "how the discontinuation penalty fits with the free Round 1 surrender and the Round 2 surrender after admission (p.8)."
+   ]
+  }
+ },
+ "cross": {},
+ "money": {
+  "reg": [
+   "Rs 3,000 counselling fee, once, non-refundable. Paid again if you miss the document check, don't report in Round 2 and want Round 3, or ask to have your category or domicile status reset after failing verification (the earlier fee is then forfeited).",
+   "cl. 24, pp.14-15; p.7; cl. 13, p.3"
+  ],
+  "dep": [
+   "None found in the bulletin.",
+   ""
+  ],
+  "lose": [
+   "Round 2 surrender: the admission fees.",
+   "p.8"
+  ],
+  "back": [
+   "Only a duplicate payment can be claimed back, after the usual reconciliation time.",
+   "p.15"
+  ],
+  "leave": [
+   "Discontinuing: Rs 5 lakh (degree) or Rs 2 lakh (diploma); no bond for DNB. After the course, open candidates serve 3 years (degree) or 2 years (diploma), or pay a penalty.",
+   "cl. 12, p.3"
+  ]
+ }
+}

@@ -1,0 +1,405 @@
+{
+ "code": "GJ",
+ "label": "Gujarat",
+ "sub": "Government, management and NRI seats, via the Admission Committee (ACPPGMEC)",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "ins": {
+   "name": "ACPPGMEC, Instructions for State Counselling Rounds 2025-2026 (Gujarati, undated)",
+   "short": "Round instructions (Gujarati)",
+   "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/R1/Instructions%20for%20State%20Counselling%20Rounds%202025-2026.pdf"
+  },
+  "a60": {
+   "name": "ACPPGMEC, Advertisement for online registration, MD/MS/Diploma 2025-26 (Round 1)",
+   "short": "Registration advertisement",
+   "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/R1/Adv.%20-%20Online%20Reg.Round%2001.pdf?v=2"
+  },
+  "proc": {
+   "name": "Admission Committee (ACPPGMEC), Updated process of online admission, MD/MS 2025",
+   "short": "Process of admission",
+   "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/R1/updated%20Process%20of%20Online%20Admission%20-%20MD-MS.pdf?v=2"
+  },
+  "guide": {
+   "name": "Admission Committee (ACPPGMEC), Guidelines for choice filling, MD/MS 2025",
+   "short": "Choice-filling guidelines",
+   "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/R1/GUIDELINES%20FOR%20CHOICE%20FILLING.pdf"
+  },
+  "steps": {
+   "name": "Admission Committee (ACPPGMEC), Steps for admission confirmation, MD/MS 2025",
+   "short": "Steps to confirm admission",
+   "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/R3/Steps%20for%20admission%20confirmation.pdf"
+  },
+  "a64": {
+   "name": "ACPPGMEC, Advertisement for admission cancellation and 3rd round online registration 2025-26",
+   "short": "Cancellation and Round 3 advertisement",
+   "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/R3/Adv.%20-%203rd%20Round%20Online%20Reg%20and%20Cancellation%202025.pdf?v=2"
+  },
+  "cp": {
+   "name": "Admission Committee (ACPPGMEC), Procedure for admission cancellation, 2025-26 copy (Round 2 folder)",
+   "short": "Cancellation procedure",
+   "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/R2/Admission%20Cancellation%20-%20Procedure.pdf?v=1"
+  },
+  "cp0": {
+   "name": "Admission Committee (ACPPGMEC), Procedure for admission cancellation, older copy (PG2024 folder, listed on the 2025 archive page; no year printed)",
+   "short": "Cancellation procedure (older copy)",
+   "url": "https://medadmgujarat.ncode.in/web/PG2024/MDMSDR1/Admission%20Cancellation%20-%20Procedure.pdf"
+  },
+  "p67": {
+   "name": "ACPPGMEC, Process for participation for 3rd online round",
+   "short": "Round 3 process",
+   "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/r3/PROCESS%20FOR%20PARTICIPATION%20FOR%203rd%20%20ROUND.pdf"
+  },
+  "a73": {
+   "name": "ACPPGMEC, Advertisement for 4th online stray vacancy round registration 2025-26",
+   "short": "Round 4 advertisement",
+   "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/R4/Adv.%20-4th%20Round%20-%20Online%20Reg.pdf"
+  },
+  "a76": {
+   "name": "ACPPGMEC, Advertisement for registration after the revised NEET-PG 2025 cut-off",
+   "short": "Revised cut-off advertisement",
+   "url": "https://medadmgujarat.ncode.in/web/PG2025/MDMS/R3/Adv.%20-%20Online%20Reg%20after%20revised%20cut%20off%20%202025.pdf"
+  },
+  "amd": {
+   "name": "Govt of Gujarat, Post-Graduate Medical admission (Amendment) Rules, 2025 (11-11-2025)",
+   "short": "Rules amendment 2025",
+   "url": "https://medadmgujarat.ncode.in/web/Notification/Seat%20Conversion%20amendment%20Rule%20Gujarat%20Professional%20Post-Graduate%20Educational%20Courses%20(Regulation%20of%20Admission)%20(Amendment)%20Rules,%202025.%20dated%2011.11.2025.pdf"
+  },
+  "bg": {
+   "name": "Govt of Gujarat, Resolution on the PG rural-service bond, government colleges (30-01-2020, Gujarati)",
+   "short": "Bond order 2020 (govt)",
+   "url": "https://medadmgujarat.ncode.in/web/PG2020/PG%20Bond%20Govt.%2030.1.2020.pdf"
+  },
+  "bs": {
+   "name": "Govt of Gujarat, Resolution on the PG rural-service bond, GMERS and self-financed colleges (30-01-2020, Gujarati)",
+   "short": "Bond order 2020 (GMERS, SFI)",
+   "url": "https://medadmgujarat.ncode.in/web/PG2020/PG%20Bond%20GMERS%20%26%20SFI%2030.01.2020.pdf"
+  }
+ },
+ "doc": "ins",
+ "notes": [
+  [
+   "Gujarat's Admission Committee counsels government, management and NRI seats together in four online rounds: Round 1, Round 2, Round 3 (earlier the mop-up) and Round 4 (the final stray vacancy round). We hold no 2025-26 prospectus; the round rules are a Gujarati notice, the 2020 bond orders are Gujarati too, and the lines from them are our English.",
+   "ins: p.1-3; a60: p.2"
+  ]
+ ],
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "Free exit for all, deposit kept",
+     "ok"
+    ],
+    [
+     "PIN Rs 3,000 + deposit Rs 25,000",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "Buy the registration PIN (Rs 3,000 non-refundable plus a Rs 25,000 refundable security deposit, Rs 28,000 in all), register, and get your documents verified at a Help Centre; then fill and lock choices. NRI candidates also give a Rs 25,000 processing draft (non-refundable, the English advertisement says).",
+     "a60: p.2; ins: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted: confirm",
+     "Pay the allotted college's tuition fee, deposit your originals at the Help Centre, report, and collect the admission order. In every round you pay one term (six months) of tuition and show the receipt; for an NRI seat the term fee is Rs 10 lakh by demand draft. NRI candidates, those with an MBBS from outside Gujarat or India, and in-service and other special-category candidates get their appointment only at GMERS Medical College, Gandhinagar.",
+     [
+      "Tuition due",
+      "info"
+     ],
+     null,
+     "ins: p.1; proc: p.4; guide: p.5; steps: p.1"
+    ],
+    [
+     "Any outcome",
+     "Whether you got no seat, didn't report, or reported, you can take part in Round 2 on your old registration, with free exit and without losing the deposit.",
+     [
+      "Free exit, deposit kept",
+      "ok"
+     ],
+     null,
+     "ins: p.1"
+    ]
+   ],
+   "gaps": [
+    "how the free exit works for a candidate who reported: the notice says only that such candidates can take part in Round 2 (the cancellation window is under Round 2)."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "Allotted, not confirmed: deposit lost",
+     "warn"
+    ],
+    [
+     "Upgraded: Round 1 seat gone",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Round 1 registrants who verified their documents needn't register again; others register fresh (Rs 28,000 PIN) and verify documents.",
+     "ins: p.1; a60: p.2"
+    ]
+   ],
+   "opts": [
+    [
+     "Upgraded",
+     "You give up your confirmed Round 1 seat. If you then don't confirm the new seat, both rules apply: you have no claim on the Round 1 seat, and not confirming a Round 2 allotment forfeits the deposit.",
+     [
+      "Round 1 seat gone",
+      "info"
+     ],
+     null,
+     "ins: p.2"
+    ],
+    [
+     "Not upgraded",
+     "Your Round 1 admission stays, with nothing more to do.",
+     [
+      "Seat kept",
+      "ok"
+     ],
+     null,
+     "ins: p.2"
+    ],
+    [
+     "Allotted: confirm",
+     "Pay the fee, deposit your originals and take the admission order; you can then take part in Round 3.",
+     [
+      "Round 3 open",
+      "info"
+     ],
+     null,
+     "ins: p.2"
+    ],
+    [
+     "Allotted: don't confirm",
+     "The refundable deposit is forfeited. To enter Round 3 you register again, with a new PIN fee and a new deposit.",
+     [
+      "Deposit lost",
+      "warn"
+     ],
+     null,
+     "ins: p.2"
+    ],
+    [
+     "Cancel a confirmed Round 1 or 2 admission",
+     "In 2025-26 the Help Centre took cancellations of Round 1 and 2 admissions from 01/01/2026 to 05/01/2026 04:00 PM. Go in person (or a parent, with an authority letter) with an application to cancel, the original admission order, a copy of the fee receipt, a self-attested copy of any all-India, deemed, central or other-state allotment letter (or, if not admitted anywhere, the cancellation application) and ID, and collect your originals. Fees are refunded after the admission process if you take no admission; no penalty or forfeiture is stated. An older copy of this paper adds that fees are adjusted if you take a Round 3 seat and that the same seat stays open to you; the 2025-26 copy leaves both out.",
+     [
+      "No penalty stated",
+      "info"
+     ],
+     "The candidates, who have confirmed their admission after submitting the original documents at the Help Center, want to cancel the admission, they will have to go to the admission reported Help Center, in-person.",
+     "cp: p.1; cp0: p.1; a64: p.2"
+    ]
+   ],
+   "gaps": [
+    "which fees are refunded on a cancelled admission (tuition, PIN fee or deposit): the cancellation paper doesn't say."
+   ]
+  },
+  "r3": {
+   "title": "Round 3 (earlier the mop-up)",
+   "chips": [
+    [
+     "Give online consent to take part",
+     "info"
+    ],
+    [
+     "After this round: final, no later round",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Give online consent, or you aren't considered. Earlier registrants who verified their documents and got no Round 2 seat needn't register again; new candidates, those who qualified under the revised cut-off, and those whose deposit was forfeited register (Rs 28,000 PIN). You can change your Round 1 and 2 choices.",
+     "p67: p.1; ins: p.2; a76: p.2"
+    ],
+    [
+     "Once every reserved-category candidate on the merit list has been admitted, unfilled reserved seats go to the unreserved category in this round; NRI seats can convert to management seats, and management seats to government quota. Each conversion happens only when eligible candidates of that category are exhausted.",
+     "amd: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Upgraded",
+     "Your Round 1 or 2 admission is cancelled automatically; report at the same Help Centre for the new admission order.",
+     [
+      "Earlier seat gone",
+      "info"
+     ],
+     "If the candidates, who have confirmed the admission of 1st round/2nd round and have given consent to participate in 3rd Online MOP UP round, have been allotted any new different seat (upgradation of admission), the admission of the 1st round/2nd round will get automatically cancelled.",
+     "p67: p.1"
+    ],
+    [
+     "Not upgraded",
+     "You keep your Round 1 or 2 seat, must study there, and can't take part in any later State or all-India round. The Gujarati notice adds that a seat confirmed in Round 2 and not upgraded in Round 3 can't be cancelled in any circumstances.",
+     [
+      "Final",
+      "stop"
+     ],
+     "If the candidates, who have confirmed the admission of 1st round/2nd round and have given consent to participate in 3rd Online MOP UP round, have not been allotted any new different seat, the admission of the 1st round/2nd round will be continued.",
+     "p67: p.2; ins: p.3"
+    ],
+    [
+     "Category or quota change in the same college",
+     "Whether or not you took part in Round 3, your earlier admission can be moved up in the same college by a change of category (ST, SC, SEBC or EWS to general, or PwD to non-PwD) or of quota (government to institutional); you needn't report to the Help Centre for it.",
+     [
+      "Nothing to do",
+      "info"
+     ],
+     "The candidate, who have participated or not participated in 3rd Online MOP UP Round, the admission of previous round can also be up-graded in the same college by change of admission category",
+     "p67: p.2"
+    ],
+    [
+     "Allotted: confirm",
+     "Pay the tuition (or the difference) and report for the admission order. The seat is final: no later State or all-India round, and it won't be cancelled in any circumstances.",
+     [
+      "Final",
+      "stop"
+     ],
+     "If candidate is allotted a seat, Candidate has to take print of allotment order of 3rd Online MOP UP round, pay the tuition fees/difference of tuition fees if any and report to the help center to get your admission order.",
+     "p67: p.1; ins: p.2-3"
+    ],
+    [
+     "Allotted: don't report",
+     "The new admission is cancelled and you're left with no seat (an upgraded candidate has lost the earlier one too); the deposit is forfeited and you're out of later rounds.",
+     [
+      "No seat + deposit lost",
+      "stop"
+     ],
+     "In case you don’t report to help center within stipulated time your new admission is treated cancelled.",
+     "p67: p.1; ins: p.3"
+    ]
+   ],
+   "gaps": [
+    "whether the English paper's 'must study there' and all-India bar, written for candidates who give Round 3 consent, also bind a Round 1 or 2 seat-holder who gives none. The Gujarati notice bars every candidate still holding a confirmed seat at the end of Round 3 from Round 4, consent or not, and says a Round 2 seat not upgraded in Round 3 can't be cancelled.",
+    "the time limit for reporting after a Round 3 allotment: the process paper says only 'within stipulated time'."
+   ]
+  },
+  "stray": {
+   "title": "Round 4 (final stray vacancy)",
+   "chips": [
+    [
+     "Only if you confirmed no seat",
+     "stop"
+    ],
+    [
+     "Round 3 allottees: out",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "New registration is open (Rs 28,000 PIN). The Gujarati notice admits candidates who confirmed no seat in State Rounds 1 to 3 and weren't allotted in Round 3; the Round 4 advertisement names only those who never registered, and Round 2 allottees who didn't confirm and didn't register for Round 3.",
+     "ins: p.3-4; a73: p.2"
+    ],
+    [
+     "Not eligible: anyone allotted a seat in Round 3, and anyone who confirmed a seat in Rounds 1 to 3 of all-India or State counselling and still held it when Round 3 ended.",
+     "a73: p.2; ins: p.4"
+    ],
+    [
+     "Give online consent, then fill fresh choices.",
+     "ins: p.4"
+    ],
+    [
+     "Round 4 offered government, management and NRI seats.",
+     "a73: p.1-2"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted",
+     "Pay the tuition fee, deposit your originals at the Help Centre and collect the admission order.",
+     [
+      "Tuition due",
+      "info"
+     ],
+     null,
+     "ins: p.4"
+    ]
+   ],
+   "gaps": [
+    "what happens to a Round 4 allottee who doesn't confirm: the documents don't say.",
+    "which candidates Round 4 admits where the Gujarati notice and the English advertisement differ."
+   ]
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "No leaving penalty stated",
+     "info"
+    ],
+    [
+     "Service bond: Rs 2 lakh to Rs 40 lakh (2020 orders)",
+     "warn"
+    ]
+   ],
+   "opts": [
+    [
+     "Leave a seat",
+     "The 2025-26 documents state no rupee penalty for leaving a seat. But a confirmed Round 3 seat, or a seat confirmed in Round 2 and not upgraded in Round 3, can't be cancelled in any circumstances, the Gujarati notice says. The 2018 admission rules, which may say more, aren't among the documents we hold.",
+     [
+      "Not stated",
+      "info"
+     ],
+     null,
+     "ins: p.3"
+    ],
+    [
+     "Service bond, government colleges (2020 order)",
+     "Government-college seats (not all-India quota) carry a Rs 40 lakh bond, given to the Dean at admission, for at least one year of rural service after the course (365 working days, public holidays included; other leave extends it), backed by a Rs 10 lakh bank or property guarantee valid 7 years and a Rs 30 lakh undertaking. The order is from 2020, says it's subject to a pending High Court appeal, and isn't restated for 2025-26.",
+     [
+      "Rs 40 lakh bond",
+      "warn"
+     ],
+     null,
+     "bg: p.3-4"
+    ],
+    [
+     "Service bond, GMERS and self-financed colleges (2020 order)",
+     "The 2020 order for these colleges is titled for SC and ST students who get a free-ship card: they give the same Rs 40 lakh bond for one year of rural service. It says other GMERS students, who pay the Fee Committee's fee, give a bond of Rs 2 lakh, or the amount GMERS fixes, for one year's service where the Government posts them. It doesn't mention full-fee students at other self-financed colleges. This order is also subject to the pending High Court appeal.",
+     [
+      "Rs 40 lakh or Rs 2 lakh",
+      "warn"
+     ],
+     null,
+     "bs: p.1; p.3-4"
+    ]
+   ],
+   "gaps": [
+    "whether the 2020 bond orders still apply in 2025-26.",
+    "whether full-fee students at self-financed colleges outside GMERS give any service bond: the 2020 order doesn't say."
+   ],
+   "who": []
+  }
+ },
+ "money": {
+  "reg": [
+   "PIN Rs 3,000, non-refundable; a new PIN is bought if you re-register after losing the deposit. NRI candidates also pay a Rs 25,000 non-refundable processing draft.",
+   "a60: p.2; ins: p.2"
+  ],
+  "dep": [
+   "Rs 25,000 refundable security deposit, paid with the PIN (Rs 28,000 in all). No category-wise or government-versus-private split is stated.",
+   "a60: p.2"
+  ],
+  "lose": [
+   "A Round 2 or Round 3 allotment you don't confirm (fee unpaid, originals not deposited). Round 4: not stated.",
+   "ins: p.2; p.3"
+  ],
+  "back": [
+   "When the deposit is refunded isn't stated. Fees on a cancelled admission are refunded after the admission process if you take no admission; which fees isn't stated.",
+   "cp: p.1"
+  ],
+  "leave": [
+   "No penalty stated for 2025-26. 2020 bond orders: Rs 40 lakh for one year of rural service at government colleges (not all-India quota) and for SC and ST free-ship students at GMERS and self-financed colleges; other GMERS students Rs 2 lakh.",
+   "bg: p.3-4; bs: p.1; p.3-4"
+  ]
+ }
+}

@@ -1,0 +1,455 @@
+{
+ "code": "KA",
+ "label": "Karnataka",
+ "sub": "State quota, via the Karnataka Examinations Authority (KEA)",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "kab": {
+   "name": "KEA, e-Information Bulletin-1, PG Medical/Dental admissions 2025 (24-06-2025)",
+   "short": "KEA bulletin",
+   "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2025/PGET_MDS_2025_e_brochure_03092025kannada.pdf"
+  },
+  "kap": {
+   "name": "KEA, Counseling procedure for PG Medical and PG Dental courses 2025 (15-07-2025)",
+   "short": "KEA counselling procedure",
+   "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2025/pgmed_counseling03092025kannada.pdf"
+  },
+  "pen": {
+   "name": "KEA, PGNEET-2025 seat cancellation penalty amount chart (28-11-2025)",
+   "short": "Penalty chart",
+   "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2025/PGNEET_2025_ADMISSION_TO_PG_MEDICAL_SEAT_CANCELLATION_PENALTY_AMOUNT_CHARTkannada.pdf"
+  },
+  "ka1": {
+   "name": "KEA notice on the lowered NEET-PG percentile and new registration (17-01-2026, Kannada)",
+   "short": "Notice 17-01-2026",
+   "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2025/pgneet_DOC_KAN_17012026kannada.pdf"
+  },
+  "ka4": {
+   "name": "KEA notice on the third (mop-up) round: eligibility and option entry (29-01-2026, Kannada)",
+   "short": "Third-round notice",
+   "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2025/20260129195126kannada.pdf"
+  },
+  "ka6": {
+   "name": "KEA stray vacancy round notification (27-02-2026, Kannada)",
+   "short": "Stray notification",
+   "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2025/pgneet_STRAY_KAN_27022026kannada.pdf"
+  },
+  "ka7": {
+   "name": "KEA notice on the continued stray vacancy allotment (10-03-2026, Kannada)",
+   "short": "Continued stray notice",
+   "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2025/pgneet_EXT_KAN_10032026kannada.pdf"
+  }
+ },
+ "doc": "kap",
+ "notes": [
+  [
+   "Karnataka's KEA runs Round 1, Round 2, a third (mop-up) round and a stray round. Its bulletin and counselling procedure are mostly in English; its 2025-26 notices for the third and stray rounds are in Kannada, and the lines from them are our English.",
+   "kap: p.1"
+  ]
+ ],
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "Pick one of four choices",
+     "warn"
+    ],
+    [
+     "No choice: seat cancelled, out",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Candidates who registered, applied, paid and had their original documents verified at KEA in Bengaluru, getting the verification slip. The options you enter serve Rounds 1 and 2; the third round takes fresh options.",
+     "kab: p.54; kap: p.11"
+    ]
+   ],
+   "opts": [
+    [
+     "Choice 1: join and stop",
+     "You're fully satisfied: pay the fees, deposit your originals, report to the college by the last date in the admission order, and tell KEA on its portal that you've joined. You can't take part in any later round. If you don't pay or don't produce every original, the seat is cancelled and you're out. If you don't report to the college by the last date (no extension is given), the seat is cancelled and the fee you paid is forfeited. If you join but don't tell KEA, the seat is cancelled even though you joined; the procedure doesn't say separately what happens to the fee then.",
+     [
+      "Joined; no later round",
+      "stop"
+     ],
+     "Completely satisfied (100%) with the first round allotted seat and candidate is willing to report to the allotted college, not interested to participate in any of the subsequent round seat allotment for any discipline",
+     "kap: p.3; p.4"
+    ],
+    [
+     "Choice 2: hold and upgrade",
+     "Keep the seat and try for higher options in Round 2: pay the fee and deposit your originals. If Round 2 gives a higher option, the old seat is cancelled automatically; if not, you keep it. You can't choose between them, and no admission order is issued yet. The fee you paid is adjusted in Round 2.",
+     [
+      "Seat held",
+      "ok"
+     ],
+     "In the second round, if higher option seat is allotted then earlier allotted seat gets cancelled automatically OR if higher option seat is not allotted then earlier allotted seat shall remain in candidates favour. There is no CHOICE between the earlier allotted and newly allotted seats.",
+     "kap: p.4; p.9"
+    ],
+    [
+     "Choice 3: give it up, go to Round 2",
+     "Surrender the seat and take part in Round 2 with your other options: deposit your originals. You pay no fee for the Round 1 seat and have no claim on it; if Round 2 gives you nothing, you have no seat.",
+     [
+      "No fee; seat gone",
+      "info"
+     ],
+     "Implication: Eligible to participate in the second round without holding the first round seat by depositing the original documents and no claim on previously allotted seat therefore Choice-3 candidates need not to pay the fees for the seat allotted in the first round.",
+     "kap: p.6"
+    ],
+    [
+     "Choice 4: quit",
+     "You've got a seat elsewhere: the Round 1 seat is cancelled and you're out of later rounds.",
+     [
+      "Out",
+      "stop"
+     ],
+     "Implication: Not eligible to participate in the subsequent round and no hold on the allotted seat and seat allotted earlier will get cancelled.",
+     "kap: p.7"
+    ],
+    [
+     "Pick no choice",
+     "The seat is cancelled automatically and you're out of later rounds.",
+     [
+      "Seat cancelled + out",
+      "stop"
+     ],
+     "If a candidate fails to exercise any one of the four choices or fails to follow any prescribed procedures, then the seat allotted to such candidate stands cancelled automatically without any further notice and such candidate shall not be allowed to participate in further rounds.",
+     "kap: p.3"
+    ],
+    [
+     "Cancel after admission",
+     "Cancelling a Round 1 seat after admission, up to one day before Round 2, costs a processing fee of Rs 25,000 (Rs 10,000 for a pre- or para-clinical seat, the penalty chart says), and you're out of later rounds.",
+     [
+      "Rs 25,000 + out",
+      "stop"
+     ],
+     "A candidate cancelling a seat in the first round after admission, one day before the second round of counselling as notified shall pay a processing fee of Rs 25,000/- (Rupees twenty five thousand only).",
+     "kap: p.13; pen: p.1"
+    ]
+   ],
+   "gaps": [
+    "the Round 1 and Round 2 schedules: those notices aren't among the documents we hold."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "Taking admission is compulsory",
+     "warn"
+    ],
+    [
+     "Don't join (clinical): Rs 1,50,000",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Round 1 Choice 2 candidates who paid and deposited originals, Choice 3 candidates who deposited originals, and candidates with no Round 1 seat who deposited originals. A Round 1 seat counts as its holder's last option.",
+     "kap: p.8; p.5"
+    ],
+    [
+     "A candidate allotted in MCC's Round 2 (all-India or deemed) who didn't join and exited with forfeiture can take part, after depositing originals at KEA.",
+     "kap: p.8"
+    ],
+    [
+     "Not eligible: those who entered no options for Round 1, picked no choice after it, or cancelled or surrendered a Choice 1 or 2 seat; Choice 2 candidates who didn't pay; and those who didn't deposit their originals.",
+     "kap: p.8"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted",
+     "No choices this time: pay the fees if not paid (a Choice 2 fee is adjusted), take the admission order, report to the college by the last date in it, and confirm on KEA's portal, or the seat is cancelled. A better seat sends your earlier one back to the pool; if you get nothing, your earlier seat is confirmed.",
+     [
+      "Admission compulsory",
+      "warn"
+     ],
+     "Please note that there will not be any CHOICE available to select after announcement of SECOND ROUND SEAT ALLOTMENT. Taking admission is compulsory.",
+     "kap: p.4; p.9"
+    ],
+    [
+     "Don't join, or cancel before the joining date (clinical seat)",
+     "Not joining by the last date (or, the penalty chart adds, cancelling before it) costs Rs 1,50,000 for a degree or Rs 60,000 for a diploma, and you're out of later rounds and admissions for the year (a pre- or para-clinical seat: Rs 10,000, the chart says). KEA also says legal action will be taken.",
+     [
+      "Rs 1,50,000 + out",
+      "stop"
+     ],
+     "Every candidate including in-service candidate shall pay a sum of Rs.1,50,000/- (Rupees one lakh fifty thousand only) for Medical or Dental Degree and Rs. 60,000/- (Rupees sixty thousand only) for Medical or Dental Diploma courses if he / she is allotted any clinical seat in the second-round allotment and fails to join the course before the last date of joining of the second round of counselling as notified.",
+     "kap: p.13; p.9; pen: p.1"
+    ],
+    [
+     "Cancel before the third round",
+     "Cancelling after Round 2's last joining date, up to one day before the third round, costs Rs 7,00,000 for a clinical degree or Rs 3,00,000 for a clinical diploma (pre- or para-clinical: Rs 10,000), and you're out of later rounds.",
+     [
+      "Rs 7,00,000 + out",
+      "stop"
+     ],
+     "Provided that in case of cancellation after the last date of joining for second round and one day before the mop-up round a penalty of Rs.7,00,000/- (Rupees Seven lakhs only) for Medical or Dental Clinical degree and Rs.3,00,000/- (Rupees Three lakhs only) for Medical or Dental Clinical Diploma courses shall be collected.",
+     "kap: p.13; pen: p.1"
+    ],
+    [
+     "Holding a seat, may join one elsewhere",
+     "Choice 1 and 2 holders who may take a seat elsewhere should surrender the KEA seat by the last date for Round 2 options.",
+     [
+      "Surrender in time",
+      "info"
+     ],
+     "are hereby informed to surrender their seat on or before the last date fixed for entry of options for the second round.",
+     "kap: p.10"
+    ]
+   ],
+   "gaps": [
+    "whether the Rs 25,000 first-round cancellation fee applies when a Choice 2 holder (fee paid, no admission order) surrenders by the last date for Round 2 options: the surrender notice doesn't say. A Choice 1 holder who took admission and gives the seat up before Round 2 falls under the Rs 25,000 rule (Rs 10,000 pre- or para-clinical) and is out of later rounds; nothing exempts a surrender."
+   ]
+  },
+  "r3": {
+   "title": "Third round (mop-up)",
+   "chips": [
+    [
+     "2025-26: Round 2 joiners could upgrade",
+     "info"
+    ],
+    [
+     "Allotted: must join",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "KEA's third-round notice of 29-01-2026 is for non-in-service candidates. The July 2025 procedure let only candidates without a KEA clinical seat (from Round 1 Choice 1 or 2, or Round 2) take part, pre- and para-clinical holders for clinical seats only. In 2025-26 the notice also let Round 2 allottees who paid the fee and took admission (clinical, pre- or para-clinical) take part to upgrade, citing conditions revised on 20-12-2025.",
+     "ka4: p.1; kap: p.10-11"
+    ],
+    [
+     "Also eligible, for this round only: candidates who registered after the NEET-PG cut-off was lowered (18-01-2026 to 26-01-2026) and deposited their originals. The lowered SC/ST/OBC cut-off applied only to Karnataka SC/ST/OBC candidates.",
+     "ka4: p.1; ka1: p.1"
+    ],
+    [
+     "Not eligible: anyone who joined a seat from MCC (all-India or deemed) or another body in its first or second round, or was allotted a third-round seat by any of them; anyone who cancelled after Round 1; anyone whose Round 2 seat was cancelled or who didn't pay its fee.",
+     "ka4: p.1"
+    ],
+    [
+     "Options are entered afresh; earlier options don't count.",
+     "ka4: p.2; kap: p.11"
+    ],
+    [
+     "In-service candidates had two rounds in 2025-26: in-service seats left unfilled were re-categorised and allotted to non-in-service candidates in Round 2 itself, so there was no in-service third round.",
+     "ka4: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted",
+     "Your earlier seat is cancelled at once and can't be taken back; you must take admission in the new college. In 2025-26 the stray notice told third-round allottees to take admission by 04-03-2026, or the seat would be cancelled and offered in the stray round.",
+     [
+      "Earlier seat gone",
+      "stop"
+     ],
+     null,
+     "ka4: p.2; ka6: p.1"
+    ],
+    [
+     "Don't join",
+     "KEA takes action against you, and you lose eligibility for PG counselling in later years, all-India counselling included.",
+     [
+      "Out in later years too",
+      "stop"
+     ],
+     null,
+     "ka4: p.2"
+    ],
+    [
+     "Cancel after the result",
+     "You pay the penalty under the rules before your originals are returned. The penalty chart: Rs 18,00,000 for a clinical seat or Rs 6,00,000 for a diploma (the July procedure says Rs 18,00,000 for a clinical diploma), less for pre- and para-clinical seats, plus the course fee paid, and three years out of PG counselling.",
+     [
+      "Rs 18,00,000 + fees + 3 years",
+      "stop"
+     ],
+     "Any cancellation or surrender of seats after the mop up round shall be made in person only to the Director, Directorate of Medical Education, Karnataka with a penalty of Rs 18,00,000/- (Rupees eighteen lakhs only) in case of Medical Clinical Degree or Diploma Courses and Rs 6,00,000/- (Rupees six lakhs only) in case of Dental Degree or Diploma Courses and forfeiture of fees paid before the last date of admission as notified.",
+     "kap: p.13; pen: p.1; ka4: p.2"
+    ],
+    [
+     "Pre- or para-clinical seat, want the third round",
+     "The July 2025 procedure: pre- and para-clinical holders could enter the third round for clinical seats only, paying the fee but not reporting to that college; if they joined it, they lost the third round, and with no clinical seat they had to take the pre- or para-clinical admission. The 2026 notice instead lets Round 2 allottees who paid and took admission, pre- and para-clinical included, take part. Which rule applied to a pre- or para-clinical holder who wanted to upgrade isn't stated.",
+     [
+      "July rule vs 2026 notice",
+      "warn"
+     ],
+     "The candidates allotted pre or para-clinical seat and who are interested to participate in the Mop-up round should not report to the allotted college of Pre- or Para clinical seat. But, they should compulsorily pay the fees for pre or para-clinical seat and wait for the Mop-up round.",
+     "kap: p.10-11; ka4: p.1"
+    ]
+   ],
+   "gaps": [
+    "which amount applies to a clinical diploma cancelled after the third round: the penalty chart says Rs 6,00,000, the July procedure Rs 18,00,000 (it puts Rs 6,00,000 on dental seats).",
+    "whether Round 1 Choice 1 or Choice 2 holders could take part in the 2025-26 third round: the notice doesn't mention them.",
+    "the notification of 20-12-2025 that revised the third-round conditions: we don't have it.",
+    "how KEA's 29-01-2026 permission for Round 2 joiners fits with the MCC notice of 12-07-2023 printed in KEA's bulletin (p.49), which bars candidates who joined up to Round 2 of all-India or State quota from later rounds: the notice doesn't say."
+   ]
+  },
+  "stray": {
+   "title": "Stray round",
+   "chips": [
+    [
+     "Rs 7,00,000 caution deposit",
+     "warn"
+    ],
+    [
+     "Only if KEA never allotted you a seat",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Only candidates KEA never allotted a PG seat in any round. Not those who took and reported to a seat from MCC's three rounds, a deemed university or another body, or were allotted in MCC's stray round.",
+     "ka6: p.1"
+    ],
+    [
+     "NEET-PG 2025 qualifiers who hadn't registered with KEA could register from 27-02-2026 to 01-03-2026 and deposit their originals at KEA on 02-03-2026 or 03-03-2026.",
+     "ka6: p.1"
+    ],
+    [
+     "To enter options, which start afresh, you pay a caution deposit of Rs 7,00,000; it's adjusted against the fee if you get a seat.",
+     "ka6: p.2; p.3"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted",
+     "Pay the rest of the fee (the deposit counts towards it), download the admission order and join by the date in the schedule.",
+     [
+      "Join by the date",
+      "warn"
+     ],
+     null,
+     "ka6: p.3"
+    ],
+    [
+     "Don't pay, don't join, or cancel",
+     "The caution deposit is forfeited and you also pay the penalty under the rules; you must give KEA your reason in writing, in person.",
+     [
+      "Rs 7,00,000 lost + penalty",
+      "stop"
+     ],
+     null,
+     "ka6: p.2"
+    ],
+    [
+     "No seat",
+     "The caution deposit is returned by 25-03-2026, and your originals on request.",
+     [
+      "Deposit returned",
+      "ok"
+     ],
+     null,
+     "ka6: p.3"
+    ],
+    [
+     "After the stray round",
+     "KEA offered the 783 seats still left on 11-03-2026 to NEET-PG 2025 qualifiers it had never allotted a seat, except those who had taken a seat from MCC's three rounds, a deemed university or any other body, or were allotted in MCC's stray round. They came in person with their originals and a demand draft or cheque for the seat's full fee; admission was by 5.30 PM on 12-03-2026.",
+     [
+      "Full fee in advance",
+      "warn"
+     ],
+     null,
+     "ka7: p.1"
+    ]
+   ],
+   "gaps": []
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "Rs 10,00,000 bond + 3-year bar",
+     "stop"
+    ],
+    [
+     "Govt seats: 3 years or Rs 50,00,000",
+     "warn"
+    ]
+   ],
+   "opts": [
+    [
+     "Leave after the last date of admission",
+     "The bond signed at admission, for leaving the course after the last date of admission: Rs 10,00,000 for a degree, Rs 4,00,000 for a diploma; for a pre-clinical seat Rs 1,00,000, and for a para-clinical seat Rs 1,00,000 (diploma Rs 75,000), with the fees paid forfeited. A non-in-service candidate who cancels or surrenders after the last date of admission can't take a PG seat in any quota for three years.",
+     [
+      "Rs 10,00,000 + 3-year bar",
+      "stop"
+     ],
+     "A candidate at the time of admission shall furnish a bond in the form specified by the Government binding himself to pay a sum of Rs. 10,00,000/- (Rupees Ten lakhs only) for Medical or Dental degree and Rs. 4,00,000/- (Rupees four lakhs only) for Medical or Dental Diploma courses as a penalty in the event of his leaving the course before its completion after the last date of admission for that academic year as notified by Medical Council of India/Dental Council of India.",
+     "kap: p.14; p.15"
+    ],
+    [
+     "Leave the course, or cancel after the stray allotment",
+     "On top of the penalty, the penalty chart adds the entire course fee (after the third round: Rs 18,00,000 for a clinical seat) and three years out of PG counselling. The procedure says everyone who leaves before completing the course, in-service too, pays the entire course fee and stipend to the college on top of the penalty.",
+     [
+      "Penalty + course fee + stipend",
+      "stop"
+     ],
+     "In addition to the prescribed penalty under sub-rule (4), all candidates (including in-service candidates) shall pay the entire course fee and stipend to the respective Medical/Dental colleges in the event he leaving the course before its completion.",
+     "pen: p.1; kap: p.15"
+    ],
+    [
+     "Not joining after an allotment",
+     "The procedure's rules add that a candidate, in-service or not, who fails to join the course after allotment can't take any PG seat, management quota included, for three years and faces disciplinary action; a cancelled or surrendered seat can't be rejoined. How this fits with each round's own rule isn't stated.",
+     [
+      "3-year bar (rules)",
+      "stop"
+     ],
+     "OR fails to join the course after allotment, the candidate is not eligible to take management quota seat or any other Medical or Dental PG degree or Diploma seat for a period of three years and he shall be liable for disciplinary action.",
+     "kap: p.14"
+    ],
+    [
+     "Government service after PG (Government seats)",
+     "If you take a Government seat (all-India quota included), you undertake to serve the Government for at least three years after the course, if it wants you; in-service candidates bond for ten years. Not serving costs Rs 50,00,000 for a degree or Rs 25,00,000 for a diploma.",
+     [
+      "3 years or Rs 50,00,000",
+      "warn"
+     ],
+     "In case of candidate selecting Government seats, the candidate shall serve the Government for a period as specified in sub-rule (6) failing to comply, with the conditions given as per undertaking, then he / she shall be liable to pay a penalty of Rs. 50,00,000/- (Rupees fifty lakhs only) in case of Post Graduate Medical degree and Rs. 25,00,000/- (Rupees twenty five lakhs only) in case of Post Graduate Medical Diploma to the Government.",
+     "kap: p.16"
+    ],
+    [
+     "Surrendering a seat",
+     "Only through KEA, never at the college; after the last date of admission, at the Directorate of Medical Education.",
+     [
+      "Through KEA or DME",
+      "info"
+     ],
+     "Any cancellation or surrender shall be done at the Directorate of Medical Education after the last date of admission for that academic year.",
+     "kab: p.58; p.39"
+    ]
+   ],
+   "gaps": [
+    "the Karnataka entrance-test rules of 2006 (as amended), which the penalty chart says prevail: we don't have them.",
+    "how the Rs 10,00,000 bond relates to the penalty chart's amounts (Rs 18,00,000 plus the course fee): the documents don't say."
+   ],
+   "who": []
+  }
+ },
+ "money": {
+  "reg": [
+   "Registration fee Rs 1,500 (General, 2A, 2B, 3A, 3B; SC/ST/Cat-1/PwD Rs 750; non-Karnataka Rs 4,000; NRI/OCI/PIO/foreign nationals Rs 7,000), never refunded.",
+   "kab: p.13; p.5"
+  ],
+  "dep": [
+   "No deposit is named in the bulletin, the procedure, the penalty chart or the third-round notices we hold; the stray round needs a Rs 7,00,000 caution deposit, adjusted against the fee.",
+   "ka6: p.2"
+  ],
+  "lose": [
+   "Fees paid, if under Choice 1 you don't report to the college by the last date; cancellation penalties by round, from Rs 25,000 after Round 1 to Rs 18,00,000 after the third round (clinical); the entire course fee and stipend if you leave the course; the stray caution deposit.",
+   "kap: p.3; p.13; p.15; pen: p.1; ka6: p.2"
+  ],
+  "back": [
+   "The registration fee is never refunded. The stray caution deposit comes back by 25-03-2026 if you get no seat.",
+   "kab: p.5; ka6: p.3"
+  ],
+  "leave": [
+   "Bond Rs 10,00,000 (degree) or Rs 4,00,000 (diploma) after the last date of admission (less for pre- and para-clinical seats), a 3-year bar, and the entire course fee and stipend. Government seats: 3 years' service or Rs 50,00,000 (degree) / Rs 25,00,000 (diploma).",
+   "kap: p.14; p.15; p.16"
+  ]
+ }
+}

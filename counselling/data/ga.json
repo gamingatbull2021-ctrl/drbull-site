@@ -1,0 +1,231 @@
+{
+ "code": "GA",
+ "label": "Goa",
+ "sub": "State quota at Goa Medical College, via the Directorate of Technical Education",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "rules": {
+   "name": "Govt of Goa, Rules for admission to the Postgraduate Degree and Diploma Courses of the Goa University at the Goa Medical College, 2024 (notification of 14/11/2024; scanned)",
+   "short": "Goa rules 2024",
+   "url": "https://dte.goa.gov.in/sites/default/files/pgmedicalrules.pdf",
+   "note": "a 2024 document: no 2025-26 prospectus found"
+  },
+  "form": {
+   "name": "Directorate of Technical Education, Goa: application form for admission to PG degree courses at Goa Medical College (2025)",
+   "short": "Application form 2025",
+   "url": "https://dte.goa.gov.in/sites/default/files/pgmedform2025.pdf"
+  },
+  "list": {
+   "name": "Directorate of Technical Education, Goa: PG Degree Admission 2025, merit cum allotment list, Round 1 (with instructions)",
+   "short": "Round 1 list 2025",
+   "url": "https://dte.goa.gov.in/sites/default/files/neetpg2025merallot.pdf"
+  }
+ },
+ "doc": "rules",
+ "notes": [
+  [
+   "Goa has no 2025-26 prospectus or round notice on the Directorate's pages we could reach. For 2025-26 we hold only the application form and the Round 1 allotment list; the other lines come from the Goa Rules of 14/11/2024, which may have changed since.",
+   "form: p.1; list: p.1; rules: p.1"
+  ],
+  [
+   "The Directorate of Technical Education counsels Goa Medical College's state-quota seats (half the seats in each specialty, the other half being all-India quota; where the number is odd, the extra seat alternates yearly between the two) in as many rounds as needed. The college admits no one directly.",
+   "rules: p.3"
+  ]
+ ],
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "Report, or seat cancelled",
+     "warn"
+    ],
+    [
+     "No deposit stated",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Those who applied from 05/11/2025 to 10/11/2025 with the Rs 3,000 fee, listing every course they want in order of preference. Choices are final, and you're considered only for courses you listed.",
+     "form: p.1; rules: p.4"
+    ],
+    [
+     "The merit list runs in four groups, in this order: I, MBBS and full internship at Goa Medical College; II, MBBS there and internship elsewhere; III, MBBS elsewhere and internship there; IV, MBBS and internship elsewhere (foreign graduates included). Group I is allotted first, and the other groups only once Group I is exhausted; within Groups II to IV, Goan natives are placed higher. Vacant PwD seats go back to their category, and vacant SC, ST or OBC seats to general candidates.",
+     "rules: p.5; p.6"
+    ],
+    [
+     "Withdrawing a registration isn't permitted.",
+     "rules: p.4"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted: report",
+     "The allotment is provisional until you report at the Academic Section, Goa Medical College, Bambolim, with your originals, pay the fees and complete the formalities: in 2025-26, from 01/12/2025 to 07/12/2025, 10 AM to 1 PM and 2 PM to 5 PM. Fees paid late carry a fine of Rs 100 a week (2024 Rules).",
+     [
+      "Provisional till you report",
+      "info"
+     ],
+     "THE ALLOTMENT IS PROVISIONAL AND ADMISSION STANDS CONFIRMED ONLY UPON SUBMISSION AND VERIFICATION OF THE ORIGINAL DOCUMENTS, PAYMENT OF FEES AND COMPLETION OF OTHER FORMALITIES BY THE CANDIDATES AT GOA MEDICAL COLLEGE.",
+     "list: p.1; rules: p.7"
+    ],
+    [
+     "Allotted: don't report",
+     "You forfeit the seat, and the allotment is cancelled.",
+     [
+      "Seat forfeited",
+      "warn"
+     ],
+     "CANDIDATES ALLOTTED SEATS, NOT REPORTING AT THE INSTITUTE BY THE SPECIFIED DATE, AND COMPLYING WITH REQUIREMENT OF SUBMISSION OF ORIGINAL DOCUMENTS, PAYMENT OF FEES AND COMPLETION OF OTHER PRESCRIBED FORMALITIES SHALL FORFEIT ALLOTTED SEAT/COURSE, WHICH SHALL STAND CANCELLED.",
+     "list: p.1"
+    ],
+    [
+     "Later rounds",
+     "Submit fresh choices to be considered. Once you're allotted a seat, later rounds consider you only for choices higher than it.",
+     [
+      "Fresh choices",
+      "info"
+     ],
+     "CANDIDATES NEED TO SUBMIT FRESH CHOICE OPTIONS TO BE CONSIDERED FOR ALLOTMENT TO SEATS IN THE SUBSEQUENT ROUNDS, SCHEDULE OF WHICH WILL BE DULY NOTIFIED.",
+     "list: p.1; rules: p.6"
+    ]
+   ],
+   "gaps": [
+    "whether a Round 1 allottee who didn't report may take part in later rounds.",
+    "any deposit for Round 1: none is stated.",
+    "whether a candidate who joined an all-India, deemed or central seat may take part in a Goa round, or must resign it first: the documents we hold don't say."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "No 2025-26 notice held",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "The Rules let the Directorate run as many further rounds as needed, on the vacancies and NMC's guidelines, and change the procedure at any stage.",
+     "rules: p.6; p.7"
+    ]
+   ],
+   "gaps": [
+    "Round 2's dates, who may take part and what not joining costs: the 2025-26 notice isn't among the documents we hold. A 2025 Round 2 list is known from a web-archive index of the Directorate's site, but we hold no copy."
+   ],
+   "opts": []
+  },
+  "r3": {
+   "title": "Round 3",
+   "chips": [
+    [
+     "No 2025-26 notice held",
+     "info"
+    ]
+   ],
+   "gaps": [
+    "any Round 3 or mop-up in 2025-26: no notice is among the documents we hold."
+   ],
+   "who": [],
+   "opts": []
+  },
+  "stray": {
+   "title": "Stray round",
+   "chips": [
+    [
+     "No 2025-26 notice held",
+     "info"
+    ]
+   ],
+   "gaps": [
+    "any stray round in 2025-26: no notice is among the documents we hold."
+   ],
+   "who": [],
+   "opts": []
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "Rs 2,000 + 10% of tuition kept",
+     "warn"
+    ],
+    [
+     "Service bond: 1 year",
+     "warn"
+    ]
+   ],
+   "opts": [
+    [
+     "Resign, or the seat is cancelled",
+     "The Rs 2,000 admission fee and 10 per cent of the tuition fee (for 2024-25, Rs 61,261 a term, rising 5 per cent a year) are kept and the rest refunded. If you leave on an upgrade, only the Rs 2,000 is kept for an all-India seat, and no admission fee for a state-quota seat (2024 Rules).",
+     [
+      "Rs 2,000 + 10% of tuition",
+      "warn"
+     ],
+     null,
+     "rules: p.9; p.7"
+    ],
+    [
+     "Service bond",
+     "You sign a bond to serve the Government of Goa for one year after the course, if it calls you within six months of passing. Your originals stay with the Dean until the course and the bonded service are done (2024 Rules).",
+     [
+      "1 year's service",
+      "warn"
+     ],
+     null,
+     "rules: p.7; p.9"
+    ],
+    [
+     "Rs 50 lakh penalty",
+     "The 2024 Rules add a Rs 50 lakh penalty for resigning or discontinuing 'the said Degree/Diploma course' or failing to serve under the bond, but the sentence sits in the paragraph on temporary exemption for higher studies, so whether it applies to every candidate is unclear.",
+     [
+      "Rs 50,00,000 (scope unclear)",
+      "warn"
+     ],
+     null,
+     "rules: p.9"
+    ],
+    [
+     "Cancelling a registration, or changing subject",
+     "A registered candidate who cancels before completing the course can't register for PG in another subject. You can't change subject after registration, except a Goa Medical College state-quota student later selected for an all-India seat. A candidate completing or holding a PG degree can't register for a degree in another specialty (super-specialty apart), nor a diploma holder for a diploma in another specialty (2024 Rules).",
+     [
+      "No other subject",
+      "stop"
+     ],
+     null,
+     "rules: p.8"
+    ]
+   ],
+   "gaps": [
+    "whether the 2024 Rules' fees and penalties were unchanged for 2025-26."
+   ],
+   "who": []
+  }
+ },
+ "money": {
+  "reg": [
+   "Rs 3,000 application fee (2025 form); whether it's refundable isn't stated.",
+   "form: p.1; rules: p.4"
+  ],
+  "dep": [
+   "No security deposit stated. The 2024 Rules list refundable library and hostel deposits of Rs 2,000 each at admission.",
+   "rules: p.7"
+  ],
+  "lose": [
+   "The seat, if you don't report in time. On resigning: the Rs 2,000 admission fee and 10 per cent of the tuition (2024 Rules). False information or concealment in the application: debarred, or the admission cancelled.",
+   "list: p.1; rules: p.9; p.8"
+  ],
+  "back": [
+   "On resigning, the fees paid less Rs 2,000 and 10 per cent of the tuition (2024 Rules).",
+   "rules: p.9"
+  ],
+  "leave": [
+   "A 1-year service bond, and a Rs 50 lakh penalty on resigning, discontinuing or not serving, in a paragraph whose scope is unclear (2024 Rules).",
+   "rules: p.7; p.9"
+  ]
+ }
+}

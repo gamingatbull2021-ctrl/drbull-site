@@ -1,0 +1,371 @@
+{
+ "code": "CG",
+ "label": "Chhattisgarh",
+ "sub": "State quota, via the Directorate of Medical Education",
+ "language": "Hindi",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "ib": {
+   "name": "Chhattisgarh Medical Postgraduate Admission Information Bulletin 2025 (6 pages, signed 11-11-2025)",
+   "short": "CG bulletin",
+   "url": "https://cdnbbsr.s3waas.gov.in/s34b4edc2630fe75800ddc29a7b4070add/uploads/2025/11/20251113161379248.pdf",
+   "lang": "Hindi"
+  },
+  "rules": {
+   "name": "Chhattisgarh Medical Postgraduate Admission Rules, 2025 (Gazette No. 848, 7 Nov 2025)",
+   "short": "CG rules",
+   "url": "https://cdnbbsr.s3waas.gov.in/s34b4edc2630fe75800ddc29a7b4070add/uploads/2025/11/202511131875899019.pdf",
+   "lang": "Hindi"
+  },
+  "n1205": {
+   "name": "Notice of 05/12/2025 restarting Round 1 (with the Rule 11 amendment of 1 Dec 2025)",
+   "short": "Notice 05/12/2025",
+   "url": "https://cdnbbsr.s3waas.gov.in/s34b4edc2630fe75800ddc29a7b4070add/uploads/2025/12/20251206666656461.pdf",
+   "lang": "Hindi"
+  },
+  "r11": {
+   "name": "Rule 11 amendment, Gazette (Extraordinary) No. 40, 22 Jan 2026",
+   "short": "Gazette 22/01/2026",
+   "url": "https://cdnbbsr.s3waas.gov.in/s34b4edc2630fe75800ddc29a7b4070add/uploads/2026/01/202601231646541232.pdf",
+   "lang": "Hindi"
+  },
+  "canc": {
+   "name": "Notice of 22/01/2026 cancelling the Round 1 and Round 2 counselling",
+   "short": "Notice 22/01/2026",
+   "url": "https://cdnbbsr.s3waas.gov.in/s34b4edc2630fe75800ddc29a7b4070add/uploads/2026/01/20260123803027754.pdf",
+   "lang": "Hindi"
+  },
+  "recoun": {
+   "name": "Re-counselling notice of 23/01/2026 (Rounds 1 and 2 run jointly)",
+   "short": "Notice 23/01/2026",
+   "url": "https://cdnbbsr.s3waas.gov.in/s34b4edc2630fe75800ddc29a7b4070add/uploads/2026/01/202601231705921741.pdf",
+   "lang": "Hindi"
+  },
+  "joint": {
+   "name": "Joint Round 1 and 2 allotment notice of 28/01/2026",
+   "short": "Notice 28/01/2026",
+   "url": "https://cdnbbsr.s3waas.gov.in/s34b4edc2630fe75800ddc29a7b4070add/uploads/2026/01/202601291123170052.pdf",
+   "lang": "Hindi"
+  },
+  "r3n": {
+   "name": "Round 3 (mop-up) notice of 05/02/2026",
+   "short": "Round 3 notice",
+   "url": "https://cdnbbsr.s3waas.gov.in/s34b4edc2630fe75800ddc29a7b4070add/uploads/2026/02/20260206105437149.pdf",
+   "lang": "Hindi"
+  },
+  "r4n": {
+   "name": "Round 4 (stray) notice of 19/02/2026",
+   "short": "Round 4 notice",
+   "url": "https://cdnbbsr.s3waas.gov.in/s34b4edc2630fe75800ddc29a7b4070add/uploads/2026/02/20260220836472347.pdf",
+   "lang": "Hindi"
+  },
+  "r5n": {
+   "name": "Round 5 (extended stray) notice of 26/02/2026",
+   "short": "Round 5 notice",
+   "url": "https://cdnbbsr.s3waas.gov.in/s34b4edc2630fe75800ddc29a7b4070add/uploads/2026/02/2026022630941800.pdf",
+   "lang": "Hindi"
+  }
+ },
+ "doc": "ib",
+ "notes": [
+  [
+   "Chhattisgarh's documents are in Hindi. The lines below are our plain English, with the page; open the official document to read the rule itself.",
+   ""
+  ],
+  [
+   "Chhattisgarh changed its seat rule (Rule 11) twice during this counselling, on 1 December 2025 and 22 January 2026.",
+   "n1205: p.3; r11: p.1"
+  ],
+  [
+   "On 22 January 2026 it cancelled Rounds 1 and 2 and every allotment made in them, and ran them again as one joint round.",
+   "canc: p.1; recoun: p.1"
+  ],
+  [
+   "After Round 4 it opened choice filling for a Round 5, an extended stray round, on 26-27 February 2026, only for registered candidates without a seat. Not taking a seat allotted in it, or giving it up, forfeited the registration amount and barred the candidate from any later round and next year's counselling.",
+   "r5n: p.1; r5n: note 2, p.2"
+  ]
+ ],
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "Joint re-run: not joining forfeits",
+     "warn"
+    ],
+    [
+     "Upgrade in a later round",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "NEET-PG 2025 qualified candidates who apply online, pay the registration amount and fill choices.",
+     "ib: 2.3, p.2"
+    ],
+    [
+     "After the rules were amended, everyone's earlier choices were cancelled and had to be filled again; no new application was needed.",
+     "n1205: instruction 1, p.2"
+    ],
+    [
+     "In 2025-26 Rounds 1 and 2 were cancelled and run again as one joint round (see the note above): earlier registrants filled choices again without registering again, and new eligible candidates could apply.",
+     "recoun: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Take admission",
+     "You can take the seat or not. Under the rules, if you take it you can still upgrade in Rounds 2 and 3; in 2025-26, after the joint round, upgrading was offered in Round 3.",
+     [
+      "Upgrade later",
+      "info"
+     ],
+     null,
+     "ib: 2.6, p.3; rules: Rule 14, p.5; recoun: p.1"
+    ],
+    [
+     "Don't take admission (original Round 1)",
+     "Under the original rules the forfeiture rule starts after Round 1, so no line says you lose the registration amount for a Round 1 seat you don't take. The joint round that replaced it in 2025-26 was different (next line).",
+     [
+      "No forfeiture stated",
+      "info"
+     ],
+     null,
+     "n1205: p.1; rules: Rule 14, p.5"
+    ],
+    [
+     "Joint round: don't take admission",
+     "In the joint round of 2025-26, not taking an allotted seat, or taking it and then giving it up, forfeited the registration amount. The notices say the same for every later round.",
+     [
+      "Registration amount lost",
+      "warn"
+     ],
+     null,
+     "recoun: instruction 6, p.3; joint: instruction 4, p.2"
+    ],
+    [
+     "Joint round: private-college seat",
+     "You could take admission on an affidavit instead of a bank guarantee, but had to give the bank guarantee before Round 3's last date of admission, or the admission was cancelled.",
+     [
+      "Bank guarantee due by Round 3",
+      "warn"
+     ],
+     null,
+     "joint: instruction 3, p.2"
+    ]
+   ],
+   "gaps": [
+    "what leaving a joined Round 1 seat before Round 2 costs in money: the forfeiture rule covers only seats allotted after Round 1. Rule 5(1) still bars anyone who gives up a seat after admission from PG degree admission for 3 years.",
+    "the final joining dates of the original Round 1, which was cancelled: its restart notice of 05-12-2025 set scrutiny and admission, tentatively, for 11 to 15 December 2025. The joint round's scrutiny and admission ran from 29 January to 2 February 2026.",
+    "how Rule 14(kha), under which a candidate who doesn't complete scrutiny, or doesn't pay the fee and take admission by the fixed date, becomes ineligible for admission that year, fits with Round 1's choice not to take admission (bulletin 2.6)."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "Taking admission is compulsory",
+     "warn"
+    ],
+    [
+     "Don't join: registration amount lost",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "Candidates already admitted, candidates not admitted, and newly registered candidates.",
+     "ib: 2.6, p.3"
+    ],
+    [
+     "In 2025-26 Round 2 was not run on its own: it was merged with Round 1 into the joint round (see Round 1).",
+     "recoun: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Upgraded",
+     "Candidates admitted in Round 1 can upgrade in this round.",
+     [
+      "Upgrade",
+      "info"
+     ],
+     null,
+     "rules: Rule 14, p.5"
+    ],
+    [
+     "Don't take admission",
+     "You lose the registration amount, but you can still take part in Round 3.",
+     [
+      "Registration amount lost",
+      "warn"
+     ],
+     null,
+     "ib: 2.6, p.3"
+    ],
+    [
+     "Give up a joined seat",
+     "You lose the registration amount.",
+     [
+      "Registration amount lost",
+      "warn"
+     ],
+     null,
+     "n1205: instruction 6, p.2"
+    ]
+   ],
+   "gaps": [
+    "any exit or resignation dates between rounds."
+   ]
+  },
+  "r3": {
+   "title": "Round 3 (mop-up)",
+   "chips": [
+    [
+     "Don't join: amount lost + no stray round",
+     "stop"
+    ],
+    [
+     "Institutional seats can convert",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "All candidates without admission, and newly registered candidates.",
+     "ib: 2.6, p.3"
+    ],
+    [
+     "Candidates admitted in Round 1 can upgrade here too. In 2025-26, those admitted in the joint round had to give their consent to upgrade on the portal and then choose institutions.",
+     "rules: Rule 14, p.5; r3n: note 1, p.1"
+    ],
+    [
+     "In 2025-26, candidates who became eligible when the cut-off was lowered could apply for this round.",
+     "r3n: p.1"
+    ],
+    [
+     "During this round's allotment, vacant government-college seats can be converted and given to candidates without a Chhattisgarh MBBS.",
+     "r11: Rule 11, p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Don't take admission",
+     "You lose the registration amount and can't take part in the stray round.",
+     [
+      "Amount lost + no stray round",
+      "stop"
+     ],
+     null,
+     "ib: 2.6, p.3"
+    ]
+   ],
+   "gaps": [
+    "the joining dates of this round."
+   ]
+  },
+  "stray": {
+   "title": "Round 4 (stray)",
+   "chips": [
+    [
+     "Don't join: out this year and next",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Only candidates who were not allotted a seat, and newly registered candidates.",
+     "ib: 2.6, p.3"
+    ],
+    [
+     "Previously registered candidates with no seat had to choose institutions again, since their earlier choices were void; those who had chosen only government colleges paid the difference in registration amount to add private colleges. New candidates could register from 12 noon on 20 February 2026 to 11:59 PM on 21 February 2026, and choices closed at 1 PM on 22 February 2026.",
+     "r4n: p.1; p.2"
+    ]
+   ],
+   "opts": [
+    [
+     "Don't take admission",
+     "Not taking an allotted seat, or taking it and then giving it up, loses the registration amount and bars you from any later round and from next year's counselling.",
+     [
+      "Out, next year too",
+      "stop"
+     ],
+     null,
+     "ib: 2.6, p.3; r4n: note 3, p.2"
+    ]
+   ],
+   "gaps": [
+    "the joining dates of this round."
+   ]
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "Rs 25 lakh / Rs 20 lakh + 3-year bar",
+     "stop"
+    ]
+   ],
+   "who": [],
+   "opts": [
+    [
+     "Leave after the last date",
+     "Resigning an admitted seat after the last date of admission fixed for the year by the Supreme Court or the Centre costs Rs 25 lakh (Rs 20 lakh for reserved categories), paid to the Government. The Government may exempt a student who becomes medically unfit during the course, as certified by the State Medical Board.",
+     [
+      "Rs 25 lakh / Rs 20 lakh",
+      "stop"
+     ],
+     null,
+     "rules: Rule 15, p.5"
+    ],
+    [
+     "Three-year bar",
+     "Under Chhattisgarh's rules, leaving an all-India or state quota seat after admission, or being expelled, makes you ineligible for PG degree admission for three years from that date.",
+     [
+      "3-year bar",
+      "stop"
+     ],
+     null,
+     "rules: Rule 5, p.3"
+    ],
+    [
+     "Service bond",
+     "Entrants to government colleges (State and All India quota) must serve two years after the course, on a bond of Rs 50 lakh (Rs 40 lakh for reserved categories).",
+     [
+      "2 years' service + Rs 50 lakh / Rs 40 lakh bond",
+      "warn"
+     ],
+     null,
+     "rules: Rule 15, p.5"
+    ]
+   ],
+   "gaps": [
+    "whether leaving before the last date costs anything beyond the registration amount. Rule 5(1)'s 3-year bar on PG degree admission applies to any seat given up after admission, before or after the last date."
+   ]
+  }
+ },
+ "cross": {},
+ "money": {
+  "reg": [
+   "Application fee Rs 2,000 (Rs 10,000 for an NRI seat), non-refundable.",
+   "ib: 2.3, p.2; n1205: p.1"
+  ],
+  "dep": [
+   "Registration amount: Rs 25,000 (Rs 12,500 SC/ST/OBC) for government seats; Rs 2,00,000 if you also choose private seats.",
+   "n1205: p.1"
+  ],
+  "lose": [
+   "From Round 2 on (in 2025-26, from the joint round): a seat you don't take, or a joined seat you give up.",
+   "ib: 2.6, p.3; rules: Rule 14, p.5; n1205: instruction 6, p.2; joint: instruction 4, p.2"
+  ],
+  "back": [
+   "If you're eligible for a refund under the rules, it goes to the account you paid from.",
+   "n1205: instruction 4, p.2"
+  ],
+  "leave": [
+   "Rs 25 lakh (Rs 20 lakh reserved) after the last date of admission, and a 3-year bar.",
+   "rules: Rule 15, p.5; Rule 5, p.3"
+  ]
+ }
+}

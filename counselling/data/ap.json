@@ -1,0 +1,401 @@
+{
+ "code": "AP",
+ "label": "Andhra Pradesh",
+ "sub": "Competent Authority Quota, via Dr NTR UHS Vijayawada",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "cq": {
+   "name": "Dr NTR UHS, Prospectus, Competent Authority Quota (In-service & Non-service) PG Medical admissions 2025-26 (18-09-2025)",
+   "short": "AP CQ prospectus",
+   "url": "https://drntr.uhsap.in/index/notification/20250918184114153.pdf"
+  },
+  "fe1": {
+   "name": "Dr NTR UHS, Notification on Free Exit, Phase-1 seats (17-12-2025)",
+   "short": "Free exit 17-12-2025",
+   "url": "https://drntr.uhsap.in/index/notification/20251217131853550.pdf"
+  },
+  "fe2": {
+   "name": "Dr NTR UHS, Notification on Free Exit, Phase-1/Phase-2 seats (12-01-2026)",
+   "short": "Free exit 12-01-2026",
+   "url": "https://drntr.uhsap.in/index/notification/20260112160336553.pdf"
+  },
+  "fe3": {
+   "name": "Dr NTR UHS, Notification on Free Exit (Final), Phase-1/Phase-2 seats (04-02-2026)",
+   "short": "Final free exit 04-02-2026",
+   "url": "https://drntr.uhsap.in/index/notification/20260204163946133.pdf"
+  },
+  "fe4": {
+   "name": "Dr NTR UHS, Extension Notification on Free Exit (Final) (06-02-2026)",
+   "short": "Extension 06-02-2026",
+   "url": "https://drntr.uhsap.in/index/notification/20260206151724327.pdf"
+  },
+  "mq2": {
+   "name": "Dr NTR UHS, Management Quota Phase-II web options notice (23-12-2025)",
+   "short": "MQ Phase-II notice",
+   "url": "https://drntr.uhsap.in/index/notification/20251223201744813.pdf"
+  },
+  "mqp": {
+   "name": "Dr NTR UHS, Prospectus, Management Quota PG Medical admissions 2025-26 (18-11-2025)",
+   "short": "AP MQ prospectus",
+   "url": "https://drntr.uhsap.in/index/notification/20251118151237093.pdf"
+  },
+  "cqs": {
+   "name": "Dr NTR UHS, CQ 2025-26 final college-wise allotment list, Stray Vacancy Round (first page)",
+   "short": "CQ stray list",
+   "url": "https://drntr.uhsap.in/index/notification/20260225112726760.pdf"
+  },
+  "sdr": {
+   "name": "Dr NTR UHS, Notice regarding refund of security deposit amount, with lists (25-03-2026)",
+   "short": "Refund notice 25-03-2026",
+   "url": "https://drntr.uhsap.in/index/notification/20260325172710387.pdf"
+  }
+ },
+ "doc": "cq",
+ "notes": [
+  [
+   "Andhra Pradesh runs four rounds: Phase-I, Phase-II, Phase-III (Mop Up) and a stray round, subject to change under DGHS, NMC and MCC norms. Dr NTR UHS counsels the Competent Authority Quota (these lines) and, separately, private colleges' Management Quota (MQ).",
+   "cq: p.24; mqp: p.1"
+  ]
+ ],
+ "rounds": {
+  "r1": {
+   "title": "Phase-I",
+   "chips": [
+    [
+     "Not joined: that seat is gone for later phases",
+     "warn"
+    ],
+    [
+     "Free exit in set windows",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Everyone eligible on the final merit list. No new applications after the cut-off date until Phase-III is over.",
+     "cq: p.24; p.14"
+    ],
+    [
+     "Not eligible: last year's stray-round allottees who didn't report or join, and anyone who discontinued a PG course from 2022-23 on.",
+     "cq: p.24"
+    ],
+    [
+     "You may not report at an AP seat and another seat at the same time: the December free-exit notice names all-India seats, and the later ones add other states' seats and, in February, MCC's. The notices warn of severe penalties, including possible disqualification.",
+     "fe1: p.1; fe2: p.1; fe3: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Join",
+     "Pay the University fee of Rs 23,600 (never refunded) to download the allotment order, then report to the college with your originals, the tuition fee and the bonds. If you don't complete admission in time, it's cancelled.",
+     [
+      "Rs 23,600 non-refundable",
+      "warn"
+     ],
+     "The selected candidates shall produce all the Original certificates, pay the Tuition fee, necessary bonds etc., and complete the process of admission. If the candidate does not fulfil the criteria as per regulations to complete the admission process within the specified dates of admission, their admission will be cancelled automatically.",
+     "cq: p.24"
+    ],
+    [
+     "Don't join",
+     "That seat isn't offered to you again in any later phase, but you can take part in Phase-II. No money penalty is stated.",
+     [
+      "That seat gone for later phases",
+      "warn"
+     ],
+     "If a candidate of Phase-I counselling has not joined/reported in the allotted seat then that particular seat shall not be available for that candidate to exercise web options in Phase-II and all further phases of counselling in order to prevent the blocking of seats.",
+     "cq: p.24; p.25"
+    ],
+    [
+     "Join, then upgrade",
+     "Joined candidates can upgrade in Phase-II and Phase-III (Mop Up) only. If you slide to another Dr NTR UHS college, the college holding your tuition fee sends it to the new one.",
+     [
+      "Upgrade up to Phase-III",
+      "info"
+     ],
+     "The Joined candidates of Phase-I Counselling are eligible for upgradation up to Phase-III (Mop Up) round only.",
+     "cq: p.24"
+    ],
+    [
+     "Free exit (December)",
+     "In 2025-26 the Phase-I free exit ran from 17.12.2025 to 19.12.2025, for candidates going to MCC's Round 2. You resign at your college with an undertaking; the college returns your originals, the tuition fee and other fees collected, and you can take part in Phase-II, but not for the seat you left. The University fee is never refunded.",
+     [
+      "Tuition returned",
+      "info"
+     ],
+     "College Principal shall return all the Original Certificates and the tuition fee and other fee collected to the candidates’ who resign from their seat.",
+     "fe1: p.1; cq: p.24"
+    ]
+   ],
+   "gaps": [
+    "any rule for candidates holding an all-India, deemed or central seat in Phase-I or Phase-II, beyond the ban on reporting in both.",
+    "the late-fee window and the reopening for candidates made eligible by the lowered cut-off, which the University's site lists: those notices aren't among the documents we hold."
+   ]
+  },
+  "r2": {
+   "title": "Phase-II",
+   "chips": [
+    [
+     "Phase-I seat kept as last option",
+     "ok"
+    ],
+    [
+     "Upgraded: Phase-I seat gone",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Phase-I allottees who reported, those not allotted, and those allotted who didn't report or took the free exit (not for the seat they left).",
+     "cq: p.25"
+    ],
+    [
+     "If you get both a CQ and an MQ seat in Phase-II, you report at one only: no dual reporting in CQ and MQ. A specialty you were allotted or reported in a college in CQ Phase-I or II isn't considered for you in the same college under MQ.",
+     "mq2: p.4; p.3"
+    ]
+   ],
+   "opts": [
+    [
+     "Not upgraded",
+     "Your joined Phase-I seat is your last option, so you keep it if nothing better comes.",
+     [
+      "Seat kept",
+      "ok"
+     ],
+     "d) Phase-I joined/reported seat shall be the default last option",
+     "cq: p.25"
+    ],
+    [
+     "Upgraded",
+     "You lose any claim on the Phase-I seat.",
+     [
+      "Phase-I seat gone",
+      "info"
+     ],
+     "Candidates getting upgraded in Phase II Shall NOT have any claim on Phase I seat.",
+     "cq: p.25"
+    ],
+    [
+     "Joined CQ Phase-I, allotted an MQ Phase-II seat",
+     "You can slide to the Management Quota seat: the CQ tuition fee is returned, and you need a relieving letter from the earlier college.",
+     [
+      "Tuition returned",
+      "info"
+     ],
+     "If any candidate joins allotted seat of Phase-I of Competent Authority Quota (CQ) seat in A.P. State can slide to a better/priority seat allotted in this Phase-II of Management Quota seat in AP State and in such case, the tuition fee already paid for the CQ will be returned to the candidate by the concerned college.",
+     "mq2: p.4"
+    ],
+    [
+     "Free exit (January)",
+     "In 2025-26, candidates who had joined a Phase-I or Phase-II seat (non-service CQ, or MQ) could resign at their college with an undertaking from 12.01.2026 to 14.01.2026. The college returns the originals, the tuition fee and other fees collected, and you can take part in Phase-III, but not for the seat you left.",
+     [
+      "Tuition returned",
+      "info"
+     ],
+     "College Principal shall return all the Original Certificates and the tuition fee and other fee collected to the candidates’ who resign from their seat.",
+     "fe2: p.1"
+    ],
+    [
+     "Final free exit",
+     "For non-service CQ and MQ seats joined in Phase-I or II, the last window ran from 04.02.2026 to 06.02.2026 and was extended to 11 AM on 09/02/2026. After it, a reported candidate can't resign during admissions, and can only discontinue once admissions close, paying the discontinuance fee under the Rules (Rs 3 lakh, this notice says; the Rules' full terms are under Leaving the course).",
+     [
+      "After it: fee to leave",
+      "stop"
+     ],
+     "Reported candidates who have not availed the final free exit option within the schedule announced will not be permitted to resign from their allocated seat during the admission process. However, they may choose to discontinue the course after the admissions process concludes, subject to payment of a discontinuance fee of ₹3 lakh as per Rules.",
+     "fe3: p.1; fe4: p.1"
+    ]
+   ],
+   "gaps": [
+    "Phase-II's own dates and costs: its web-option notice isn't among the documents we hold."
+   ]
+  },
+  "r3": {
+   "title": "Phase-III (Mop Up)",
+   "chips": [
+    [
+     "Rs 50,000 deposit to take part",
+     "warn"
+    ],
+    [
+     "Allotted: must join, no later round",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "To take part you pay a refundable security deposit of Rs 50,000.",
+     "cq: p.25"
+    ],
+    [
+     "Phase-I or II allottees who reported (their joined seat stays as the last option), those not allotted, those allotted who didn't join, and those who resigned under the free exit; a seat you didn't join or resigned isn't offered to you again.",
+     "cq: p.25"
+    ],
+    [
+     "Candidates who joined an all-India seat up to MCC's Round 3 are blocked from Phase-III and the stray round, CQ and MQ, even if they filled options; so is anyone allotted an all-India, deemed or central seat in MCC's Round 3.",
+     "cq: p.26"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted",
+     "You must report and join, and you lose any claim on a seat you held from Phase-I or II, CQ or MQ (an MQ seat is vacated even if you don't report). You can't take part in any later State round, Management Quota included, whether or not you report.",
+     [
+      "Final: no later round",
+      "stop"
+     ],
+     "h) Candidates allotted a seat in Phase III (Mop-Up) cannot participate in subsequent rounds of State Counselling including Management Quota Counselling, regardless of whether they report to the allotted college.",
+     "cq: p.26"
+    ],
+    [
+     "Don't join",
+     "The Rs 50,000 deposit is forfeited, you can't take part in any further round of AP counselling this year (CQ or MQ), and you have no claim on your earlier seat.",
+     [
+      "Rs 50,000 lost + out",
+      "stop"
+     ],
+     "l) If a candidate is allotted a seat in Phase-III, he/she has to compulsorily report & join the allotted seat/college else the Security Deposit amount of ₹.50,000/- will be forfeited and he/she cannot participate in further rounds of counselling.",
+     "cq: p.26; p.19"
+    ],
+    [
+     "Not allotted in Phase-III",
+     "The deposit is refunded after admissions close. If you hold no seat, you can take part in the stray round without paying it again; a joined Phase-I or II seat stays yours, and then the stray round is closed to you.",
+     [
+      "Deposit refunded or carried over",
+      "ok"
+     ],
+     "Note: Candidates who have paid the security deposit during the Phase-III (Mop Up) round and were not allotted any seat will be eligible to exercise web options in the Stray Vacancy Round without having to pay the security deposit again.",
+     "cq: p.19; p.26"
+    ]
+   ],
+   "gaps": [
+    "the deposit's other details and Phase-III's dates: the prospectus leaves them to Phase-III's own web-option notice, which isn't among the documents we hold."
+   ]
+  },
+  "stray": {
+   "title": "Stray round",
+   "chips": [
+    [
+     "Only if you hold no PG seat",
+     "stop"
+    ],
+    [
+     "Don't join: deposit lost + 1-year bar",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Non-service candidates only: those not holding a seat, or who got none, in Phases I to III (all-India, state or deemed), including those who didn't register or lock choices earlier. Choices start afresh; those already on the merit list and holding no seat needn't apply again. New registrants pay the Rs 50,000 deposit.",
+     "cq: p.27"
+    ],
+    [
+     "Not eligible: anyone holding a seat from State Phases I to III or MCC's Rounds 1 to 3, anyone allotted in MCC's stray round, and anyone allotted a Phase-III seat who didn't join.",
+     "cq: p.27"
+    ],
+    [
+     "All vacancies are filled as unreserved open seats, by merit.",
+     "cq: p.27"
+    ]
+   ],
+   "opts": [
+    [
+     "Don't join",
+     "The deposit is forfeited, and you're barred from AP's PG counselling (CQ and MQ) for the next academic year.",
+     [
+      "Deposit lost + 1-year bar",
+      "stop"
+     ],
+     "If a candidate is allotted a seat in Stray round, he/she has to compulsorily report & join the allotted seat/college else the Security Deposit will be forfeited and he/she shall be debarred from participating A.P. State Counselling for admission to PG Medical Courses under both Competent Authority Quota seats & Management Quota seats for subsequent 1 (one) academic year.",
+     "cq: p.27"
+    ],
+    [
+     "Allotted in the CQ stray round",
+     "You can't take part in the Management Quota stray round, whatever options you filled there.",
+     [
+      "No MQ stray round",
+      "stop"
+     ],
+     "Note: The Candidates who have been allotted seats in the CQ Stray Round will not be eligible for the MQ Stray Round, regardless of whether they applied or chose options in that round.",
+     "cqs: p.1"
+    ]
+   ],
+   "gaps": [
+    "whether candidates allotted but not joined in Phases I and II may take part: item b says they're eligible, while item c bars those allotted but not joined in Phases I, II and III.",
+    "the stray round's own web-option notice (deposit details, dates): not among the documents we hold."
+   ]
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "Rs 3,00,000 + GST + stipend, 3-year bar",
+     "stop"
+    ],
+    [
+     "Service bond: Rs 40,00,000 (non-service)",
+     "warn"
+    ]
+   ],
+   "opts": [
+    [
+     "Discontinue the course",
+     "Every candidate, in-service too, signs a bond: leaving before completing the course costs Rs 3,00,000 plus 18% GST to the University, the stipend received is refunded to the Government, and you're barred from PG admission in AP for three years (subject to any Government orders, as the University notifies).",
+     [
+      "Rs 3,00,000 + GST + stipend",
+      "stop"
+     ],
+     "13.2. All the candidates including In-service candidates joining the Post Graduate Degree, Diploma courses should execute bond on a stamped paper of ₹. 100/- value as prescribed in Annexure-III to the effect that he / she will complete the prescribed period of training or in default to pay ₹.3,00,000/- + 18% GST to the University and shall refund the amount received as stipend up to that date to the Government as notified by the University from time to time.",
+     "cq: p.18; p.19"
+    ],
+    [
+     "Service bond (non-service)",
+     "Serve the Government for one year within 18 months of the PG degree; not joining that service, or not completing it, costs a penalty of Rs 40,00,000.",
+     [
+      "1 year or Rs 40,00,000",
+      "warn"
+     ],
+     "Each non-service candidate admitted to a P.G course shall execute a bond as per proforma (Annexure-A) to serve the Government for a period of one year. If they violate the bond condition either by not joining or by not completing the stipulated service period of one year within a maximum period of 18 months after obtaining the PG Degree, a penalty of Rs.40,00,000/- shall be levied",
+     "cq: p.12"
+    ],
+    [
+     "Service bond (in-service)",
+     "Serve at least 10 years in a Government institution or health facility of the state after the PG degree; the degree certificate is kept by the sponsoring authority until then. Breaking the bond costs Rs 50,00,000 plus the pay and allowances received during the course, with interest.",
+     [
+      "10 years or Rs 50,00,000 + pay",
+      "stop"
+     ],
+     "In case of failure to comply with the bond conditions, he/she shall pay a penalty/compensation of ₹.50,00,000/- (Rupees Fifty Lakhs only) in addition to the pay and allowances received for the duration of studies of in-service PG/Super Specialty courses with applicable rate of interest.",
+     "cq: p.10"
+    ]
+   ],
+   "gaps": [
+    "how the Rs 3 lakh in the final free-exit notice fits with the CQ prospectus's Rs 3,00,000 + 18% GST and stipend refund (cq p.18-19). For MQ seats the MQ prospectus sets Rs 3,00,000 without GST, plus the stipend refund and a 3-year bar (mqp p.12)."
+   ],
+   "who": []
+  }
+ },
+ "money": {
+  "reg": [
+   "Application and processing fee Rs 7,080 (SC/ST Rs 5,900) with MBBS in AP, more with MBBS outside AP or India; University fee Rs 23,600 to download an allotment. None of it is refunded.",
+   "cq: p.16; p.17"
+  ],
+  "dep": [
+   "Rs 50,000 refundable deposit for Phase-III, carried into the stray round if you're not allotted; new stray registrants pay it then (Management Quota: Rs 3,00,000).",
+   "cq: p.25; p.19; p.27; mqp: p.12"
+  ],
+  "lose": [
+   "The deposit, for a Phase-III or stray seat you don't join, or an admission cancelled for any reason.",
+   "cq: p.19"
+  ],
+  "back": [
+   "After admissions close, to those who joined their seat and those not allotted. The University's refund notice of 25-03-2026 bears this out: every candidate on its not-eligible lists was allotted a Phase-III or stray seat and didn't join.",
+   "cq: p.19; sdr: p.1; p.52-54; p.85-86"
+  ],
+  "leave": [
+   "Rs 3,00,000 + 18% GST + the stipend received, and a 3-year bar in AP. Service bond: Rs 40,00,000 (non-service), or 10 years' service, else Rs 50,00,000 + pay (in-service).",
+   "cq: p.18; p.19; p.12; p.10"
+  ]
+ }
+}

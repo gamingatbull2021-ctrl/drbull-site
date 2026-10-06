@@ -1,0 +1,433 @@
+{
+ "code": "MH",
+ "label": "Maharashtra",
+ "sub": "State quota, via the State CET Cell (CAP)",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "ib": {
+   "name": "State CET Cell Maharashtra, NEET-PG 2025 Information Brochure (approved 27/10/2025)",
+   "short": "MH brochure",
+   "url": "https://statecetcell.s3.ap-south-1.amazonaws.com/PGM-25/NEET+PG+2025+IB.pdf"
+  },
+  "n08": {
+   "name": "State CET Cell, Notice No. 08: revised Round 2 and tentative Round 3 schedule (19/12/2025)",
+   "short": "Notice 08",
+   "url": "https://statecetcell.s3.ap-south-1.amazonaws.com/PGM-25/Notice+No.08.pdf"
+  },
+  "n11": {
+   "name": "State CET Cell, Notice No. 11: registration after the lowered cut-off, Round 3 schedule (16/01/2026)",
+   "short": "Notice 11",
+   "url": "https://statecetcell.s3.ap-south-1.amazonaws.com/PGM-25/Notice+No.11.pdf"
+  },
+  "n14": {
+   "name": "State CET Cell, Notice No. 14: revised Round 3 schedule (05/02/2026)",
+   "short": "Notice 14",
+   "url": "https://statecetcell.s3.ap-south-1.amazonaws.com/PGM-25/Notice+No.+14.pdf"
+  },
+  "n15": {
+   "name": "State CET Cell, Notice No. 15: Round 3 joining extended, stray round schedule (10/02/2026)",
+   "short": "Notice 15",
+   "url": "https://statecetcell.s3.ap-south-1.amazonaws.com/PGM-25/Notice+No.15.pdf"
+  },
+  "n16": {
+   "name": "State CET Cell, Notice No. 16: revised Round 3 joining (14/02/2026)",
+   "short": "Notice 16",
+   "url": "https://statecetcell.s3.ap-south-1.amazonaws.com/PGM-25/Notice+no+16.pdf"
+  },
+  "n21": {
+   "name": "State CET Cell, Maharashtra: Notice No. 21, refund of security deposit, NEET PG 2025 State Counselling (21/04/2026)",
+   "short": "Notice 21 (refund)",
+   "url": "https://statecetcell.s3.ap-south-1.amazonaws.com/PGM-25/Notice+No.21.pdf"
+  }
+ },
+ "doc": "ib",
+ "notes": [
+  [
+   "Maharashtra's State CET Cell fills state-quota seats in government, aided and private colleges (NRI and institutional quota too) in CAP Rounds 1, 2 and 3, then online stray vacancy rounds. You register before Round 1 or before Round 3, and fill fresh choices in every round.",
+   "ib: p.29; p.26; p.10; p.27"
+  ],
+  [
+   "The Status Retention Form (SRF): filing it after joining means you keep that seat and leave counselling. File it with the Dean or Principal of the college where you joined (or the officer they appoint to receive it) by the fixed date, which isn't extended, and keep the written acknowledgement: without it, the claim isn't entertained. It can't be withdrawn.",
+   "ib: p.30-31"
+  ]
+ ],
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "Not joining = free exit",
+     "ok"
+    ],
+    [
+     "Joined: SRF to stop, or upgrade",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Everyone registered before Round 1 (fee and deposit paid, documents uploaded); the registration counts for all later rounds.",
+     "ib: p.29; p.19; p.22; p.3"
+    ],
+    [
+     "Not allowed to fill choices: candidates responsible for a PG seat lapsing in the last two years.",
+     "ib: p.26"
+    ]
+   ],
+   "opts": [
+    [
+     "Join and upgrade",
+     "Don't file the SRF; fill fresh choices for Round 2.",
+     [
+      "Seat kept",
+      "ok"
+     ],
+     "If the candidate joins his/her Round-1 seat and wants to upgrade his/her allotted seat, then he/she shall NOT fill Status Retention Form and will have to fill fresh choice(s) for Round-2.",
+     "ib: p.32"
+    ],
+    [
+     "Join and do nothing more",
+     "Don't file the SRF and fill no Round 2 choices: you keep your Round 1 seat, and can still fill fresh choices for Round 3.",
+     [
+      "Seat kept, Round 3 open",
+      "ok"
+     ],
+     "If a candidate is not interested to participate in Round-2, he/she should not fill preferences for Round-2 and such a candidate who has joined during Round-1, will retain his/her Round-1 seat.",
+     "ib: p.33; p.37"
+    ],
+    [
+     "Join and stop (SRF)",
+     "File the SRF: you keep the seat and aren't considered in any later round. The brochure is split on whether you can still resign: one rule gives an SRF filer the Round 1 free exit, another says free exit doesn't apply to SRF candidates, and the deposit rule says a Round 1 SRF filer who resigns loses the deposit.",
+     [
+      "Kept; free exit unclear",
+      "warn"
+     ],
+     null,
+     "ib: p.32; p.31; p.20"
+    ],
+    [
+     "Don't join (free exit)",
+     "Not reporting counts as a free exit: no new registration, and you can take part in Round 2 with fresh choices. Your Round 1 seat is cancelled.",
+     [
+      "Free exit",
+      "ok"
+     ],
+     "If the candidate is selected in Round-1 of counseling and does not report at the allotted institute, this will be considered as 'free exit' (option available only in Round-1).",
+     "ib: p.32"
+    ],
+    [
+     "Join, then cancel in time",
+     "In 2025-26 a joined Round 1 seat could be cancelled with free exit, keeping the deposit, up to 05.30 PM on 21/12/2025; you then take part in Round 2.",
+     [
+      "Deposit kept",
+      "ok"
+     ],
+     "Free Exit and Cancelation of Round - 1 admission without forfeiture of Security Deposit.",
+     "n08: p.1; ib: p.33; p.37"
+    ]
+   ],
+   "gaps": [
+    "how an all-India seat affects State Rounds 1 and 2: the brochure's own bar starts at Round 3. The MCI notification of 5 April 2018 that it says the process follows (Annexure Y) has a matrix in which joining an all-India Round 2 seat makes you ineligible for further counselling, but the brochure doesn't say how that applies here, and its own rules let Round 2 joiners without an SRF into Round 3."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "An upgrade must be taken",
+     "warn"
+    ],
+    [
+     "Don't join: deposit lost",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "Registered candidates who didn't fill Round 1 choices or got no seat, Round 1 joiners who didn't file the SRF, Round 1 non-joiners, those who joined and resigned by Round 1's last joining date, and those whose Round 1 seat was cancelled at document verification for a wrong claim (only on seats still available, with the claim corrected). All fill fresh choices. Not SRF filers.",
+     "ib: p.32-34"
+    ]
+   ],
+   "opts": [
+    [
+     "Upgraded",
+     "Your Round 1 seat goes back into Round 2, and you must join the new seat. A change of category alone doesn't count as an upgrade.",
+     [
+      "Must join the new seat",
+      "warn"
+     ],
+     "If a candidate joined during Round-1, is upgraded in Round-2, his/her allotted seat of Round-1 will be available in Round-2 and allotted as per merit in the same round. It is mandatory for the candidate to join the seat allotted in Round-2.",
+     "ib: p.33; p.31"
+    ],
+    [
+     "No new seat",
+     "You keep your Round 1 seat, with no free exit after Round 2.",
+     [
+      "Seat kept",
+      "ok"
+     ],
+     "If a candidate joined during Round-1 and does not get upgraded in Round-2 (no seat is allotted during Round-2), he/she will retain allotted seat of Round-1. Such a candidate will not get free exit after allotment of Round-2.",
+     "ib: p.33"
+    ],
+    [
+     "Don't join",
+     "You lose the deposit and are out of later rounds. To come back for Round 3 you register again, paying the Rs 3,000 fee and the deposit.",
+     [
+      "Deposit lost",
+      "warn"
+     ],
+     "Candidate allotted a seat during Round-2, if does not join the allotted seat, such a candidate will not be eligible for subsequent round(s) and his/her deposit will be forfeited.",
+     "ib: p.33; p.21"
+    ],
+    [
+     "Join and stop (SRF)",
+     "You keep the seat and leave counselling. If you resign it before the prescribed date, you lose the deposit, and can come back for Round 3 by registering again (the Rs 3,000 fee and a new deposit); resigning after that date brings the penalties under Leaving the course.",
+     [
+      "Final",
+      "stop"
+     ],
+     "If a Candidate joins and is satisfied with the seat allotted in Round-2 and is not willing for up-gradation in Round-3, he/she can fill Status Retention Form.",
+     "ib: p.34; p.37; p.19; p.43"
+    ],
+    [
+     "Cancel a Round 1 or 2 seat before Round 3",
+     "You lose the deposit; register again if you want Round 3. In 2025-26 the last date to cancel a Round 2 seat was 03/01/2026, then 21/01/2026 (both notices: application fee and deposit forfeited, but no penalty); Notice 14 then set 08/02/2026 as the last date to cancel State Round 1 & 2 seats, 'with forfeiture of Security Deposit'. What cancelling after the last date cost isn't stated.",
+     [
+      "Deposit lost",
+      "warn"
+     ],
+     "Last date to cancel the State Round 1 & 2 seats with forfeiture of Security Deposit",
+     "n14: p.1; n08: p.2; n11: p.1"
+    ]
+   ],
+   "gaps": []
+  },
+  "r3": {
+   "title": "Round 3",
+   "chips": [
+    [
+     "Allotted: final, no stray round",
+     "stop"
+    ],
+    [
+     "Don't join: deposit lost + out",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Registered candidates with no seat so far, Round 2 joiners who didn't file the SRF, Round 1 joiners (no SRF) still holding their Round 1 seat after Round 2, whether or not they filled Round 2 choices, and new registrants: first-timers, those whose deposit was forfeited, and in 2025-26 those newly eligible after the cut-off was lowered. All fill fresh choices.",
+     "ib: p.34-35; p.37; n11: p.2"
+    ],
+    [
+     "Not eligible: SRF filers, and anyone who joined an all-India seat in MCC's Round 1 or 2 or was allotted one in its Round 3.",
+     "ib: p.35; p.38"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted",
+     "You must join. No later State round, and your name goes to MCC.",
+     [
+      "Final",
+      "stop"
+     ],
+     "After the allotment of seat in Round 3 the candidate will not be eligible to participate in any further rounds of State Counseling Process. Names of such candidates will be informed to MCC.",
+     "ib: p.35"
+    ],
+    [
+     "Don't join",
+     "You lose the deposit and are out of later rounds.",
+     [
+      "Deposit lost + out",
+      "stop"
+     ],
+     null,
+     "ib: p.20; p.38"
+    ],
+    [
+     "Cancel after joining",
+     "In 2025-26, cancelling by 19/02/2026 cost the deposit but no penalty; after that, the deposit and the penalty (for a government seat, Rs 10,00,000 for not completing the junior residency, plus, if the seat lapses, an additional Rs 10,00,000 and no State quota seat in NEET PG 2026 or 2027).",
+     [
+      "Deposit lost; later a penalty",
+      "stop"
+     ],
+     "Prescribed last date to cancel admission with forfeiture of security deposit but without Penalty.",
+     "n16: p.1; ib: p.43"
+    ],
+    [
+     "No seat at all after Round 3",
+     "You can take part in the stray round with fresh choices; your deposit is kept. If you still hold a Round 1 or 2 seat, you keep it, and the stray round is closed to you.",
+     [
+      "Deposit kept",
+      "ok"
+     ],
+     null,
+     "ib: p.20; p.38; p.35"
+    ]
+   ],
+   "gaps": []
+  },
+  "stray": {
+   "title": "Online stray vacancy round",
+   "chips": [
+    [
+     "Only if you hold no seat",
+     "stop"
+    ],
+    [
+     "Allotted: must join",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Registered candidates who filled choices before and have no seat up to Round 3. No new registration; fresh choices, which carry over to a second stray round if one is held.",
+     "ib: p.35-36; n15: p.1"
+    ],
+    [
+     "Not eligible: anyone who joined a seat in Round 1 or 2, or was allotted one in Round 3, in State or all-India counselling.",
+     "ib: p.35"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted",
+     "Joining is compulsory.",
+     [
+      "Must join",
+      "stop"
+     ],
+     "It is mandetory to join the allotted college at Online Stray Vacancy Round (s).",
+     "n15: p.2"
+    ],
+    [
+     "Don't join",
+     "You lose the deposit and are out of any later round.",
+     [
+      "Deposit lost + out",
+      "stop"
+     ],
+     null,
+     "ib: p.20; p.38"
+    ],
+    [
+     "Join, then resign",
+     "You lose the deposit, the penalties under Leaving the course apply, and you're out of any later round.",
+     [
+      "Deposit lost + penalty",
+      "stop"
+     ],
+     null,
+     "ib: p.38; p.43; p.20"
+    ]
+   ],
+   "gaps": [
+    "the institute-level rounds held for four private colleges after the stray rounds: their notices aren't among the documents we hold. The brochure is split: cl. 14.11.11 (p.36) says there will be no institutional-level stray vacancy round, but its Annexure Q rule 14 (p.123) has unaided colleges fill seats still vacant after all CAP mop-up rounds through an Institution Level Round, with the Competent Authority's prior approval.",
+    "any date to cancel a stray-round seat without the penalty: none of the notices we hold gives one.",
+    "why a High Court list of 23/02/2026 let some further candidates into the stray round: the court orders aren't among our documents."
+   ]
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "Seat lapse: Rs 10,00,000 + 2 years out",
+     "stop"
+    ],
+    [
+     "Bond: 1 year or Rs 50,00,000",
+     "warn"
+    ]
+   ],
+   "opts": [
+    [
+     "A government seat lapses",
+     "A candidate, all-India or state quota, whose leaving makes a government or corporation college seat, or a State-quota seat of a central-government college, lapse pays an extra, non-refundable Rs 10,00,000 and can't take a State quota seat in NEET PG 2026 or 2027.",
+     [
+      "Rs 10,00,000 + 2 years",
+      "stop"
+     ],
+     "Any candidate admitted either through All India Post Graduate quota or through NEET-PG-2025 state quota responsible for lapse of post graduate medical seat will have to pay non-refundable additional penalty of Rs. 10,00,000",
+     "ib: p.43"
+    ],
+    [
+     "Central institutions in the CAP",
+     "The brochure's fee table lists their own terms: AIIPMR Mumbai, a Rs 20,00,000 penalty for not completing the course or a seat lapse; Tata Memorial Centre and BARC (one shared remark), Rs 10,00,000 for a lapse and a bond of 1 year or Rs 25 lakh; MGIMS Sevagram, Rs 20,00,000 and a bond of 1 year or Rs 50,00,000. The brochure doesn't say how these combine with the rules above.",
+     [
+      "Up to Rs 20,00,000 + bond",
+      "stop"
+     ],
+     null,
+     "ib: p.40"
+    ],
+    [
+     "Junior residency",
+     "At government and corporation college seats (all-India or state quota) and State-quota seats of central-government colleges, not completing the junior residency tenure costs Rs 10,00,000. This doesn't apply to those who resign before the prescribed date, which the brochure says 'will be notified in due course'; the 2025-26 notices gave last dates to cancel 'without Penalty' (for Round 3, 19/02/2026).",
+     [
+      "Rs 10,00,000",
+      "stop"
+     ],
+     null,
+     "ib: p.43; n16: p.1"
+    ],
+    [
+     "Service bond (government and corporation colleges)",
+     "Serve for one year (social responsibility service) with the Government of Maharashtra or its undertakings, a local body in Maharashtra, the Government of India or its undertakings in Maharashtra, or the Defence services; or pay Rs 50,00,000. In-service candidates on in-service quota seats also serve one year in a Government Medical College in Maharashtra, on top of their health-service bond.",
+     [
+      "1 year or Rs 50,00,000",
+      "warn"
+     ],
+     "will be required to sign a bond to serve the Government of Maharashtra or local self-government or Defence services for a period of one year (Social responsibility service), failing which he/she will be required to pay Rs. 50,00,000",
+     "ib: p.43-44; p.44"
+    ],
+    [
+     "Unaided private or minority college",
+     "Resigning after the prescribed date costs three years' fees; unaided private colleges impose no service bond after the course.",
+     [
+      "3 years' fees",
+      "stop"
+     ],
+     "Any candidate resigning a seat from Unaided Private / Minority Medical College after the prescribed date will have to pay three year's fees as a penalty.",
+     "ib: p.44"
+    ],
+    [
+     "College fees on cancelling",
+     "Cancel by the prescribed date with an application to the Dean or head of the institution: the college keeps Rs 1,500 and refunds the rest. After that date, nothing is refunded.",
+     [
+      "Rs 1,500 kept; later nothing back",
+      "warn"
+     ],
+     null,
+     "ib: p.41"
+    ]
+   ],
+   "who": [],
+   "gaps": []
+  }
+ },
+ "money": {
+  "reg": [
+   "Rs 3,000 application fee, not refundable; paid again only if you re-register for Round 3 after losing your deposit.",
+   "ib: p.19; p.21"
+  ],
+  "dep": [
+   "Rs 25,000 (Rs 12,500 reserved) to choose government seats only; Rs 1,00,000 to choose private seats too. Choose in advance: no extension is given for paying the deposit after registration closes.",
+   "ib: p.19"
+  ],
+  "lose": [
+   "Not joining a Round 2 or later seat; resigning a joined seat after Round 1's free exit (the deposit rule counts a Round 1 SRF filer too, though another rule gives them the free exit); an admission cancelled for any reason (e.g. wrong information at registration, or failing to produce the required documents).",
+   "ib: p.20; p.21"
+  ],
+  "back": [
+   "At the end of counselling, to the account or card you paid from, if you joined your seat or got no seat. In 2025-26 the CET Cell announced the refunds done on 21/04/2026: banks take 1 to 10 days, and if nothing arrives within 15 days, write to cetcell@mahacet.org.",
+   "ib: p.20; n21: p.1"
+  ],
+  "leave": [
+   "Government or corporation seat (or a central institution's State-quota seat): Rs 10,00,000 for not completing the junior residency if you leave after the prescribed date, plus an additional Rs 10,00,000 and 2 years out of State quota if the seat lapses (some central institutions list up to Rs 20,00,000 and bonds of their own); government and corporation colleges: service bond Rs 50,00,000. Unaided private college: three years' fees if you resign after the prescribed date. College fees: Rs 1,500 kept if you cancel by the prescribed date, nothing back after.",
+   "ib: p.43; p.44; p.40; p.41"
+  ]
+ }
+}

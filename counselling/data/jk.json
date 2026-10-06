@@ -1,0 +1,372 @@
+{
+ "code": "JK",
+ "label": "Jammu & Kashmir",
+ "sub": "UT quota, via JKBOPEE",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "br": {
+   "name": "JKBOPEE Information Brochure 2025, MD/MS/PG Diploma (NEET-PG 2025)",
+   "short": "JK brochure",
+   "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=168&type=1"
+  },
+  "ec": {
+   "name": "JKBOPEE E-Counselling Instructions and Guidelines for admission to NEET PG (MD/MS/PGD)-2025",
+   "short": "E-Counselling Instructions",
+   "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=17289&type=n"
+  },
+  "n198": {
+   "name": "JKBOPEE Notification No. 198-BOPEE of 2025, 09-12-2025 (Round 2)",
+   "short": "Notification 198 (Round 2)",
+   "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=17352&type=n"
+  },
+  "n021": {
+   "name": "JKBOPEE Notification No. 021-BOPEE of 2026, 30-01-2026 (Round 3)",
+   "short": "Notification 021 (Round 3)",
+   "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=17479&type=n"
+  },
+  "n030": {
+   "name": "JKBOPEE Notification No. 030-BOPEE of 2026, 12-02-2026 (Mop-Up round)",
+   "short": "Notification 030 (Mop-Up)",
+   "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=17515&type=n"
+  },
+  "n034": {
+   "name": "JKBOPEE Notification No. 034-BOPEE of 2026, 20-02-2026 (Stray round)",
+   "short": "Notification 034 (Stray)",
+   "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=17526&type=n"
+  },
+  "n037": {
+   "name": "JKBOPEE Notification No. 037-BOPEE of 2026, 26-02-2026 (Stray round 2)",
+   "short": "Notification 037 (Stray 2)",
+   "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=17532&type=n"
+  },
+  "corr": {
+   "name": "J&K BOPEE, Corrigendum to Notification No. 021-BOPEE of 2026, 02-02-2026",
+   "short": "Corrigendum 02-02-2026",
+   "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=17490&type=n"
+  }
+ },
+ "doc": "br",
+ "notes": [],
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "No deposit stated",
+     "info"
+    ],
+    [
+     "Resign by letter, then try Round 2",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Registered candidates on the merit list who pay the Rs 2,000 counselling fee and lock preferences in time.",
+     "ec: C.1, p.5; ec: p.3"
+    ],
+    [
+     "Residents of J&K or Ladakh.",
+     "br: 10(a), p.17"
+    ]
+   ],
+   "opts": [
+    [
+     "Join",
+     "Join the allotted college with original documents within the notified time. You can still try Round 2 for an upgrade, if it's held.",
+     [
+      "Upgrade later",
+      "info"
+     ],
+     "If interested, the candidate may participate in second round of counseling (if conducted) for upgradation after filling fresh preferences.",
+     "ec: C.1, p.5"
+    ],
+    [
+     "Don't join",
+     "Your claim on the seat ends and the seat goes to the next round. You can still take part in Round 2.",
+     [
+      "Seat lost",
+      "warn"
+     ],
+     "If any candidate fails to join the allotted College/Institution within the stipulated time period as notified by the Board, his/her claim on the seat shall cease.",
+     "ec: C.1, p.6; n198: (iii), p.1"
+    ],
+    [
+     "Resign after joining",
+     "Give a resignation letter to the college; you can then take part in Round 2 with fresh preferences. If you no longer want the seat, resign by the last date fixed by NMC/MCI or the Board: if you don't, you're barred from the counselling in later years.",
+     [
+      "Resign in time",
+      "warn"
+     ],
+     "If a candidate after getting admission in a College/Institution intends to resign from the College/Institution, he/she can do so by submitting a resignation letter in the College/Institution.",
+     "ec: C.1, p.6; br: section 24, p.28"
+    ]
+   ],
+   "gaps": [
+    "whether resigning inside the notified window still brings the bar for leaving midway (SRO 48 of 2018)."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "Rs 2,000 fee, paid once",
+     "info"
+    ],
+    [
+     "Upgrade = resign the old seat",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Those without a Round 1 seat, Round 1 joiners, those allotted who couldn't join, and those who resigned by the last date of admission of their Round 1 seat.",
+     "n198: (i)-(iv), p.1"
+    ],
+    [
+     "Registered candidates who skipped Round 1, on paying the Rs 2,000 fee; anyone who paid it in Round 1 doesn't pay again.",
+     "n198: (v)-(vii), p.1"
+    ],
+    [
+     "Round 1 choices are cancelled: fill fresh ones, or you aren't considered and keep any seat you've joined.",
+     "ec: C.2, p.6-7"
+    ]
+   ],
+   "opts": [
+    [
+     "Upgraded",
+     "Resign from the Round 1 college and join the new one.",
+     [
+      "Old seat given up",
+      "info"
+     ],
+     "If a candidate is upgraded, then he/she must relinquish/ resign from Round-1 College/ Institute and join Round-2 allotted College/Institute.",
+     "ec: C.2, p.7"
+    ],
+    [
+     "Don't join",
+     "Your claim on the seat ends.",
+     [
+      "Seat lost",
+      "warn"
+     ],
+     "If any candidate fails to join the allotted College/Institution within the stipulated time period as notified by the Board, his/her claim on the seat shall cease.",
+     "ec: C.2, p.7"
+    ],
+    [
+     "Resign after joining",
+     "Resign by letter to the college; you can then take part in Round 3.",
+     [
+      "Round 3 still open",
+      "info"
+     ],
+     "If a candidate after getting admission in a College/Institution intends to resign from the College/Institution, he/she can do so by submitting a resignation letter in the College/Institution. If interested, such candidates (who have resigned) may participate in third round of counseling (if conducted) after filling fresh preferences.",
+     "ec: C.2, p.7"
+    ]
+   ],
+   "gaps": [
+    "a security deposit, or any penalty for not joining."
+   ]
+  },
+  "r3": {
+   "title": "Round 3",
+   "chips": [
+    [
+     "Rules much as in Round 2",
+     "info"
+    ],
+    [
+     "Reserved seats convert",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Those without a seat, joiners, those who couldn't join, and those who resigned from a Round 1 or 2 seat; registered candidates who haven't taken part yet pay Rs 2,000.",
+     "n021: (i)-(v), p.2"
+    ],
+    [
+     "In 2025-26, registration reopened after the cut-off was lowered, and only candidates on the re-revised merit list (Annexure-A) could be allotted or upgraded.",
+     "n021: p.1; (xi), p.3"
+    ],
+    [
+     "The Round 3 notice says reserved seats left vacant for want of category candidates convert to open merit, and words this for the 3rd or Mop-Up round. A corrigendum of 02-02-2026 withdrew that notice's Mop-Up conditions and kept its other terms.",
+     "n021: (ix), p.2-3; corr: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Upgraded",
+     "Resign from the earlier college and join the Round 3 seat.",
+     [
+      "Old seat given up",
+      "info"
+     ],
+     "If a candidate is upgraded, then he/she must relinquish/ resign from Round-1/Round-2 College/ Institute and join Round-3 allotted College/Institute.",
+     "ec: C.3, p.9"
+    ],
+    [
+     "Don't join",
+     "Your claim on the seat ends.",
+     [
+      "Seat lost",
+      "warn"
+     ],
+     "If any candidate fails to join the allotted College/Institution within the stipulated time period as notified by the Board, his/her claim on the seat shall cease.",
+     "ec: C.3, p.8-9"
+    ],
+    [
+     "Resign after joining",
+     "Resign by letter; you can then take part in the Mop-Up round.",
+     [
+      "Mop-Up still open",
+      "info"
+     ],
+     "If interested, such candidates (who have resigned) may participate in Mop-up round of counseling (if conducted) after filling fresh preferences.",
+     "ec: C.3, p.9"
+    ]
+   ],
+   "gaps": [
+    "a resignation date in the Round 3 lists: the list that gave one (11-02-2026) was withdrawn, and the revised list doesn't restate it. The Mop-Up result of 17-02-2026 later let candidates admitted in Rounds 1 to 3 resign up to 4 PM on 19-02-2026."
+   ]
+  },
+  "stray": {
+   "title": "Mop-Up, then stray rounds",
+   "chips": [
+    [
+     "Mop-Up: upgrades allowed",
+     "info"
+    ],
+    [
+     "Stray: seat-holders out",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Mop-Up (in person at the Board's Jammu or Srinagar office): joined candidates who want an upgrade (with their college fee receipt), candidates without a seat, candidates allotted earlier who didn't join, and those who missed earlier rounds (they pay Rs 2,000).",
+     "n030: Note-I, p.1-2"
+    ],
+    [
+     "Stray rounds: anyone who has joined and holds a seat, or who resigned a seat allotted in an earlier round, can't take part; those allotted earlier who didn't join can.",
+     "ec: C.5, p.11-12; n034: Note-I, p.1; p.2"
+    ],
+    [
+     "J&K ran two stray rounds in 2025-26 (23-02-2026, and 27-02-2026 for 16 leftover seats at ASCOMS).",
+     "n034: p.1; n037: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Mop-Up seat allotted",
+     "You must join it. If it's an upgrade, resign from the earlier college.",
+     [
+      "Join compulsorily",
+      "warn"
+     ],
+     "All candidates to whom a seat has been allotted in a Mop-Up round on the basis of merit-cum-preferences will have to compulsorily join college and course so allotted",
+     "ec: C.4, p.11"
+    ],
+    [
+     "Don't join (Mop-Up)",
+     "Your admission is cancelled.",
+     [
+      "Admission cancelled",
+      "stop"
+     ],
+     "It is made clear that in case the candidate who has been allotted a seat but does not join the allotted college/institution and/or fails to comply with necessary formalities, his/her admission shall be cancelled.",
+     "ec: C.4, p.11"
+    ],
+    [
+     "Stray round",
+     "No upgrading in the stray rounds.",
+     [
+      "No upgrade",
+      "stop"
+     ],
+     "No upgradation is allowed during these stray or Special Rounds of Counselling.",
+     "ec: C.5, p.11"
+    ]
+   ],
+   "gaps": [
+    "a date to resign in the stray rounds."
+   ]
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "3-year bar",
+     "stop"
+    ],
+    [
+     "Ladakh seats: service bond",
+     "warn"
+    ]
+   ],
+   "who": [],
+   "opts": [
+    [
+     "Leave midway",
+     "Candidates who left an MD/MS/PG Diploma course midway can't take part in J&K's counselling for at least 3 years.",
+     [
+      "3-year bar",
+      "stop"
+     ],
+     "The candidates who were previously admitted to the MD/MS/PG Diploma courses but have left the same midway shall not be eligible for consideration/counseling atleast for 03 years for admission to MD /MS/PG Diploma Courses.",
+     "br: section 12 Note (3), p.20"
+    ],
+    [
+     "Resign too late",
+     "A joined candidate who no longer wants the seat must resign by the last date fixed by NMC/MCI or the Board; if they don't, they can't take part in the counselling in later years. Candidates selected after that date can't resign.",
+     [
+      "Barred in later years",
+      "stop"
+     ],
+     "the selected candidates, who have completed their admission formalities but are no more interested in continuing their admission must resign by or before the last fixed by NMC/MCI or as decided by the Board failing which they shall not be eligible to participate in the counseling process for admission to MD/MS and other PG Diploma Course next year/subsequent years",
+     "br: section 24, p.28"
+    ],
+    [
+     "Ladakh merit seats",
+     "Candidates on Ladakh merit seats (Central Pool or J&K State Pool) serve Ladakh for 3 years after a clinical PG degree, or pay Rs 50,00,000; after any other PG course, 2 years or Rs 45,00,000.",
+     [
+      "3 years or Rs 50,00,000",
+      "warn"
+     ],
+     null,
+     "br: Annexure J, p.52-55"
+    ]
+   ],
+   "gaps": [
+    "whether resigning inside the notified window still counts as leaving midway (SRO 48 of 2018).",
+    "any refund of the college fee on resigning.",
+    "whether the Ladakh bond reaches a Ladakh candidate on an open-merit seat: the order covers only Ladakh merit seats, while the brochure asks all Ladakh candidates for the undertaking."
+   ]
+  }
+ },
+ "cross": {},
+ "money": {
+  "reg": [
+   "Rs 2,000 counselling fee, non-refundable, paid once and not again in later rounds: online in the online rounds, at a POS machine in the Board's Jammu or Srinagar office in the in-person rounds.",
+   "ec: p.1; n198: (vi)-(vii), p.1; n030: Note-I, p.1-2; n034: Note-I, p.1"
+  ],
+  "dep": [
+   "None stated.",
+   ""
+  ],
+  "lose": [
+   "No deposit is stated; not joining ends your claim on the seat.",
+   "ec: C.2, p.7"
+  ],
+  "back": [
+   "The counselling fee isn't refunded. A refund of the college fee isn't stated.",
+   "n198: (vi), p.1"
+  ],
+  "leave": [
+   "At least 3 years barred from J&K's PG counselling. Ladakh merit seats: a 3-year service bond of Rs 50,00,000 (clinical courses).",
+   "br: section 12 Note (3), p.20; Annexure J, p.52-55"
+  ]
+ }
+}

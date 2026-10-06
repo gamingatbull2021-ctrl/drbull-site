@@ -1,0 +1,238 @@
+{
+ "code": "HR",
+ "label": "Haryana",
+ "sub": "State quota, via UHS Rohtak for DMER",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "hr": {
+   "name": "Haryana Government Gazette No. 185-2025/Ext., 10 Nov 2025 (MD/MS admission 2025-26)",
+   "short": "Haryana gazette",
+   "url": "https://dmer.haryana.gov.in/uploads/cand_images/Gazette_185-2025_Ext_25664.pdf"
+  },
+  "r3list": {
+   "name": "UHS Rohtak, Revised Provisional Allotment PG-Round 3 (2025-26), 17-02-2026",
+   "short": "Round 3 list 17/02/2026",
+   "was": "https://uhsr.ac.in/writereaddata/upload/FEBRUARY2026/170226finalallocationnew.pdf",
+   "url": null,
+   "offline": "2026-09-30: UHS Rohtak's site answers 404 for every 2025-26 PG list"
+  },
+  "straylist": {
+   "name": "DMER Haryana, Provisional Allotment PG - Stray Round (2025-26), 24-02-2026",
+   "short": "Stray list 24/02/2026",
+   "was": "https://uhsr.ac.in/writereaddata/upload/FEBRUARY2026/240226allotmentstray.pdf",
+   "url": null,
+   "offline": "2026-09-30: UHS Rohtak's site answers 404 for every 2025-26 PG list"
+  }
+ },
+ "doc": "hr",
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "No deposit stated",
+     "info"
+    ],
+    [
+     "Originals checked at Rohtak",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Registered candidates who meet the eligibility conditions, on the Haryana merit list from NEET-PG 2025 (management seats use the all-India merit).",
+     "cl. 7, 8, 10(i), p.3; cl. 11, p.6"
+    ],
+    [
+     "Not anyone already admitted to a PG course, including a diploma, anywhere, until they finish it; you sign an undertaking.",
+     "cl. 9, p.3"
+    ]
+   ],
+   "opts": [
+    [
+     "Join",
+     "Go in person to UHS Rohtak with every original. The seat is confirmed only after that check; paying the fee doesn't secure it.",
+     [
+      "First-year fee at UHS",
+      "info"
+     ],
+     "the seat shall be confirmed only after document verification as per the specific time period notified. Similarly, deposition of tuition fee/any other fee shall not confer any legal right towards the provisionally allotted seat.",
+     "cl. 10(viii), p.4; cl. 14(iii)(b), p.7"
+    ],
+    [
+     "Keep seat, try Round 2",
+     "Give your willingness online, pay the Round 2 deposit and file fresh choices. You keep this seat unless Round 2 gives you a better one you chose.",
+     [
+      "Seat kept",
+      "ok"
+     ],
+     "The Candidates who have been allotted seat in the first round shall have a right to already allotted seat and this shall be changed only if he/she gets an updated and opted seat during second round.",
+     "cl. 10(xiv)(d), p.5; cl. 10(xiv)(b)-(c), p.4-5"
+    ],
+    [
+     "Withdraw",
+     "The fee comes back only if you ask in person with the original receipt, at least 3 days before the last date for MD/MS admission. Email isn't accepted.",
+     [
+      "Refund: in person only",
+      "warn"
+     ],
+     "In case of request for withdrawal of admission by a candidate the fee shall be refundable to the candidate, only if the request is made in person along with original receipt of fee deposition and no request shall be entertained through e-mail.",
+     "cl. 14(iii)(c), p.7"
+    ]
+   ],
+   "gaps": [
+    "what happens if you don't report for a Round 1 seat, beyond losing it.",
+    "the reporting dates. They're in UHS public notices.",
+    "how the bar on anyone already admitted to a PG course (cl. 9) fits with Round 1 seat-holders taking part in Round 2 (cl. 10(xiv)(d)), and whether an all-India or deemed seat counts as admitted."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "Deposit to take part",
+     "warn"
+    ],
+    [
+     "Rs 25,000 / Rs 2 lakh",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "New candidates register afresh; Round 1 registrants opt in online.",
+     "cl. 10(xiv)(a)-(b), p.4"
+    ],
+    [
+     "Everyone pays a deposit, or can't take part: Rs 25,000 (Rs 12,500 SC) for government or aided seats only, Rs 2 lakh if you also choose private seats.",
+     "cl. 10(xiv)(c), p.5"
+    ]
+   ],
+   "opts": [
+    [
+     "Upgraded",
+     "You move to the better seat; the fee you paid is refunded or adjusted.",
+     [
+      "Fee refunded or adjusted",
+      "ok"
+     ],
+     "The fee shall be refunded/ adjusted if the candidate is shifted in subsequent counselling from one Institute to another.",
+     "cl. 14(iii)(c), p.7"
+    ],
+    [
+     "No seat",
+     "The deposit comes back.",
+     [
+      "Deposit refunded",
+      "ok"
+     ],
+     "This amount shall be later adjusted in the fee of the first year of PG Course; else, refunded in case no seat is allotted.",
+     "cl. 10(xiv)(c), p.5"
+    ]
+   ],
+   "gaps": [
+    "what happens to the deposit if you're allotted a seat and don't join. The gazette bases the deposit on MCI's notification of 05.04.2018 but states no forfeiture rule."
+   ]
+  },
+  "r3": {
+   "title": "Round 3",
+   "chips": [
+    [
+     "Run by national or state directions",
+     "info"
+    ],
+    [
+     "Reserved seats convert",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Vacant seats are filled in later rounds under MoHFW, MCC, NMC or state directions.",
+     "cl. 10(xv)(a), p.5"
+    ],
+    [
+     "Once the reserved-category merit lists are exhausted, vacant seats revert to their original category and are filled by merit after conversion in Round 3, in government and private colleges (for example BC-A to BC-B, then to UR).",
+     "cl. 10(xv)(b), p.5"
+    ],
+    [
+     "The Round 3 result list (17-02-2026) shows candidates \"Upgraded in Round 3\", so seat-holders could upgrade.",
+     "r3list: p.1"
+    ]
+   ],
+   "opts": [],
+   "gaps": [
+    "who may take part, the deposit, and the cost of not joining: the gazette doesn't say. The Round 3 list cites a public notice of 17.02.2026 only for its tuition-fee schedule, and we couldn't find that notice."
+   ]
+  },
+  "stray": {
+   "title": "Stray round",
+   "chips": [
+    [
+     "Not in the gazette",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "The stray list (24-02-2026) shows only fresh allotments (\"Allocated In Stray Round\").",
+     "straylist: p.1"
+    ]
+   ],
+   "opts": [],
+   "gaps": [
+    "who may take part, the deposit, and the cost of not joining: the gazette doesn't say. The stray list cites a public notice of 20.02.2026 only for its tuition-fee schedule, and we couldn't find that notice."
+   ]
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "Rs 10 lakh bond + 3-year bar",
+     "stop"
+    ]
+   ],
+   "who": [],
+   "opts": [
+    [
+     "Leave midway",
+     "From 3 days before the last date of admission set nationally, leaving costs a 3-year bar from PG admission in Haryana, the Rs 10 lakh bond (signed at admission by all but in-service candidates), and this session's fee plus half the next.",
+     [
+      "Rs 10 lakh + fees + 3-year bar",
+      "stop"
+     ],
+     "(i) He/ She will be debarred for next three years from applying for admission to any PG Course in the State. (ii) He/She will have to pay the Bond Money Rs.10 lakhs (Rs. Ten Lakhs only) for PG Course for which Bond shall be executed at the time of admission by the Institute.",
+     "cl. 12(a), p.6"
+    ]
+   ],
+   "gaps": [
+    "whether resigning by the resignation date of a round (cl. 12(b)) escapes this penalty."
+   ]
+  }
+ },
+ "cross": {},
+ "money": {
+  "reg": [
+   "Rs 2,500 (UR); Rs 1,250 (PWBD/SC/BC/EWS of Haryana). Non-refundable.",
+   "cl. 10(xvii), p.5"
+  ],
+  "dep": [
+   "For Round 2: Rs 25,000 (Rs 12,500 SC) for government or aided seats; Rs 2,00,000 with private seats.",
+   "cl. 10(xiv)(c), p.5"
+  ],
+  "lose": [
+   "Not stated in the gazette.",
+   ""
+  ],
+  "back": [
+   "Adjusted in the first-year fee, or refunded if no seat is allotted.",
+   "cl. 10(xiv)(c), p.5"
+  ],
+  "leave": [
+   "A 3-year bar; the Rs 10 lakh bond (signed by all but in-service candidates; ESIC Faridabad has its own bond); and this session's fee plus half the next.",
+   "cl. 12(a), p.6"
+  ]
+ }
+}

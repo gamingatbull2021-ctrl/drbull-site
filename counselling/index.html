@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Counselling guide &middot; DrBull</title>
+<meta name="description" content="NEET-PG counselling, round by round: what joining, upgrading or leaving a seat costs in MCC's all-India rounds and your state's rounds, with each rule's page in the official document.">
+<link rel="canonical" href="https://drbull.in/counselling/">
+<link rel="icon" type="image/png" sizes="64x64" href="../assets/favicon.png">
+<meta name="theme-color" content="#0c0a0b">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Counselling guide &middot; DrBull">
+<meta property="og:description" content="MCC's rounds beside your state's: who can take part, what each choice costs, and the page where each rule is written.">
+<meta property="og:image" content="https://drbull.in/assets/og.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Semi+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../"><img src="../assets/bull_mark.webp" alt="" width="74" height="96"><span class="word">DR <b>BULL</b></span></a>
+    <nav class="top-nav" aria-label="Main"><a href="../">Home</a><a href="../#library">Videos</a><a href="./" aria-current="page">Counselling</a><a class="accent" href="https://matrix.drbull.in">Matrix</a><a href="../#contact">Contact</a></nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <p class="eyebrow">NEET-PG counselling · round by round</p>
+    <h1>What each choice costs you, one round at a time</h1>
+    <p>MCC's all-India rounds and your state's rounds run side by side. Tap a round to see who can take part, what joining, upgrading or leaving a seat does, and the money at stake. Every rule shows its page in the official document.</p>
+    <div class="yearnote"><span class="chip warn">2025-26</span><span>These are the <b>2025-26 rules</b> (NEET-PG 2025), from the official documents. The 2026-27 documents are only starting to come out, and rules change from year to year, so check the current notice before you act.</span></div>
+  </section>
+
+  <div class="controls">
+    <label>Your state <select id="state"></select></label>
+    <div class="legend" aria-label="Legend">
+      <span class="chip ok">No money lost</span><span class="chip warn">Money at risk</span><span class="chip stop">Final, or out of counselling</span><span class="chip info">Good to know</span>
+    </div>
+  </div>
+  <div id="statenotes"></div>
+
+  <section class="board" id="board" aria-label="Rounds" aria-live="polite"><p class="loading">Loading the rounds...</p></section>
+
+  <section class="money">
+    <p class="eyebrow">Money at a glance</p>
+    <h2 id="money-h">Fees, deposits and what you can lose</h2>
+    <div class="mtable-wrap"><table class="mt" id="money"></table></div>
+  </section>
+
+  <section class="howto">
+    <p class="eyebrow">How to read this</p>
+    <p>Lines in quote marks are the document's own words, with the page. <span class="plainnote">In plain words</span>lines are ours, and when the two differ, the document is right.</p>
+    <p>Where a state's documents are in Hindi or another Indian language, we don't quote them here: you see our plain English with the page, and a link to open the official document.</p>
+    <p>"Not in the document" means we read the whole document and it doesn't say. The rule may sit in a separate notice for that round, so look there before you decide.</p>
+    <p>The rounds are lined up by number. MCC's data-sharing rules fix the order at Round 3 and the Stray Round. For the exact dates, see each year's schedule.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span><b>DrBull</b> · counselling guide · free, and the same for everyone</span>
+    <span>DrBull isn't affiliated with MCC, DGHS, NBEMS or any state counselling authority. Their documents are quoted only to show the rule and where it's written. The counselling authority decides; this page doesn't.</span>
+  </div>
+</footer>
+<script src="app.js"></script>
+<!-- Cloudflare Web Analytics: live host only, so local previews are not counted --><script>(function(){if(location.hostname!=="drbull.in")return;var s=document.createElement("script");s.type="module";s.src="https://static.cloudflareinsights.com/beacon.min.js";s.setAttribute("data-cf-beacon",'{"token": "c579460297cf46ffa20abdee29888928"}');document.head.appendChild(s);})();</script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

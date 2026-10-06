@@ -1,0 +1,313 @@
+{
+ "code": "mcc",
+ "label": "MCC",
+ "sub": "All-India quota, deemed, central, DNB",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "mcc": {
+   "name": "MCC PG Information Bulletin 2025 (revised 27.11.2025)",
+   "short": "MCC bulletin",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/10/20251127310534165.pdf"
+  }
+ },
+ "doc": "mcc",
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "Free exit",
+     "ok"
+    ],
+    [
+     "Upgrade: join, then say yes",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Every NEET-PG qualified candidate who registers, paying a non-refundable fee and a refundable security deposit.",
+     "p.35 (a)"
+    ],
+    [
+     "Only clear-cut vacancies are shown in Round 1.",
+     "p.11, 2.16"
+    ]
+   ],
+   "opts": [
+    [
+     "Join and stay",
+     "Report with your originals and get admitted. If you don't give willingness to upgrade, you keep this seat and you're out of Round 2.",
+     [
+      "Seat kept",
+      "ok"
+     ],
+     "Please note that in case you are satisfied with the seat allotted to you in Round-1 and do not give willingness for up-gradation in Round-2 as 'Yes', you will not be considered eligible for participating in Round-2 i.e. for up-gradation of your choice.",
+     "p.49, Q14"
+    ],
+    [
+     "Join and upgrade",
+     "Report, get admitted, and give willingness to upgrade at the college. You keep this seat unless Round 2 gives you a better one.",
+     [
+      "Seat kept as fallback",
+      "ok"
+     ],
+     "In case a candidate wants to ensure /retain his/her Round -1 seat and wants to upgrade his/her allotted seat, he/she should join Round-1 seat and give willingness for Up-gradation at the allotted college.",
+     "p.49, Q14"
+    ],
+    [
+     "Don't join",
+     "Not reporting counts as a free exit. You can take part in Round 2 without registering again.",
+     [
+      "Free exit",
+      "ok"
+     ],
+     "If a candidate does not report at the allotted institute in Round-1, this will be considered as 'Free Exit' (option available only in Round-1).",
+     "p.49, Q14"
+    ],
+    [
+     "No seat",
+     "You take part in Round 2 without registering again.",
+     [
+      "Nothing to pay again",
+      "ok"
+     ],
+     "If a registered candidate is not allotted a seat in round one (1), he can participate in round 2 directly without fresh registration.",
+     "p.35 (h)"
+    ]
+   ],
+   "gaps": [
+    "when a joined Round 1 candidate may resign, or what it costs (only that they \"need not register again\", p.36 (c)).",
+    "an explicit line that the deposit is refunded after a free exit. The forfeiture rules start at Round 2."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "Don't join: deposit lost",
+     "warn"
+    ],
+    [
+     "Upgrade replaces Round 1 seat",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Registered in Round 1 but no seat; Round 1 seat-holders who gave willingness; those whose Round 1 seat was cancelled at document verification over a changed category or PwD status; free-exit candidates (log in again); new candidates who register and pay.",
+     "pp.49-50, Q15"
+    ]
+   ],
+   "opts": [
+    [
+     "Upgraded",
+     "Your Round 1 seat is cancelled at once. Take a relieving letter and join the Round 2 seat. If you don't, you lose the deposit and the Round 1 seat is already gone.",
+     [
+      "Deposit lost if not joined",
+      "warn"
+     ],
+     "the seat allotted during the first round will be automatically cancelled immediately (and allotted to somebody else eligible as per merit) and candidate will have to join the college / seat allotted during second round. If candidate does not join the college/seat allotted during the second round, with in stipulated time, as per schedule, his/her Refundable Security Deposit will be forfeited.",
+     "p.51, Q18; p.36 (g); p.53, Q31"
+    ],
+    [
+     "New seat: join",
+     "Report and get admitted. To try Round 3, give willingness at the college. Join without it and you're out of Round 3.",
+     [
+      "Seat kept",
+      "ok"
+     ],
+     "Candidates who are holding any seat in Round-1 or Round-2 of AIQ and have not given willingness to upgrade in round 3 will not be eligible.",
+     "p.54, Q37; p.36 (j)"
+    ],
+    [
+     "New seat: don't join",
+     "Exit with forfeiture: the deposit isn't refunded. You may register for Round 3 again with fresh fees.",
+     [
+      "Deposit lost",
+      "warn"
+     ],
+     "Candidate who has been allotted a seat in Round-2 and further Round but do not report at the college may Exit with Forfeiture. (i.e. The Security Deposit will not be refunded in such a case)",
+     "p.55, Q46 (a); p.54, Q36"
+    ],
+    [
+     "No seat",
+     "You take part in Round 3 without registering again.",
+     [
+      "Nothing to pay again",
+      "ok"
+     ],
+     "If a candidate freshly registered in round 2 is not allotted a seat, he/she can participate in round 3 directly without fresh registration.",
+     "p.36 (h); p.38 (e)"
+    ]
+   ],
+   "gaps": []
+  },
+  "r3": {
+   "title": "Round 3",
+   "chips": [
+    [
+     "Joined: final, no resign",
+     "stop"
+    ],
+    [
+     "Don't join: deposit lost + out",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "New registrants; the never-allotted; those who resigned from Round 2 or exited with forfeiture (paying again); Round 1 or Round 2 seat-holders who gave willingness to upgrade.",
+     "p.38; p.54, Q36-37"
+    ]
+   ],
+   "opts": [
+    [
+     "Join",
+     "Final. You can't upgrade or resign, and you can't take part in any further round.",
+     [
+      "Final seat",
+      "stop"
+     ],
+     "If a candidate joins in 3rd round, they shall not be permitted to resign from 3rd round of AIQ/Deemed/Central Universities. They will not be allowed to participate in any further rounds of Counseling after joining in Third Round of AIQ.",
+     "p.6, 1.5; p.38 (a)"
+    ],
+    [
+     "Don't join",
+     "You lose the deposit and you're out of MCC's later rounds.",
+     [
+      "Deposit lost + out",
+      "stop"
+     ],
+     "If any candidate does not join Round 3 seat, he may exit with forfeiture of security deposit and elimination (cannot participate in further rounds of counselling conducted by MCC, DGHS).",
+     "p.38 (b)"
+    ],
+    [
+     "No seat",
+     "You can take part in the Stray Round.",
+     [
+      "Go on",
+      "ok"
+     ],
+     "If a candidate freshly registers in round 3 and is not allotted any seat, he/she is eligible to participate in stray/further rounds.",
+     "p.38 (c)"
+    ]
+   ],
+   "gaps": [
+    "what exactly is paid again by those who resigned or exited with forfeiture in Round 2 (the registration fee, the deposit or both); the bulletin gives no separate amount (p.38; p.54, Q36).",
+    "whether the Supreme Court approved upgrading up to Round 3: the bulletin says NMC would seek its approval and doesn't give the outcome (p.6, 1.4)."
+   ]
+  },
+  "stray": {
+   "title": "Stray round",
+   "chips": [
+    [
+     "Don't join: deposit lost",
+     "warn"
+    ],
+    [
+     "Joined: can't resign",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Only candidates holding no seat anywhere (AIQ, state or deemed), or who didn't take part in Rounds 1-3.",
+     "p.39 (b)"
+    ],
+    [
+     "Not those allotted in Round 3 who didn't join.",
+     "p.39 (c)"
+    ]
+   ],
+   "opts": [
+    [
+     "Join",
+     "The bulletin's flow chart says that once you join, you can't resign. The chart is marked as for representation only, and the round's rules on p.39 don't repeat the line.",
+     [
+      "Final seat",
+      "stop"
+     ],
+     "Joins the Seat at college (once joined, candidate cannot resign)",
+     "p.4, flow chart"
+    ],
+    [
+     "Don't join",
+     "You lose the deposit.",
+     [
+      "Deposit lost",
+      "warn"
+     ],
+     "If a candidate is allotted a seat in Stray round, he/she has to report & join the allotted seat at college/institute else there will be forfeiture of security deposit.",
+     "p.39 (f)"
+    ]
+   ],
+   "gaps": []
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "Not in the bulletin",
+     "info"
+    ]
+   ],
+   "who": [],
+   "opts": [],
+   "gaps": [
+    "any bond or penalty for leaving an all-India, deemed, central or DNB seat, other than losing the security deposit when you surrender a seat allotted in Round 2 or later (2.6, p.9). The bulletin states a bond only for armed-forces (AFMS) seats (pp.78-89). Check the rules of the state and the college that hold the seat; for fees, bonds and service, the bulletin sends candidates to the college (2.9, p.10; p.55, Q49)."
+   ]
+  }
+ },
+ "cross": {
+  "r3": [
+   [
+    "to-st",
+    "MCC to the states",
+    "After its Round 3, MCC shares the data of its joined candidates with the states, which remove those all-India joiners before processing their own Round 3. The bulletin doesn't say whether that list holds only Round 3 joiners or everyone who has joined by then.",
+    "MCC of DGHS will share the data of joined candidates in round 3 of counselling with all the participating States. States will weed out the data of AIQ joined candidates before seat processing of Round-3 of state counselling.",
+    "p.38 (e)"
+   ],
+   [
+    "to-mcc",
+    "The states to MCC",
+    "The states share everyone who joined up to their Round 3, and MCC removes them before the all-India Stray Round.",
+    "Candidates who have joined upto round 3 of state counselling will be filtered and weeded out before processing of Stray Round of AIQ counselling.",
+    "p.38 (e)"
+   ]
+  ],
+  "stray": [
+   [
+    "to-st",
+    "MCC to the states",
+    "Anyone MCC allots in its Stray Round is removed before the states run theirs.",
+    "The data of candidates who have been allotted in Stray round by MCC will be filtered and weeded out before processing of Stray Round of states by state counselling authorities.",
+    "p.39 (h)"
+   ]
+  ]
+ },
+ "money": {
+  "reg": [
+   "AIQ: Rs 1,000 (UR/EWS), Rs 500 (reserved). Deemed: Rs 5,000. Non-refundable. Applying for both: pay only the deemed fee. No separate row for central institutes or DNB.",
+   "p.47, Q7, Q9"
+  ],
+  "dep": [
+   "AIQ: Rs 25,000 (UR/EWS), Rs 10,000 (reserved). Deemed: Rs 2,00,000. Applying for both: pay only the deemed deposit.",
+   "p.47, Q7, Q9"
+  ],
+  "lose": [
+   "From Round 2: an allotted seat you don't join, or surrender. In any round: an admission cancelled (wrong information, missing documents).",
+   "p.9, 2.6; p.47, Q8"
+  ],
+  "back": [
+   "After all rounds end, to the account you paid from, without interest.",
+   "p.11, 2.15; p.57, Q60"
+  ],
+  "leave": [
+   "Not in the bulletin, except armed-forces (AFMS) seats, which carry a bond. Check the state's and the college's rules.",
+   "p.79; p.81; p.83"
+  ]
+ }
+}

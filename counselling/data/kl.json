@@ -1,0 +1,392 @@
+{
+ "code": "KL",
+ "label": "Kerala",
+ "sub": "State quota and private colleges, via the Commissioner for Entrance Examinations (CEE)",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "klp": {
+   "name": "Govt of Kerala, Prospectus for admission to Medical Postgraduate Degree courses 2025-2026 (G.O. of 21-08-2025)",
+   "short": "Kerala prospectus",
+   "url": "https://cee.kerala.gov.in/pgm2025/pdf/prospectus.pdf"
+  },
+  "n39": {
+   "name": "CEE Kerala, First phase: online options invited (06-11-2025)",
+   "short": "First-phase notice",
+   "url": "https://cee.kerala.gov.in/pgm2025/noti_view/929/Upload1"
+  },
+  "n48": {
+   "name": "CEE Kerala, First phase allotment published (29-11-2025)",
+   "short": "First-phase result notice",
+   "url": "https://cee.kerala.gov.in/pgm2025/noti_view/996/Upload1"
+  },
+  "n40": {
+   "name": "CEE Kerala, Second phase: option confirmation, deletion and rearrangement (10-12-2025)",
+   "short": "Second-phase notice",
+   "url": "https://cee.kerala.gov.in/pgm2025/noti_view/1025/Upload1"
+  },
+  "n49": {
+   "name": "CEE Kerala, Second phase allotment published (21-12-2025)",
+   "short": "Second-phase result notice",
+   "url": "https://cee.kerala.gov.in/pgm2025/noti_view/1061/Upload1"
+  },
+  "n43": {
+   "name": "CEE Kerala, Third phase: option registration (03-01-2026)",
+   "short": "Third-phase notice",
+   "url": "https://cee.kerala.gov.in/pgm2025/noti_view/1076/Upload1"
+  },
+  "n45": {
+   "name": "CEE Kerala, Third round: option registration re-opened (27-01-2026)",
+   "short": "Third-phase notice (re-opened)",
+   "url": "https://cee.kerala.gov.in/pgm2025/noti_view/1109/Upload1"
+  },
+  "n46": {
+   "name": "CEE Kerala, Third phase rescheduled (10-02-2026)",
+   "short": "Rescheduling notice",
+   "url": "https://cee.kerala.gov.in/pgm2025/noti_view/1120/Upload1"
+  },
+  "n50": {
+   "name": "CEE Kerala, Third phase allotment published (15-02-2026)",
+   "short": "Third-phase result notice",
+   "url": "https://cee.kerala.gov.in/pgm2025/noti_view/1127/Upload1"
+  },
+  "n47": {
+   "name": "CEE Kerala, Stray vacancy allotment: online options invited (20-02-2026)",
+   "short": "Stray notice",
+   "url": "https://cee.kerala.gov.in/pgm2025/noti_view/1129/Upload1"
+  }
+ },
+ "doc": "klp",
+ "notes": [
+  [
+   "Kerala's CEE allots state-quota seats in government colleges and every seat in private self-financing colleges, NRI and minority seats included, in one counselling: three phases, then stray vacancy filling. As a principle, each state phase runs after the matching MCC round.",
+   "klp: p.4; p.30; p.31; p.41"
+  ]
+ ],
+ "rounds": {
+  "r1": {
+   "title": "Phase 1",
+   "chips": [
+    [
+     "Allotted: join, or lose all options",
+     "stop"
+    ],
+    [
+     "Rs 10,000 deposit to register",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "Eligible candidates on the Kerala State merit list, service quota included, register options, in the time allowed: no extension is given. NRI and minority-quota seats must be chosen in this phase.",
+     "klp: p.30; p.26; n39: p.2"
+    ],
+    [
+     "You pay a security deposit of Rs 10,000 when you register options (Rs 5,000 for SC/ST/OE and other fee-concession candidates).",
+     "klp: p.30; n39: p.2"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted: join",
+     "Pay the fee at the college and join in time; no extension of time is given. Your options below the seat you got are deleted, so in Phase 2 you can only move up or keep the seat (Phase 3 and the stray round take fresh options).",
+     [
+      "Seat kept",
+      "info"
+     ],
+     "After the first allotment, the options below the ‘allotted one’ of the candidate will automatically be removed from the option list of the candidate.",
+     "klp: p.29"
+    ],
+    [
+     "Keep the seat, stop",
+     "If you're satisfied, you can cancel your remaining options so you aren't moved again.",
+     [
+      "Seat kept",
+      "info"
+     ],
+     "If a candidate is satisfied with the first allotment and does not want to be considered against his/her remaining options, he/she will have the facility to cancel all the remaining options.",
+     "klp: p.29"
+    ],
+    [
+     "Allotted: don't join",
+     "You lose the seat and all your options, and you're out of Phase 2 (except for newly added courses). The notice says your registration fee is kept as a penalty; it doesn't say whether that means the Rs 10,000 deposit.",
+     [
+      "Fee kept + out of Phase 2",
+      "stop"
+     ],
+     "The registration fee of such candidates who did not join within the stipulated time after getting the allotment in the first phase and those candidates who quit the seats after taking admission is considered as penalty and will not be refunded.",
+     "n40: p.2; klp: p.27"
+    ],
+    [
+     "Join, then quit",
+     "The same as not joining: you lose the seat and your options, you're out of Phase 2, and the registration fee is kept.",
+     [
+      "Fee kept + out of Phase 2",
+      "stop"
+     ],
+     "Also a candidate who vacates the seat joined in phase I will not be considered for phase II allotment.",
+     "n48: p.2; n40: p.2"
+    ]
+   ],
+   "gaps": [
+    "which candidates get the Rs 10,000 deposit back, and whether the registration fee kept as a penalty is that deposit."
+   ]
+  },
+  "r2": {
+   "title": "Phase 2",
+   "chips": [
+    [
+     "Confirm options, or no upgrade",
+     "info"
+    ],
+    [
+     "Upgraded: Phase 1 seat gone",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "Phase 1 joiners still in their seat, and candidates with no Phase 1 seat. To take part you must confirm your existing options (you can delete or reorder them); new options only for newly added courses. Not those who didn't join a Phase 1 seat, or joined and vacated it (except, the notice says, for newly added courses).",
+     "n40: p.1; p.2"
+    ]
+   ],
+   "opts": [
+    [
+     "Joined in Phase 1, don't confirm",
+     "You keep your Phase 1 seat and aren't considered for an upgrade.",
+     [
+      "Seat kept",
+      "ok"
+     ],
+     "If a candidate joined in a seat in phase 1 does not give confirmation of option in the phase 2 he will not be considered for up gradation in phase 2, but the seat joined in phase 1 will be retained.",
+     "klp: p.30"
+    ],
+    [
+     "Upgraded",
+     "Your Phase 1 seat is gone: join the new seat by the last date, or you end the first two phases with no seat.",
+     [
+      "Join, or no seat",
+      "stop"
+     ],
+     "has secured an up-gradation to a higher option in the second phase, the first seat is no more available to the candidate and, therefore, the candidate has to join the newly allotted seat within the last date of joining specified for the second phase, failing which the candidate will be left with no allotment from the state counseling at the end of its first two phases.",
+     "n49: p.1-2"
+    ],
+    [
+     "Allotted, not joined",
+     "You lose the allotment; the registration fee is kept as a penalty (Phase 2 notice, Note 2), and to take part in Phase 3 you must pay the option registration fee afresh.",
+     [
+      "Allotment and fee lost",
+      "warn"
+     ],
+     "Note: Those candidates who do not join the Colleges allotted within the stipulated time will lose their allotment.",
+     "n49: p.1-3; n40: p.3"
+    ],
+    [
+     "Leave before the third phase",
+     "In 2025-26 a joined Phase 1 or 2 seat could be given up before the third phase, by a cut-off moved with the reschedules and finally set at 5 PM on 13.02.2026. The last notice says leaving by the cut-off carries no penalty; the two earlier ones worded it as relinquishing with forfeiting of option registration, without further penalty. After the cut-off, you can't take part in the third phase or later rounds, and a penalty is started under the prospectus.",
+     [
+      "Leave by the cut-off",
+      "warn"
+     ],
+     "This will be the cut-off date for relinquishing admission, without incurring any penalty.",
+     "n46: p.1; n43: p.2-3; n45: p.2"
+    ]
+   ],
+   "gaps": [
+    "the penalty for giving up a joined seat after the cut-off: the notices refer to the prospectus conditions and give no amount.",
+    "how the notices' cut-off fits with the prospectus, which bars from later rounds those who vacate after the last date of joining of Round 3: no notice says the cut-off replaces it.",
+    "what the earlier notices' forfeiting of option registration means for money: not stated."
+   ]
+  },
+  "r3": {
+   "title": "Phase 3",
+   "chips": [
+    [
+     "Option fee: a year's tuition or Rs 1,00,000",
+     "warn"
+    ],
+    [
+     "Allotted: final, no stray round",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Fresh options are compulsory; options from Phases 1-2 don't count. Candidates who applied afresh under the CEE notification of 14.01.2026 could take part if they were included in the revised Final Kerala State Merit/Category List.",
+     "n45: p.1; n43: p.2"
+    ],
+    [
+     "The option registration fee is a year's tuition if you choose only government colleges (Rs 57,890 a year for a degree, the prospectus's fee table says), or Rs 1,00,000 if you include self-financing colleges; half for SC/ST/OE and other fee-concession candidates. The prospectus charges it to everyone who registers fresh options in this round; the notices name as paying it afresh those who hadn't registered in Phases 1-2, didn't take a Phase 1-2 seat, or vacated a joined seat.",
+     "klp: p.31; p.5; n45: p.2"
+    ],
+    [
+     "Not eligible: candidates on MCC's list of those ineligible after its third round, and anyone who vacated a seat after the cut-off.",
+     "n45: p.2; n46: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted",
+     "The seat is final: no surrender, and no later allotment even if you don't join; any earlier seat is gone. Those admitted are listed to MCC as ineligible for any further all-India or state round.",
+     [
+      "Final",
+      "stop"
+     ],
+     "Candidates who are allotted a seat in the third phase allotment (irrespective of the admission status) will not be eligible for any subsequent allotments.",
+     "n50: p.1; klp: p.31; p.28"
+    ],
+    [
+     "Don't join",
+     "The option registration fee is kept as a penalty, and you can't take part in any further allotment.",
+     [
+      "Fee lost + out",
+      "stop"
+     ],
+     "6. If any candidate does not join the seat allotted in phase 3, the option registration fee will be forfeited and such candidates cannot participate in further allotments",
+     "n45: p.2"
+    ],
+    [
+     "No seat",
+     "The fee is refunded to eligible candidates after counselling ends (who counts as eligible isn't stated); the prospectus says it's adjusted in the course fee if you get a seat. A fresh registrant in this phase can take part in the stray round, where the fee already paid counts.",
+     [
+      "Refunded to eligible candidates",
+      "info"
+     ],
+     "7. If a candidate freshly registers in phase 3 and is not allotted any seat, he/she is eligible to participate in the stray vacancy round.",
+     "n45: p.2; klp: p.31; n47: p.2-3"
+    ],
+    [
+     "Join, then vacate",
+     "The notice says liquidated damages as per the prospectus and gives no amount. The prospectus puts Rs 50,00,000 on vacating after the stray allotment, and the bond puts Rs 50,00,000 on discontinuing after the final allotment process.",
+     [
+      "Rs 50,00,000 (prospectus)",
+      "stop"
+     ],
+     "A candidate who joins a seat in this allotment and then vacates the seat for any reason will be liable to pay liquidated damages as per Prospectus .",
+     "n50: p.1; klp: p.32; p.67"
+    ]
+   ],
+   "gaps": [
+    "whether the Rs 50,00,000 applies to vacating a third-phase seat before the stray allotment: the notice says only 'as per Prospectus'."
+   ]
+  },
+  "stray": {
+   "title": "Stray vacancy filling",
+   "chips": [
+    [
+     "Only if you hold no CEE seat",
+     "stop"
+    ],
+    [
+     "Don't join: fee lost + Rs 50 lakh damages",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Candidates on the Kerala State merit list who aren't still in a seat from the first three phases, weren't allotted in the third phase, didn't vacate a seat after 5 PM on 13.02.2026, and aren't on MCC's list of those ineligible after its stray round.",
+     "n47: p.1-2"
+    ],
+    [
+     "Options and the option registration fee start afresh; those who paid in the third phase and got no seat pay nothing more, or only the balance.",
+     "n47: p.2; p.2-3"
+    ]
+   ],
+   "opts": [
+    [
+     "Don't join",
+     "The option registration fee is forfeited, and you're liable for liquidated damages of Rs 50,00,000 under the prospectus.",
+     [
+      "Fee lost + Rs 50,00,000",
+      "stop"
+     ],
+     "3. If any candidate does not join the seat allotted in the Stray vacancy filling phase, the option registration fee will be forfeited and such candidates will be liable to pay liquidated damages as per Clause 10.1.19 (4) of the Prospectus.",
+     "n47: p.2; klp: p.32"
+    ],
+    [
+     "Join, then vacate",
+     "Liquidated damages of Rs 50,00,000 to the CEE, recoverable as revenue; if unpaid, a bar from PG allotment for up to two years. The same applies to vacating a seat from an earlier phase after the stray allotment.",
+     [
+      "Rs 50,00,000",
+      "stop"
+     ],
+     "If any candidate vacates a seat joined in Stray vacancy allotment or vacates a joined seat (joined in any of the previous rounds also) after stray vacancy allotment process he/she will be liable to pay liquidated damages amounting to Rs.50,00,000 (Rupees Fifty Lakhs) to CEE and will be liable for revenue recovery if not paid.",
+     "klp: p.32"
+    ]
+   ],
+   "gaps": []
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "Rs 50,00,000 + amount spent",
+     "stop"
+    ],
+    [
+     "Bonded service: 1 year",
+     "warn"
+    ]
+   ],
+   "opts": [
+    [
+     "Discontinue after the final allotment",
+     "The bond signed at admission to a Government college makes you and your sureties refund what the Government spent on your course, together with liquidated damages of Rs 50,00,000, if you discontinue after the final allotment process. A final-allotment admittee must sign it within 7 days, or the admission is cancelled and the damages are owed.",
+     [
+      "Rs 50,00,000 + amount spent",
+      "stop"
+     ],
+     "the Bounden and the sureties shall jointly and severally pay and refund to the Government on demand and without demurral the amount spent on the Bounden on account of the said course of studies, together with the liquidated damages of Rs.50,00,000/- (Rupees Fifty Lakhs only) if the bounden discontinues the course after the final Centralised Allotment Process (CAP).",
+     "klp: p.67; p.66; p.35"
+    ],
+    [
+     "Bonded service (general merit, AIQ included)",
+     "Serve the Government of Kerala for at least one year straight after the course, as a Senior Resident or in another listed post; your certificates are held until you do. If you don't, you pay liquidated damages (the bond form sets the bond amount at Rs 50,00,000 for all candidates) plus the stipend or salary drawn and the amount spent on your studies, with interest. If the Government can't offer a post within a year of the course, you're released.",
+     [
+      "1 year's service",
+      "warn"
+     ],
+     "11-1.(b): All the General merit candidates including AIQ candidates admitted to Medical Post graduate Courses in Kerala shall serve the Government of Kerala in Medical Education Services as Senior Resident as decided by the DME/Principals of Colleges for a continuous period of not less than One year immediately after the completion of the course without break.",
+     "klp: p.34; p.35; p.36; p.69; p.71"
+    ],
+    [
+     "Service quota candidates",
+     "Service candidates serve the Government for 10 years or up to superannuation (2 of them in difficult, remote or rural areas) after the course. Discontinuing or breaking that bond after the final allotment process costs the salary for the whole period of service owed, plus the salary or stipend drawn during the course with 8% interest. If they don't join, or discontinue after the third allotment, they aren't considered for service-quota PG seats in future.",
+     [
+      "10 years, or salary as damages",
+      "stop"
+     ],
+     "It is mandatory for the service quota candidates to join the course to which they are selected and if they do not join the course or discontinue the course after the third allotment, they will not be considered for selection to P.G. Course under Service Quota in future",
+     "klp: p.17; p.36"
+    ]
+   ],
+   "who": [],
+   "gaps": [
+    "whether the Government-college bond and its Rs 50,00,000 apply to self-financing college seats: the prospectus covers those colleges only for admission procedures, and the bond form is for State Medical Colleges."
+   ]
+  }
+ },
+ "money": {
+  "reg": [
+   "Application fee Rs 1,000 (SC/ST Rs 500), not refundable; service-quota candidates who also apply for general seats pay Rs 1,000 more. Phase 3 and stray option registration fee: a year's tuition (government colleges only) or Rs 1,00,000 (with self-financing colleges), halved for fee-concession candidates.",
+   "klp: p.19; p.5; p.31; n47: p.2"
+  ],
+  "dep": [
+   "Rs 10,000 (Rs 5,000 fee-concession) at Phase 1 option registration, refunded to eligible candidates after the whole counselling. Government colleges also take a refundable caution deposit of Rs 11,580.",
+   "klp: p.30; p.5"
+  ],
+  "lose": [
+   "The registration fee, for a Phase 1 or Phase 2 seat not joined or quit after admission; the option registration fee, for a Phase 3 or stray seat not joined.",
+   "n40: p.2-3; n45: p.2; n47: p.2"
+  ],
+  "back": [
+   "The Rs 10,000 deposit: after the whole counselling, to eligible candidates (who they are isn't stated). The Phase 3 fee: the prospectus says it's adjusted in the course fee if you get a seat, or refunded; the 2025-26 notices say it's refunded to eligible candidates after counselling, and Phase 3 payers with no seat can count it toward the stray-round fee. Tuition paid to a college is refunded, forfeited or moved to your next seat, depending on the phase and the reason you leave.",
+   "klp: p.30; p.31; p.5; n45: p.2; n47: p.2-3"
+  ],
+  "leave": [
+   "Rs 50,00,000 plus the amount spent on your course (the Government-college bond) for leaving after the final allotment, or Rs 50,00,000 after the stray round. One year's bonded service (general merit); service candidates 10 years, or the salary for it as damages.",
+   "klp: p.32; p.67; p.34; p.36"
+  ]
+ }
+}

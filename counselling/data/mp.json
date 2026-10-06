@@ -1,0 +1,425 @@
+{
+ "code": "MP",
+ "label": "Madhya Pradesh",
+ "sub": "State quota in government, autonomous and private colleges, via the Directorate of Medical Education (MP Online portal)",
+ "language": "Hindi",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "rules": {
+   "name": "Madhya Pradesh Medical Education Admission Rules, 2018, compiled with the amendments of 2019 to 2025 (Hindi gazette; counselling rules rewritten 2 July 2024)",
+   "short": "MP admission rules",
+   "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2025/Admission%20Rule%20and%20all%20Amendment.pdf",
+   "lang": "Hindi"
+  },
+  "adv": {
+   "name": "DME MP, Student Advisory for the first round, NEET PG MD/MS 2025 (28-10-2025)",
+   "short": "Advisory 28-10-2025",
+   "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2025/Advisory%20(2)_55.pdf",
+   "lang": "Hindi"
+  },
+  "adv2": {
+   "name": "DME MP, Student Advisory for the first round, NEET PG MD/MS 2025 (26-11-2025)",
+   "short": "Advisory 26-11-2025",
+   "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2025/Advisory%20(2)_69.pdf",
+   "lang": "Hindi"
+  },
+  "faq": {
+   "name": "DME MP, Frequently Asked Questions, State Combined NEET PG MD/MS 2025 counselling (26-11-2025)",
+   "short": "FAQ 26-11-2025",
+   "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2025/FAQ_68.pdf",
+   "lang": "Hindi"
+  },
+  "r1res": {
+   "name": "DME MP, notice opening the Round 1 resignation link (17-12-2025)",
+   "short": "Round 1 resignation notice",
+   "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2025/Notice%20for%20Resignation%20link_82.pdf"
+  },
+  "s2": {
+   "name": "DME MP, revised time schedule for the second round (18-12-2025)",
+   "short": "Round 2 schedule",
+   "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2025/Time%20schedule%20PG%20_83.pdf"
+  },
+  "mop": {
+   "name": "DME MP, revised tentative time schedule for the mop-up round (20-01-2026)",
+   "short": "Mop-up schedule",
+   "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2025/MOP%20UP%20Round%20NEET%20PG%202025_99.pdf"
+  },
+  "res": {
+   "name": "DME MP, notice opening the resignation and upgradation link (30.01.2026)",
+   "short": "Resignation notice 30.01.2026",
+   "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2025/Notice-MD-MS_101.pdf"
+  },
+  "mopn": {
+   "name": "DME MP, notice on admissions of the mop-up round (18.02.2026)",
+   "short": "Mop-up admission notice",
+   "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2025/Notice%20(9)_116.pdf"
+  },
+  "st": {
+   "name": "DME MP, time schedule for the stray vacancy round (20-02-2026)",
+   "short": "Stray round schedule",
+   "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2025/Time%20Schedule%20(2)_118.pdf"
+  },
+  "sti": {
+   "name": "DME MP, stray vacancy round instructions for colleges and students (23-02-2026)",
+   "short": "Stray round instructions",
+   "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2025/Instruction_119.pdf"
+  },
+  "sta": {
+   "name": "DME MP, students' advisory for the stray vacancy round (23-02-2026)",
+   "short": "Stray round advisory",
+   "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2025/Advisory%20(3)_121.pdf",
+   "lang": "Hindi"
+  },
+  "bnd": {
+   "name": "Commissioner, Public Health and Medical Education, MP: notice for bonded candidates in the stray vacancy round, NEET PG (MD/MS) 2025-26 (26.02.2026; Hindi)",
+   "short": "Bonded candidates, stray 26.02.2026",
+   "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2025/Notice-13_127.pdf",
+   "lang": "Hindi"
+  }
+ },
+ "doc": "rules",
+ "notes": [
+  [
+   "Madhya Pradesh's rules and several of its notices are in Hindi. The lines below are our plain English, with the page; open the official document to read the rule itself.",
+   ""
+  ],
+  [
+   "The Directorate counsels state-quota MD/MS seats in government, autonomous and private colleges in four rounds: first, second, mop-up and stray vacancy. You register on the MP Online portal (Rs 1,100, non-refundable) and pay a Rs 100 portal fee when you lock choices in each round.",
+   "rules: p.28-29; adv: p.2; faq: p.2"
+  ]
+ ],
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "Don't join: still in Round 2",
+     "info"
+    ],
+    [
+     "Resign before Round 2: no bond, 10% kept",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "Candidates registered on the portal before Round 1. The first advisory limits Round 1 to candidates with MBBS from a Madhya Pradesh college; the second says others may take only the 50 per cent open seats of private colleges.",
+     "rules: p.29; adv: p.1-3; adv2: p.1-3; faq: p.7"
+    ]
+   ],
+   "opts": [
+    [
+     "Join",
+     "Report in person at the allotted college with your documents, pay the admission fee online and get the admission letter. At admission you say whether you want an upgrade in the next round. Upgrade seekers don't give the rural-service and seat-leaving bonds then; instead they give a notarised affidavit (Rs 500 non-judicial stamp paper) that they'll deposit both bonds if they aren't upgraded. To seek an upgrade in the mop-up, you must also opt for it now and fill Round 2 choices. If the college finds you ineligible at scrutiny, you can put your case to the Directorate's counselling committee within 2 days.",
+     [
+      "Choose upgrade: yes or no",
+      "info"
+     ],
+     null,
+     "rules: p.6; p.30; adv: p.4"
+    ],
+    [
+     "Don't join",
+     "You can take part in Round 2; no forfeiture is stated.",
+     [
+      "No forfeiture stated",
+      "info"
+     ],
+     null,
+     "rules: p.30; faq: p.3"
+    ],
+    [
+     "Join, then resign before Round 2",
+     "Up to two days before Round 2 starts you can resign online, in person at the college: no seat-leaving bond, and you can still take part in Round 2. The FAQ says 10 per cent of the fee (at most Rs 10,000; NRI Rs 25,000) is deducted and the rest returned. In 2025-26 the link was open from 4 PM on 17-12-2025 to 5 PM on 18-12-2025.",
+     [
+      "No bond; 10% kept (max Rs 10,000; NRI Rs 25,000)",
+      "warn"
+     ],
+     null,
+     "rules: p.31; faq: p.4; r1res: p.1"
+    ],
+    [
+     "Opted for an upgrade, not upgraded",
+     "You stay on your Round 1 seat, and deposit the two bonds as your affidavit promised, unless you're still seeking an upgrade in the mop-up.",
+     [
+      "Seat kept",
+      "info"
+     ],
+     null,
+     "faq: p.3-4; adv: p.4"
+    ]
+   ],
+   "gaps": [
+    "where the FAQ's 10 per cent deduction (at most Rs 10,000; NRI Rs 25,000) comes from: the Rules make this resignation bond-free and return the fee 'after specified deductions' (Rule 15(3)) without saying what they are, and the FAQ cites no rule.",
+    "how Rule 15(2) of 2018 (a resignation cancels your registration and bars the later process), still printed, fits with the 2024 amendment that lets a Round 1 resignee take part in Round 2: we follow the 2024 text.",
+    "whether a candidate who holds an all-India, deemed or central seat may take part in Rounds 1 to 3, or must resign it first: the documents we hold don't say (only the stray round weeds out all-India stray allottees)."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "Advance Rs 25,000 to Rs 10 lakh",
+     "warn"
+    ],
+    [
+     "Don't join: advance lost + out",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Registered candidates with no Round 1 allotment, those who opted for an upgrade, those who didn't join a Round 1 seat, and those who resigned it. New candidates could register from 15-12-2025 to 17-12-2025.",
+     "rules: p.30; s2: p.1"
+    ],
+    [
+     "Before choice filling, everyone except Round 1 admitted candidates pays an advance: government colleges Rs 25,000 (reserved categories Rs 12,500), private colleges Rs 2,00,000, NRI Rs 10,00,000. Fresh choices are compulsory, upgrade seekers included.",
+     "faq: p.2; s2: p.1"
+    ],
+    [
+     "From Round 2, if no candidate with MBBS from Madhya Pradesh is available, that requirement is relaxed for the seats then vacant.",
+     "rules: p.34; faq: p.7"
+    ],
+    [
+     "In 2025-26, Round 2 choices were filled from 21-12-2025 to 22-12-2025, and reporting in person ran from 26-12-2025 to 30-12-2025 (6 PM).",
+     "s2: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Upgraded",
+     "Your Round 1 admission is cancelled automatically when the Round 2 order issues; you must take admission in the new college, paying its fee less what you paid the earlier one. If you then don't take admission, you've lost the Round 1 seat and you're out of later rounds.",
+     [
+      "Round 1 seat gone",
+      "info"
+     ],
+     null,
+     "rules: p.7; p.30; faq: p.3-4"
+    ],
+    [
+     "Allotted: don't join",
+     "Your Round 2 advance is forfeited and you can't take part in later rounds. (An admitted Round 1 upgrade seeker paid no advance, but the rest applies.)",
+     [
+      "Advance lost + out",
+      "stop"
+     ],
+     null,
+     "rules: p.30; faq: p.4"
+    ],
+    [
+     "Resign after Round 2",
+     "Up to two days before the mop-up starts you can resign in person at the college: no seat-leaving bond, but you're out of later rounds, and Rs 2 lakh, or Rs 10 lakh for NRI/OCI candidates, is deducted as a penalty (the rule names open-category candidates for the Rs 2 lakh; the 2025-26 notices say all non-NRI candidates). In 2025-26 the mop-up schedule of 20-01-2026 set this window at 30-01-2026 to 31-01-2026 (5 PM); the notice of 30.01.2026 opened the link from 5 PM on 30/01/2026 'till further notice'. The Round 2 schedule also had a college-level resignation window, 26-12-2025 to 30-12-2025 (6 PM), and the same rule covers a resignation there.",
+     [
+      "Rs 2 lakh (NRI/OCI Rs 10 lakh) + out",
+      "stop"
+     ],
+     null,
+     "rules: p.31; mop: p.1; res: p.1; s2: p.1"
+    ],
+    [
+     "Not upgraded",
+     "You stay on your earlier seat, and can opt for an upgrade in the mop-up. If you're finally not upgraded, you deposit the two bonds as your affidavit promised.",
+     [
+      "Seat kept",
+      "info"
+     ],
+     null,
+     "faq: p.3; p.8; s2: p.1; adv: p.4"
+    ]
+   ],
+   "gaps": [
+    "whether the 2025-26 resignation link before the mop-up closed at 5 PM on 31-01-2026, as the schedule printed, or stayed open longer: the later notice says only 'till further notice'."
+   ]
+  },
+  "r3": {
+   "title": "Mop-up round",
+   "chips": [
+    [
+     "Advance Rs 2 lakh (NRI Rs 10 lakh)",
+     "warn"
+    ],
+    [
+     "Don't join: advance lost + out",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Registered candidates with no allotment in Rounds 1-2, candidates admitted earlier who opted for an upgrade, and new registrants: registration reopens before the mop-up, and in 2025-26 it was open from 19-01-2026 to 29-01-2026 for those newly eligible after the cut-off was lowered.",
+     "rules: p.20; p.30; mop: p.1"
+    ],
+    [
+     "Everyone pays an advance before choice filling: Rs 2 lakh, or Rs 10 lakh for NRI candidates. Fresh choices are compulsory; an upgrade seeker who fills none stays in the earlier college.",
+     "rules: p.20; faq: p.2; mop: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted: join",
+     "The advance is adjusted in the admission fee. In 2025-26, reporting in person ran from 07-02-2026 to 12-02-2026 (5 PM), and mop-up admissions were made subject to the outcome of a High Court case (WP No. 6350 of 2026, Indore).",
+     [
+      "Advance adjusted",
+      "ok"
+     ],
+     null,
+     "rules: p.8; mop: p.1; mopn: p.1"
+    ],
+    [
+     "Allotted: don't join",
+     "The advance (Rs 2 lakh, or Rs 10 lakh for NRI candidates, the FAQ says) is forfeited, including if you're found ineligible at scrutiny, and you're out of later rounds.",
+     [
+      "Advance lost + out",
+      "stop"
+     ],
+     null,
+     "rules: p.30-31; faq: p.6-7"
+    ],
+    [
+     "Not allotted",
+     "The advance is returned after all rounds are over.",
+     [
+      "Advance returned",
+      "ok"
+     ],
+     null,
+     "rules: p.8"
+    ],
+    [
+     "Resign after the mop-up starts",
+     "The seat-leaving bond applies: Rs 30 lakh to the autonomous institution for a government-college seat, or the whole course's academic fee to a private college, and you're out of later rounds.",
+     [
+      "Rs 30 lakh or full fee",
+      "stop"
+     ],
+     null,
+     "rules: p.31"
+    ]
+   ],
+   "gaps": [
+    "whether a Round 1 allottee who didn't join, and got no Round 2 seat, can take part in the mop-up: FAQ Q9 (p.3) says Round 1 non-joiners stay eligible for the later phases, but the mop-up rule (Rule 12(2), 2019, rules p.20) and FAQ Q22 (p.6) list only candidates issued no allotment order in Rounds 1-2, admitted upgrade seekers and new registrants.",
+    "whether mop-up allottees who don't join, or who resign, are still listed and reported to other states, NMC and DGHS so they aren't admitted elsewhere: Rule 12(8)(b) of 2019 says so for the candidates in clause (a), which was deleted in 2021."
+   ]
+  },
+  "stray": {
+   "title": "Stray vacancy round",
+   "chips": [
+    [
+     "Only if never allotted a seat",
+     "stop"
+    ],
+    [
+     "Admission in person, by merit slot",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Seats left after the mop-up are unreserved. Only candidates allotted no seat in any of the three earlier rounds may take part; those allotted in the all-India stray round are weeded out.",
+     "rules: p.31; st: p.1; sta: p.1"
+    ],
+    [
+     "In 2025-26: online application 23-02-2026 to 24-02-2026 and attendance in person 25-02-2026 to 26-02-2026; the portal showed a merit list of ten applicants per vacancy, and admission ran from 27-02-2026 in time slots by merit rank, until 6:15 PM on 28-02-2026 unless the Directorate extended it. You can log attendance for only one subject at one college.",
+     "st: p.1; sti: p.1-2; sta: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Reached in your slot: take admission",
+     "Be present in person with your originals in your time slot, or you lose your claim to the seat. Pay the college's full first-year fee (multicity cheque, DD or online); earlier online deposits are returned after counselling. Without the rural-service and seat-leaving bonds, give an affidavit to deposit them within 2 days, or the admission is cancelled. Bonded candidates with an MBBS from a Madhya Pradesh college get 7 working days, on an affidavit, to bring their class 10 and 12 marksheets and other documents from that college.",
+     [
+      "Full first-year fee",
+      "warn"
+     ],
+     null,
+     "sti: p.1-2; sta: p.1; bnd: p.1"
+    ]
+   ],
+   "gaps": [
+    "any deposit for the stray round, or the cost of not taking a stray seat: the rules and notices don't state them."
+   ]
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "Govt seat: Rs 30 lakh bond",
+     "stop"
+    ],
+    [
+     "Debarred 3 years (degree)",
+     "stop"
+    ]
+   ],
+   "opts": [
+    [
+     "Leave after the mop-up has started",
+     "Government college: the seat-leaving bond of Rs 30 lakh, payable to the autonomous institution. Private college: the whole course's academic fee. Either way you're out of later rounds.",
+     [
+      "Rs 30 lakh or full fee",
+      "stop"
+     ],
+     null,
+     "rules: p.31"
+    ],
+    [
+     "Debarment",
+     "Resigning other than as Rule 15 allows, not completing the course, expulsion, or cancellation of your admission for a false claim about your qualification, eligibility, category or domicile bars you from PG degree admission for 3 years (diploma 2). Separately, the Director can cancel an admission for indiscipline, strikes or unauthorised absence during the course.",
+     [
+      "3 years out",
+      "stop"
+     ],
+     null,
+     "rules: p.11; p.21; p.10; p.24"
+    ],
+    [
+     "In-service candidates",
+     "Admitted in-service doctors must serve 5 years after the PG course; not serving them under the bond means paying the bond amount of Rs 50 lakh.",
+     [
+      "5 years or Rs 50 lakh",
+      "warn"
+     ],
+     null,
+     "rules: p.25"
+    ],
+    [
+     "Bonds at admission",
+     "You deposit a seat-leaving bond and a rural-service (meritorious student) bond at the college. On a breach the bond amount is recovered in one sum; you can be released at any time by paying the whole amount.",
+     [
+      "Amounts not stated",
+      "info"
+     ],
+     null,
+     "rules: p.17; p.11"
+    ]
+   ],
+   "gaps": [
+    "the amounts of the rural-service and seat-leaving bonds signed at admission, apart from the Rs 30 lakh after the mop-up starts: not stated in the documents we hold.",
+    "whether leaving after paying the seat-leaving bond counts as 'not completing the course' for the 3-year bar: not stated."
+   ],
+   "who": []
+  }
+ },
+ "money": {
+  "reg": [
+   "Registration Rs 1,100, non-refundable; a Rs 100 portal fee at choice locking in each round.",
+   "adv: p.2; faq: p.2; rules: p.29"
+  ],
+  "dep": [
+   "No Round 1 deposit is stated (the first advisory lists the payments: registration, the Round 2 and mop-up advances, and the college fee at admission). Round 2 advance (not for Round 1 admitted candidates): government colleges Rs 25,000 (reserved Rs 12,500), private Rs 2,00,000, NRI Rs 10,00,000. Mop-up advance: Rs 2,00,000 (NRI Rs 10,00,000).",
+   "faq: p.2; adv: p.3"
+  ],
+  "lose": [
+   "The Round 2 advance, for a Round 2 seat not joined; the mop-up advance, for a mop-up seat not joined; Rs 2 lakh (NRI/OCI Rs 10 lakh) deducted for resigning after Round 2; the Rs 30 lakh bond or the full fee after the mop-up starts.",
+   "rules: p.30; p.31; faq: p.4; p.6-7"
+  ],
+  "back": [
+   "The advance is adjusted in the admission fee if you join, or returned after all rounds if you get no seat. A Round 1 resignation before Round 2 returns the fee less 10 per cent (at most Rs 10,000; NRI Rs 25,000), the FAQ says.",
+   "rules: p.8; faq: p.4"
+  ],
+  "leave": [
+   "After the mop-up starts: Rs 30 lakh (government seat) or the whole course's fee (private seat), and you're out of later rounds. A 3-year bar from PG degree admission for resigning outside Rule 15, not completing the course, expulsion or a false claim. In-service: 5 years' service or Rs 50 lakh.",
+   "rules: p.31; p.11; p.21; p.24"
+  ]
+ }
+}

@@ -1,0 +1,290 @@
+{
+ "code": "TR",
+ "label": "Tripura",
+ "sub": "State quota, via TRMCC for the Directorate of Medical Education",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "b": {
+   "name": "TRMCC Information Bulletin, Tripura Postgraduate Medical Counselling 2025 (7 Nov 2025)",
+   "short": "TR bulletin",
+   "url": "https://cdnbbsr.s3waas.gov.in/s337e3ca9768a106f686626a07db6facff/uploads/2025/11/202511071736707248.pdf"
+  },
+  "r2n": {
+   "name": "TRMCC Round-2 educational notification (9 Dec 2025; scanned)",
+   "short": "Round 2 notification",
+   "url": "https://cdnbbsr.s3waas.gov.in/s337e3ca9768a106f686626a07db6facff/uploads/2025/12/202512091369160772.pdf"
+  },
+  "r3n": {
+   "name": "TRMCC Round-3 educational notification (29 Jan 2026; scanned)",
+   "short": "Round 3 notification",
+   "url": "https://cdnbbsr.s3waas.gov.in/s337e3ca9768a106f686626a07db6facff/uploads/2026/01/202601291881471914.pdf"
+  },
+  "sn": {
+   "name": "TRMCC Stray Vacancy Round educational notification (23 Feb 2026)",
+   "short": "Stray notification",
+   "url": "https://cdnbbsr.s3waas.gov.in/s337e3ca9768a106f686626a07db6facff/uploads/2026/02/202602232124491108.pdf"
+  }
+ },
+ "doc": "b",
+ "notes": [
+  [
+   "Tripura runs four online rounds (Rounds 1, 2 and 3, then a stray round), each with its own eligibility rules.",
+   "b: cl. 2(b), (i), p.2-3"
+  ]
+ ],
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "Free exit",
+     "ok"
+    ],
+    [
+     "Upgrade: join, then say yes",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Register with the registration fee and security deposit, fill and lock choices; after allotment, collect the nomination letter from the DME office and report to the college with originals.",
+     "b: cl. 6, p.7-8"
+    ]
+   ],
+   "opts": [
+    [
+     "Free exit",
+     "Allotted but not joining: you can go straight to Round 2 without paying the fee or deposit again.",
+     [
+      "Nothing to pay again",
+      "ok"
+     ],
+     "Candidates who have been allotted a seat in Round-1 can opt for free exit and can directly participate in Round-2.",
+     "b: cl. 6, p.8"
+    ],
+    [
+     "Join and try Round 2",
+     "Take admission at the college with your originals, then opt for an upgrade.",
+     [
+      "Join first",
+      "info"
+     ],
+     "Candidates who have been allotted a seat in Round-1 can opt for willingness to upgrade from Round-1 to Round-2 after admission at college/institute.",
+     "b: cl. 6, p.8"
+    ]
+   ],
+   "gaps": [
+    "whether resigning a joined Round 1 seat later brings the course-discontinuation bond.",
+    "any bar on candidates holding an all-India, deemed or central seat taking part in Rounds 1 to 3: only the stray round has one. Anyone presently pursuing a course must still give acceptance of resignation and a release certificate before admission (bulletin 2(f))."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "Don't join: deposit lost",
+     "warn"
+    ],
+    [
+     "Upgrade: old seat gone",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Round 1 registrants needn't pay again; new candidates register with the fee and deposit; everyone fills fresh choices.",
+     "b: Round-2 (a)-(d), p.8"
+    ]
+   ],
+   "opts": [
+    [
+     "Upgraded",
+     "Take a relieving letter from the Round 1 college and join the new seat; you lose any claim on the Round 1 seat.",
+     [
+      "Old seat gone",
+      "info"
+     ],
+     "Candidates getting upgraded in Round 2 SHALL NOT HAVE ANY CLAIM on Round 1 seat.",
+     "b: Round-2 (l), (n), p.8-9"
+    ],
+    [
+     "Don't join",
+     "Your security deposit is forfeited. You can still enter Round 3 by paying the fee and deposit again.",
+     [
+      "Deposit lost",
+      "warn"
+     ],
+     "If Seat allotted in Round-2 but not reported/ not joined then he/she can proceed for Round-3 counselling by submitting fresh registration fee and security deposit.",
+     "b: Round-2 (p), p.9; r2n: (o), p.2"
+    ],
+    [
+     "Upgrade again in Round 3",
+     "A fresh Round 2 allottee who wants Round 3 must first take admission in the Round 2 seat.",
+     [
+      "Join first",
+      "info"
+     ],
+     "Candidates who have been freshly allotted a seat in round 2 can opt for willingness to upgrade from Round-2 to Round-3, for which first they will have to admit in Round 2 allotted college/institute.",
+     "b: Round-2 (o), p.9"
+    ]
+   ],
+   "gaps": []
+  },
+  "r3": {
+   "title": "Round 3",
+   "chips": [
+    [
+     "Joined: final, no resigning",
+     "stop"
+    ],
+    [
+     "Don't join: deposit lost + out",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Registered candidates fill fresh choices to upgrade; new candidates, and those who resigned or forfeited in Round 2, pay the fee and deposit.",
+     "b: Round-3 (a)-(e), p.9"
+    ],
+    [
+     "This round, Tripura Medical College's seats for non-domicile candidates (MBBS from AGMC or TMC) were open to domicile candidates too, on merit.",
+     "r3n: (h), p.2"
+    ]
+   ],
+   "opts": [
+    [
+     "Join",
+     "Once joined, you can't upgrade or resign, and your counselling for the year ends.",
+     [
+      "Final",
+      "stop"
+     ],
+     "Once joined, he cannot upgrade or resign from Round-3 seat.",
+     "b: Round-3 (m), (q), p.9-10"
+    ],
+    [
+     "Don't join",
+     "You lose the security deposit and are out of all later Tripura rounds.",
+     [
+      "Deposit lost + out",
+      "stop"
+     ],
+     "If any candidate does not join Round 3 seat, he may exit with forfeiture of security deposit and elimination (cannot participate in further rounds of counselling conducted by TRMCC.",
+     "b: Round-3 (n), p.9-10"
+    ]
+   ],
+   "gaps": []
+  },
+  "stray": {
+   "title": "Stray vacancy round",
+   "chips": [
+    [
+     "Seat-holders out",
+     "stop"
+    ],
+    [
+     "Don't join: 1-year NEET-PG bar",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Candidates not holding any seat (AIQ, State or deemed); anyone admitted in earlier Tripura or All India rounds, or allotted in Round 3, can't take part.",
+     "b: Stray (c)-(e), p.10; sn: items 2, 4, p.2"
+    ],
+    [
+     "No upgrading for candidates admitted in earlier rounds.",
+     "sn: item 3, p.2"
+    ]
+   ],
+   "opts": [
+    [
+     "Don't join",
+     "Your security deposit is forfeited and you're barred from the NEET-PG exam for the next year.",
+     [
+      "Deposit lost + 1-year bar",
+      "stop"
+     ],
+     "If any candidate fails to take admission to the allotted institute after being allotted a seat in the Stray Vacancy Round, his/her security deposit will be forfeited, and he/she shall be debarred from appearing in the NEET PG examination for the next one year.",
+     "sn: item 8, p.2"
+    ],
+    [
+     "Join",
+     "Once joined, you can't resign.",
+     [
+      "Can't resign",
+      "stop"
+     ],
+     null,
+     "b: flow chart, p.14"
+    ]
+   ],
+   "gaps": []
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "Leaving: Rs 10-35 lakh",
+     "stop"
+    ],
+    [
+     "Service bond",
+     "warn"
+    ]
+   ],
+   "who": [],
+   "opts": [
+    [
+     "Discontinue the course",
+     "Rs 25 lakh (pre- and para-clinical degree), Rs 35 lakh (clinical degree) or Rs 10 lakh (diploma), paid to the Government of Tripura or the institution.",
+     [
+      "Rs 10-35 lakh",
+      "stop"
+     ],
+     null,
+     "b: Annexure-I, p.27"
+    ],
+    [
+     "Service bond",
+     "Non-sponsored, Tripura-domicile candidates taking a State Quota seat serve 3 years after a degree (2 after a diploma), or pay Rs 35 lakh (pre- and para-clinical), Rs 50 lakh (clinical) or Rs 15 lakh (diploma). The bond lapses if the Government doesn't appoint you within six months of being told you've finished the course. Sponsored candidates sign the bond of an earlier notification instead. All India Quota candidates are exempt unless they take a Tripura stipend or salary.",
+     [
+      "2-3 years or Rs 15-50 lakh",
+      "warn"
+     ],
+     null,
+     "b: Annexure-I, p.27; Clause 9, p.28"
+    ]
+   ],
+   "gaps": [
+    "which exits count as discontinuing: the bulletin speaks of free exit, resigning and forfeiture for rounds, and of the bond for leaving the course."
+   ]
+  }
+ },
+ "cross": {},
+ "money": {
+  "reg": [
+   "Rs 8,000 (General/EWS/WESM, and OBC-NCL of Tripura); Rs 7,000 (SC/ST/PwD, and OBC-NCL non-domicile). Paid once, unless your deposit is forfeited or you resigned a Round 2 seat.",
+   "b: cl. 5(a), p.7; Annexure-B, p.16; Round-3 (c), p.9"
+  ],
+  "dep": [
+   "Rs 25,000 (Rs 12,500 ST/SC/PwD and OBC-NCL non-domicile) for government seats; Rs 2 lakh for TMC (non-government) seats, or both.",
+   "b: cl. 5(b), p.7; Annexure-B, p.16"
+  ],
+  "lose": [
+   "The security deposit, for a Round 2 or later seat you don't join; in the stray round, also a 1-year bar from NEET-PG.",
+   "b: p.9-10; sn: item 8, p.2"
+  ],
+  "back": [
+   "Not stated: the bulletin has no refund clause for the deposit.",
+   ""
+  ],
+  "leave": [
+   "Discontinuation bond: Rs 25 lakh (pre/para-clinical), Rs 35 lakh (clinical), Rs 10 lakh (diploma); plus a service bond for Tripura-domicile candidates.",
+   "b: Annexure-I, p.27"
+  ]
+ }
+}

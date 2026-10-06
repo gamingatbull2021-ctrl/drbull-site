@@ -1,0 +1,307 @@
+{
+ "code": "TN",
+ "label": "Tamil Nadu",
+ "sub": "State quota, via the Selection Committee, DME&R Chennai",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "p": {
+   "name": "Selection Committee prospectuses 2025-2026: Government Quota (G.O. (D) No. 1006) and Management Quota incl. NRI (G.O. (D) No. 1007), in one file",
+   "short": "TN prospectus",
+   "url": "https://www.tnmedicalselection.net/archives/22052026035058965.pdf"
+  },
+  "s": {
+   "name": "Selection Committee round schedules 2025-26 (Rounds I to III and the stray round, in one file)",
+   "short": "TN schedules",
+   "url": "https://www.tnmedicalselection.net/archives/22052026035059118.pdf"
+  }
+ },
+ "doc": "p",
+ "notes": [
+  [
+   "Tamil Nadu runs one counselling for government-quota and management-quota (including NRI) seats, under two prospectuses in one file; these lines follow the government-quota prospectus.",
+   "p: p.1; p.61; s: p.4-5"
+  ]
+ ],
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "Free exit",
+     "ok"
+    ],
+    [
+     "Tuition paid to download the order",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "Registered candidates on the eligible list who lock choices. Not registering for Round 1 doesn't stop you joining later rounds.",
+     "p: p.13"
+    ]
+   ],
+   "opts": [
+    [
+     "Join",
+     "Download the allotment order (paying the non-refundable tuition fee) and join by the stipulated date. You can still take part in Round 2 for re-allotment.",
+     [
+      "Tuition non-refundable",
+      "warn"
+     ],
+     "The candidates allotted during Round 1 of the online counselling should download their provisional allotment order and join the course in the Medical College concerned on or before the date and time stipulated with relevant documents.",
+     "p: p.15; p.26"
+    ],
+    [
+     "Don't join, or resign in time",
+     "No forfeiture in Round 1: you can still take part in Round 2.",
+     [
+      "No forfeiture",
+      "ok"
+     ],
+     "A candidate who has taken a seat and not joined / resigned the course within the stipulated time in the Round 1 online counselling, he/she is eligible to attend the Round 2 of ONLINE COUNSELLING.",
+     "p: p.13; table, p.16-17"
+    ]
+   ],
+   "gaps": [
+    "the stipulated dates for free exit and resignation: they're set in Selection Committee notices.",
+    "whether the tuition paid to download the allotment order comes back if you resign in time: one line calls it non-refundable, cl. 24(a) makes it non-refundable only beyond the resignation period, and the Round 1 table says no forfeiture.",
+    "any rule for candidates holding an all-India, deemed or central seat in Rounds 1 and 2."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "Don't join: registration fee lost",
+     "warn"
+    ],
+    [
+     "Resign late: Rs 15 lakh",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Seats not joined, not allotted or resigned in Round 1, plus newly sanctioned seats; re-allotment in this round is by rank and the rule of reservation.",
+     "p: p.15; p.13"
+    ],
+    [
+     "A Round 1 seat whose holder opts for an upgrade shows as a virtual vacancy that others can choose; it's allotted in Round 2 only if its holder vacates it.",
+     "p: p.16"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted, not joined",
+     "You lose the registration fee, but can still take part in Round 3.",
+     [
+      "Registration fee lost",
+      "warn"
+     ],
+     "If the candidate is allotted and has not downloaded the allotment order and has not joined, the course after completion of Round 2 of ONLINE CONSELLING, then they will have to forfeit the registration fee paid by them.",
+     "p: p.16; table, p.17-18"
+    ],
+    [
+     "Joined, then resign in time",
+     "Resigning by the Selection Committee's date keeps you eligible for Round 3. The prospectus's detailed table says a Round 2 candidate who doesn't join or resigns forfeits the registration fee; its summary table shows no forfeiture for resigning.",
+     [
+      "Registration fee may be lost",
+      "warn"
+     ],
+     "Candidates who have joined the allotted seat in Round 2 will be allowed to resign within the stipulated date given by Selection Committee.",
+     "p: p.16; table, p.17-18"
+    ],
+    [
+     "Resign after the date",
+     "Rs 15 lakh for a degree (Rs 10 lakh for a diploma), plus the registration fee, security deposit and tuition; no Round 3.",
+     [
+      "Rs 15 lakh + fees",
+      "stop"
+     ],
+     null,
+     "p: table, p.16-18"
+    ]
+   ],
+   "gaps": [
+    "whether resigning a Round 2 seat in time forfeits the registration fee: the detailed table and the management-quota table say yes, the summary table doesn't, the clauses don't say, and the Round 2 notice lists 'Resigned and not joined' under forfeiture. The prospectus calls its tables illustrative only; its clauses charge the Round 2 discontinuation fee to anyone who joined and discontinues after the stipulated date, whatever their upgrade choice."
+   ]
+  },
+  "r3": {
+   "title": "Round 3 (mop-up)",
+   "chips": [
+    [
+     "No free exit, no resigning",
+     "stop"
+    ],
+    [
+     "Allotted: no stray round",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Candidates not allotted or not registered in Rounds 1 and 2; candidates allotted in Rounds 1 and 2 (State or All India Quota), joined or not; and those who resigned in Round 2 within the date. Not those who resigned after Round 2.",
+     "p: p.19-20"
+    ],
+    [
+     "Round 1 or 2 seat-holders who haven't resigned can try for an upgrade; those who want to keep their seat needn't take part.",
+     "s: p.20"
+    ],
+    [
+     "Registration fee Rs 1,000 for Round 3, paid by earlier allottees (joined, not joined or resigned) and by fresh registrants. Only candidates who took part earlier but were not allotted in Rounds 1 and 2 need not pay.",
+     "p: p.19"
+    ],
+    [
+     "Candidates who joined in MCC's Round 3 are blocked, if MCC shares its joined list.",
+     "p: p.19"
+    ]
+   ],
+   "opts": [
+    [
+     "Upgraded",
+     "You must vacate the earlier seat; you can't keep it.",
+     [
+      "Old seat gone",
+      "info"
+     ],
+     "Any candidate who has opted for upgradation in Mop-up (Round -3) and allotted a seat in Mop-up round (Round-3), the candidate will necessarily have to vacate the seat and cannot claim for retaining the seats.",
+     "s: p.21"
+    ],
+    [
+     "Allotted",
+     "You can't take part in any later round.",
+     [
+      "No further rounds",
+      "stop"
+     ],
+     "A candidate allotted a seat in Round 3 (Mop-up) in State counselling shall be ineligible to participate in any further Rounds counselling.",
+     "p: p.19"
+    ],
+    [
+     "Allotted, not joined",
+     "You lose the registration fee, security deposit and tuition paid.",
+     [
+      "All fees lost",
+      "stop"
+     ],
+     "If the candidate is allotted but has NOT joined the course after downloading the allotment order in the Round 3 (Mop-Up) of online counselling, then they will have to forfeit the registration fee, Security Deposit and tuition fee paid by them.",
+     "p: p.18"
+    ]
+   ],
+   "gaps": []
+  },
+  "stray": {
+   "title": "Stray vacancy round",
+   "chips": [
+    [
+     "Seat-holders out",
+     "stop"
+    ],
+    [
+     "Allotted: must join",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Candidates who don't hold a seat after Rounds 1 to 3, and those allotted but not joined in State or All India Quota Rounds 1 and 2.",
+     "p: p.20"
+    ],
+    [
+     "Not eligible: anyone who joined in State or All India Rounds 1 to 3, was allotted in State Round 3 or the All India stray round, or discontinued with the penalty.",
+     "s: p.24"
+    ],
+    [
+     "Holders of an All India Quota, deemed-university or DNB seat from Rounds 1 to 3 can't take part.",
+     "p: p.21"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted and joined",
+     "You can't vacate the seat; leaving means losing the registration fee, security deposit and tuition, and paying the penalty.",
+     [
+      "Can't vacate",
+      "stop"
+     ],
+     "Not allowed to vacate the seat. If wants to discontinue, then forfeit Registration Fee, security deposit and tuition fees and pay penalty.",
+     "s: p.26"
+    ],
+    [
+     "Allotted, not joined",
+     "You lose the registration fee, security deposit and any tuition paid.",
+     [
+      "All fees lost",
+      "stop"
+     ],
+     "Forfeit Registration fee, security deposit and tuition fees (if paid for downloading allotment order )",
+     "s: p.26"
+    ]
+   ],
+   "gaps": []
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "Rs 15 lakh + fees lost",
+     "stop"
+    ],
+    [
+     "Bond: Rs 40,00,000",
+     "warn"
+    ]
+   ],
+   "who": [],
+   "opts": [
+    [
+     "Leave after the stipulated date",
+     "Discontinuing on or after Round 2, after the Selection Committee's date, costs Rs 15 lakh for a degree (Rs 10 lakh for a diploma), and you lose the tuition, security deposit and registration fee. Non-service candidates, including All India Quota ones, also repay the stipend received. Your certificates are held until the penalty is paid.",
+     [
+      "Rs 15 lakh + fees",
+      "stop"
+     ],
+     "Unless the aforesaid discontinuation fee as penalty amount is paid in total, the candidates will not be relieved and original certificates produced by the candidates at the time of admission will be retained by the concerned institutions.",
+     "p: p.15; p.21; p.29"
+    ],
+    [
+     "Service bond",
+     "Non-service candidates, including All India Quota ones, sign a bond with three sureties: Rs 40,00,000 (degree) or Rs 20,00,000 (diploma), to serve the Government for two years within three years of finishing, if the Government requires their services.",
+     [
+      "Rs 40,00,000 bond",
+      "warn"
+     ],
+     "Non-Service candidates including candidates selected through 50% All India Quota shall execute a bond with three sureties for a sum of ₹20,00,000/- (Rupees Twenty Lakh only) on admission to Post Graduate Diploma courses 2025-2026 session and ₹40,00,000/- (Rupees Forty Lakh only) on admission to Post Graduate Degree courses 2025-2026 session",
+     "p: p.29"
+    ]
+   ],
+   "gaps": []
+  }
+ },
+ "cross": {},
+ "money": {
+  "reg": [
+   "Application fee Rs 3,000 (SC, SC (Arunthathiyar) and ST natives of Tamil Nadu exempt; Rs 5,000 for management quota). Registration fee Rs 1,000 for each quota, paid again in later rounds except by candidates not allotted earlier (Round 3, stray round). Non-refundable.",
+   "p: p.4; p.19; p.20; p.64; s: p.5"
+  ],
+  "dep": [
+   "Rs 30,000 for government colleges; Rs 1,00,000 for government-quota seats in self-financing colleges; Rs 2,00,000 for management quota (including NRI). Paid once.",
+   "p: p.4; s: p.5; p.11"
+  ],
+  "lose": [
+   "A Round 2 seat not joined: the registration fee. From Round 3: the registration fee, security deposit and tuition.",
+   "p: p.16; p.18"
+  ],
+  "back": [
+   "The security deposit is refunded within three months after the whole counselling ends if you got no seat in any round; no interest. The application and registration fees aren't refunded.",
+   "p: p.4"
+  ],
+  "leave": [
+   "Rs 15 lakh (degree) or Rs 10 lakh (diploma) for discontinuing on or after Round 2, after the stipulated date, plus the fees paid (non-service candidates also repay the stipend); a bond of Rs 40,00,000 (degree) or Rs 20,00,000 (diploma).",
+   "p: p.15; p.21; p.29"
+  ]
+ }
+}

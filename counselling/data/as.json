@@ -1,0 +1,332 @@
+{
+ "code": "AS",
+ "label": "Assam",
+ "sub": "State quota, via the Director of Medical Education",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "rules": {
+   "name": "Medical Colleges of Assam (Regulation of Admission into PG Degree and Diploma Courses) Rules, 2021 (Assam Gazette No. 588, 10 Dec 2021; scanned)",
+   "short": "Assam PG Rules 2021",
+   "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/menu/document/medical_colleges_of_assamregulation_of_admission_into_post_graduate_degree_and_diploma_courses_rules_2021.pdf"
+  },
+  "amend24": {
+   "name": "Amendment of 13 March 2024 (Assam Gazette No. 125; substitutes Rule 9(i); scanned)",
+   "short": "Amendment 2024",
+   "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/menu/document/no._125_mer_209805-90_dated_13-03-2024.pdf"
+  },
+  "r1adm": {
+   "name": "DME admission notice after the 1st round (1 Dec 2025; scanned)",
+   "short": "Round 1 admission notice",
+   "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/admission_notice_after_1st_round_online_counselling_session_2025.pdf"
+  },
+  "r2n": {
+   "name": "DME notice for the 2nd round online counselling (No. .../687431/12)",
+   "short": "Round 2 notice",
+   "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_2nd_pg_counselling_2025.pdf"
+  },
+  "r2adm": {
+   "name": "DME admission notice after the 2nd round (20/12/2025; scanned)",
+   "short": "Round 2 admission notice",
+   "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/admission_notice-neet-pg2025_round-2.pdf"
+  },
+  "r3adm": {
+   "name": "DME admission notice after the 3rd round (No. .../687431/18)",
+   "short": "Round 3 admission notice",
+   "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/admission_notice_select_list_after_3rd_round_counselling_2026.pdf"
+  },
+  "stray": {
+   "name": "DME notice for the stray round online counselling (No. .../703953/6)",
+   "short": "Stray round notice",
+   "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/stray_round_online_pg_counselling_2026.pdf"
+  },
+  "r1n": {
+   "name": "DME Assam, 1st Round Online Counselling notice, No. e. DME/PG/2025/687431/4 (31/10/2025)",
+   "short": "Round 1 notice",
+   "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_1st_pg_counselling_2025.pdf"
+  },
+  "r3new": {
+   "name": "DME Assam, 3rd Round revised schedule, No. .../703953/5",
+   "short": "Round 3 revised notice",
+   "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_3rd_pg_counselling_2025_new.pdf"
+  }
+ },
+ "doc": "rules",
+ "notes": [
+  [
+   "Assam runs its rounds on the 2021 Rules (amended in 2023 and 2024) and short DME notices; the number of rounds follows the Government of India's schedule. The Rules are scanned gazette pages: the lines from them are our reading, with the page.",
+   "rules: Rule 18(i), p.9"
+  ]
+ ],
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "Report, or lose the allotment",
+     "warn"
+    ],
+    [
+     "AIQ seat? Bring its resignation letter",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Candidates who meet the NEET-PG 2025 cut-off and are on the State provisional merit list.",
+     "r1n: p.1"
+    ],
+    [
+     "Anyone holding an All India Quota seat must bring that college's resignation or surrender acceptance letter to be admitted.",
+     "r1adm: item 6, p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Don't report",
+     "Your allotment is cancelled.",
+     [
+      "Allotment cancelled",
+      "warn"
+     ],
+     null,
+     "r1adm: p.1"
+    ],
+    [
+     "Leave to upgrade, or surrender in time",
+     "Leaving the college to upgrade, within the time set for that counselling session, or surrendering the seat before the last date of admission, gets back 90% of the fees deposited at admission; nothing after the last date.",
+     [
+      "10% kept",
+      "warn"
+     ],
+     null,
+     "rules: Rule 15, p.9"
+    ]
+   ],
+   "gaps": [
+    "the counselling and admission fee amounts: the Rules say the DME notifies them, and the 2025-26 notices we read don't state them."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "Change college, or get a seat",
+     "info"
+    ],
+    [
+     "Report, or lose the allotment",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "Round 1 participants needn't register again; they can fill choices for a fresh allotment or a change of college.",
+     "r2n: p.1"
+    ],
+    [
+     "Anyone holding an All India Quota seat must bring that college's resignation or surrender acceptance letter to be admitted.",
+     "r2adm: item 7, p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Re-allotted",
+     "Report to the new college with the previous college's receipt for the certificates you lodged there.",
+     [
+      "Move with the receipt",
+      "info"
+     ],
+     null,
+     "r2adm: item 3, p.1"
+    ],
+    [
+     "Don't report",
+     "Your allotment is cancelled.",
+     [
+      "Allotment cancelled",
+      "warn"
+     ],
+     null,
+     "r2adm: p.1"
+    ],
+    [
+     "Leave to upgrade",
+     "Leaving your seat to upgrade, within the time set for that counselling session, gets back 90% of the fees deposited at admission.",
+     [
+      "10% kept",
+      "warn"
+     ],
+     null,
+     "rules: Rule 15, p.9"
+    ]
+   ],
+   "gaps": []
+  },
+  "r3": {
+   "title": "Round 3",
+   "chips": [
+    [
+     "Revised cut-off: new registrations",
+     "info"
+    ],
+    [
+     "Report, or lose the allotment",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "The round was postponed and rerun on MCC's new schedule; candidates eligible under the revised NEET-PG cut-off published by NBE could register, and earlier registrants needn't register again and could choose again for a fresh allotment or a change of college.",
+     "r3new: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Re-allotted",
+     "Report to the new college with the previous college's receipt for the certificates you lodged there.",
+     [
+      "Move with the receipt",
+      "info"
+     ],
+     "Candidates who have been re-allotted seats at the time of 3rd counselling shall have to report to the newly allotted College with the acknowledgement receipts/documentary proof of submitting the certificates/testimonials etc. issued by the previous Principals",
+     "r3adm: item 3, p.1"
+    ],
+    [
+     "Don't report",
+     "Your allotment is cancelled.",
+     [
+      "Allotment cancelled",
+      "warn"
+     ],
+     "on 18th to 19th February, 2026 for admission, failing which his/her allotment shall be cancelled.",
+     "r3adm: p.1"
+    ],
+    [
+     "Holding an AIQ seat",
+     "To be admitted, bring the resignation or surrender acceptance letter from your All India Quota college.",
+     [
+      "Resign the AIQ seat first",
+      "info"
+     ],
+     "Candidates who have already taken admission under 50% All India Quota must produce a copy of resignation/ surrender acceptance letter from the respective College/ Institutes for admission.",
+     "r3adm: item 7, p.1"
+    ]
+   ],
+   "gaps": []
+  },
+  "stray": {
+   "title": "Stray round",
+   "chips": [
+    [
+     "Joined by Round 3: out",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Anyone who joined an AIQ or State quota seat up to Round 3 can't take part.",
+     "stray: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Joined a seat up to Round 3",
+     "You can't take part in this or any later State round.",
+     [
+      "Out",
+      "stop"
+     ],
+     "It is to be noted that candidates who joined upto round 3 of AIQ or State Quota seats shall not be eligible to participate in the further rounds for State Quota seat counselling.",
+     "stray: p.1"
+    ],
+    [
+     "Don't take the seat",
+     "A seat not taken up within the time fixed by the Government of India is forfeited.",
+     [
+      "Seat forfeited",
+      "warn"
+     ],
+     null,
+     "rules: Rule 17, p.9"
+    ]
+   ],
+   "gaps": [
+    "a penalty for not joining a stray-round seat, beyond losing it."
+   ]
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "Rs 10,00,000 + stipend",
+     "stop"
+    ],
+    [
+     "2-year bond: Rs 20 lakh",
+     "warn"
+    ]
+   ],
+   "who": [],
+   "opts": [
+    [
+     "Surrender after the last date of admission",
+     "Rs 10,00,000 for a degree seat (Rs 5,00,000 for a diploma), plus the stipend drawn.",
+     [
+      "Rs 10,00,000 + stipend",
+      "stop"
+     ],
+     null,
+     "rules: Rule 19, p.10"
+    ],
+    [
+     "Service bond",
+     "After the course, serve the Government of Assam, or an agency the Department notifies, for 2 years, or pay Rs 20 lakh (degree) or Rs 15 lakh (diploma); taking the money instead of service is the Department's call, only in compelling circumstances. The Government may release you earlier. Not for candidates in regular Assam government service or on N.E.C. quota seats. State Health Service quota candidates bind themselves for at least 10 years, or pay Rs 25 lakh plus the salary/stipend drawn.",
+     [
+      "2 years or Rs 20 lakh",
+      "warn"
+     ],
+     null,
+     "amend24: Rule 9(i), p.2-3; rules: Rule 8(v), p.6; Rule 9(iii), p.7"
+    ],
+    [
+     "No refund after the last date",
+     "Fees aren't refunded after the last date of admission.",
+     [
+      "No refund",
+      "warn"
+     ],
+     null,
+     "rules: Rule 15, p.9"
+    ]
+   ],
+   "gaps": [
+    "the 2025-26 last date of admission that starts the penalty: the notices we read don't give it."
+   ]
+  }
+ },
+ "cross": {},
+ "money": {
+  "reg": [
+   "Counselling fee: set by DME notice; the amount isn't in the 2025-26 notices we read.",
+   "rules: Rule 12, p.8"
+  ],
+  "dep": [
+   "No security deposit stated.",
+   ""
+  ],
+  "lose": [
+   "10% of the fees deposited at admission, if you leave to upgrade in time or surrender before the last date of admission.",
+   "rules: Rule 15, p.9"
+  ],
+  "back": [
+   "90% of the fees deposited at admission in those cases; nothing after the last date of admission.",
+   "rules: Rule 15, p.9"
+  ],
+  "leave": [
+   "Rs 10,00,000 (degree) or Rs 5,00,000 (diploma) + stipend after the last date of admission; a 2-year service bond of Rs 20 lakh (degree) or Rs 15 lakh (diploma).",
+   "rules: Rule 19, p.10; amend24: Rule 9(i), p.2"
+  ]
+ }
+}

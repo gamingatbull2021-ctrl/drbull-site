@@ -1,0 +1,387 @@
+{
+ "code": "RJ",
+ "label": "Rajasthan",
+ "sub": "State-quota and private-college seats, via the NEET PG Admission/Counselling Board (SMS Medical College, Jaipur)",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "ib": {
+   "name": "NEET PG Admission/Counselling Board-2025, Instruction Booklet for State Medical PG seats (M.D./M.S.) / Post MBBS DNB / Post MBBS Diploma Allotments 2025 (undated, November 2025)",
+   "short": "RJ instruction booklet",
+   "url": "https://rajpgneet2025.in/static/Information%20Booklet%20.pdf"
+  },
+  "r2n": {
+   "name": "NEET PG Admission/Counselling Board-2025, notification: revised Round 2 schedule (26/12/2025)",
+   "short": "Round 2 notice 26/12/2025",
+   "url": "https://rajpgneet2025.in/notifications/1766736207698.pdf"
+  },
+  "r3n": {
+   "name": "NEET PG Admission/Counselling Board-2025, notification: revised Round 3 schedule and eligibility (31/01/2026)",
+   "short": "Round 3 notice 31/01/2026",
+   "url": "https://rajpgneet2025.in/notifications/1769857560731.pdf"
+  },
+  "aiq": {
+   "name": "NEET PG Medical Admission Board-2025, notice on resignation by all-India Round 3 allottees (06/02/2026)",
+   "short": "Notice 06/02/2026",
+   "url": "https://rajpgneet2025.in/notifications/1770369768709.pdf"
+  },
+  "sb": {
+   "name": "Directorate of Medical Education, Rajasthan: order on the specialty-wise service bond from session 2025-26, with the bond form (Hindi order; e-signed 04-09-2025)",
+   "short": "Service bond order (Hindi)",
+   "url": "https://rajpgneet2025.in/notifications/1764167601597.pdf"
+  },
+  "stb": {
+   "name": "NEET PG Admission/Counselling Board-2025, bond for MD/MS/Diploma allotment in the stray vacancy round",
+   "short": "Stray round bond",
+   "url": "https://rajpgneet2025.in/notifications/1771740433587.pdf"
+  },
+  "sur": {
+   "name": "NEET PG Admission/Counselling Board 2025, Surety bond form, Rs 10 lakh (to be submitted at the time of reporting; government, RajMES, RUHS CMS and district-hospital seats)",
+   "short": "Surety bond form",
+   "url": "https://rajpgneet2025.in/notifications/1764161342045.pdf"
+  }
+ },
+ "doc": "ib",
+ "notes": [
+  [
+   "Rajasthan's Board fills state-quota and private-college seats (management seats included) in four online rounds: Round 1, Round 2, Round 3 and a stray vacancy round. No admission is made at the college level: you report at the college's desk at SMS Medical College, Jaipur.",
+   "ib: p.2; p.4; p.10; p.11"
+  ],
+  [
+   "Rajasthan's counselling site (rajpgneet2025.in) answered 'Service Temporarily Unavailable' when we checked on 30-09-2026, so its links may not open; the lines here come from copies we downloaded earlier.",
+   ""
+  ],
+  [
+   "You fill fresh choices in every round. If you don't, you aren't considered in that round, and a seat you joined earlier is kept.",
+   "ib: p.9"
+  ],
+  [
+   "The service-bond amounts come from a Hindi order; those lines are our English.",
+   "sb: p.1"
+  ]
+ ],
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "Don't join: no loss",
+     "ok"
+    ],
+    [
+     "Security Rs 1,00,000 to Rs 5,00,000",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "NEET-PG 2025 qualifiers who complete both parts of the application and pay the non-refundable fee (Rs 4,000; Rs 3,000 for Rajasthan-domicile SC/ST).",
+     "ib: p.2"
+    ],
+    [
+     "Up to Round 3, the state's seats (half of the seats in government colleges and half in private colleges) are for candidates with an MBBS from a college in Rajasthan and doctors serving the Rajasthan Government; the other half of private-college seats is open to any NMC-recognised MBBS.",
+     "ib: p.4"
+    ],
+    [
+     "Before choice filling you pay a refundable security amount, in one transaction: Rs 1,00,000 for government seats; Rs 2,00,000 in all for management seats in government-society colleges and RUHS CMS (government seats are then open to you too); Rs 5,00,000 in all for private colleges (the booklet says government, government-society and RUHS CMS colleges are then open to you too). The Rs 2,00,000 and Rs 5,00,000 amounts are for MD/MS.",
+     "ib: p.10; r2n: p.1-2"
+    ]
+   ],
+   "opts": [
+    [
+     "Join",
+     "Pay one year's fee (hostel excluded) to the Board by NEFT/RTGS, then report in person at the college's desk at SMS Medical College, Jaipur with your originals and bonds by the date on the allotment letter; there's no extension. The security amount is adjusted in the fee, and the college keeps your originals till the course ends. If you're studying elsewhere, or hold a seat from any other counselling (all-India included), bring the accepted resignation letter or you're disqualified; you can't join on a certificate that your originals are held by another college. You also give a notarised undertaking (Rs 50 stamp paper) that your documents are original.",
+     [
+      "Deposit adjusted in fee",
+      "ok"
+     ],
+     "Each candidate shall join the allotted college and course within the time as mentioned in the allotment letter issued online. There is no provision of extension for joining date.",
+     "ib: p.12; p.10; p.13; p.15"
+    ],
+    [
+     "Don't join",
+     "You keep your security amount and can take part in later rounds.",
+     [
+      "No forfeiture",
+      "ok"
+     ],
+     "A candidate allotted a seat in round 1 and who does not join the allotted college will be eligible for subsequent rounds without forfeiture of the security amount.",
+     "ib: p.10"
+    ],
+    [
+     "Join and upgrade",
+     "Fill fresh choices for Round 2. If you get a different seat, your Round 1 seat is vacated and you must join the new one; your originals go straight to the new college.",
+     [
+      "Round 1 seat gone if upgraded",
+      "info"
+     ],
+     "In case he/ she is allotted a different seat in round 2, his/ her seat allotted (and joined) in round 1 will automatically be vacated (and will be available for allotment to other candidates), and such a candidate will be required to join at the seat allotted during round 2.",
+     "ib: p.12"
+    ],
+    [
+     "Join, then resign free",
+     "If you weren't upgraded in Round 2, or didn't take part, you could resign without losing the security amount within two days of the Round 2 result: in 2025-26, until 2 PM on 28.12.2025. After that the seat counts as joined for Round 2, and Round 2's rules apply.",
+     [
+      "Free resignation window",
+      "ok"
+     ],
+     "A Round 1 joined candidate who has not been upgraded during round 2 counselling or has not participated in round 2 may resign without forfeiture of security amount within two days of declaration of round 2 result, failing which he will be considered as a joined candidate for round 2 and rules will apply accordingly.",
+     "ib: p.10; r2n: p.2"
+    ]
+   ],
+   "gaps": [
+    "the terms of the resignations by Round 1 joiners until 2 PM on 19.12.2025 that the Round 2 schedule mentions: the booklet describes no such window, though the Round 3 notice treats Round 1 resignees as having kept their security amount."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "Don't join: deposit lost",
+     "warn"
+    ],
+    [
+     "After the window: no resigning",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Round 1 registrants needn't register again; others complete both parts and pay the fee. Fill fresh choices; you may also choose seats that could fall vacant through upgrades.",
+     "r2n: p.1; ib: p.9"
+    ],
+    [
+     "Round 2 had its own security-amount step before choice filling, from 19.12.2025 to 21.12.2025 (5 PM), at the same three amounts.",
+     "r2n: p.1-2"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted (fresh or upgraded): join",
+     "Pay one year's fee and report in person by the last date. Once joined, you can't resign (or take back your originals) before MCC/NMC's last date of admissions; the same goes for a Round 1 seat kept past the resignation window.",
+     [
+      "No resigning",
+      "stop"
+     ],
+     "Any candidate who retains his round 1 allotted seat (after two days of declaration of the result of the 2nd round of counselling) and candidates who join their round 2 allotted seat will not be allowed to resign (including returning of original documents) on or before the last date of admissions as scheduled by MCC/NMC.",
+     "ib: p.10; p.12"
+    ],
+    [
+     "Allotted (fresh or upgraded): don't join",
+     "If you were upgraded, your Round 1 seat was already vacated, so you lose both. The security amount is forfeited. The booklet says you're then out of later rounds; the 2025-26 Round 3 notice let such candidates back in after registering again and paying the security amount afresh.",
+     [
+      "Deposit lost",
+      "warn"
+     ],
+     "A candidate allotted a seat (fresh / upgraded) in round 2 of counselling and does not join the allotted seat, his/her security amount will be forfeited.",
+     "ib: p.10; p.12; r3n: p.1-2"
+    ],
+    [
+     "Not upgraded",
+     "You keep your Round 1 seat. Resign free within the window, or it counts as joined.",
+     [
+      "Round 1 seat kept",
+      "info"
+     ],
+     null,
+     "ib: p.9; p.10"
+    ]
+   ],
+   "gaps": [
+    "whether Round 1 joiners (whose amount went into the fee) or Round 1 non-joiners (whose amount was kept) had to pay again for Round 2: not stated.",
+    "who could resign with forfeiture of the security amount after Round 2, and when: the Round 3 notice names such candidates, but the notice that allowed it isn't among the documents we hold (the one we hold, of 06/02/2026, is for all-India Round 3 allottees and says the facility 'is extended')."
+   ]
+  },
+  "r3": {
+   "title": "Round 3",
+   "chips": [
+    [
+     "2025-26: joiners upgrade, no forfeiture",
+     "info"
+    ],
+    [
+     "Don't join: deposit lost, no stray round",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "In 2025-26, held after NBE lowered the cut-off: new registrants; candidates who joined in Rounds 1-2 (same registration, no forfeiture of the earlier deposit); those with no seat so far; those who resigned without forfeiture; and Round 1 non-joiners or resignees with no Round 2 seat.",
+     "r3n: p.2; p.1"
+    ],
+    [
+     "Round 2 non-joiners, and those who resigned after Round 2 with forfeiture, could come back only by registering again and paying the security amount afresh. Anyone can top up the security amount by paying the difference.",
+     "r3n: p.1-2"
+    ],
+    [
+     "Weeded out: anyone shown as joined in MCC's list at the end of its Round 3. Anyone who had joined another college (as on a date the Board sets; our documents don't name it) through all-India Round 3 or any other counselling is ineligible for Round 3 and the stray round.",
+     "r3n: p.2; ib: p.11"
+    ],
+    [
+     "The booklet says a Round 2 joiner must re-apply, pay the security amount again and lose the earlier one to upgrade in Round 3; the 2025-26 Round 3 notice says same registration and no forfeiture. We follow the later notice; no corrigendum to the booklet is among our documents.",
+     "ib: p.11; p.12; r3n: p.2"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted: join",
+     "Join by the last date (18.02.2026 in 2025-26). Once joined, or if you keep an earlier seat, you can't resign (or take back your originals) before MCC/NMC's last date of admissions, and you can't take part in the stray round.",
+     [
+      "Final: no resigning",
+      "stop"
+     ],
+     "A candidate who joins the course on allotment of round-3 counselling or retains his or her seat (allotted in earlier round) in round-3 or a candidate who joins the course on allotment in stray vacancy round, shall not be allowed to resign the course (including returning of original documents) on or before the last date of admissions as scheduled by MCC/NMC.",
+     "ib: p.11; r3n: p.2"
+    ],
+    [
+     "Allotted: don't join",
+     "The security amount is forfeited, and you can't take part in the stray round.",
+     [
+      "Deposit lost + no stray",
+      "stop"
+     ],
+     "A candidate allotted a seat (fresh/upgraded) in round 3 of counselling and does not join the allotted seat, his/her security amount will be forfeited. Such a candidate shall not be eligible to participate in the stray vacancy round.",
+     "ib: p.11"
+    ],
+    [
+     "Allotted an all-India Round 3 seat",
+     "In 2025-26 the Board let all-India Round 3 allottees, and only them, resign at their Rajasthan college on 6 and 7 February 2026 till 5 PM, with forfeiture of the security deposit, reporting in person with the all-India allotment letter; the college generates the resignation letter online on the portal.",
+     [
+      "Resign, deposit lost",
+      "warn"
+     ],
+     "The facility for resignation is extended and will now be available ONLY to AIQ Round-3 allotted candidates at the respective medical colleges on 6.2.2026 and 7.2.2026",
+     "aiq: p.1"
+    ]
+   ],
+   "gaps": [
+    "whether joined candidates paid a fresh security amount in Round 3's deposit step (01.02.2026 to 08.02.2026): the Round 3 notice says only 'same registration and without forfeiture of earlier deposited security amount', while the booklet has joined candidates deposit the security amount again for Round 3."
+   ]
+  },
+  "stray": {
+   "title": "Stray vacancy round",
+   "chips": [
+    [
+     "Rajasthan MBBS rule dropped",
+     "info"
+    ],
+    [
+     "Don't join: deposit lost + 1-year bar",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Seats left after Round 3 are filled without the state eligibility rule (MBBS from a Rajasthan college, or Rajasthan government service), which applies only up to Round 3.",
+     "ib: p.4"
+    ],
+    [
+     "To take part, get your documents verified and hand your originals, with a bond, to the Board; otherwise you can't take part. The Board keeps them and returns them to those not allotted by the notified dates.",
+     "ib: p.11"
+    ],
+    [
+     "Not eligible: Round 3 allottees who didn't join, and anyone joined after Round 3.",
+     "ib: p.11"
+    ]
+   ],
+   "opts": [
+    [
+     "Allotted: don't join",
+     "The security amount is forfeited and you're barred from Rajasthan's state counselling for the next year. The stray-round bond also makes you and your surety liable to the college for the whole course's tuition or Rs 10,00,000, whichever is more, with interest at government rates and the college's costs (the bond is on Rs 500 stamp paper); the college keeps your originals until it's discharged.",
+     [
+      "Deposit lost + 1-year bar + bond",
+      "stop"
+     ],
+     "A candidate allotted a seat in stray vacancy round who does not join the allotted seat shall be debarred from participating in the State counselling process for the next one year, along with forfeiture of the security amount.",
+     "ib: p.11; stb: p.1"
+    ],
+    [
+     "Allotted: join",
+     "You can't resign (or take back your originals) before MCC/NMC's last date of admissions.",
+     [
+      "No resigning",
+      "stop"
+     ],
+     null,
+     "ib: p.11"
+    ]
+   ],
+   "gaps": [
+    "the stray round's own notification (schedule, registration, deposit): not among the documents we hold."
+   ]
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "Govt colleges: Rs 10 lakh bond",
+     "stop"
+    ],
+    [
+     "Service bond: 2 years, Rs 25 lakh to 1.5 crore",
+     "warn"
+    ]
+   ],
+   "opts": [
+    [
+     "Leave a government-college seat",
+     "At government, RajMES, RUHS CMS and government district-hospital seats (all-India and state quota alike), you give a Rs 10 lakh surety bond, with two sureties, not to leave the course; its payment clause covers leaving the course, or your admission being cancelled for unsatisfactory performance, misconduct or indiscipline (the form also lists not joining in time as a condition, but its payment clause doesn't name it). At final joining it's replaced by a Rs 1.5 lakh bank guarantee and an Rs 8.5 lakh bond. The college can keep your originals until the bonds' conditions are met.",
+     [
+      "Rs 10 lakh",
+      "stop"
+     ],
+     "At the time of allotment, the selected candidates (both All India and State quota) will have to submit a surety bond of Rs. 10.00 lacs (Rupees ten lacs) toward ‘not to leave the course in between’ (proforma available at the website).",
+     "ib: p.14; sur: p.1"
+    ],
+    [
+     "Leave a private-college seat",
+     "The college may ask for a bond to pay the fees for the rest of the course if you leave midway. It can't take advance fees, post-dated cheques or a bank guarantee for the later years.",
+     [
+      "Rest of the course's fees",
+      "warn"
+     ],
+     "all the joined candidates of round 1, round 2 as well as round 3 may need to submit a bond requiring them to undertake not to leave the course mid-way and furnish the fees for the remaining period of the course if they do leave mid-way if the college so requires",
+     "ib: p.14"
+    ],
+    [
+     "Service bond after PG",
+     "Students of government, RajMES and RUHS CMS colleges from 2025-26 serve the Rajasthan Government for two years after the course, as Senior Resident or in another post it chooses. If you don't, you and a surety owe the bond amount with interest at government rates and costs, recoverable as arrears of land revenue (the form is on Rs 500 stamp paper). Exempt: those in ESI, central, Rajasthan or other state government service who have already filled a service bond for this purpose; a government servant who resigns or leaves service to join must still sign it. A Directorate order sets the amount by specialty: Rs 1.5 crore (MD Dermatology, Radio-diagnosis, General Medicine; MS Obstetrics and Gynaecology), Rs 1 crore (for example MS Orthopaedics, General Surgery; MD Paediatrics, Psychiatry), Rs 50 lakh (for example MS ENT; MD Anaesthesia, Pathology, Microbiology) or Rs 25 lakh (for example MD/MS Anatomy; MD Physiology, Biochemistry, Community Medicine).",
+     [
+      "2 years or Rs 25 lakh to 1.5 crore",
+      "warn"
+     ],
+     null,
+     "ib: p.14; sb: p.1; p.3"
+    ]
+   ],
+   "gaps": [
+    "the letter of 01.09.2025 that the service-bond order partly amends: we don't have it. The order itself has no printed date (the booklet dates it 04/09/2025, matching its e-signature stamp), and the bond form leaves the amount blank.",
+    "whether the service bond applies to management seats in government-society colleges and RUHS CMS: the booklet and the bond form name the colleges, not the kind of seat."
+   ],
+   "who": []
+  }
+ },
+ "money": {
+  "reg": [
+   "Rs 4,000 application fee (Rs 3,000 for Rajasthan-domicile SC/ST) plus transaction charges, non-refundable.",
+   "ib: p.2"
+  ],
+  "dep": [
+   "Security amount before choice filling, one amount in all: Rs 1,00,000 (government seats), Rs 2,00,000 (management seats in government-society colleges and RUHS CMS, government seats too) or Rs 5,00,000 (private colleges, government colleges too). Adjusted in the fee if you join.",
+   "ib: p.10"
+  ],
+  "lose": [
+   "A Round 2, Round 3 or stray seat you don't join (the stray round adds a 1-year bar); an admission cancelled for wrong information or missing documents; resigning with forfeiture where a notice allowed it (in 2025-26, the notice of 06/02/2026 for all-India Round 3 allottees).",
+   "ib: p.10; p.11; r3n: p.2; aiq: p.1"
+  ],
+  "back": [
+   "Refunded after counselling to the bank account it came from, if not forfeited or adjusted in the fee.",
+   "ib: p.10"
+  ],
+  "leave": [
+   "Government-college seats: Rs 10 lakh surety bond (later a Rs 1.5 lakh bank guarantee + Rs 8.5 lakh bond); service bond of 2 years, Rs 25 lakh to Rs 1.5 crore by specialty. Private colleges: the rest of the course's fees, if the college asks for that bond.",
+   "ib: p.14; sb: p.1"
+  ]
+ }
+}

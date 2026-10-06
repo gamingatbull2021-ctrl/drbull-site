@@ -1,0 +1,218 @@
+{
+ "code": "JH",
+ "label": "Jharkhand",
+ "sub": "State quota, via JCECEB",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "a124": {
+   "name": "JCECEB Advt. No. JCECEB/39/25-124, 31/10/2025 (PG counselling 2025; a scanned notice)",
+   "short": "Advt. 124",
+   "url": "https://jceceb.jharkhand.gov.in/con_notice/710.pdf"
+  },
+  "a155": {
+   "name": "JCECEB Advt. No. JCECEB/39/25-155, 09/12/2025 (Round 2; scanned)",
+   "short": "Advt. 155 (Round 2)",
+   "url": "https://jceceb.jharkhand.gov.in/con_notice/732.pdf"
+  },
+  "a06": {
+   "name": "JCECEB Advt. No. JCECEB/39/25-06, 16/01/2026 (Round 3; scanned)",
+   "short": "Advt. 06 (Round 3)",
+   "url": "https://jceceb.jharkhand.gov.in/con_notice/743.pdf"
+  },
+  "a09": {
+   "name": "JCECEB Advt. No. JCECEB/39/25-09, 24/02/2026 (Stray Vacancy Round; scanned)",
+   "short": "Advt. 09 (Stray)",
+   "url": "https://jceceb.jharkhand.gov.in/con_notice/745.pdf"
+  }
+ },
+ "doc": "a124",
+ "notes": [
+  [
+   "Jharkhand's notices give no rules on upgrading, keeping a seat, free exit, resigning, a seat-leaving penalty or a bond, in any round; their only money rule is the security-money paragraph. They say MCC's guidelines apply in all rounds.",
+   "a124: para 8, p.3"
+  ]
+ ],
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "No forfeiture stated",
+     "info"
+    ],
+    [
+     "MCC's guidelines apply",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Qualified, eligible NEET-PG 2025 candidates who apply online for the State merit list.",
+     "a124: paras 1, 5, p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Don't take admission",
+     "The security-money rule names only Round 2 and later rounds, so no line says you lose it for a Round 1 seat.",
+     [
+      "No forfeiture stated",
+      "info"
+     ],
+     "Security Money will be forfeited if admission is not taken after seat allotment in Second Round and next Round of Counselling.",
+     "a124: para 7(a), p.3"
+    ]
+   ],
+   "gaps": [
+    "upgrade, free exit or resignation rules."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "Don't take admission: deposit lost",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "Candidates on the Round 1 State merit list needn't apply again; others apply online.",
+     "a155: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Don't take admission",
+     "Your security money is forfeited.",
+     [
+      "Deposit lost",
+      "warn"
+     ],
+     "Security Money will be forfeited if admission is not taken after seat allotment in Second Round and next Round of Counselling.",
+     "a155: (a), p.2"
+    ]
+   ],
+   "gaps": [
+    "whether you can upgrade from a Round 1 seat, and what happens to that seat: the Round 2 list shows candidates' earlier seats, but no notice says."
+   ]
+  },
+  "r3": {
+   "title": "Round 3",
+   "chips": [
+    [
+     "Don't take admission: deposit lost",
+     "warn"
+    ],
+    [
+     "Cut-off lowered",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Candidates on the Round 2 State merit list needn't apply again.",
+     "a06: p.1"
+    ],
+    [
+     "In 2025-26 the qualifying cut-off was lowered for this round: 7th percentile (103 marks) for General/EWS, 5th (90) for General PwBD, 0th (-40) for SC/ST/OBC.",
+     "a06: p.1"
+    ]
+   ],
+   "opts": [
+    [
+     "Don't take admission",
+     "Your security money is forfeited.",
+     [
+      "Deposit lost",
+      "warn"
+     ],
+     "Security Money will be forfeited if admission is not taken after seat allotment in Second Round and next Round of Counselling.",
+     "a06: (a), p.2"
+    ]
+   ],
+   "gaps": [
+    "upgrade, free exit or resignation rules."
+   ]
+  },
+  "stray": {
+   "title": "Stray vacancy round",
+   "chips": [
+    [
+     "Seat-holders out",
+     "stop"
+    ],
+    [
+     "Stray/mop-up row: Rs 50,000",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "Candidates not on the Round 3 merit list published on 02.02.2026 apply.",
+     "a09: p.1"
+    ],
+    [
+     "Not eligible: anyone admitted to a PG course through JCECEB, allotted in State Round 3, admitted through MCC's AIQ Rounds 1 to 3, or allotted in the AIQ stray round.",
+     "a09: p.1"
+    ],
+    [
+     "Candidates who join an All India Quota seat in Round 3 aren't allowed in any further round of counselling.",
+     "a124: p.3"
+    ]
+   ],
+   "opts": [
+    [
+     "Don't take admission",
+     "Your security money is forfeited.",
+     [
+      "Deposit lost",
+      "warn"
+     ],
+     "Security Money will be forfeited if admission is not taken after seat allotment in Second Round and next Round of Counselling.",
+     "a09: (a), p.2"
+    ]
+   ],
+   "gaps": []
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "No penalty or bond stated",
+     "info"
+    ]
+   ],
+   "who": [],
+   "opts": [],
+   "gaps": [
+    "a seat-leaving penalty or a bond."
+   ]
+  }
+ },
+ "cross": {},
+ "money": {
+  "reg": [
+   "Application fee Rs 1,000 (Rs 500 SC/ST and women; the Divyang row shows no amount); counselling fee Rs 2,000 (Rs 1,200).",
+   "a124: para 6, p.3"
+  ],
+  "dep": [
+   "Rs 30,000 (Rs 15,000 ST/SC/OBC/PwD) for government colleges; Rs 2 lakh for private or both (dental Rs 1 lakh). Every notice's table, from the first (31-10-2025), also has a Stray/Mop-up row of Rs 50,000 and doesn't say which row applies to whom; the stray-round notice's table drops the Private row.",
+   "a124: para 6(c), p.3; a09: (c), p.2"
+  ],
+  "lose": [
+   "Not taking admission after a Round 2 or later allotment; an admission cancelled for giving wrong information at registration and not presenting the required originals.",
+   "a124: para 7(a), p.3"
+  ],
+  "back": [
+   "Refunded if you've taken valid admission and no seat is allotted after any stage.",
+   "a124: para 7(b), p.3"
+  ],
+  "leave": [
+   "Not stated in the 2025-26 notices.",
+   ""
+  ]
+ }
+}

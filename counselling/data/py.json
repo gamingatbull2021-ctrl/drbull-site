@@ -1,0 +1,263 @@
+{
+ "code": "PY",
+ "label": "Puducherry",
+ "sub": "UT quota, via CENTAC",
+ "language": "English",
+ "year": "2025-26",
+ "status": "read",
+ "docs": {
+  "b": {
+   "name": "CENTAC Information Brochure 2025-2026, NEET-PG Medical (M.D./M.S.) (the Google Drive link on the CENTAC site)",
+   "short": "CENTAC brochure",
+   "url": "https://drive.google.com/uc?export=download&id=1X32J8XVYO_-PAY_YxlW_pWyqsUwrQcRx"
+  }
+ },
+ "doc": "b",
+ "notes": [
+  [
+   "CENTAC counsels government, management and Telugu-minority management seats together. Each round has its own rules, which apply to everyone once that round starts.",
+   "b: p.13; p.33"
+  ]
+ ],
+ "rounds": {
+  "r1": {
+   "title": "Round 1",
+   "chips": [
+    [
+     "Resign before Round 2: no forfeiture",
+     "ok"
+    ],
+    [
+     "Registration fee: nil",
+     "ok"
+    ]
+   ],
+   "who": [
+    [
+     "All NEET-PG 2025 qualified candidates who applied to CENTAC.",
+     "b: p.39"
+    ]
+   ],
+   "opts": [
+    [
+     "Join, then resign",
+     "You can resign before Round 2 registration without forfeiture. Only CENTAC can permit it; no college can.",
+     [
+      "No forfeiture",
+      "ok"
+     ],
+     "A candidate admitted in Round 1 can resign from the seat before Round 2 registration without forfeiture.",
+     "b: p.40"
+    ],
+    [
+     "Don't join",
+     "The seat is cancelled; you can take part in Round 2. The brochure's Round 2 list names Round 1 non-joiners who have opted for free exit, without saying how to opt.",
+     [
+      "Round 2 still open",
+      "ok"
+     ],
+     "If a candidate fails to join the allotted / admitted seat (Fresh / Transfer) within the stipulated time, the seat will be automatically cancelled.",
+     "b: p.34; p.39"
+    ]
+   ],
+   "gaps": [
+    "the round dates: the brochure leaves the schedule to the CENTAC website.",
+    "how to opt for free exit after not joining a Round 1 seat: the Round 2 list names it, and nothing explains it."
+   ]
+  },
+  "r2": {
+   "title": "Round 2",
+   "chips": [
+    [
+     "Registration fee is the amount at risk",
+     "warn"
+    ],
+    [
+     "Sliding allowed",
+     "info"
+    ]
+   ],
+   "who": [
+    [
+     "Those not allotted in Round 1, Round 1 joiners who want to slide, Round 1 non-joiners who took free exit, and applicants who skipped Round 1.",
+     "b: p.39"
+    ],
+    [
+     "Registration fee to take part: Rs 25,000 (Rs 10,000 SC/ST) for government quota, Rs 2,00,000 for management quota.",
+     "b: cl. 13.1, p.28"
+    ]
+   ],
+   "opts": [
+    [
+     "Slide to a new seat",
+     "Your earlier seat is cancelled automatically; you can't keep it.",
+     [
+      "Old seat gone",
+      "info"
+     ],
+     "For a candidate who opts for sliding in Round 2 or Round 3 and is allotted a new seat, the earlier admitted seat will be automatically cancelled. Under no circumstances will he / she be permitted to retain the earlier admitted seat of the previous round.",
+     "b: p.34"
+    ],
+    [
+     "Don't join",
+     "You forfeit the Round 2 amount.",
+     [
+      "Round 2 amount lost",
+      "warn"
+     ],
+     "A candidate who does not join the seat allotted in Round 2 (Transfer or Fresh) shall forfeit the amount applicable for Round 2 as specified in Clause 13.1.",
+     "b: p.30"
+    ],
+    [
+     "Resign before Round 3",
+     "Joined in Round 1 or 2 and resigning before Round 3 registration: you forfeit the Round 2 amount.",
+     [
+      "Round 2 amount lost",
+      "warn"
+     ],
+     "A candidate who has joined in Round 1 or Round 2 and resigns before Round 3 registration, shall forfeit the amount applicable for Round 2 as specified in Clause 13.1.",
+     "b: p.30"
+    ]
+   ],
+   "gaps": []
+  },
+  "r3": {
+   "title": "Round 3",
+   "chips": [
+    [
+     "Joined: can't resign, no stray",
+     "stop"
+    ],
+    [
+     "Higher amount at risk",
+     "warn"
+    ]
+   ],
+   "who": [
+    [
+     "Round 1 or 2 joiners who want to slide, those who resigned with forfeiture before Round 3, non-joiners, and those not yet allotted.",
+     "b: p.39"
+    ],
+    [
+     "Registration fee: Rs 1,00,000 (Rs 50,000 SC/ST) for government quota, Rs 2,00,000 for management quota.",
+     "b: cl. 13.1, p.28"
+    ],
+    [
+     "Telugu-minority management seats convert to all-India general management seats, and vacant seats are de-reserved, in this round only.",
+     "b: p.34"
+    ]
+   ],
+   "opts": [
+    [
+     "Admitted or retained",
+     "You can't resign, and you can't take part in the stray round. Resigning had to be done before Round 3 registration.",
+     [
+      "Final",
+      "stop"
+     ],
+     "A candidate admitted in Round 1 or Round 2 can resign from the seat before Round 3 registration after which time, the candidate will not be allowed to vacate the admitted seat.",
+     "b: p.40"
+    ],
+    [
+     "Don't join",
+     "You forfeit the Round 3 amount, and can't take part in the stray round.",
+     [
+      "Round 3 amount lost",
+      "stop"
+     ],
+     "A candidate who does not join the seat allotted in Round 3 (Transfer or Fresh) shall forfeit the amount applicable for Round 3 as specified in Clause 13.1.",
+     "b: p.30; p.40"
+    ]
+   ],
+   "gaps": []
+  },
+  "stray": {
+   "title": "Stray round",
+   "chips": [
+    [
+     "No sliding",
+     "stop"
+    ],
+    [
+     "Don't join: barred this year and next",
+     "stop"
+    ]
+   ],
+   "who": [
+    [
+     "Not allotted in Rounds 1 to 3, Round 1 or 2 non-joiners or resigners, and applicants who took no part in Rounds 1 to 3 and were not allotted any seat by MCC or another state's counselling.",
+     "b: p.39"
+    ],
+    [
+     "Not eligible: anyone allotted in CENTAC Round 3, or who joined an MD/MS seat through CENTAC, MCC or any other state; you sign an undertaking saying so.",
+     "b: p.40"
+    ],
+    [
+     "Registration fee: the full tuition fee for the course (Rs 1,00,000 for SC/ST in government quota).",
+     "b: cl. 13.1, p.28"
+    ]
+   ],
+   "opts": [
+    [
+     "Don't join",
+     "You forfeit the stray-round amount, are barred from counselling for the rest of this year and next year, and from the following year's NEET-PG exam.",
+     [
+      "Barred + amount lost",
+      "stop"
+     ],
+     "The candidate will be debarred from participating in any further rounds of counselling in the same year as well as in the following year.",
+     "b: p.30"
+    ]
+   ],
+   "gaps": [
+    "what the stray-round amount is called: the brochure calls it a registration fee, a tuition fee and a security deposit in different places."
+   ]
+  },
+  "after": {
+   "title": "Leaving the course",
+   "chips": [
+    [
+     "No bond or penalty stated",
+     "info"
+    ]
+   ],
+   "who": [],
+   "opts": [
+    [
+     "Bond",
+     "The brochure states no bond or leaving penalty; it asks you to check with the college before filling choices.",
+     [
+      "Ask the college",
+      "info"
+     ],
+     "Candidates are also advised to visit the college website or contact the college authorities directly for any query regarding additional fee / bond before filling choices.",
+     "b: p.4"
+    ]
+   ],
+   "gaps": []
+  }
+ },
+ "cross": {},
+ "money": {
+  "reg": [
+   "Application fee (once): government quota, for Puducherry residents, Rs 3,000 (SC/ST/PwD Rs 1,500); management quota Rs 5,000; if you apply to both, you pay the highest applicable fee. Round registration fees are the amounts below.",
+   "b: p.14"
+  ],
+  "dep": [
+   "No separate deposit: the Round 2, Round 3 and stray registration fees are the amounts at risk (Round 1 is free).",
+   "b: cl. 13.1, p.28-29"
+  ],
+  "lose": [
+   "Not joining a Round 2 or later seat; resigning a joined seat before Round 3 registration (the Round 2 amount; a Round 1 seat resigned before Round 2 registration costs nothing); and an admission cancelled for any reason, such as wrong information or missing documents.",
+   "b: cl. 14, p.29; cl. 14.1, p.30; p.40"
+  ],
+  "back": [
+   "Refunds start after the whole admission process and take about three months, to the account you paid from; the brochure doesn't say which amounts are refunded.",
+   "b: p.30"
+  ],
+  "leave": [
+   "No bond or leaving penalty stated; ask the college.",
+   "b: p.4"
+  ]
+ }
+}
