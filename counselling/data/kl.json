@@ -3,65 +3,69 @@
  "label": "Kerala",
  "sub": "State quota and private colleges, via the Commissioner for Entrance Examinations (CEE)",
  "language": "English",
- "year": "2025-26",
+ "year": "2026-27",
  "status": "read",
  "docs": {
-  "klp": {
-   "name": "Govt of Kerala, Prospectus for admission to Medical Postgraduate Degree courses 2025-2026 (G.O. of 21-08-2025)",
-   "short": "Kerala prospectus",
-   "url": "https://cee.kerala.gov.in/pgm2025/pdf/prospectus.pdf"
+  "klp26": {
+   "name": "Govt of Kerala, Prospectus for admission to Medical Postgraduate Degree courses 2026-2027 (G.O. of 04-10-2026)",
+   "short": "Prospectus 2026-27",
+   "url": "https://cee.kerala.gov.in/otherlinks/PGM_Prospectus_2026.pdf"
   },
   "n39": {
    "name": "CEE Kerala, First phase: online options invited (06-11-2025)",
-   "short": "First-phase notice",
+   "short": "First-phase notice 2025-26",
    "url": "https://cee.kerala.gov.in/pgm2025/noti_view/929/Upload1"
   },
   "n48": {
    "name": "CEE Kerala, First phase allotment published (29-11-2025)",
-   "short": "First-phase result notice",
+   "short": "First-phase result notice 2025-26",
    "url": "https://cee.kerala.gov.in/pgm2025/noti_view/996/Upload1"
   },
   "n40": {
    "name": "CEE Kerala, Second phase: option confirmation, deletion and rearrangement (10-12-2025)",
-   "short": "Second-phase notice",
+   "short": "Second-phase notice 2025-26",
    "url": "https://cee.kerala.gov.in/pgm2025/noti_view/1025/Upload1"
   },
   "n49": {
    "name": "CEE Kerala, Second phase allotment published (21-12-2025)",
-   "short": "Second-phase result notice",
+   "short": "Second-phase result notice 2025-26",
    "url": "https://cee.kerala.gov.in/pgm2025/noti_view/1061/Upload1"
   },
   "n43": {
    "name": "CEE Kerala, Third phase: option registration (03-01-2026)",
-   "short": "Third-phase notice",
+   "short": "Third-phase notice 2025-26",
    "url": "https://cee.kerala.gov.in/pgm2025/noti_view/1076/Upload1"
   },
   "n45": {
    "name": "CEE Kerala, Third round: option registration re-opened (27-01-2026)",
-   "short": "Third-phase notice (re-opened)",
+   "short": "Third-phase notice 2025-26 (re-opened)",
    "url": "https://cee.kerala.gov.in/pgm2025/noti_view/1109/Upload1"
   },
   "n46": {
    "name": "CEE Kerala, Third phase rescheduled (10-02-2026)",
-   "short": "Rescheduling notice",
+   "short": "Rescheduling notice 2025-26",
    "url": "https://cee.kerala.gov.in/pgm2025/noti_view/1120/Upload1"
   },
   "n50": {
    "name": "CEE Kerala, Third phase allotment published (15-02-2026)",
-   "short": "Third-phase result notice",
+   "short": "Third-phase result notice 2025-26",
    "url": "https://cee.kerala.gov.in/pgm2025/noti_view/1127/Upload1"
   },
   "n47": {
    "name": "CEE Kerala, Stray vacancy allotment: online options invited (20-02-2026)",
-   "short": "Stray notice",
+   "short": "Stray notice 2025-26",
    "url": "https://cee.kerala.gov.in/pgm2025/noti_view/1129/Upload1"
   }
  },
- "doc": "klp",
+ "doc": "klp26",
  "notes": [
   [
+   "Kerala's 2026-27 prospectus is out (Government order of 04-10-2026). Its rules for the phases, the deposit and fees, the penalties and the bonds are worded as in 2025-26, so the lines below cite it. Kerala's 2026-27 phase notices (dates, cut-offs, who may join each phase) aren't out yet: lines from a phase notice are 2025-26, and their source says so.",
+   "klp26: p.1"
+  ],
+  [
    "Kerala's CEE allots state-quota seats in government colleges and every seat in private self-financing colleges, NRI and minority seats included, in one counselling: three phases, then stray vacancy filling. As a principle, each state phase runs after the matching MCC round.",
-   "klp: p.4; p.30; p.31; p.41"
+   "klp26: p.4; p.31; p.32; p.42"
   ]
  ],
  "rounds": {
@@ -79,12 +83,24 @@
    ],
    "who": [
     [
-     "Eligible candidates on the Kerala State merit list, service quota included, register options, in the time allowed: no extension is given. NRI and minority-quota seats must be chosen in this phase.",
-     "klp: p.30; p.26; n39: p.2"
+     "Eligible candidates on the Kerala State merit list, service quota included, register options, in the time allowed: no extension is given. In 2025-26 the first-phase notice also required NRI and minority-quota seats to be chosen in this phase.",
+     "klp26: p.31; p.27; n39: p.2"
     ],
     [
      "You pay a security deposit of Rs 10,000 when you register options (Rs 5,000 for SC/ST/OE and other fee-concession candidates).",
-     "klp: p.30; n39: p.2"
+     "klp26: p.31; n39: p.2"
+    ],
+    [
+     "For 2026-27, the one-year internship must be complete, or likely to be complete, on or before 30/09/2026; admission comes only after registration with the Kerala State Medical Council.",
+     "klp26: p.6-7"
+    ],
+    [
+     "For 2026-27, NRI-quota papers: the sponsor's passport with a visa, green card, Norka Roots ID or OCI papers, and the sponsor's sworn affidavit that the renewed visa (or its acknowledgement) will be produced by the time set for the allotment. Where visas are no longer stamped on passports (the UAE, for example), a Resident Identity Card is accepted instead, without embassy attestation, and it or a Golden Visa counts as proof of employment; papers attested by an Indian embassy are valid for six months at most.",
+     "klp26: p.23-24"
+    ],
+    [
+     "For 2026-27, PwD candidates: a State Level Committee decides eligibility and suitability for the course under NMC's interim guidelines (notice of 17.10.2025); following MCC's guidelines, you submit a valid UDID card and a self-attested affidavit, which the Medical Board verifies.",
+     "klp26: p.11"
     ]
    ],
    "opts": [
@@ -96,7 +112,7 @@
       "info"
      ],
      "After the first allotment, the options below the ‘allotted one’ of the candidate will automatically be removed from the option list of the candidate.",
-     "klp: p.29"
+     "klp26: p.30"
     ],
     [
      "Keep the seat, stop",
@@ -106,17 +122,17 @@
       "info"
      ],
      "If a candidate is satisfied with the first allotment and does not want to be considered against his/her remaining options, he/she will have the facility to cancel all the remaining options.",
-     "klp: p.29"
+     "klp26: p.30"
     ],
     [
      "Allotted: don't join",
-     "You lose the seat and all your options, and you're out of Phase 2 (except for newly added courses). The notice says your registration fee is kept as a penalty; it doesn't say whether that means the Rs 10,000 deposit.",
+     "You lose the seat and all your options, and you're out of Phase 2 (except for newly added courses). The 2025-26 notice says your registration fee is kept as a penalty; it doesn't say whether that means the Rs 10,000 deposit.",
      [
       "Fee kept + out of Phase 2",
       "stop"
      ],
      "The registration fee of such candidates who did not join within the stipulated time after getting the allotment in the first phase and those candidates who quit the seats after taking admission is considered as penalty and will not be refunded.",
-     "n40: p.2; klp: p.27; p.30"
+     "n40: p.2; klp26: p.28; p.31"
     ],
     [
      "Join, then quit",
@@ -131,7 +147,9 @@
    ],
    "gaps": [
     "which candidates get the Rs 10,000 deposit back, and whether the registration fee kept as a penalty is that deposit."
-   ]
+   ],
+   "yeartag": "Notice lines: 2025-26",
+   "yearnote": "Lines citing the 2026-27 prospectus are this year's rules. Lines citing a phase notice are from 2025-26: Kerala's 2026-27 phase notices (dates, cut-offs, who may join each phase) aren't out yet."
   },
   "r2": {
    "title": "Phase 2",
@@ -160,7 +178,7 @@
       "ok"
      ],
      "If a candidate joined in a seat in phase 1 does not give confirmation of option in the phase 2 he will not be considered for up gradation in phase 2, but the seat joined in phase 1 will be retained.",
-     "klp: p.30"
+     "klp26: p.31"
     ],
     [
      "Upgraded",
@@ -197,7 +215,9 @@
     "the penalty for giving up a joined seat after the cut-off: the notices refer to the prospectus conditions and give no amount.",
     "how the notices' cut-off fits with the prospectus, which bars from later rounds those who vacate after the last date of joining of Round 3: no notice says the cut-off replaces it.",
     "what the earlier notices' forfeiting of option registration means for money: not stated."
-   ]
+   ],
+   "yeartag": "Notice lines: 2025-26",
+   "yearnote": "Lines citing the 2026-27 prospectus are this year's rules. Lines citing a phase notice are from 2025-26: Kerala's 2026-27 phase notices (dates, cut-offs, who may join each phase) aren't out yet."
   },
   "r3": {
    "title": "Phase 3",
@@ -217,8 +237,8 @@
      "n45: p.1; n43: p.2"
     ],
     [
-     "The option registration fee is a year's tuition if you choose only government colleges (Rs 57,890 a year for a degree, the prospectus's fee table says), or Rs 1,00,000 if you include self-financing colleges; half for SC/ST/OE and other fee-concession candidates. The prospectus charges it to everyone who registers fresh options in this round; the notices name as paying it afresh those who hadn't registered in Phases 1-2, didn't take a Phase 1-2 seat, or vacated a joined seat.",
-     "klp: p.31; p.5; n45: p.2"
+     "The option registration fee is a year's tuition if you choose only government colleges (Rs 57,890 a year for a degree, the prospectus's fee table says), or Rs 1,00,000 if you include self-financing colleges; half for SC/ST/OE and other fee-concession candidates. The prospectus charges it to everyone who registers fresh options in this round; the 2025-26 notices name as paying it afresh those who hadn't registered in Phases 1-2, didn't take a Phase 1-2 seat, or vacated a joined seat.",
+     "klp26: p.32; p.5; n45: p.2"
     ],
     [
      "Not eligible: candidates on MCC's list of those ineligible after its third round, and anyone who vacated a seat after the cut-off.",
@@ -234,7 +254,7 @@
       "stop"
      ],
      "Candidates who are allotted a seat in the third phase allotment (irrespective of the admission status) will not be eligible for any subsequent allotments.",
-     "n50: p.1; klp: p.31; p.28"
+     "n50: p.1; klp26: p.32; p.29"
     ],
     [
      "Don't join",
@@ -254,7 +274,7 @@
       "info"
      ],
      "7. If a candidate freshly registers in phase 3 and is not allotted any seat, he/she is eligible to participate in the stray vacancy round.",
-     "n45: p.2; klp: p.31; n47: p.2-3"
+     "n45: p.2; klp26: p.32; n47: p.2-3"
     ],
     [
      "Join, then vacate",
@@ -264,12 +284,14 @@
       "stop"
      ],
      "A candidate who joins a seat in this allotment and then vacates the seat for any reason will be liable to pay liquidated damages as per Prospectus .",
-     "n50: p.1; klp: p.32; p.67"
+     "n50: p.1; klp26: p.33; p.72"
     ]
    ],
    "gaps": [
     "whether the Rs 50,00,000 applies to vacating a third-phase seat before the stray allotment: the notice says only 'as per Prospectus'."
-   ]
+   ],
+   "yeartag": "Notice lines: 2025-26",
+   "yearnote": "Lines citing the 2026-27 prospectus are this year's rules. Lines citing a phase notice are from 2025-26: Kerala's 2026-27 phase notices (dates, cut-offs, who may join each phase) aren't out yet."
   },
   "stray": {
    "title": "Stray vacancy filling",
@@ -302,7 +324,7 @@
       "stop"
      ],
      "3. If any candidate does not join the seat allotted in the Stray vacancy filling phase, the option registration fee will be forfeited and such candidates will be liable to pay liquidated damages as per Clause 10.1.19 (4) of the Prospectus.",
-     "n47: p.2; klp: p.32"
+     "n47: p.2; klp26: p.33"
     ],
     [
      "Join, then vacate",
@@ -312,10 +334,12 @@
       "stop"
      ],
      "If any candidate vacates a seat joined in Stray vacancy allotment or vacates a joined seat (joined in any of the previous rounds also) after stray vacancy allotment process he/she will be liable to pay liquidated damages amounting to Rs.50,00,000 (Rupees Fifty Lakhs) to CEE and will be liable for revenue recovery if not paid.",
-     "klp: p.32"
+     "klp26: p.33"
     ]
    ],
-   "gaps": []
+   "gaps": [],
+   "yeartag": "Notice lines: 2025-26",
+   "yearnote": "Lines citing the 2026-27 prospectus are this year's rules. Lines citing a phase notice are from 2025-26: Kerala's 2026-27 phase notices (dates, cut-offs, who may join each phase) aren't out yet."
   },
   "after": {
    "title": "Leaving the course",
@@ -338,7 +362,7 @@
       "stop"
      ],
      "the Bounden and the sureties shall jointly and severally pay and refund to the Government on demand and without demurral the amount spent on the Bounden on account of the said course of studies, together with the liquidated damages of Rs.50,00,000/- (Rupees Fifty Lakhs only) if the bounden discontinues the course after the final Centralised Allotment Process (CAP).",
-     "klp: p.67; p.66; p.35"
+     "klp26: p.72; p.71; p.36"
     ],
     [
      "Bonded service (general merit, AIQ included)",
@@ -348,7 +372,7 @@
       "warn"
      ],
      "11-1.(b): All the General merit candidates including AIQ candidates admitted to Medical Post graduate Courses in Kerala shall serve the Government of Kerala in Medical Education Services as Senior Resident as decided by the DME/Principals of Colleges for a continuous period of not less than One year immediately after the completion of the course without break.",
-     "klp: p.34; p.35; p.36; p.69; p.71"
+     "klp26: p.35; p.36; p.37; p.74; p.76"
     ],
     [
      "Service quota candidates",
@@ -357,8 +381,8 @@
       "10 years, or salary as damages",
       "stop"
      ],
-     "It is mandatory for the service quota candidates to join the course to which they are selected and if they do not join the course or discontinue the course after the third allotment, they will not be considered for selection to P.G. Course under Service Quota in future",
-     "klp: p.17; p.36"
+     "If a Service candidate discontinues the P.G. course or violate the conditions in the bond of service after the final Centralized Allotment Process he/she is liable to pay as liquidated damages an amount equal to the total salary admissible to the officer during the entire period of obligatory service.",
+     "klp26: p.37; p.17-18"
     ]
    ],
    "who": [],
@@ -370,23 +394,24 @@
  "money": {
   "reg": [
    "Application fee Rs 1,000 (SC/ST Rs 500), not refundable; service-quota candidates who also apply for general seats pay Rs 1,000 more. Phase 3 and stray option registration fee: a year's tuition (government colleges only) or Rs 1,00,000 (with self-financing colleges), halved for fee-concession candidates.",
-   "klp: p.19; p.5; p.31; n47: p.2"
+   "klp26: p.19; p.5; p.32; n47: p.2"
   ],
   "dep": [
    "Rs 10,000 (Rs 5,000 fee-concession) at Phase 1 option registration, refunded to eligible candidates after the whole counselling. Government colleges also take a refundable caution deposit of Rs 11,580.",
-   "klp: p.30; p.5"
+   "klp26: p.31; p.5"
   ],
   "lose": [
-   "The registration fee, for a Phase 1 or Phase 2 seat not joined or quit after admission; the option registration fee, for a Phase 3 or stray seat not joined.",
+   "2025-26 notices: the registration fee, for a Phase 1 or Phase 2 seat not joined or quit after admission; the option registration fee, for a Phase 3 or stray seat not joined.",
    "n40: p.2-3; n45: p.2; n47: p.2"
   ],
   "back": [
    "The Rs 10,000 deposit: after the whole counselling, to eligible candidates (who they are isn't stated). The Phase 3 fee: the prospectus says it's adjusted in the course fee if you get a seat, or refunded; the 2025-26 notices say it's refunded to eligible candidates after counselling, and Phase 3 payers with no seat can count it toward the stray-round fee. Tuition paid to a college is refunded, forfeited or moved to your next seat, depending on the phase and the reason you leave.",
-   "klp: p.30; p.31; p.5; n45: p.2; n47: p.2-3"
+   "klp26: p.31; p.32; p.5; n45: p.2; n47: p.2-3"
   ],
   "leave": [
    "Rs 50,00,000 plus the amount spent on your course (the Government-college bond) for leaving after the final allotment, or Rs 50,00,000 after the stray round. One year's bonded service (general merit); service candidates 10 years, or the salary for it as damages.",
-   "klp: p.32; p.67; p.34; p.36"
+   "klp26: p.33; p.72; p.35; p.37"
   ]
- }
+ },
+ "yeartag": "2026-27 prospectus · 2025-26 notices"
 }
