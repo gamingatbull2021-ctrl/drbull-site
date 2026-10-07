@@ -3,7 +3,7 @@
  "label": "Assam",
  "sub": "State quota, via the Director of Medical Education",
  "language": "English",
- "year": "2025-26",
+ "year": "2026-27",
  "status": "read",
  "docs": {
   "rules": {
@@ -55,10 +55,19 @@
    "name": "DME Assam, 3rd Round revised schedule, No. .../703953/5",
    "short": "Round 3 revised notice",
    "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/notice_3rd_pg_counselling_2025_new.pdf"
+  },
+  "ml26": {
+   "name": "DME Assam, Educational Notice No. e. DME/PG/2026/855656 of 06-10-2026, with the Provisional Merit List of NEET-PG-2026 for Assam State Quota Seats (session 2026)",
+   "short": "Merit list notice 2026",
+   "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/latest/provisional_merit_list_for_assam_state_quota_seats_neet-pg_2026.pdf"
   }
  },
  "doc": "rules",
  "notes": [
+  [
+   "Assam's 2026-27 counselling has begun: the DME's notice of 06-10-2026 publishes the State provisional merit list of NEET-PG 2026, provided by NBE. Counselling is for 50% of the PG seats in Assam's government medical colleges and B.B.C.I., Guwahati, under the 2021 Rules as amended, and its dates will follow MCC's schedule. Assam hasn't published its 2026-27 round notices yet, so the round cards are its 2025-26 notices, tagged as such; lines from the 2021 Rules still apply.",
+   "ml26: p.1"
+  ],
   [
    "Assam runs its rounds on the 2021 Rules (amended in 2023 and 2024) and short DME notices; the number of rounds follows the Government of India's schedule. The Rules are scanned gazette pages: the lines from them are our reading, with the page.",
    "rules: Rule 18(i), p.9; amend23: p.1; amend24: p.1"
@@ -79,11 +88,19 @@
    ],
    "who": [
     [
-     "Candidates who meet the NEET-PG 2025 cut-off and are on the State provisional merit list.",
-     "r1n: p.1"
+     "2026-27: you can take part only if you're eligible under the 2021 Rules (as amended), sat NEET-PG 2026 and scored at or above NBE's cut-off, and your name and NEET-PG 2026 roll number are on the State provisional merit list. Being on the list alone isn't enough.",
+     "ml26: p.1"
     ],
     [
-     "Anyone holding an All India Quota seat must bring that college's resignation or surrender acceptance letter to be admitted.",
+     "Eligible, but not on the list? Apply on plain paper with your documents, by hand, at the Directorate of Medical Education, Khanapara, Guwahati (2nd floor, Room No. 5), in office hours, by 16 October 2026, and collect your acknowledgement receipt. Nothing is considered after that date, and applications by post or e-mail aren't accepted.",
+     "ml26: p.1"
+    ],
+    [
+     "The online counselling dates will follow MCC's schedule and be posted on dme.assam.gov.in.",
+     "ml26: p.1"
+    ],
+    [
+     "In 2025-26, anyone holding an All India Quota seat had to bring that college's resignation or surrender acceptance letter to be admitted.",
      "r1adm: item 6, p.1"
     ]
    ],
@@ -110,8 +127,10 @@
     ]
    ],
    "gaps": [
-    "the counselling and admission fee amounts: the Rules say the DME notifies them, and the 2025-26 notices we read don't state them."
-   ]
+    "the counselling and admission fee amounts: the Rules say the DME notifies them, and neither the 2025-26 notices we read nor the 2026 notice states them."
+   ],
+   "yeartag": "Choices: 2025-26 rules",
+   "yearnote": "Who can take part is from Assam's 2026 notice. What happens after an allotment is from its 2025-26 notices and the 2021 Rules: its 2026-27 round notices aren't out yet."
   },
   "r2": {
    "title": "Round 2",
@@ -167,7 +186,9 @@
      "rules: Rule 15, p.9"
     ]
    ],
-   "gaps": []
+   "gaps": [],
+   "yeartag": "2025-26 rules",
+   "yearnote": "These are Assam's 2025-26 notices (lines citing the 2021 Rules still apply): its 2026-27 round notices aren't out yet."
   },
   "r3": {
    "title": "Round 3",
@@ -219,7 +240,9 @@
      "r3adm: item 7, p.1"
     ]
    ],
-   "gaps": []
+   "gaps": [],
+   "yeartag": "2025-26 rules",
+   "yearnote": "These are Assam's 2025-26 notices (lines citing the 2021 Rules still apply): its 2026-27 round notices aren't out yet."
   },
   "stray": {
    "title": "Stray round",
@@ -259,7 +282,9 @@
    ],
    "gaps": [
     "a penalty for not joining a stray-round seat, beyond losing it."
-   ]
+   ],
+   "yeartag": "2025-26 rules",
+   "yearnote": "These are Assam's 2025-26 notices (lines citing the 2021 Rules still apply): its 2026-27 round notices aren't out yet."
   },
   "after": {
    "title": "Leaving the course",
@@ -308,14 +333,15 @@
    ],
    "gaps": [
     "the 2025-26 last date of admission that starts the penalty: the notices we read don't give it."
-   ]
+   ],
+   "yearnote": "From the 2021 Rules as amended, which Assam's 2026 notice says still govern its counselling."
   }
  },
  "cross": {},
  "money": {
   "reg": [
-   "Counselling fee: set by DME notice; the amount isn't in the 2025-26 notices we read.",
-   "rules: Rule 12, p.8"
+   "Counselling fee: set by DME notice; the amount isn't in the 2025-26 notices we read, or in the 2026 notice so far.",
+   "rules: Rule 12, p.8; ml26: p.1"
   ],
   "dep": [
    "No security deposit stated.",
@@ -333,5 +359,6 @@
    "Rs 10,00,000 (degree) or Rs 5,00,000 (diploma) + stipend after the last date of admission; a 2-year service bond of Rs 20 lakh (degree) or Rs 15 lakh (diploma).",
    "rules: Rule 19, p.10; amend24: Rule 9(i), p.2"
   ]
- }
+ },
+ "yeartag": "2026-27 merit list · 2025-26 rounds"
 }
