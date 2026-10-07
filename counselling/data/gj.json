@@ -3,7 +3,7 @@
  "label": "Gujarat",
  "sub": "Government, management and NRI seats, via the Admission Committee (ACPPGMEC)",
  "language": "English",
- "year": "2025-26",
+ "year": "2026-27",
  "status": "read",
  "docs": {
   "ins": {
@@ -75,13 +75,42 @@
    "name": "Govt of Gujarat, Resolution on the PG rural-service bond, GMERS and self-financed colleges (30-01-2020, Gujarati)",
    "short": "Bond order 2020 (GMERS, SFI)",
    "url": "https://medadmgujarat.ncode.in/web/PG2020/PG%20Bond%20GMERS%20%26%20SFI%2030.01.2020.pdf"
+  },
+  "r26": {
+   "name": "ACPPGMEC, Advertisement for Online Registration, MD/MS/Diploma, academic year 2026-27",
+   "short": "Registration advertisement 2026-27",
+   "url": "https://medadmgujarat.ncode.in/web/PG2026/MDMS/REG/Adv.%20-%20Online%20Reg.Round%2001.pdf"
+  },
+  "pr26": {
+   "name": "ACPUGMEC & ACPPGMEC, Procedure for Online Registration (2026-27)",
+   "short": "Registration procedure 2026-27",
+   "url": "https://medadmgujarat.ncode.in/web/PG2026/MDMS/REG/Procedure%20for%20Online%20Registration%20-%20PG.pdf"
+  },
+  "pa26": {
+   "name": "ACPUGMEC & ACPPGMEC, Process of Online Admission (2026-27)",
+   "short": "Process of admission 2026-27",
+   "url": "https://medadmgujarat.ncode.in/web/PG2026/MDMS/REG/Process%20of%20Online%20Admission%20-%20PG.pdf"
+  },
+  "el26": {
+   "name": "ACPUGMEC & ACPPGMEC, Eligibility criteria and list of documents, MD/MS/Diploma, academic year 2026-27",
+   "short": "Eligibility 2026-27",
+   "url": "https://medadmgujarat.ncode.in/web/PG2026/MDMS/REG/Eligibility%20Criteria%20%26%20List%20of%20Documents%20Required%20for%20Admission%20Process%20of%20ACPUGMEC%202026-27.pdf"
+  },
+  "nri26": {
+   "name": "ACPUGMEC & ACPPGMEC, Instructions for NRI Candidates 2026-27",
+   "short": "NRI instructions 2026-27",
+   "url": "https://medadmgujarat.ncode.in/web/PG2026/MDMS/REG/Instructions%20for%20NRI%20Candidates%202026-27.pdf"
   }
  },
  "doc": "ins",
  "notes": [
   [
-   "Gujarat's Admission Committee counsels government, management and NRI seats together in four online rounds: Round 1, Round 2, Round 3 (earlier the mop-up) and Round 4 (the final stray vacancy round). We hold no 2025-26 prospectus; the round rules are a Gujarati notice, the 2020 bond orders are Gujarati too, and the lines from them are our English.",
-   "ins: p.1-3; a60: p.2"
+   "Gujarat's 2026-27 counselling has begun: PIN purchase and online registration from 01/10/2026 to 08/10/2026, and document checks at a Help Centre from 03/10/2026 to 09/10/2026. The registration, eligibility and registration-fee lines here are from the 2026-27 papers. Gujarat hasn't published its 2026-27 round rules yet, so the round cards are its 2025-26 rules, tagged as such.",
+   "r26: p.2"
+  ],
+  [
+   "In 2025-26 Gujarat's Admission Committee counselled government, management and NRI seats together in four online rounds: Round 1, Round 2, Round 3 (earlier the mop-up) and Round 4 (the final stray vacancy round). We hold no 2025-26 prospectus; the round rules are a Gujarati notice, the 2020 bond orders are Gujarati too, and the lines from them are our English.",
+   "ins: p.1-3; a60: p.2; bg: p.1; bs: p.1"
   ]
  ],
  "rounds": {
@@ -99,8 +128,28 @@
    ],
    "who": [
     [
-     "Buy the registration PIN (Rs 3,000 non-refundable plus a Rs 25,000 refundable security deposit, Rs 28,000 in all), register, and get your documents verified at a Help Centre; then fill and lock choices. NRI candidates also give a Rs 25,000 processing draft (non-refundable, the English advertisement says).",
-     "a60: p.2; ins: p.1"
+     "2026-27: buy the registration PIN online (Rs 3,000 non-refundable plus a Rs 25,000 refundable security deposit, Rs 28,000 in all) by 08/10/2026 03:00 PM, and register and upload your documents by 08/10/2026 05:00 PM. Then take your documents to the Help Centre slot you booked (03/10/2026 to 09/10/2026): without that check and the stamped registration slip you can't go further.",
+     "r26: p.2; pr26: p.9"
+    ],
+    [
+     "Eligibility for 2026-27: an MBBS from a university in Gujarat; or an MBBS from elsewhere in India or abroad (meeting NMC's criteria) with Class 12 in the B or AB group from a school in Gujarat, and born in Gujarat or domiciled there. Internship must be complete by 30/09/2026.",
+     "el26: p.1"
+    ],
+    [
+     "In-service candidates: citing a Government resolution of 10/01/2022, the registration procedure gives them 10% of all PG seats in ten MD/MS subjects (Paediatrics, TB and Chest, Obstetrics and Gynaecology, Preventive and Community Medicine, Orthopaedics, General Surgery, General Medicine, Anaesthesiology, Radiology, Pathology) in the government quota of government and GMERS colleges, and in government-quota CPS courses at government hospitals. They need an NOC from Gujarat's competent authority.",
+     "pr26: p.10-11; el26: p.2"
+    ],
+    [
+     "Disability (PwD) quota: you're examined by the Admission Committee's own Medical Board, and only its certificate counts; no other disability certificate is accepted.",
+     "pr26: p.11"
+    ],
+    [
+     "NRI seats: merit is by all-India overall NEET-PG rank among the NRI applicants. NRI candidates are verified only at the Committee's office at GMERS Medical College, Gandhinagar, with notarised copies, and also give a Rs 25,000 non-refundable processing draft.",
+     "nri26: p.1; p.3; r26: p.2"
+    ],
+    [
+     "After the merit list, choice filling opens online for each round.",
+     "pa26: p.3"
     ]
    ],
    "opts": [
@@ -127,7 +176,9 @@
    ],
    "gaps": [
     "how the free exit works for a candidate who reported: the notice says only that such candidates can take part in Round 2 (the cancellation window is under Round 2)."
-   ]
+   ],
+   "yeartag": "Choices: 2025-26 rules",
+   "yearnote": "Who can take part is from Gujarat's 2026-27 papers. What you can do after an allotment is its 2025-26 rules: its 2026-27 round rules aren't out yet."
   },
   "r2": {
    "title": "Round 2",
@@ -201,7 +252,9 @@
    ],
    "gaps": [
     "which fees are refunded on a cancelled admission (tuition, PIN fee or deposit): the cancellation paper doesn't say."
-   ]
+   ],
+   "yeartag": "2025-26 rules",
+   "yearnote": "These are Gujarat's 2025-26 rules: its 2026-27 round rules aren't out yet."
   },
   "r3": {
    "title": "Round 3 (earlier the mop-up)",
@@ -280,7 +333,9 @@
    "gaps": [
     "whether the English paper's 'must study there' and all-India bar, written for candidates who give Round 3 consent, also bind a Round 1 or 2 seat-holder who gives none. The Gujarati notice bars every candidate still holding a confirmed seat at the end of Round 3 from Round 4, consent or not, and says a Round 2 seat not upgraded in Round 3 can't be cancelled.",
     "the time limit for reporting after a Round 3 allotment: the process paper says only 'within stipulated time'."
-   ]
+   ],
+   "yeartag": "2025-26 rules",
+   "yearnote": "These are Gujarat's 2025-26 rules: its 2026-27 round rules aren't out yet."
   },
   "stray": {
    "title": "Round 4 (final stray vacancy)",
@@ -327,7 +382,9 @@
    "gaps": [
     "what happens to a Round 4 allottee who doesn't confirm: the documents don't say.",
     "which candidates Round 4 admits where the Gujarati notice and the English advertisement differ."
-   ]
+   ],
+   "yeartag": "2025-26 rules",
+   "yearnote": "These are Gujarat's 2025-26 rules: its 2026-27 round rules aren't out yet."
   },
   "after": {
    "title": "Leaving the course",
@@ -350,7 +407,7 @@
       "info"
      ],
      null,
-     "ins: p.3"
+     "ins: p.3; amd: p.1"
     ],
     [
      "Service bond, government colleges (2020 order)",
@@ -377,29 +434,32 @@
     "whether the 2020 bond orders still apply in 2025-26.",
     "whether full-fee students at self-financed colleges outside GMERS give any service bond: the 2020 order doesn't say."
    ],
-   "who": []
+   "who": [],
+   "yeartag": "2025-26 rules",
+   "yearnote": "These are the 2025-26 papers and the 2020 bond orders: Gujarat's 2026-27 papers so far don't cover leaving a seat or the bond."
   }
  },
  "money": {
   "reg": [
-   "PIN Rs 3,000, non-refundable; a new PIN is bought if you re-register after losing the deposit. NRI candidates also pay a Rs 25,000 non-refundable processing draft.",
-   "a60: p.2; ins: p.2"
+   "2026-27: PIN Rs 3,000, non-refundable, the same as 2025-26. A lost PIN costs Rs 500 to regenerate, at GMERS Medical College, Gandhinagar; keep it until the refund process is over. NRI candidates also pay a Rs 25,000 non-refundable processing draft. In 2025-26, re-registering after losing the deposit meant buying a new PIN.",
+   "r26: p.2; a60: p.2; pr26: p.6; ins: p.2"
   ],
   "dep": [
-   "Rs 25,000 refundable security deposit, paid with the PIN (Rs 28,000 in all). No category-wise or government-versus-private split is stated.",
-   "a60: p.2"
+   "2026-27: Rs 25,000 refundable security deposit, paid with the PIN (Rs 28,000 in all). No category-wise or government-versus-private split is stated.",
+   "r26: p.2"
   ],
   "lose": [
-   "A Round 2 or Round 3 allotment you don't confirm (fee unpaid, originals not deposited). Round 4: not stated.",
+   "2025-26 rules (2026-27's aren't out yet): a Round 2 or Round 3 allotment you don't confirm (fee unpaid, originals not deposited). Round 4: not stated.",
    "ins: p.2; p.3"
   ],
   "back": [
-   "When the deposit is refunded isn't stated. Fees on a cancelled admission are refunded after the admission process if you take no admission; which fees isn't stated.",
+   "2025-26 papers: when the deposit is refunded isn't stated. Fees on a cancelled admission are refunded after the admission process if you take no admission; which fees isn't stated.",
    "cp: p.1"
   ],
   "leave": [
    "No penalty stated for 2025-26. 2020 bond orders: Rs 40 lakh for one year of rural service at government colleges (not all-India quota) and for SC and ST free-ship students at GMERS and self-financed colleges; other GMERS students Rs 2 lakh.",
    "bg: p.3-4; bs: p.1; p.3-4"
   ]
- }
+ },
+ "yeartag": "2026-27 registration · 2025-26 rounds"
 }

@@ -45,7 +45,7 @@
     return `<span class="src">${parts.map(([k, part]) => {
       const d = side.docs[k];
       const name = d.url ? `<a href="${esc(docUrl(d, part))}" target="_blank" rel="noopener">${esc(d.short)}</a>` : esc(d.short) + gone(side);
-      return `${name}${part ? ", " + esc(part) : ""}`;
+      return `<span class="sp">${name}${part ? ", " + esc(part) : ""}</span>`;   // one "document, page" never breaks; the list wraps between them
     }).join("; ")}</span>`;
   }
   const regional = side => side.language && side.language !== "English";
@@ -55,7 +55,7 @@
     if (!r) return `<div class="card empty">No such round</div>`;
     return `<button class="card" id="${id}" aria-expanded="${open === id}" aria-controls="detail-${key}" data-open="${id}">
       <span class="t">${esc(r.title)}<small>${esc(side.label)}</small></span>
-      <span class="chips">${r.chips.map(chip).join("")}</span></button>`;
+      <span class="chips">${r.chips.map(chip).join("")}${r.yeartag ? `<span class="yeartag">${esc(r.yeartag)}</span>` : ""}</span></button>`;
   }
 
   function detailHtml(side, key) {
@@ -78,6 +78,7 @@
       <p class="eyebrow">${esc(side.label)} · ${esc(r.title)}</p>
       <h3>${esc(r.title)}: what you can do</h3>
       <p class="docline">${docs}</p>
+      ${r.yearnote ? `<p class="yearline">${esc(r.yearnote)}</p>` : ""}
       ${who}${opts}${gaps}`;
   }
 
@@ -91,8 +92,10 @@
 
   function render() {
     const lang = regional(S) ? `<span class="langtag">${esc(S.language)} documents: our English</span>` : "";
+    // a state part-way into a new year says which parts are which (its rounds carry their own yeartag)
+    const yr = S.yeartag ? `<span class="yeartag">${esc(S.yeartag)}</span>` : "";
     let h = `<div class="lanes"><div class="lane-h mcc"><span class="k">All-India</span><span class="n">MCC</span></div>
-             <div class="lane-h st"><span class="k">State quota${lang}</span><span class="n">${esc(S.label)}</span></div></div>`;
+             <div class="lane-h st"><span class="k">State quota${lang}${yr}</span><span class="n">${esc(S.label)}</span></div></div>`;
     for (const [key, name] of ROWS) {
       const idM = `mcc-${key}`, idS = `st-${key}`;
       h += `<div class="rlabel"><div class="cell mcc"><span>${esc(name)}</span></div><div class="cell st"><span></span></div></div>`;

@@ -16,6 +16,11 @@
    "short": "Amendment 2024",
    "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/menu/document/no._125_mer_209805-90_dated_13-03-2024.pdf"
   },
+  "amend23": {
+   "name": "Medical Colleges of Assam (Regulation of Admission into PG Degree and Diploma Courses) (Amendment) Rules, 2023 (notification of 2 March 2023, e-file no. 209805/34)",
+   "short": "Amendment 2023",
+   "url": "https://dme.assam.gov.in/sites/default/files/swf_utility_folder/departments/dme_lipl_in_oid_8/menu/document/pg_amendment_rules_2023.pdf"
+  },
   "r1adm": {
    "name": "DME admission notice after the 1st round (1 Dec 2025; scanned)",
    "short": "Round 1 admission notice",
@@ -56,7 +61,7 @@
  "notes": [
   [
    "Assam runs its rounds on the 2021 Rules (amended in 2023 and 2024) and short DME notices; the number of rounds follows the Government of India's schedule. The Rules are scanned gazette pages: the lines from them are our reading, with the page.",
-   "rules: Rule 18(i), p.9"
+   "rules: Rule 18(i), p.9; amend23: p.1; amend24: p.1"
   ]
  ],
  "rounds": {
