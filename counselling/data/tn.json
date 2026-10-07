@@ -3,7 +3,7 @@
  "label": "Tamil Nadu",
  "sub": "State quota, via the Selection Committee, DME&R Chennai",
  "language": "English",
- "year": "2025-26",
+ "year": "2026-27",
  "status": "read",
  "docs": {
   "p": {
@@ -15,10 +15,24 @@
    "name": "Selection Committee round schedules 2025-26 (Rounds I to III and the stray round, in one file)",
    "short": "TN schedules",
    "url": "https://www.tnmedicalselection.net/archives/22052026035059118.pdf"
+  },
+  "ka26": {
+   "name": "Selection Committee, DME&R Tamil Nadu, Notification No. 1152/SCSII(1)/2026 dated 07.10.2026: Kind Attention to candidates for PG MD/MS/Diploma & DNB courses, 2026-2027 session (documents to keep ready)",
+   "short": "Documents notice 2026-27",
+   "url": "https://tnmedicalselection.net/news/07102026054845.pdf"
+  },
+  "pwd26": {
+   "name": "Selection Committee, DME&R Tamil Nadu, notice dated 07.10.2026 to candidates applying for PG MD/MS/Diploma 2026-27 under the PwD category (assessment boards)",
+   "short": "PwD notice 2026-27",
+   "url": "https://tnmedicalselection.net/news/06102026234757.pdf"
   }
  },
  "doc": "p",
  "notes": [
+  [
+   "Tamil Nadu's counselling for the 2026-2027 session hasn't opened yet: the Selection Committee's notice of 07.10.2026 says it will commence shortly and lists the documents to keep ready for the online application. Its new prospectus isn't out, so the round cards and the money lines are from its previous prospectus, tagged as such.",
+   "ka26: p.1"
+  ],
   [
    "Tamil Nadu runs one counselling for government-quota and management-quota (including NRI) seats, under two prospectuses in one file; these lines follow the government-quota prospectus.",
    "p: p.1; p.61; s: p.4-5"
@@ -38,6 +52,18 @@
     ]
    ],
    "who": [
+    [
+     "For the 2026-2027 session, keep ready for the online application: NEET PG 2026 score card and admit card, MBBS degree or provisional certificate, CRRI completion, medical registration, community certificate (plus a parent's, and a nativity certificate, if you claim Tamil Nadu reservation), and the TN Dr. MGR Medical University's eligibility certificate if you studied at another university; service candidates also their TNPSC/MRB selection and posting order. Upload the same photo as for NEET PG 2026.",
+     "ka26: p.1-3"
+    ],
+    [
+     "For the 2026-2027 session, NRI seats: NRI documents are verified through the Indian Embassy. An NRI certificate found not genuine means no seat in any category (or the seat cancelled later), criminal proceedings, a 3-year bar, and no refund of tuition fee or security deposit.",
+     "ka26: p.1; p.4"
+    ],
+    [
+     "For the 2026-27 session, PwD candidates: Tamil Nadu's Primary Medical Assessment Boards (Coimbatore, Madurai, Thanjavur and Stanley Medical College hospitals) are open from 1 October to 5:00 PM on 9 October 2026; the appellate board at Madras Medical College (RGGGH), Chennai, from 10:00 AM on 5 October to 5:00 PM on 12 October.",
+     "pwd26: p.1"
+    ],
     [
      "Registered candidates on the eligible list who lock choices. Not registering for Round 1 doesn't stop you joining later rounds.",
      "p: p.13"
@@ -69,7 +95,9 @@
     "the stipulated dates for free exit and resignation: they're set in Selection Committee notices.",
     "whether the tuition paid to download the allotment order comes back if you resign in time: one line calls it non-refundable, cl. 24(a) makes it non-refundable only beyond the resignation period, and the Round 1 table says no forfeiture.",
     "any rule for candidates holding an all-India, deemed or central seat in Rounds 1 and 2."
-   ]
+   ],
+   "yeartag": "Choices: 2025-26 rules",
+   "yearnote": "The lines marked for the 2026-2027 session are from Tamil Nadu's first notices; the rest of this card is its 2025-26 prospectus, as its new prospectus isn't out yet."
   },
   "r2": {
    "title": "Round 2",
@@ -127,7 +155,9 @@
    ],
    "gaps": [
     "whether resigning a Round 2 seat in time forfeits the registration fee: the detailed table and the management-quota table say yes, the summary table doesn't, the clauses don't say, and the Round 2 notice lists 'Resigned and not joined' under forfeiture. The prospectus calls its tables illustrative only; its clauses charge the Round 2 discontinuation fee to anyone who joined and discontinues after the stipulated date, whatever their upgrade choice."
-   ]
+   ],
+   "yeartag": "2025-26 rules",
+   "yearnote": "These are Tamil Nadu's 2025-26 rules: its 2026-27 prospectus isn't out yet."
   },
   "r3": {
    "title": "Round 3 (mop-up)",
@@ -191,7 +221,9 @@
      "p: p.18"
     ]
    ],
-   "gaps": []
+   "gaps": [],
+   "yeartag": "2025-26 rules",
+   "yearnote": "These are Tamil Nadu's 2025-26 rules: its 2026-27 prospectus isn't out yet."
   },
   "stray": {
    "title": "Stray vacancy round",
@@ -241,7 +273,9 @@
      "s: p.26"
     ]
    ],
-   "gaps": []
+   "gaps": [],
+   "yeartag": "2025-26 rules",
+   "yearnote": "These are Tamil Nadu's 2025-26 rules: its 2026-27 prospectus isn't out yet."
   },
   "after": {
    "title": "Leaving the course",
@@ -278,30 +312,33 @@
      "p: p.29"
     ]
    ],
-   "gaps": []
+   "gaps": [],
+   "yeartag": "2025-26 rules",
+   "yearnote": "These are Tamil Nadu's 2025-26 rules: its 2026-27 prospectus isn't out yet."
   }
  },
  "cross": {},
  "money": {
   "reg": [
-   "Application fee Rs 3,000 (SC, SC (Arunthathiyar) and ST natives of Tamil Nadu exempt; Rs 5,000 for management quota). Registration fee Rs 1,000 for each quota, paid again in later rounds except by candidates not allotted earlier (Round 3, stray round). Non-refundable.",
+   "2025-26 prospectus: Application fee Rs 3,000 (SC, SC (Arunthathiyar) and ST natives of Tamil Nadu exempt; Rs 5,000 for management quota). Registration fee Rs 1,000 for each quota, paid again in later rounds except by candidates not allotted earlier (Round 3, stray round). Non-refundable.",
    "p: p.4; p.19; p.20; p.64; s: p.5"
   ],
   "dep": [
-   "Rs 30,000 for government colleges; Rs 1,00,000 for government-quota seats in self-financing colleges; Rs 2,00,000 for management quota (including NRI). Paid once.",
+   "2025-26 prospectus: Rs 30,000 for government colleges; Rs 1,00,000 for government-quota seats in self-financing colleges; Rs 2,00,000 for management quota (including NRI). Paid once.",
    "p: p.4; s: p.5; p.11"
   ],
   "lose": [
-   "A Round 2 seat not joined: the registration fee. From Round 3: the registration fee, security deposit and tuition.",
+   "2025-26 prospectus: A Round 2 seat not joined: the registration fee. From Round 3: the registration fee, security deposit and tuition.",
    "p: p.16; p.18"
   ],
   "back": [
-   "The security deposit is refunded within three months after the whole counselling ends if you got no seat in any round; no interest. The application and registration fees aren't refunded.",
+   "2025-26 prospectus: The security deposit is refunded within three months after the whole counselling ends if you got no seat in any round; no interest. The application and registration fees aren't refunded.",
    "p: p.4"
   ],
   "leave": [
-   "Rs 15 lakh (degree) or Rs 10 lakh (diploma) for discontinuing on or after Round 2, after the stipulated date, plus the fees paid (non-service candidates also repay the stipend); a bond of Rs 40,00,000 (degree) or Rs 20,00,000 (diploma).",
+   "2025-26 prospectus: Rs 15 lakh (degree) or Rs 10 lakh (diploma) for discontinuing on or after Round 2, after the stipulated date, plus the fees paid (non-service candidates also repay the stipend); a bond of Rs 40,00,000 (degree) or Rs 20,00,000 (diploma).",
    "p: p.15; p.21; p.29"
   ]
- }
+ },
+ "yeartag": "2026-27 notices · 2025-26 rounds"
 }
