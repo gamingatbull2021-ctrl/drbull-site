@@ -3,16 +3,28 @@
  "label": "MCC",
  "sub": "All-India quota, deemed, central, DNB",
  "language": "English",
- "year": "2025-26",
+ "year": "2026-27",
  "status": "read",
  "docs": {
-  "mcc": {
-   "name": "MCC PG Information Bulletin 2025 (revised 27.11.2025)",
-   "short": "MCC bulletin",
-   "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2025/10/20251127310534165.pdf"
+  "mcc26": {
+   "name": "MCC, NEET-PG (MD/MS/DNB) Counselling 2026: Information Bulletin & Counselling Scheme, published 07/10/2026 and marked \"PG Bulletin DRAFT – V10 05102026\"",
+   "short": "MCC bulletin 2026 (draft)",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610071785566628.pdf"
+  },
+  "sch26": {
+   "name": "MCC, Tentative schedule for online counselling, NEET-PG 50% AIQ and 100% Deemed/Central Universities/AFMS, academic year 2026 (published 07/10/2026)",
+   "short": "MCC schedule 2026",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610071411981089.pdf"
   }
  },
- "doc": "mcc",
+ "doc": "mcc26",
+ "yeartag": "2026 bulletin · marked draft",
+ "notes": [
+  [
+   "MCC published its 2026 bulletin on 07/10/2026; its first page marks it \"DRAFT – V10\", so MCC may still revise it, and we'll update these lines if it does. New this year: after an allotment you're either Freeze (keep the seat and join at the college in person) or Float (upgrade, with willingness, documents and resignation all online).",
+   "p.1; p.10"
+  ]
+ ],
  "rounds": {
   "r1": {
    "title": "Round 1",
@@ -22,65 +34,82 @@
      "ok"
     ],
     [
-     "Upgrade: join, then say yes",
+     "Freeze or Float",
      "info"
     ]
    ],
    "who": [
     [
-     "Every NEET-PG qualified candidate who registers, paying a non-refundable fee and a refundable security deposit.",
-     "p.35 (a)"
+     "Every NEET-PG qualified candidate who registers, paying a non-refundable registration fee and a refundable security deposit (refunded only to the account it was paid from).",
+     "p.43 (a); p.6, 2.3"
     ],
     [
      "Only clear-cut vacancies are shown in Round 1.",
-     "p.11, 2.16"
+     "p.8, 2.20"
+    ],
+    [
+     "New in 2026: after an allotment you're either Freeze (you keep the seat and join at the college in person) or Float (you want to upgrade: give willingness online, and the college checks your uploaded documents online, with no visit). Both upload their documents once, on the MCC portal, within 2-3 days of the final allotment.",
+     "p.10; p.11"
+    ],
+    [
+     "Tentative 2026 dates: register and pay from 12 to 21 October 2026 (registration until 12:00 noon on 21 October, payment until 3:00 PM); choices until 10:00 AM on 22 October; result 24 October; reporting and joining 26 October to 2 November.",
+     "sch26: p.1"
     ]
    ],
    "opts": [
     [
-     "Join and stay",
-     "Report with your originals and get admitted. If you don't give willingness to upgrade, you keep this seat and you're out of Round 2.",
+     "Freeze: join and stay",
+     "Report at the college in person with your originals and get admitted. Without willingness to upgrade, you keep this seat and you're out of Round 2.",
      [
       "Seat kept",
       "ok"
      ],
-     "Please note that in case you are satisfied with the seat allotted to you in Round-1 and do not give willingness for up-gradation in Round-2 as 'Yes', you will not be considered eligible for participating in Round-2 i.e. for up-gradation of your choice.",
-     "p.49, Q14"
+     "Please note that in case you are satisfied with the seat allotted to you in Round-1 and do not give willingness for up-gradation in Round-2 as ‘Yes’, you will not be considered eligible for participating in Round-2 i.e. for up-gradation of your choice.",
+     "p.54, Q14; p.10"
     ],
     [
-     "Join and upgrade",
-     "Report, get admitted, and give willingness to upgrade at the college. You keep this seat unless Round 2 gives you a better one.",
+     "Float: join online and upgrade",
+     "Join the seat online, give willingness to upgrade on the portal, upload your documents and tell the college's nodal officer by phone; you needn't go there. You keep this seat unless Round 2 gives you a better one.",
      [
-      "Seat kept as fallback",
-      "ok"
+      "Upgrade online",
+      "info"
      ],
-     "In case a candidate wants to ensure /retain his/her Round -1 seat and wants to upgrade his/her allotted seat, he/she should join Round-1 seat and give willingness for Up-gradation at the allotted college.",
-     "p.49, Q14"
+     "he/she should join Round-1 seat online and give willingness for Up-gradation on the portal.",
+     "p.54, Q14; p.43 (g), (i)"
     ],
     [
      "Don't join",
-     "Not reporting counts as a free exit. You can take part in Round 2 without registering again.",
+     "Not reporting counts as a free exit (Round 1 only). You can take part in Round 2 with your earlier registration, but you can't claim the Round 1 seat.",
      [
       "Free exit",
       "ok"
      ],
-     "If a candidate does not report at the allotted institute in Round-1, this will be considered as 'Free Exit' (option available only in Round-1).",
-     "p.49, Q14"
+     "If a candidate does not report at the allotted institute in Round-1 freeze category, this will be considered as ‘Free Exit’ (option available only in Round-1).",
+     "p.54, Q14"
+    ],
+    [
+     "Resign a joined seat",
+     "Freeze candidates resign in person at the college, Float candidates online on the MCC portal, within MCC's time limit. In Round 1 it's a free exit and you can go on to Round 2, but you have no claim on that seat afterwards.",
+     [
+      "Free exit",
+      "ok"
+     ],
+     "Once a seat is surrendered/resigned, candidate will have NO claim on that particular seat.",
+     "p.13; p.15; p.44 (c)"
     ],
     [
      "No seat",
      "You take part in Round 2 without registering again.",
      [
-      "Nothing to pay again",
-      "ok"
+      "Next round",
+      "info"
      ],
      "If a registered candidate is not allotted a seat in round one (1), he can participate in round 2 directly without fresh registration.",
-     "p.35 (h)"
+     "p.43 (h)"
     ]
    ],
    "gaps": [
-    "when a joined Round 1 candidate may resign, or what it costs (only that they \"need not register again\", p.36 (c)).",
-    "an explicit line that the deposit is refunded after a free exit. The forfeiture rules start at Round 2."
+    "a separate line that the deposit comes back after a Round 1 free exit: the bulletin's forfeiture rules start at Round 2, and refunds come only after all rounds."
    ]
   },
   "r2": {
@@ -97,50 +126,78 @@
    ],
    "who": [
     [
-     "Registered in Round 1 but no seat; Round 1 seat-holders who gave willingness; those whose Round 1 seat was cancelled at document verification over a changed category or PwD status; free-exit candidates (log in again); new candidates who register and pay.",
-     "pp.49-50, Q15"
+     "Registered in Round 1 but no seat; Round 1 seat-holders who gave willingness to upgrade; those who took Round 1's free exit or resigned (no new registration); those whose Round 1 seat was cancelled at document verification over a changed category or PwD status; and new registrants.",
+     "p.55, Q15; p.44 (c)"
+    ],
+    [
+     "Round 2 also shows virtual vacancies: Round 1 seats whose holders opted to upgrade, allotted only if they move up.",
+     "p.8, 2.21-2.23"
+    ],
+    [
+     "Tentative 2026 dates: register and pay 6 to 11 November 2026 (registration until 12:00 noon on 11 November, payment until 3:00 PM); choices until 10:00 AM on 12 November; result 14 November; reporting and joining 16 to 23 November.",
+     "sch26: p.2"
     ]
    ],
    "opts": [
     [
      "Upgraded",
-     "Your Round 1 seat is cancelled at once. Take a relieving letter and join the Round 2 seat. If you don't, you lose the deposit and the Round 1 seat is already gone.",
+     "Your Round 1 seat is cancelled at once. Get the relieving letter online from the Round 1 college and join the Round 2 seat; if you don't, you lose the deposit, and the Round 1 seat is already gone.",
      [
-      "Deposit lost if not joined",
+      "Join the new seat",
       "warn"
      ],
-     "the seat allotted during the first round will be automatically cancelled immediately (and allotted to somebody else eligible as per merit) and candidate will have to join the college / seat allotted during second round. If candidate does not join the college/seat allotted during the second round, with in stipulated time, as per schedule, his/her Refundable Security Deposit will be forfeited.",
-     "p.51, Q18; p.36 (g); p.53, Q31"
+     "the seat allotted during the first round will be automatically cancelled immediately",
+     "p.56, Q18; p.44 (g); p.58, Q31"
     ],
     [
-     "New seat: join",
-     "Report and get admitted. To try Round 3, give willingness at the college. Join without it and you're out of Round 3.",
+     "New seat: Freeze",
+     "Report in person and get admitted. You keep the seat and you're out of Round 3.",
      [
       "Seat kept",
       "ok"
      ],
      "Candidates who are holding any seat in Round-1 or Round-2 of AIQ and have not given willingness to upgrade in round 3 will not be eligible.",
-     "p.54, Q37; p.36 (j)"
+     "p.59, Q37"
+    ],
+    [
+     "New seat: Float",
+     "Upload your documents online at the allotted college first, then give willingness to upgrade to Round 3. You keep this seat unless Round 3 gives you a better one.",
+     [
+      "Upgrade online",
+      "info"
+     ],
+     "Candidates who have been freshly allotted a seat in round 2 can opt for willingness to upgrade from round 2 to round 3, for which first they will have to upload documents online at the allotted college/institute and thereafter opt for willingness.",
+     "p.44 (j)"
     ],
     [
      "New seat: don't join",
-     "Exit with forfeiture: the deposit isn't refunded. You may register for Round 3 again with fresh fees.",
+     "Exit with forfeiture: the deposit isn't refunded. You may register for Round 3 again, paying the fees afresh.",
      [
       "Deposit lost",
       "warn"
      ],
-     "Candidate who has been allotted a seat in Round-2 and further Round but do not report at the college may Exit with Forfeiture. (i.e. The Security Deposit will not be refunded in such a case)",
-     "p.55, Q46 (a); p.54, Q36"
+     "Candidate who has been allotted a seat in Round-2 and further Round but do not report at the college may Exit with Forfeiture.",
+     "p.60, Q46; p.59, Q36"
+    ],
+    [
+     "Resign a joined seat",
+     "Freeze candidates resign in person at the college, Float candidates online, within MCC's time limit. In Round 2 this costs the deposit. You may still register for Round 3, paying the full fees.",
+     [
+      "Deposit lost",
+      "warn"
+     ],
+     "Have Resigned from Round 2 can participate with full payment of fees.",
+     "p.45 (c); p.15; p.13"
     ],
     [
      "No seat",
      "You take part in Round 3 without registering again.",
      [
-      "Nothing to pay again",
-      "ok"
+      "Next round",
+      "info"
      ],
-     "If a candidate freshly registered in round 2 is not allotted a seat, he/she can participate in round 3 directly without fresh registration.",
-     "p.36 (h); p.38 (e)"
+     "Those who registered but were not allotted a seat in Round-1 & Round-2 need not register again.",
+     "p.45 (e)"
     ]
    ],
    "gaps": []
@@ -159,20 +216,28 @@
    ],
    "who": [
     [
-     "New registrants; the never-allotted; those who resigned from Round 2 or exited with forfeiture (paying again); Round 1 or Round 2 seat-holders who gave willingness to upgrade.",
-     "p.38; p.54, Q36-37"
+     "New registrants; those registered but never allotted; those who resigned from Round 2 or exited with forfeiture (paying the fees again); and Round 1 or Round 2 seat-holders who gave willingness to upgrade.",
+     "p.45 (c)-(e); p.59, Q36-37"
+    ],
+    [
+     "Vacant reserved seats are converted in Round 3: PwD seats to their category, ST to SC, SC to UR, EWS to UR, NRI and minority seats to UR.",
+     "p.45"
+    ],
+    [
+     "Tentative 2026 dates: register and pay 26 November to 1 December 2026 (registration until 12:00 noon on 1 December, payment until 3:00 PM); choices until 10:00 AM on 2 December; result 4 December; reporting and joining 5 to 12 December.",
+     "sch26: p.3"
     ]
    ],
    "opts": [
     [
      "Join",
-     "Final. You can't upgrade or resign, and you can't take part in any further round.",
+     "Final: report in person. You can't upgrade or resign, and holding a seat keeps you out of the Stray round.",
      [
-      "Final seat",
+      "Final",
       "stop"
      ],
-     "If a candidate joins in 3rd round, they shall not be permitted to resign from 3rd round of AIQ/Deemed/Central Universities. They will not be allowed to participate in any further rounds of Counseling after joining in Third Round of AIQ.",
-     "p.6, 1.5; p.38 (a)"
+     "Once joined, he cannot upgrade or resign from this third-round seat.",
+     "p.45 (h); p.46 (b)"
     ],
     [
      "Don't join",
@@ -182,22 +247,31 @@
       "stop"
      ],
      "If any candidate does not join Round 3 seat, he may exit with forfeiture of security deposit and elimination (cannot participate in further rounds of counselling conducted by MCC, DGHS).",
-     "p.38 (b)"
+     "p.45 (h)"
+    ],
+    [
+     "Float, not upgraded",
+     "Your Round 1 or Round 2 seat stays yours: report to it in person after the Round 3 result.",
+     [
+      "Report in person",
+      "info"
+     ],
+     "After Round-3 provisional allotment result declaration → Mandatory reporting for all allotted candidates of Round 3 and Float Candidates of Round 1 / Round 2 who did not get upgradation.",
+     "p.12"
     ],
     [
      "No seat",
-     "You can take part in the Stray Round.",
+     "You can take part in the Stray round.",
      [
-      "Go on",
-      "ok"
+      "Next round",
+      "info"
      ],
      "If a candidate freshly registers in round 3 and is not allotted any seat, he/she is eligible to participate in stray/further rounds.",
-     "p.38 (c)"
+     "p.45 (h)"
     ]
    ],
    "gaps": [
-    "what exactly is paid again by those who resigned or exited with forfeiture in Round 2 (the registration fee, the deposit or both); the bulletin gives no separate amount (p.38; p.54, Q36).",
-    "whether the Supreme Court approved upgrading up to Round 3: the bulletin says NMC would seek its approval and doesn't give the outcome (p.6, 1.4)."
+    "whether \"full payment of fees\" for those who resigned or exited in Round 2 means both the registration fee and the deposit again."
    ]
   },
   "stray": {
@@ -208,43 +282,43 @@
      "warn"
     ],
     [
-     "Joined: can't resign",
-     "stop"
+     "Fresh choices",
+     "info"
     ]
    ],
    "who": [
     [
-     "Only candidates holding no seat anywhere (AIQ, state or deemed), or who didn't take part in Rounds 1-3.",
-     "p.39 (b)"
+     "Only candidates holding no seat anywhere (AIQ, state or deemed), or who didn't take part in Rounds 1-3; fresh registration is open.",
+     "p.46 (b); p.60, Q45, Q50"
     ],
     [
-     "Not those allotted in Round 3 who didn't join.",
-     "p.39 (c)"
+     "Not those freshly allotted a Round 3 seat who didn't join.",
+     "p.46 (c)"
+    ],
+    [
+     "Fresh registration and fresh choices: Round 3 choices don't carry over.",
+     "p.46 (a)"
+    ],
+    [
+     "Tentative 2026 dates: register and pay 16 to 21 December 2026 (registration until 12:00 noon on 21 December, payment until 3:00 PM); choices until 11:55 PM on 21 December; result 24 December; reporting and joining 24 to 31 December.",
+     "sch26: p.4"
     ]
    ],
    "opts": [
     [
-     "Join",
-     "The bulletin's flow chart says that once you join, you can't resign. The chart is marked as for representation only, and the round's rules on p.39 don't repeat the line.",
+     "Allotted",
+     "Report and join the seat; if you don't, you lose the deposit.",
      [
-      "Final seat",
-      "stop"
-     ],
-     "Joins the Seat at college (once joined, candidate cannot resign)",
-     "p.4, flow chart"
-    ],
-    [
-     "Don't join",
-     "You lose the deposit.",
-     [
-      "Deposit lost",
+      "Don't join: deposit lost",
       "warn"
      ],
      "If a candidate is allotted a seat in Stray round, he/she has to report & join the allotted seat at college/institute else there will be forfeiture of security deposit.",
-     "p.39 (f)"
+     "p.46 (f)"
     ]
    ],
-   "gaps": []
+   "gaps": [
+    "whether a joined Stray-round seat can be resigned: the 2026 bulletin doesn't say."
+   ]
   },
   "after": {
    "title": "Leaving the course",
@@ -257,57 +331,59 @@
    "who": [],
    "opts": [],
    "gaps": [
-    "any bond or penalty for leaving an all-India, deemed, central or DNB seat, other than losing the security deposit when you surrender a seat allotted in Round 2 or later (2.6, p.9). The bulletin states a bond only for armed-forces (AFMS) seats (pp.78-89). Check the rules of the state and the college that hold the seat; for fees, bonds and service, the bulletin sends candidates to the college (2.9, p.10; p.55, Q49)."
+    "any bond or penalty for leaving an all-India, deemed, central or DNB seat, other than losing the security deposit when you don't join or surrender from Round 2. MCC says fee, bond and service details come from the colleges: check the college's and the state's rules."
    ]
   }
  },
  "cross": {
-  "r3": [
+  "r1": [
    [
     "to-st",
     "MCC to the states",
-    "After its Round 3, MCC shares the data of its joined candidates with the states, which remove those all-India joiners before processing their own Round 3. The bulletin doesn't say whether that list holds only Round 3 joiners or everyone who has joined by then.",
-    "MCC of DGHS will share the data of joined candidates in round 3 of counselling with all the participating States. States will weed out the data of AIQ joined candidates before seat processing of Round-3 of state counselling.",
-    "p.38 (e)"
-   ],
+    "Allotted a state seat as well? To take it, resign your MCC seat: online if you're Float, at the college if you're Freeze. In Round 1 that's a free exit.",
+    "Wants to join State allotted seat, candidate will have to surrender AIQ seat.",
+    "p.15; p.13"
+   ]
+  ],
+  "r2": [
+   [
+    "to-st",
+    "MCC to the states",
+    "Taking a state seat after joining an MCC Round 2 seat means resigning it, and in Round 2 that costs the deposit.",
+    "Round 1 - Free exit Round 2 - With Forfeiture",
+    "p.15"
+   ]
+  ],
+  "r3": [
    [
     "to-mcc",
     "The states to MCC",
-    "The states share everyone who joined up to their Round 3, and MCC removes them before the all-India Stray Round.",
-    "Candidates who have joined upto round 3 of state counselling will be filtered and weeded out before processing of Stray Round of AIQ counselling.",
-    "p.38 (e)"
-   ]
-  ],
-  "stray": [
-   [
-    "to-st",
-    "MCC to the states",
-    "Anyone MCC allots in its Stray Round is removed before the states run theirs.",
-    "The data of candidates who have been allotted in Stray round by MCC will be filtered and weeded out before processing of Stray Round of states by state counselling authorities.",
-    "p.39 (h)"
+    "After the states' Round 3, MCC and the states share data, and anyone on a state's list after its Round 3 is removed before MCC's Stray round.",
+    "Data will be shared between Centre and States after Round 3 of states and if any candidate has his/her name in the list provided by State after round 3, such candidates will be eliminated from counseling before processing for All-India Stray Vacancy Round.",
+    "p.46 (d)"
    ]
   ]
  },
  "money": {
   "reg": [
-   "AIQ: Rs 1,000 (UR/EWS), Rs 500 (reserved). Deemed: Rs 5,000. Non-refundable. Applying for both: pay only the deemed fee. No separate row for central institutes or DNB.",
-   "p.47, Q7, Q9"
+   "AIQ: Rs 1,000 (UR/EWS), Rs 500 (reserved). Deemed: Rs 5,000. Non-refundable. Applying for both: pay only the deemed fee. No separate row for central institutes.",
+   "p.52, Q7; p.53, Q9"
   ],
   "dep": [
    "AIQ: Rs 25,000 (UR/EWS), Rs 10,000 (reserved). Deemed: Rs 2,00,000. Applying for both: pay only the deemed deposit.",
-   "p.47, Q7, Q9"
+   "p.52, Q7; p.53, Q9"
   ],
   "lose": [
-   "From Round 2: an allotted seat you don't join, or surrender. In any round: an admission cancelled (wrong information, missing documents).",
-   "p.9, 2.6; p.47, Q8"
+   "From Round 2: an allotted seat you don't join, or a seat you surrender. In any round: an admission cancelled (wrong information, missing documents).",
+   "p.7, 2.10; p.52, Q8"
   ],
   "back": [
-   "After all rounds end, to the account you paid from, without interest.",
-   "p.11, 2.15; p.57, Q60"
+   "After all rounds end, to the account you paid from, without interest. MCC publishes the list of candidates due a refund, and the Financial Custodian (HLL Lifecare) completes it within 30 days of that list.",
+   "p.8, 2.19; p.61-62, Q54; p.62, Q56, Q60"
   ],
   "leave": [
-   "Not in the bulletin, except armed-forces (AFMS) seats, which carry a bond. Check the state's and the college's rules.",
-   "p.79; p.81; p.83"
+   "Not in the bulletin, except AFMS seats: civilian candidates serve 5 years in the AFMS, under a Rs 60,50,000 bond (MD/MS/DNB, session 2026-29) if they won't take the commission. Check the state's and the college's rules.",
+   "p.28; p.66"
   ]
  }
 }

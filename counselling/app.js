@@ -94,7 +94,8 @@
     const lang = regional(S) ? `<span class="langtag">${esc(S.language)} documents: our English</span>` : "";
     // a state part-way into a new year says which parts are which (its rounds carry their own yeartag)
     const yr = S.yeartag ? `<span class="yeartag">${esc(S.yeartag)}</span>` : "";
-    let h = `<div class="lanes"><div class="lane-h mcc"><span class="k">All-India</span><span class="n">MCC</span></div>
+    const yrM = MCC.yeartag ? `<span class="yeartag">${esc(MCC.yeartag)}</span>` : "";
+    let h = `<div class="lanes"><div class="lane-h mcc"><span class="k">All-India${yrM}</span><span class="n">MCC</span></div>
              <div class="lane-h st"><span class="k">State quota${lang}${yr}</span><span class="n">${esc(S.label)}</span></div></div>`;
     for (const [key, name] of ROWS) {
       const idM = `mcc-${key}`, idS = `st-${key}`;
@@ -107,8 +108,12 @@
       if ((MCC.cross || {})[key]) h += `<div class="cross">${crossHtml(key)}</div>`;
     }
     $("#board").innerHTML = h;
-    $("#statenotes").innerHTML = (S.notes && S.notes.length)
-      ? `<div class="statenotes" role="note">${S.notes.map(([t, ref]) => `<p>${esc(t)} ${src(S, ref)}</p>`).join("")}</div>` : "";
+    // MCC's notes (its year, from 2026-27) above the state's; each says whose it is when both are there
+    const both = (MCC.notes || []).length && (S.notes || []).length;
+    const notes = B => (B.notes || []).map(([t, ref]) =>
+      `<p>${both ? `<b>${esc(B === MCC ? "MCC" : B.label)}:</b> ` : ""}${esc(t)} ${src(B, ref)}</p>`).join("");
+    $("#statenotes").innerHTML = ((MCC.notes || []).length || (S.notes || []).length)
+      ? `<div class="statenotes" role="note">${notes(MCC)}${notes(S)}</div>` : "";
     const rows = [["reg", "Registration / counselling fee"], ["dep", "Security deposit"], ["lose", "When you lose it"], ["back", "When it comes back"], ["leave", "Leaving the course"]];
     $("#money").innerHTML = `<thead><tr><th scope="col"></th><th scope="col">MCC</th><th scope="col">${esc(S.label)}</th></tr></thead><tbody>` +
       rows.map(([k, lab]) => `<tr><th scope="row">${lab}</th><td data-l="MCC">${esc(MCC.money[k][0])} ${src(MCC, MCC.money[k][1])}</td><td data-l="${esc(S.label)}">${esc(S.money[k][0])} ${src(S, S.money[k][1])}</td></tr>`).join("") + `</tbody>`;
