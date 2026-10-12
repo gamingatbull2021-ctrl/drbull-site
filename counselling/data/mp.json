@@ -76,6 +76,12 @@
    "short": "Bonded candidates, stray 26.02.2026",
    "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2025/Notice-13_127.pdf",
    "lang": "Hindi"
+  },
+  "prof": {
+   "name": "DME, Madhya Pradesh: PG Proforma 2025, the forms signed at admission, including the seat-leaving and rural-service bonds (Hindi)",
+   "short": "Bond forms 2025",
+   "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2025/PG%20Proforma%202025_56.pdf",
+   "lang": "Hindi"
   }
  },
  "doc": "rules",
@@ -384,17 +390,17 @@
     ],
     [
      "Bonds at admission",
-     "You deposit a seat-leaving bond and a rural-service (meritorious student) bond at the college. On a breach the bond amount is recovered in one sum; you can be released at any time by paying the whole amount.",
+     "Whether you came through the state quota or the all-India quota, you sign two bonds at the college, each on stamp paper worth 0.5% of its amount. Seat-leaving bond: if you resign after Rule 15's time limit, or are expelled, before finishing, you pay Rs 30 lakh to a government college's autonomous society, or a private college's academic fee for the full or remaining course. Rural-service bond: after the degree you serve where the government posts you for 1 year, or pay Rs 10 lakh (in-service candidates: 5 years, or Rs 50 lakh). The college keeps your original documents until a bond amount is paid. On a breach the amount is recovered in one sum; you can be released at any time by paying the whole amount.",
      [
-      "Amounts not stated",
-      "info"
+      "Rs 30 lakh / Rs 10 lakh",
+      "warn"
      ],
      null,
-     "rules: p.17; p.11"
+     "prof: p.4; p.5; rules: p.17; p.11"
     ]
    ],
    "gaps": [
-    "the amounts of the rural-service and seat-leaving bonds signed at admission, apart from the Rs 30 lakh after the mop-up starts: not stated in the documents we hold.",
+    "whether a private seat's seat-leaving bond is the academic fee for the whole course (Rule 15 says the entire course) or only for the remaining course (the 2025 bond form says the full or the remaining course).",
     "whether leaving after paying the seat-leaving bond counts as 'not completing the course' for the 3-year bar: not stated."
    ],
    "who": []
@@ -418,8 +424,8 @@
    "rules: p.8; faq: p.4"
   ],
   "leave": [
-   "After the mop-up starts: Rs 30 lakh (government seat) or the whole course's fee (private seat), and you're out of later rounds. A 3-year bar from PG degree admission for resigning outside Rule 15, not completing the course, expulsion or a false claim. In-service: 5 years' service or Rs 50 lakh.",
-   "rules: p.31; p.11; p.21; p.24"
+   "After the mop-up starts: Rs 30 lakh (government seat) or the whole course's fee (private seat), and you're out of later rounds. A 3-year bar from PG degree admission for resigning outside Rule 15, not completing the course, expulsion or a false claim. In-service: 5 years' service or Rs 50 lakh. Rural-service bond: 1 year's service after the degree or Rs 10 lakh.",
+   "rules: p.31; p.11; p.21; p.24; prof: p.5"
   ]
  }
 }

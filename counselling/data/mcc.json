@@ -7,8 +7,13 @@
  "status": "read",
  "docs": {
   "mcc26": {
-   "name": "MCC, NEET-PG (MD/MS/DNB) Counselling 2026: Information Bulletin & Counselling Scheme, published 07/10/2026 and marked \"PG Bulletin DRAFT – V10 05102026\"",
-   "short": "MCC bulletin 2026 (draft)",
+   "name": "MCC, NEET-PG (MD/MS/DNB) Counselling 2026: Information Bulletin & Counselling Scheme, the copy MCC put up on 08/10/2026 (the same text as its 07/10/2026 copy)",
+   "short": "MCC bulletin 2026",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610082121348550.pdf"
+  },
+  "mcc26d": {
+   "name": "MCC, NEET-PG (MD/MS/DNB) Counselling 2026: Information Bulletin & Counselling Scheme, as first published 07/10/2026, marked \"PG Bulletin DRAFT – V10 05102026\"",
+   "short": "MCC bulletin 2026 (07/10 copy)",
    "url": "https://cdnbbsr.s3waas.gov.in/s3e0f7a4d0ef9b84b83b693bbf3feb8e6e/uploads/2026/10/202610071785566628.pdf"
   },
   "sch26": {
@@ -18,11 +23,11 @@
   }
  },
  "doc": "mcc26",
- "yeartag": "2026 bulletin · marked draft",
+ "yeartag": "2026 bulletin · may still change",
  "notes": [
   [
-   "MCC published its 2026 bulletin on 07/10/2026; its first page marks it \"DRAFT – V10\", so MCC may still revise it, and we'll update these lines if it does. New this year: after an allotment you're either Freeze (keep the seat and join at the college in person) or Float (upgrade, with willingness, documents and resignation all online).",
-   "p.1; p.10"
+   "MCC published its 2026 bulletin on 07/10/2026 with its first page marked \"DRAFT – V10\". On 08/10/2026 MCC replaced it on its site with a copy whose first page no longer shows that line; the text is otherwise the same, word for word. MCC may still revise it, and we'll update these lines if it does. New this year: after an allotment you're either Freeze (keep the seat and join at the college in person) or Float (upgrade, with willingness, documents and resignation all online).",
+   "mcc26d: p.1; mcc26: p.1; p.10"
   ]
  ],
  "rounds": {
