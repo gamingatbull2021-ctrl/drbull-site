@@ -11,6 +11,42 @@
    "short": "WB bulletin",
    "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2025/11/20251103730738682.pdf",
    "note": "The bulletin is a scanned image; its quotes were read from the page."
+  },
+  "a07": {
+   "name": "WBMCC, Notice for WB PG Medical 2025 Admission (Memo HFW-23099/206/2023/M/3102, 27.11.2025)",
+   "short": "Admission notice 27.11.2025",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2025/11/202511271407375338.pdf",
+   "note": "A scanned image; read from the page."
+  },
+  "a08": {
+   "name": "WBMCC, Urgent Notice for WB NEET PG Medical Counseling 2025 (Memo HFW-23099/206/2023/M/3101, 27.11.2025)",
+   "short": "Urgent notice 27.11.2025",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2025/11/202511271541258191.pdf",
+   "note": "A scanned image; read from the page."
+  },
+  "s006": {
+   "name": "WBMCC, Tentative Schedule for WB NEET PG Medical 2025 (Memo HFW-23099/206/2023/M/3098, 26.11.2025)",
+   "short": "Schedule 26.11.2025",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2025/11/20251126148518468.pdf",
+   "note": "A scanned image; read from the page."
+  },
+  "s013": {
+   "name": "WBMCC, Tentative Revised Schedule for WB NEET PG Medical 2025 (Memo HFW-23099/206/2023/3210, 17.12.2025)",
+   "short": "Revised schedule 17.12.2025",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2025/12/202512172010979512.pdf",
+   "note": "A scanned image; read from the page."
+  },
+  "s017": {
+   "name": "WBMCC, Tentative Revised Schedule for WB NEET PG Medical 2025 (Memo HFW-23099/17/2026/M/203, 02.02.2026)",
+   "short": "Revised schedule 02.02.2026",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/02/202602021084229552.pdf",
+   "note": "A scanned image; read from the page."
+  },
+  "s018": {
+   "name": "WBMCC, Tentative Revised Schedule for WB NEET PG Medical 2025 (Memo HFW-23099/17/2026/M/289, 10.02.2026)",
+   "short": "Revised schedule 10.02.2026",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/02/20260210817789677.pdf",
+   "note": "A scanned image; read from the page."
   }
  },
  "doc": "wb",
@@ -31,18 +67,48 @@
     [
      "Register, pay the Rs 3,000 counselling fee, pass the physical document check before choices, then fill and lock choices.",
      "cl. 21 A, p.8; fee: cl. 24, pp.14-15"
+    ],
+    [
+     "In 2025-26 (WBMCC's schedule of 26.11.2025): registration ran from 06.11.2025 to 09.11.2025 and again from 19.11.2025 to 20.11.2025; choices from 21.11.2025 to 24.11.2025; the result came on 27.11.2025; admission at the college ran on 28.11.2025 and from 01.12.2025 to 05.12.2025.",
+     "s006: p.1"
+    ],
+    [
+     "At admission you give an undertaking that you are not presently admitted anywhere through AIQ or state-quota counselling held in 2025 or earlier.",
+     "a07: p.1"
+    ],
+    [
+     "Allotted a seat outside your category (an unreserved seat, or a non-PwD seat) and can't show your caste or PwD certificate at admission: you are still admitted, as unreserved or non-PwD, and in Round 2 you can seek an upgrade only as that.",
+     "a07: p.2-3"
+    ],
+    [
+     "Allotted a seat of your own category (reserved or PwD) without a valid certificate: the seat is cancelled for that round and you count as unreserved or non-PwD; you go on to the next round only if you met that cut-off, otherwise you are out of the counselling. The PwD certificate must come from IPGMER Kolkata's medical board or a centre designated by MCC.",
+     "a07: p.2-3"
+    ],
+    [
+     "Registered as NRI by mistake: on that round's admission dates you can e-mail a signed request (PDF) to the Director of Medical Education, from the e-mail ID given for NEET, to have your registration reset, then register again and pay the counselling fee again; this works from the next round only, not in the stray round or after it.",
+     "a08: p.1"
     ]
    ],
    "opts": [
     [
+     "Join, no Round 2",
+     "Pay the college's fee and give the bond at admission. You keep the seat and don't choose again in Round 2.",
+     [
+      "Seat kept",
+      "ok"
+     ],
+     null,
+     "a07: p.1-2"
+    ],
+    [
      "Join, try Round 2",
-     "At admission you're asked whether you want Round 2. Only a yes printed on the admission slip keeps you in.",
+     "At admission you're asked whether you want Round 2. Only a yes printed on the admission slip keeps you in. With a yes you pay only the admission fees at the college; the bond or bank guarantee may wait for that round, but the course fee is due at the latest during Round 3's admission.",
      [
       "Seat kept",
       "ok"
      ],
      "During the admission process of round 1, the allotted candidate shall be asked to provide willingness for participation in subsequent round at the allotted college. If the willingness is affirmative, this shall be mentioned clearly in the server generated admission slip and then only the candidate remains eligible to participate in round 2.",
-     "p.9"
+     "p.9; a07: p.2"
     ],
     [
      "Don't report",
@@ -65,9 +131,7 @@
      "p.8"
     ]
    ],
-   "gaps": [
-    "anything on candidates who hold an MCC seat."
-   ]
+   "gaps": []
   },
   "r2": {
    "title": "Round 2",
@@ -89,18 +153,22 @@
     [
      "Not those who joined in Round 1 without saying yes, or who surrendered a seat.",
      "p.10"
+    ],
+    [
+     "In 2025-26 (schedule of 26.11.2025, revised 17.12.2025): registration ran from 10.12.2025 to 13.12.2025; Round 1 admitted candidates could surrender their seats at the college on 18.12.2025; choices from 19.12.2025 to 21.12.2025; the result came on 24.12.2025; admission ran on 26.12.2025, 27.12.2025, 29.12.2025 and 30.12.2025.",
+     "s006: p.2; s013: p.1"
     ]
    ],
    "opts": [
     [
      "Upgraded",
-     "You lose any claim to the earlier seat.",
+     "You lose any claim to the earlier seat. If you had joined it, the earlier college returns all the fees you paid, with your original documents and a server-generated relieving letter, before you join the new college.",
      [
       "Earlier seat gone",
       "info"
      ],
      "The candidates who opt for up-gradation for the subsequent round/s, filled choice afresh in the subsequent round and upgraded accordingly as per the inter se merit, has no claim of the previously allotted seat.",
-     "p.7"
+     "p.7; a07: p.2"
     ],
     [
      "Don't report",
@@ -141,6 +209,10 @@
     [
      "The verified who were not allotted till Round 2 or didn't fill choices (no fee again); Round 2 joiners who said yes; Round 2 non-reporters (after paying the counselling fee again); those whose Round 2 seat was cancelled for documents but who remain eligible; fresh registrations.",
      "p.11"
+    ],
+    [
+     "In 2025-26 (revised schedules of 02.02.2026 and 10.02.2026): registration ran from 31.12.2025 to 02.01.2026, again from 27.01.2026 to 29.01.2026 and from 02.02.2026 to 04.02.2026; Round 2 admitted candidates could surrender their seats at the college on 30.01.2026, 31.01.2026, 03.02.2026 and 05.02.2026; choices from 07.02.2026 to 09.02.2026 and from 10.02.2026 to 12.02.2026; the result came on 16.02.2026; admission ran from 17.02.2026 to 19.02.2026.",
+     "s017: p.1; s018: p.1"
     ]
    ],
    "opts": [
@@ -183,6 +255,10 @@
     [
      "Fresh registration is open; registered candidates with no seat after Round 3 take part without paying again.",
      "p.12"
+    ],
+    [
+     "In 2025-26 (revised schedule of 10.02.2026): registration on 20.02.2026; choices from 21.02.2026 to 22.02.2026; the result came on 24.02.2026, with admission on 24.02.2026 and 25.02.2026. Seats left by candidates who didn't report were then allotted on the choices already made (result 27.02.2026; admission on 27.02.2026 and 28.02.2026).",
+     "s018: p.1-2"
     ]
    ],
    "opts": [
@@ -253,16 +329,16 @@
    "cl. 24, pp.14-15; p.7; cl. 13, p.3"
   ],
   "dep": [
-   "None found in the bulletin.",
-   ""
+   "No counselling security deposit is mentioned in the bulletin or the notices. At admission: a discontinuation bond of Rs 5 lakh (degree) or Rs 2 lakh (diploma) in Government colleges; private, trust and central colleges ask for a bond or a bank guarantee, as each college requires.",
+   "a07: p.1"
   ],
   "lose": [
    "Round 2 surrender: the admission fees.",
    "p.8"
   ],
   "back": [
-   "Only a duplicate payment can be claimed back, after the usual reconciliation time.",
-   "p.15"
+   "Counselling fee: only a duplicate payment, after the usual reconciliation time. If you joined a college and a later round gives you a new one, the earlier college returns all the fees you paid, with your original documents and a relieving letter.",
+   "p.15; a07: p.2"
   ],
   "leave": [
    "Discontinuing: Rs 5 lakh (degree) or Rs 2 lakh (diploma); no bond for DNB. After the course, open candidates serve 3 years (degree) or 2 years (diploma), or pay a penalty.",
