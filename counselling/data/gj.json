@@ -100,6 +100,11 @@
    "name": "ACPUGMEC & ACPPGMEC, Instructions for NRI Candidates 2026-27",
    "short": "NRI instructions 2026-27",
    "url": "https://medadmgujarat.ncode.in/web/PG2026/MDMS/REG/Instructions%20for%20NRI%20Candidates%202026-27.pdf"
+  },
+  "pwd26": {
+   "name": "Gujarat PG medical admissions: list of civil hospitals for the PwD Medical Board and the PwD Medical Appeal Board, 2026-27",
+   "short": "PwD boards 2026-27",
+   "url": "https://medadmgujarat.ncode.in/web/PG2026/MDMS/Civil%20hospital%20PwD_Board_List_2026-27.pdf"
   }
  },
  "doc": "ins",
@@ -142,6 +147,10 @@
     [
      "Disability (PwD) quota: you're examined by the Admission Committee's own Medical Board, and only its certificate counts; no other disability certificate is accepted.",
      "pr26: p.11"
+    ],
+    [
+     "Gujarat's PwD medical boards for 2026-27 sit at six civil hospitals: Ahmedabad, SSG Baroda, Sir T Bhavnagar, Surat, Guru Govindsinh Jamnagar and Rajkot; the appeal board is at B. J. Medical College, Ahmedabad.",
+     "pwd26: p.1"
     ],
     [
      "NRI seats: merit is by all-India overall NEET-PG rank among the NRI applicants. NRI candidates are verified only at the Committee's office at GMERS Medical College, Gandhinagar, with notarised copies, and also give a Rs 25,000 non-refundable processing draft.",
