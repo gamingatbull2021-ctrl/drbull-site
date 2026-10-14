@@ -6,36 +6,41 @@
  "year": "2026-27",
  "status": "read",
  "docs": {
-  "p": {
-   "name": "Selection Committee prospectuses 2025-2026: Government Quota (G.O. (D) No. 1006) and Management Quota incl. NRI (G.O. (D) No. 1007), in one file",
-   "short": "TN prospectus",
-   "url": "https://www.tnmedicalselection.net/archives/22052026035058965.pdf"
+  "p26": {
+   "name": "Selection Committee, DME&R Tamil Nadu, Prospectus for admission to PG Degree / Diploma courses in Government Medical Colleges and Government seats in Self-Financing Medical Colleges, 2026-2027 session (G.O. (D) No.1142, 07.10.2026)",
+   "short": "TN prospectus 2026-27",
+   "url": "https://tnmedicalselection.net/news/08102026235127.pdf"
   },
-  "s": {
-   "name": "Selection Committee round schedules 2025-26 (Rounds I to III and the stray round, in one file)",
-   "short": "TN schedules",
-   "url": "https://www.tnmedicalselection.net/archives/22052026035059118.pdf"
+  "mq26": {
+   "name": "Selection Committee, DME&R Tamil Nadu, Prospectus for admission to PG Degree / Diploma courses in Management Quota including NRI of Self-Financing Medical Colleges, 2026-2027 session (G.O. (D) No.1143, 07.10.2026)",
+   "short": "TN MQ/NRI prospectus 2026-27",
+   "url": "https://tnmedicalselection.net/news/08102026235016.pdf"
+  },
+  "n1410": {
+   "name": "Selection Committee, DME&R Tamil Nadu, Notification No. 1152/SCSII(1)/2026 dated 14.10.2026: last date for online applications, PG Degree / Diploma 2026-2027, extended",
+   "short": "Extension notice 14.10.2026",
+   "url": "https://tnmedicalselection.net/news/14102026010431.pdf"
   },
   "ka26": {
    "name": "Selection Committee, DME&R Tamil Nadu, Notification No. 1152/SCSII(1)/2026 dated 07.10.2026: Kind Attention to candidates for PG MD/MS/Diploma & DNB courses, 2026-2027 session (documents to keep ready)",
    "short": "Documents notice 2026-27",
    "url": "https://tnmedicalselection.net/news/07102026054845.pdf"
   },
-  "pwd26": {
-   "name": "Selection Committee, DME&R Tamil Nadu, notice dated 07.10.2026 to candidates applying for PG MD/MS/Diploma 2026-27 under the PwD category (assessment boards)",
-   "short": "PwD notice 2026-27",
-   "url": "https://tnmedicalselection.net/news/06102026234757.pdf"
+  "s": {
+   "name": "Selection Committee round schedules 2025-26 (Rounds I to III and the stray round, in one file)",
+   "short": "TN schedules",
+   "url": "https://www.tnmedicalselection.net/archives/22052026035059118.pdf"
   }
  },
- "doc": "p",
+ "doc": "p26",
  "notes": [
   [
-   "Tamil Nadu's counselling for the 2026-2027 session hasn't opened yet: the Selection Committee's notice of 07.10.2026 says it will commence shortly and lists the documents to keep ready for the online application. Its new prospectus isn't out, so the round cards and the money lines are from its previous prospectus, tagged as such.",
-   "ka26: p.1"
+   "For 2026-2027, Tamil Nadu has two prospectuses: one for government colleges and government-quota seats in self-financing colleges, and one for management-quota seats, including NRI, in self-financing colleges. These lines follow the first.",
+   "p.1; mq26: p.1"
   ],
   [
-   "Tamil Nadu runs one counselling for government-quota and management-quota (including NRI) seats, under two prospectuses in one file; these lines follow the government-quota prospectus.",
-   "p: p.1; p.61; s: p.4-5"
+   "Online applications for 2026-2027 opened on 09.10.2026 at 12 noon; the Selection Committee's notice of 14.10.2026 extended the last date to 16.10.2026, 11.59 PM. The rank list and counselling dates are to be notified later.",
+   "p.2; n1410: p.1"
   ]
  ],
  "rounds": {
@@ -61,12 +66,8 @@
      "ka26: p.1; p.4"
     ],
     [
-     "For the 2026-27 session, PwD candidates: Tamil Nadu's Primary Medical Assessment Boards (Coimbatore, Madurai, Thanjavur and Stanley Medical College hospitals) are open from 1 October to 5:00 PM on 9 October 2026; the appellate board at Madras Medical College (RGGGH), Chennai, from 10:00 AM on 5 October to 5:00 PM on 12 October.",
-     "pwd26: p.1"
-    ],
-    [
      "Registered candidates on the eligible list who lock choices. Not registering for Round 1 doesn't stop you joining later rounds.",
-     "p: p.13"
+     "p.13"
     ]
    ],
    "opts": [
@@ -78,7 +79,7 @@
       "warn"
      ],
      "The candidates allotted during Round 1 of the online counselling should download their provisional allotment order and join the course in the Medical College concerned on or before the date and time stipulated with relevant documents.",
-     "p: p.15; p.26"
+     "p.16; p.27; table, p.18"
     ],
     [
      "Don't join, or resign in time",
@@ -88,7 +89,7 @@
       "ok"
      ],
      "A candidate who has taken a seat and not joined / resigned the course within the stipulated time in the Round 1 online counselling, he/she is eligible to attend the Round 2 of ONLINE COUNSELLING.",
-     "p: p.13; table, p.16-17"
+     "p.13; table, p.17-18"
     ]
    ],
    "gaps": [
@@ -96,8 +97,7 @@
     "whether the tuition paid to download the allotment order comes back if you resign in time: one line calls it non-refundable, cl. 24(a) makes it non-refundable only beyond the resignation period, and the Round 1 table says no forfeiture.",
     "any rule for candidates holding an all-India, deemed or central seat in Rounds 1 and 2."
    ],
-   "yeartag": "Choices: 2025-26 rules",
-   "yearnote": "The lines marked for the 2026-2027 session are from Tamil Nadu's first notices; the rest of this card is its 2025-26 prospectus, as its new prospectus isn't out yet."
+   "yeartag": "2026-27 rules"
   },
   "r2": {
    "title": "Round 2",
@@ -114,11 +114,11 @@
    "who": [
     [
      "Seats not joined, not allotted or resigned in Round 1, plus newly sanctioned seats; re-allotment in this round is by rank and the rule of reservation.",
-     "p: p.15; p.13"
+     "p.16; p.13"
     ],
     [
      "A Round 1 seat whose holder opts for an upgrade shows as a virtual vacancy that others can choose; it's allotted in Round 2 only if its holder vacates it.",
-     "p: p.16"
+     "p.17"
     ]
    ],
    "opts": [
@@ -130,7 +130,7 @@
       "warn"
      ],
      "If the candidate is allotted and has not downloaded the allotment order and has not joined, the course after completion of Round 2 of ONLINE CONSELLING, then they will have to forfeit the registration fee paid by them.",
-     "p: p.16; table, p.17-18"
+     "p.17; table, p.17-18"
     ],
     [
      "Joined, then resign in time",
@@ -140,27 +140,26 @@
       "warn"
      ],
      "Candidates who have joined the allotted seat in Round 2 will be allowed to resign within the stipulated date given by Selection Committee.",
-     "p: p.16; table, p.17-18"
+     "p.16; table, p.17-18"
     ],
     [
      "Resign after the date",
-     "Rs 15 lakh for a degree (Rs 10 lakh for a diploma), plus the registration fee, security deposit and tuition; no Round 3.",
+     "Rs 15 lakh for a degree (Rs 10 lakh for a diploma), plus the registration fee, security deposit and tuition; no Round 3 or any later round.",
      [
       "Rs 15 lakh + fees",
       "stop"
      ],
      null,
-     "p: table, p.16-18"
+     "p.16; table, p.17-18; p.20"
     ]
    ],
    "gaps": [
-    "whether resigning a Round 2 seat in time forfeits the registration fee: the detailed table and the management-quota table say yes, the summary table doesn't, the clauses don't say, and the Round 2 notice lists 'Resigned and not joined' under forfeiture. The prospectus calls its tables illustrative only; its clauses charge the Round 2 discontinuation fee to anyone who joined and discontinues after the stipulated date, whatever their upgrade choice."
+    "whether resigning a Round 2 seat in time forfeits the registration fee: the detailed table and the management-quota prospectus's table say yes, the summary table doesn't, and the clauses don't say. The prospectus says its tables are for understanding only; its clauses charge the Round 2 discontinuation fee to anyone who joined and discontinues after the stipulated date, whatever their upgrade choice."
    ],
-   "yeartag": "2025-26 rules",
-   "yearnote": "These are Tamil Nadu's 2025-26 rules: its 2026-27 prospectus isn't out yet."
+   "yeartag": "2026-27 rules"
   },
   "r3": {
-   "title": "Round 3 (mop-up)",
+   "title": "Round 3",
    "chips": [
     [
      "No free exit, no resigning",
@@ -173,8 +172,8 @@
    ],
    "who": [
     [
-     "Candidates not allotted or not registered in Rounds 1 and 2; candidates allotted in Rounds 1 and 2 (State or All India Quota), joined or not; and those who resigned in Round 2 within the date. Not those who resigned after Round 2.",
-     "p: p.19-20"
+     "Candidates not allotted or not registered in Rounds 1 and 2; candidates allotted in Rounds 1 and 2 (State or All India Quota), joined or not; and those who resigned in Round 2 within the date. Not those who resigned after Round 2's stipulated time: they're out of Round 3 and all later rounds.",
+     "p.20"
     ],
     [
      "Round 1 or 2 seat-holders who haven't resigned can try for an upgrade; those who want to keep their seat needn't take part.",
@@ -182,11 +181,11 @@
     ],
     [
      "Registration fee Rs 1,000 for Round 3, paid by earlier allottees (joined, not joined or resigned) and by fresh registrants. Only candidates who took part earlier but were not allotted in Rounds 1 and 2 need not pay.",
-     "p: p.19"
+     "p.19"
     ],
     [
      "Candidates who joined in MCC's Round 3 are blocked, if MCC shares its joined list.",
-     "p: p.19"
+     "p.20"
     ]
    ],
    "opts": [
@@ -207,8 +206,8 @@
       "No further rounds",
       "stop"
      ],
-     "A candidate allotted a seat in Round 3 (Mop-up) in State counselling shall be ineligible to participate in any further Rounds counselling.",
-     "p: p.19"
+     "A candidate allotted a seat in Round 3 in State counselling shall be ineligible to participate in any further Rounds counselling.",
+     "p.19"
     ],
     [
      "Allotted, not joined",
@@ -217,13 +216,13 @@
       "All fees lost",
       "stop"
      ],
-     "If the candidate is allotted but has NOT joined the course after downloading the allotment order in the Round 3 (Mop-Up) of online counselling, then they will have to forfeit the registration fee, Security Deposit and tuition fee paid by them.",
-     "p: p.18"
+     "If the candidate is allotted but has NOT joined the course after downloading the allotment order in the Round 3 of online counselling, then they will have to forfeit the registration fee, Security Deposit and tuition fee paid by them.",
+     "p.19"
     ]
    ],
    "gaps": [],
-   "yeartag": "2025-26 rules",
-   "yearnote": "These are Tamil Nadu's 2025-26 rules: its 2026-27 prospectus isn't out yet."
+   "yeartag": "Notice lines: 2025-26",
+   "yearnote": "Lines citing the 2026-27 prospectus are this year's rules. Lines citing the round schedules are from 2025-26: Tamil Nadu's 2026-27 round schedules aren't out yet."
   },
   "stray": {
    "title": "Stray vacancy round",
@@ -240,42 +239,41 @@
    "who": [
     [
      "Candidates who don't hold a seat after Rounds 1 to 3, and those allotted but not joined in State or All India Quota Rounds 1 and 2.",
-     "p: p.20"
+     "p.21"
     ],
     [
-     "Not eligible: anyone who joined in State or All India Rounds 1 to 3, was allotted in State Round 3 or the All India stray round, or discontinued with the penalty.",
-     "s: p.24"
+     "Not eligible: anyone holding a seat from State Rounds 1 to 3 or allotted a seat in State Round 3, anyone allotted in the All India Quota, deemed-university or DNB stray round, and anyone who discontinued with the penalty.",
+     "p.19; p.20; p.21"
     ],
     [
      "Holders of an All India Quota, deemed-university or DNB seat from Rounds 1 to 3 can't take part.",
-     "p: p.21"
+     "p.21"
     ]
    ],
    "opts": [
     [
      "Allotted and joined",
-     "You can't vacate the seat; leaving means losing the registration fee, security deposit and tuition, and paying the penalty.",
+     "You can't vacate the seat; leaving means losing the registration fee, security deposit and tuition, and paying the discontinuation fee.",
      [
       "Can't vacate",
       "stop"
      ],
-     "Not allowed to vacate the seat. If wants to discontinue, then forfeit Registration Fee, security deposit and tuition fees and pay penalty.",
-     "s: p.26"
+     "Not allowed to vacate seat. If wants to discontinue, then forfeit Registration fee, Security Deposit and Tuition fees and pay Discontinuation fee.",
+     "table, p.19"
     ],
     [
      "Allotted, not joined",
-     "You lose the registration fee, security deposit and any tuition paid.",
+     "You lose the registration fee, security deposit and tuition fees.",
      [
       "All fees lost",
       "stop"
      ],
-     "Forfeit Registration fee, security deposit and tuition fees (if paid for downloading allotment order )",
-     "s: p.26"
+     "Forfeit Registration fee, Security Deposit and Tuition fees",
+     "table, p.19"
     ]
    ],
    "gaps": [],
-   "yeartag": "2025-26 rules",
-   "yearnote": "These are Tamil Nadu's 2025-26 rules: its 2026-27 prospectus isn't out yet."
+   "yeartag": "2026-27 rules"
   },
   "after": {
    "title": "Leaving the course",
@@ -299,7 +297,7 @@
       "stop"
      ],
      "Unless the aforesaid discontinuation fee as penalty amount is paid in total, the candidates will not be relieved and original certificates produced by the candidates at the time of admission will be retained by the concerned institutions.",
-     "p: p.15; p.21; p.29"
+     "p.15; p.21-22; p.30"
     ],
     [
      "Service bond",
@@ -308,37 +306,36 @@
       "Rs 40,00,000 bond",
       "warn"
      ],
-     "Non-Service candidates including candidates selected through 50% All India Quota shall execute a bond with three sureties for a sum of ₹20,00,000/- (Rupees Twenty Lakh only) on admission to Post Graduate Diploma courses 2025-2026 session and ₹40,00,000/- (Rupees Forty Lakh only) on admission to Post Graduate Degree courses 2025-2026 session",
-     "p: p.29"
+     "Non-Service candidates including candidates selected through 50% All India Quota shall execute a bond with three sureties for a sum of ₹20,00,000/- (Rupees Twenty Lakh only) on admission to Post Graduate Diploma courses 2026-2027 session and ₹40,00,000/- (Rupees Forty Lakh only) on admission to Post Graduate Degree courses 2026-2027 session",
+     "p.29"
     ]
    ],
    "gaps": [],
-   "yeartag": "2025-26 rules",
-   "yearnote": "These are Tamil Nadu's 2025-26 rules: its 2026-27 prospectus isn't out yet."
+   "yeartag": "2026-27 rules"
   }
  },
  "cross": {},
  "money": {
   "reg": [
-   "2025-26 prospectus: Application fee Rs 3,000 (SC, SC (Arunthathiyar) and ST natives of Tamil Nadu exempt; Rs 5,000 for management quota). Registration fee Rs 1,000 for each quota, paid again in later rounds except by candidates not allotted earlier (Round 3, stray round). Non-refundable.",
-   "p: p.4; p.19; p.20; p.64; s: p.5"
+   "2026-27 prospectuses: Application fee Rs 3,000 (SC, SC (Arunthathiyar) and ST natives of Tamil Nadu exempt; Rs 5,000 for management quota). Registration fee Rs 1,000, paid again in later rounds except by candidates not allotted earlier (Round 3, stray round). Non-refundable.",
+   "p.4; p.19; p.20; mq26: p.4"
   ],
   "dep": [
-   "2025-26 prospectus: Rs 30,000 for government colleges; Rs 1,00,000 for government-quota seats in self-financing colleges; Rs 2,00,000 for management quota (including NRI). Paid once.",
-   "p: p.4; s: p.5; p.11"
+   "2026-27 prospectuses: Rs 30,000 for government colleges; Rs 1,00,000 for government-quota seats in self-financing colleges; Rs 2,00,000 for management quota (including NRI).",
+   "p.4; mq26: p.4"
   ],
   "lose": [
-   "2025-26 prospectus: A Round 2 seat not joined: the registration fee. From Round 3: the registration fee, security deposit and tuition.",
-   "p: p.16; p.18"
+   "2026-27 prospectus: A Round 2 seat not joined: the registration fee. From Round 3: the registration fee, security deposit and tuition.",
+   "p.17; p.19"
   ],
   "back": [
-   "2025-26 prospectus: The security deposit is refunded within three months after the whole counselling ends if you got no seat in any round; no interest. The application and registration fees aren't refunded.",
-   "p: p.4"
+   "2026-27 prospectus: The security deposit is refunded within three months after the whole counselling ends if you got no seat in any round; no interest. The application and registration fees aren't refunded.",
+   "p.4; p.5"
   ],
   "leave": [
-   "2025-26 prospectus: Rs 15 lakh (degree) or Rs 10 lakh (diploma) for discontinuing on or after Round 2, after the stipulated date, plus the fees paid (non-service candidates also repay the stipend); a bond of Rs 40,00,000 (degree) or Rs 20,00,000 (diploma).",
-   "p: p.15; p.21; p.29"
+   "2026-27 prospectus: Rs 15 lakh (degree) or Rs 10 lakh (diploma) for discontinuing on or after Round 2, after the stipulated date, plus the fees paid (non-service candidates also repay the stipend); a bond of Rs 40,00,000 (degree) or Rs 20,00,000 (diploma).",
+   "p.15; p.21-22; p.29-30"
   ]
  },
- "yeartag": "2026-27 notices · 2025-26 rounds"
+ "yeartag": "2026-27 prospectus · 2025-26 notices"
 }
