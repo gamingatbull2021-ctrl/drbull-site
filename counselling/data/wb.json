@@ -3,25 +3,24 @@
  "label": "West Bengal",
  "sub": "State quota, via WBMCC",
  "language": "English",
- "year": "2025-26",
+ "year": "2026-27",
  "status": "read",
  "docs": {
-  "wb": {
-   "name": "WBMCC Notice cum Information Bulletin, PG Medical 2025 (Memo HFW-23099/206/2023/M/2817, 03.11.2025)",
-   "short": "WB bulletin",
-   "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2025/11/20251103730738682.pdf",
-   "note": "The bulletin is a scanned image; its quotes were read from the page."
+  "wb26": {
+   "name": "WBMCC Notice cum Information Bulletin, PG Medical 2026 (14.10.2026)",
+   "short": "WB bulletin 2026",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/10/2026101495338605.pdf"
+  },
+  "r126": {
+   "name": "WBMCC, Tentative Schedule for Round 1 of Counseling, WB NEET PG Medical 2026 (14.10.2026)",
+   "short": "Round 1 schedule 14.10.2026",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2026/10/202610141038182976.pdf",
+   "note": "A scanned image; read from the page."
   },
   "a07": {
    "name": "WBMCC, Notice for WB PG Medical 2025 Admission (Memo HFW-23099/206/2023/M/3102, 27.11.2025)",
    "short": "Admission notice 27.11.2025",
    "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2025/11/202511271407375338.pdf",
-   "note": "A scanned image; read from the page."
-  },
-  "a08": {
-   "name": "WBMCC, Urgent Notice for WB NEET PG Medical Counseling 2025 (Memo HFW-23099/206/2023/M/3101, 27.11.2025)",
-   "short": "Urgent notice 27.11.2025",
-   "url": "https://cdnbbsr.s3waas.gov.in/s3aae8d1e00b15a30e5901227e97ffbef7/uploads/2025/11/202511271541258191.pdf",
    "note": "A scanned image; read from the page."
   },
   "s006": {
@@ -49,7 +48,13 @@
    "note": "A scanned image; read from the page."
   }
  },
- "doc": "wb",
+ "doc": "wb26",
+ "notes": [
+  [
+   "Round 1 registration for 2026-27 runs from 22.10.2026 to 28.10.2026; the Round 1 result is due on 04.11.2026 (WBMCC's tentative schedule of 14.10.2026).",
+   "r126: p.1"
+  ]
+ ],
  "rounds": {
   "r1": {
    "title": "Round 1",
@@ -65,73 +70,71 @@
    ],
    "who": [
     [
-     "Register, pay the Rs 3,000 counselling fee, pass the physical document check before choices, then fill and lock choices.",
-     "cl. 21 A, p.8; fee: cl. 24, pp.14-15"
+     "Register, pay the Rs 3,000 counselling fee (and, to fill choices for private colleges' seats, a security deposit), pass the physical document check before choices, then fill and lock choices.",
+     "p.15; fee: cl. 24, p.24; deposit: p.5"
     ],
     [
-     "In 2025-26 (WBMCC's schedule of 26.11.2025): registration ran from 06.11.2025 to 09.11.2025 and again from 19.11.2025 to 20.11.2025; choices from 21.11.2025 to 24.11.2025; the result came on 27.11.2025; admission at the college ran on 28.11.2025 and from 01.12.2025 to 05.12.2025.",
-     "s006: p.1"
+     "In 2026-27 (WBMCC's tentative schedule of 14.10.2026): registration from 22.10.2026 to 28.10.2026 (fee payment till midnight on 28.10.2026); document verification on 26.10.2026, 27.10.2026, 28.10.2026 and 29.10.2026; choices from 30.10.2026 to 01.11.2026; the result on 04.11.2026; admission at the college on 05.11.2026, 06.11.2026, 07.11.2026 and 10.11.2026.",
+     "r126: p.1"
     ],
     [
-     "At admission you give an undertaking that you are not presently admitted anywhere through AIQ or state-quota counselling held in 2025 or earlier.",
+     "In 2025-26, WBMCC's admission notice asked for an undertaking at admission that you were not then admitted anywhere through AIQ or state-quota counselling held in 2025 or earlier.",
      "a07: p.1"
     ],
     [
-     "Allotted a seat outside your category (an unreserved seat, or a non-PwD seat) and can't show your caste or PwD certificate at admission: you are still admitted, as unreserved or non-PwD, and in Round 2 you can seek an upgrade only as that.",
-     "a07: p.2-3"
+     "Allotted an unreserved seat but can't show your caste or PwD certificate at the college's final check: if you meet the cut-off you are still admitted, and in Round 2 and later rounds you take part as unreserved.",
+     "p.16"
     ],
     [
-     "Allotted a seat of your own category (reserved or PwD) without a valid certificate: the seat is cancelled for that round and you count as unreserved or non-PwD; you go on to the next round only if you met that cut-off, otherwise you are out of the counselling. The PwD certificate must come from IPGMER Kolkata's medical board or a centre designated by MCC.",
-     "a07: p.2-3"
-    ],
-    [
-     "Registered as NRI by mistake: on that round's admission dates you can e-mail a signed request (PDF) to the Director of Medical Education, from the e-mail ID given for NEET, to have your registration reset, then register again and pay the counselling fee again; this works from the next round only, not in the stray round or after it.",
-     "a08: p.1"
+     "Allotted a reserved or PwD seat without the required certificate at the college's final check: the seat is cancelled for that round and you are moved to unreserved or non-PwD; you go on to later rounds only if you are still eligible in that status. The PwD certificate must come from NRS Medical College, Kolkata's Primary Medical Assessment Board or another board MCC designates.",
+     "p.16; p.3"
     ]
    ],
    "opts": [
     [
      "Join, no Round 2",
-     "Pay the college's fee and give the bond at admission. You keep the seat and don't choose again in Round 2.",
+     "Pay the college's fee and give the bond at admission. You keep the seat and don't choose again in Round 2. A security deposit goes toward the course fee if the seat is a private college's.",
      [
       "Seat kept",
       "ok"
      ],
      null,
-     "a07: p.1-2"
+     "p.16; p.4; p.18; p.5"
     ],
     [
      "Join, try Round 2",
-     "At admission you're asked whether you want Round 2. Only a yes printed on the admission slip keeps you in. With a yes you pay only the admission fees at the college; the bond or bank guarantee may wait for that round, but the course fee is due at the latest during Round 3's admission.",
+     "At admission you're asked whether you want Round 2; only a yes keeps you in it. In 2025-26, WBMCC's admission notice let those who said yes pay only the admission fees at the college; the bond or bank guarantee could wait for that round, but the course fee was due at the latest during Round 3's admission.",
      [
       "Seat kept",
       "ok"
      ],
-     "During the admission process of round 1, the allotted candidate shall be asked to provide willingness for participation in subsequent round at the allotted college. If the willingness is affirmative, this shall be mentioned clearly in the server generated admission slip and then only the candidate remains eligible to participate in round 2.",
-     "p.9; a07: p.2"
+     "During the admission process of round 1, the allotted candidate shall be asked to provide willingness for participation in subsequent round at the allotted college.",
+     "pp.16-17; a07: p.2"
     ],
     [
      "Don't report",
-     "You go on to Round 2 without registering or paying again.",
+     "You go on to Round 2 without registering, or paying the fee or security deposit, again. Round 1 is a free exit: a security deposit you paid is returned, but only after the whole counselling is over.",
      [
       "Nothing to pay again",
       "ok"
      ],
-     "The Round 1 allotted but non-reported candidate is allowed to appear in Round 2 without fresh registration and without payment of fees for choice filling.",
-     "p.8"
+     "The non-reported candidate in Round 1 is allowed to appear in Round 2, without fresh registration and without payment of fees/ security deposit amount as applicable for choice filling.",
+     "p.14; p.5"
     ],
     [
      "Surrender after joining",
-     "No penalty money, but you're out of the counselling. You apply in person at the college in WBMCC's time slot and must get the server-generated surrender letter; otherwise you stay on the college's admitted list.",
+     "No penalty money, but you're out of the counselling. You apply in person at the college as per WBMCC's surrender schedule and must get the server-generated surrender letter; otherwise you stay on the college's admitted list. A security deposit you paid is returned after the whole counselling.",
      [
       "Free, then out",
       "stop"
      ],
      "The seat surrender of the admitted candidate during the process of Round 1 admission is allowed without any penalty money.",
-     "p.8"
+     "p.14; p.15; p.5"
     ]
    ],
-   "gaps": []
+   "gaps": [],
+   "yeartag": "Notice lines: 2025-26",
+   "yearnote": "Lines citing the 2026-27 bulletin or the Round 1 schedule of 14.10.2026 are this year's. Lines citing WBMCC's admission notice are from 2025-26: its 2026-27 admission notice isn't out yet."
   },
   "r2": {
    "title": "Round 2",
@@ -141,18 +144,18 @@
      "warn"
     ],
     [
-     "Don't report: pay again",
+     "Don't report: deposit lost, pay again",
      "warn"
     ]
    ],
    "who": [
     [
-     "Round 1 joiners who said yes; the verified who weren't allotted or didn't fill choices in Round 1; Round 1 non-reporters (no fee); those whose Round 1 seat was cancelled for documents but who remain eligible; those who missed document verification (after paying again); fresh registrations.",
-     "p.10"
+     "Round 1 joiners who said yes; the verified who weren't allotted or didn't fill choices in Round 1; Round 1 non-reporters (no fee); those whose Round 1 seat was cancelled for documents but who remain eligible; those who missed document verification (after paying the fee, and any security deposit, again); fresh registrations.",
+     "pp.17-18"
     ],
     [
      "Not those who joined in Round 1 without saying yes, or who surrendered a seat.",
-     "p.10"
+     "p.18"
     ],
     [
      "In 2025-26 (schedule of 26.11.2025, revised 17.12.2025): registration ran from 10.12.2025 to 13.12.2025; Round 1 admitted candidates could surrender their seats at the college on 18.12.2025; choices from 19.12.2025 to 21.12.2025; the result came on 24.12.2025; admission ran on 26.12.2025, 27.12.2025, 29.12.2025 and 30.12.2025.",
@@ -162,36 +165,38 @@
    "opts": [
     [
      "Upgraded",
-     "You lose any claim to the earlier seat. If you had joined it, the earlier college returns all the fees you paid, with your original documents and a server-generated relieving letter, before you join the new college.",
+     "You lose any claim to the earlier seat. In 2025-26, WBMCC's admission notice had the earlier college return all the fees you paid, with your original documents and a server-generated relieving letter, before you joined the new college.",
      [
       "Earlier seat gone",
       "info"
      ],
-     "The candidates who opt for up-gradation for the subsequent round/s, filled choice afresh in the subsequent round and upgraded accordingly as per the inter se merit, has no claim of the previously allotted seat.",
-     "p.7; a07: p.2"
+     "Needless to mention, once upgraded there is no claim of the previously allotted seat.",
+     "p.17; a07: p.2"
     ],
     [
      "Don't report",
-     "You can enter Round 3 by paying the counselling fee again.",
+     "Your security deposit, if you paid one, is forfeited. You can enter Round 3 by paying the counselling fee and any security deposit again.",
      [
-      "Rs 3,000 again",
+      "Rs 3,000 again, deposit lost",
       "warn"
      ],
-     "The non reported candidate in Round 2 allotted seat is allowed to appear in Round 3 without fresh registration but after payment of the counseling fees once again for choice filling.",
-     "p.8; fee: cl. 24, p.14"
+     "The non-reported candidate in Round 2 is allowed to appear in Round 3 without fresh registration but after payment of thecounselling fees and security deposit amount as applicable once again for choice filling.",
+     "p.14; p.6; fee: cl. 24, p.24"
     ],
     [
      "Surrender after joining",
-     "Allowed, but you forfeit the admission fees and you're out of the counselling. You apply in person at the college in WBMCC's time slot and must get the server-generated surrender letter; otherwise you stay on the college's admitted list.",
+     "Allowed, but you forfeit the admission fees and you're out of the counselling. You apply in person at the college as per WBMCC's surrender schedule and must get the server-generated surrender letter; otherwise you stay on the college's admitted list. A security deposit you paid is returned after the whole counselling.",
      [
       "Admission fees lost",
       "warn"
      ],
      "The seat surrender of the admitted candidate during the process of Round 2 admission is allowed but with forfeiture of admission fees.",
-     "p.8"
+     "p.14; p.5"
     ]
    ],
-   "gaps": []
+   "gaps": [],
+   "yeartag": "Notice lines: 2025-26",
+   "yearnote": "Lines citing the 2026-27 bulletin are this year's rules. The dates and the lines citing WBMCC's notices are from 2025-26: the 2026-27 notices for this round aren't out yet."
   },
   "r3": {
    "title": "Round 3",
@@ -207,8 +212,8 @@
    ],
    "who": [
     [
-     "The verified who were not allotted till Round 2 or didn't fill choices (no fee again); Round 2 joiners who said yes; Round 2 non-reporters (after paying the counselling fee again); those whose Round 2 seat was cancelled for documents but who remain eligible; fresh registrations.",
-     "p.11"
+     "The verified who were not allotted till Round 2 or didn't fill choices (no fee again); Round 2 joiners who said yes; Round 2 non-reporters (after paying the fee and any security deposit again); those whose Round 2 seat was cancelled for documents but who remain eligible; fresh registrations.",
+     "pp.19-20"
     ],
     [
      "In 2025-26 (revised schedules of 02.02.2026 and 10.02.2026): registration ran from 31.12.2025 to 02.01.2026, again from 27.01.2026 to 29.01.2026 and from 02.02.2026 to 04.02.2026; Round 2 admitted candidates could surrender their seats at the college on 30.01.2026, 31.01.2026, 03.02.2026 and 05.02.2026; choices from 07.02.2026 to 09.02.2026 and from 10.02.2026 to 12.02.2026; the result came on 16.02.2026; admission ran from 17.02.2026 to 19.02.2026.",
@@ -224,20 +229,22 @@
       "stop"
      ],
      "The seat surrender is not allowed from Round 3 counseling any further till the counseling process is over.",
-     "p.8; p.11"
+     "p.15; p.20"
     ],
     [
      "Don't report",
-     "You're out of the counselling.",
+     "You're out of the counselling, and your registration fee and any security deposit are forfeited.",
      [
       "Out",
       "stop"
      ],
      "The candidate who remains not reported in Round 3 after allotment are not allowed any further in counseling process and they are out of the counseling process.",
-     "p.11"
+     "p.20; p.14"
     ]
    ],
-   "gaps": []
+   "gaps": [],
+   "yeartag": "Notice lines: 2025-26",
+   "yearnote": "Lines citing the 2026-27 bulletin are this year's rules. The dates are from WBMCC's 2025-26 schedules: the 2026-27 schedule for this round isn't out yet."
   },
   "stray": {
    "title": "Stray round",
@@ -254,7 +261,7 @@
    "who": [
     [
      "Fresh registration is open; registered candidates with no seat after Round 3 take part without paying again.",
-     "p.12"
+     "pp.20-21"
     ],
     [
      "In 2025-26 (revised schedule of 10.02.2026): registration on 20.02.2026; choices from 21.02.2026 to 22.02.2026; the result came on 24.02.2026, with admission on 24.02.2026 and 25.02.2026. Seats left by candidates who didn't report were then allotted on the choices already made (result 27.02.2026; admission on 27.02.2026 and 28.02.2026).",
@@ -269,8 +276,8 @@
       "Final seat",
       "stop"
      ],
-     "Candidates who have admitted/joined the allotted seat in Online Stray Vacancy Round are not allowed to surrender their seats.",
-     "p.12"
+     "Candidates who have admitted/joined the allotted seat in Online Stray Vacancy Roundare not allowed to surrender their seats.",
+     "p.21"
     ],
     [
      "Don't report",
@@ -279,11 +286,13 @@
       "Out",
       "stop"
      ],
-     "The candidates who remain not reported during Online Stray Vacancy Round counseling are out of the Counseling process.",
-     "p.12"
+     "The candidates who remain not reported during Online Stray Vacancy Round Counseling are out of the Counseling process.",
+     "p.21"
     ]
    ],
-   "gaps": []
+   "gaps": [],
+   "yeartag": "Notice lines: 2025-26",
+   "yearnote": "Lines citing the 2026-27 bulletin are this year's rules. The dates are from WBMCC's 2025-26 schedules: the 2026-27 schedule for this round isn't out yet."
   },
   "after": {
    "title": "Leaving the course",
@@ -297,13 +306,13 @@
    "opts": [
     [
      "Surrender",
-     "From Round 3 on, a seat can't be surrendered until all rounds are over; after that, only by paying the bond penalty.",
+     "From Round 3 on, a seat can't be surrendered until all rounds are over; after that, only by paying the bond penalty, and a security deposit is then forfeited.",
      [
       "Bond penalty",
       "stop"
      ],
-     "The seat surrender with payment of bond penalty is possible only after the counseling of all rounds are over for the session 2025-26.",
-     "p.8"
+     "The seat surrender with payment of bond penalty is possible only after the counseling of all rounds is over for the session 2026-27.",
+     "p.15; p.6"
     ],
     [
      "Discontinue",
@@ -313,36 +322,38 @@
       "stop"
      ],
      "Discontinuation of course at any time after admission before completion of the course tenure will attract penalty of Rs. 5 lakhs for PG Medical Degree seats and Rs.2 lakhs for PG Diploma seats",
-     "cl. 12, p.3"
+     "cl. 12, p.4"
     ]
    ],
    "gaps": [
     "whether the \"bond penalty\" for surrender is the Rs 5 lakh / Rs 2 lakh above.",
-    "how the discontinuation penalty fits with the free Round 1 surrender and the Round 2 surrender after admission (p.8)."
-   ]
+    "how the discontinuation penalty fits with the free Round 1 surrender and the Round 2 surrender after admission (p.14)."
+   ],
+   "yeartag": "2026-27 rules"
   }
  },
  "cross": {},
  "money": {
   "reg": [
-   "Rs 3,000 counselling fee, once, non-refundable. Paid again if you miss the document check, don't report in Round 2 and want Round 3, or ask to have your category or domicile status reset after failing verification (the earlier fee is then forfeited).",
-   "cl. 24, pp.14-15; p.7; cl. 13, p.3"
+   "Rs 3,000 counselling fee, once, non-refundable. Paid again, with any security deposit, if you miss the document check, don't report in Round 2 and want Round 3, or ask to have your registration reset (initialization) after failing verification; the earlier fee is then forfeited.",
+   "cl. 24, p.24; p.13; p.6"
   ],
   "dep": [
-   "No counselling security deposit is mentioned in the bulletin or the notices. At admission: a discontinuation bond of Rs 5 lakh (degree) or Rs 2 lakh (diploma) in Government colleges; private, trust and central colleges ask for a bond or a bank guarantee, as each college requires.",
-   "a07: p.1"
+   "Only to fill choices for private colleges' seats: a one-time security deposit of Rs 2 lakh (their State Quota seats only) or Rs 5 lakh (their Management Quota seats, with or without their State Quota seats). It goes toward the course fee if you are allotted such a seat. At admission, open and in-service candidates also give a notarised discontinuation bond.",
+   "p.5; p.4"
   ],
   "lose": [
-   "Round 2 surrender: the admission fees.",
-   "p.8"
+   "Round 2 surrender: the admission fees. The security deposit: if you don't report from Round 2 on, if a document is found fake or forged, or if you resign the seat after the whole counselling.",
+   "p.14; p.6"
   ],
   "back": [
-   "Counselling fee: only a duplicate payment, after the usual reconciliation time. If you joined a college and a later round gives you a new one, the earlier college returns all the fees you paid, with your original documents and a relieving letter.",
-   "p.15; a07: p.2"
+   "Counselling fee: only a duplicate payment, after the usual reconciliation time. Security deposit: returned only after the whole counselling, if you get no seat or a Government college's seat, surrender in Round 1 or Round 2, don't report in Round 1, or pay it again to re-register (the earlier deposit is returned; the fee is forfeited).",
+   "p.25; p.5-6"
   ],
   "leave": [
    "Discontinuing: Rs 5 lakh (degree) or Rs 2 lakh (diploma); no bond for DNB. After the course, open candidates serve 3 years (degree) or 2 years (diploma), or pay a penalty.",
-   "cl. 12, p.3"
+   "cl. 12, p.4"
   ]
- }
+ },
+ "yeartag": "2026-27 bulletin · 2025-26 notices"
 }
