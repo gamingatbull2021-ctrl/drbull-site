@@ -39,8 +39,8 @@
   // are all off the official site ("offline": "notes") says so once in its notes box instead of after every reference
   const GONE = " (no longer on the official site)";
   const gone = side => side.offline === "notes" ? "" : GONE;
-  function src(side, ref) {
-    const parts = refParts(side, ref);
+  function src(side, ref) { return srcOf(side, refParts(side, ref)); }
+  function srcOf(side, parts) {
     if (!parts.length) return "";
     return `<span class="src">${parts.map(([k, part]) => {
       const d = side.docs[k];
@@ -63,8 +63,12 @@
     const main = side.docs[side.doc];
     const who = r.who.length ? `<h4>Who can take part <span class="plainnote">in plain words</span></h4><ul class="who">${r.who.map(([t, ref]) => `<li>${esc(t)} ${src(side, ref)}</li>`).join("")}</ul>` : "";
     const opts = r.opts.length ? `<h4>${key === "after" ? "If you leave" : "If you're allotted a seat"}</h4><div class="opts">${r.opts.map(([lab, plain, cost, q, ref]) => {
-      const words = q
-        ? `<details><summary>The document's words · ${esc(refParts(side, ref).map(([k, p]) => side.docs[k].short + ", " + p).join("; "))}</summary><blockquote>"${esc(q)}"</blockquote>${src(side, ref)}</details>`
+      // a quote names one source, its reference's first part (the gate checks the whole quote is on that part's page);
+      // the other parts back the plain words and are listed after "Also:"
+      const [own, ...also] = refParts(side, ref);
+      const words = q && own
+        ? `<details><summary>The document's words · ${esc(side.docs[own[0]].short + ", " + own[1])}</summary><blockquote>"${esc(q)}"</blockquote>${srcOf(side, [own])}</details>` +
+          (also.length ? `<p class="official also">Also: ${srcOf(side, also)}</p>` : "")
         : `<p class="official">In the official document${regional(side) ? ` (${esc(side.language)})` : ""}: ${src(side, ref)}</p>`;
       return `<div class="opt"><div class="lab">${esc(lab)}</div><div class="plain">${esc(plain)}</div><div class="cost">${chip(cost)}</div>${words}</div>`;
     }).join("")}</div>` : "";

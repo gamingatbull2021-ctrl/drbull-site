@@ -111,7 +111,7 @@
       "warn"
      ],
      "The University fee and other fees once paid shall not be refunded under any circumstances.",
-     "p1: p.1; p.3; p.4; cq: p.21"
+     "p1: p.4; p.1; p.3; cq: p.21"
     ],
     [
      "Don't join",
@@ -251,7 +251,7 @@
       "stop"
      ],
      "If a candidate is allotted a seat in this phase of counselling and does not join the course, he will be liable for payment of penalty of Rs. 50,00,000/- (Rupees Fifty Lakhs only) to KNRUHS and also shall be debarred for 3 years from PG Medical admissions under KNRUHS.",
-     "amop: p.1; p.2"
+     "amop: p.2; p.1"
     ]
    ],
    "gaps": [
@@ -329,7 +329,7 @@
       "stop"
      ],
      "Candidates are informed that if they discontinue the course after 04.00 P.M on 23.01.2026 onwards, penalty clause will be applicable with payment of tuition fee for the entire course and Rs.50,00,000/- (Rupees Fifty Lakh Only) of Bond amount and are debarred from admission into PG Medical courses under KNRUHS for 3 years.",
-     "cq: p.21; fe: p.1; st: p.4; fex: p.1; fexl: p.1"
+     "fe: p.1; cq: p.21; st: p.4; fex: p.1; fexl: p.1"
     ],
     [
      "Bond at admission",
