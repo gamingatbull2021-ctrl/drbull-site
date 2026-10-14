@@ -40,6 +40,12 @@
    "name": "KEA notice on the continued stray vacancy allotment (10-03-2026, Kannada)",
    "short": "Continued stray notice",
    "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2025/pgneet_EXT_KAN_10032026kannada.pdf"
+  },
+  "pwd26": {
+   "name": "KEA notice on the medical examination of PwD-quota applicants, PG medical courses 2026 (14-10-2026, Kannada)",
+   "short": "PwD notice 14-10-2026",
+   "url": "https://cetonline.karnataka.gov.in/keawebentry456/pgetmed2026/20261014180552kannada.pdf",
+   "note": "A scanned image in Kannada; read from the page."
   }
  },
  "doc": "kap",
@@ -47,6 +53,10 @@
   [
    "Karnataka's KEA runs Round 1, Round 2, a third (mop-up) round and a stray round. Its bulletin and counselling procedure are mostly in English; its 2025-26 notices for the third and stray rounds are in Kannada, and the lines from them are our English.",
    "kap: p.1"
+  ],
+  [
+   "For 2026-27, KEA's notice of 14.10.2026 asks candidates who applied under the PwD quota for PG medical courses to have their medical examination at the designated medical boards, as KEA notified on 03.10.2026, by 17.10.2026. The examination follows NMC's 2026 guidelines for candidates with benchmark disabilities, and the eligibility the board decides is final.",
+   "pwd26: p.1"
   ]
  ],
  "rounds": {
