@@ -3,13 +3,18 @@
  "label": "Telangana",
  "sub": "Competent Authority Quota, via KNRUHS Warangal",
  "language": "English",
- "year": "2025-26",
+ "year": "2026-27",
  "status": "read",
  "docs": {
-  "cq": {
-   "name": "KNRUHS, Prospectus, PG Medical Degree and Diploma admissions under Competent Authority Quota 2025-26 (30-09-2025)",
-   "short": "TS CQ prospectus",
-   "url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/20250930113339KNRUHS%20-%20MEDICAL%20PG%20DEGREE%20DIPLOMA%20ADMISSIONS%20UNDER%20COMPETENT%20AUTHORITY%20QUOTA%20FOR%20THE%20AY%202025-26%20-%20PROSPECTUS.pdf"
+  "cq26": {
+   "name": "KNRUHS, Prospectus, PG Medical Degree and Diploma admissions under Competent Authority Quota 2026-27 (14-10-2026)",
+   "short": "TS CQ prospectus 2026-27",
+   "url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/20261014110317_KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-PROSPECTUS.pdf"
+  },
+  "n26": {
+   "name": "KNRUHS, Notification for admission into PG Medical Degree/Diploma courses under Competent Authority Quota 2026-27 (14-10-2026)",
+   "short": "CQ notification 2026-27",
+   "url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/20261014110802_KNRUHS-MEDICAL-PG-DEGREE-DIPLOMA-ADMISSIONS-UNDER-COMPETENT-AUTHORITY-QUOTA-FOR-THE-AY-2026-27-NOTIFICATION-FOR-REGISTRATION.pdf"
   },
   "p1": {
    "name": "KNRUHS, Notification for web options, first phase (10-12-2025)",
@@ -72,11 +77,15 @@
    "url": "https://www.knruhs.telangana.gov.in/wp-content/uploads/notifications/20260225112435KNRUHS%20-%20MEDICAL%20PG%20DEGREE%20DIPLOMA%20ADMISSIONS%20UNDER%20COMPETENT%20AUTHORITY%20QUOTA%20FOR%20THE%20AY%202025-26%20-%20NOTIFICATION%20FOR%20STRAY%20VACANCY%20PHASE%20OF%20COUNSELLING.pdf"
   }
  },
- "doc": "cq",
+ "doc": "cq26",
  "notes": [
   [
    "Telangana's KNRUHS counsels the Competent Authority Quota (these lines) in phases: first, second, mop-up, an additional mop-up, then a stray vacancy phase. Each phase has its own notice. Management Quota seats need a separate registration.",
    "p1: p.1; p2: p.1; mop: p.1; amop: p.1; st: p.1; reg2: p.1"
+  ],
+  [
+   "For 2026-27, KNRUHS's notification of 14-10-2026 invites online applications for Competent Authority Quota seats from 04.00 PM on 15.10.2026 to 04.00 PM on 23.10.2026. The dates for web options will be notified separately.",
+   "n26: p.1; p.5"
   ]
  ],
  "rounds": {
@@ -105,13 +114,13 @@
    "opts": [
     [
      "Join",
-     "Pay the University fee of Rs 29,600 to download the allotment order, then report with all original certificates and the bonds and pay the tuition fee at the college. The college keeps your originals until you complete the course (the prospectus makes this subject to the two bonds); the notice says they're returned if you discontinue. Fees paid aren't refunded.",
+     "Pay the University fee of Rs 35,000 to download the allotment order, then report with all original certificates and the bonds and pay the tuition fee at the college. The college keeps your originals until you complete the course (the prospectus makes this subject to the two bonds); the 2025-26 notice said they're returned if you discontinue, and that fees paid aren't refunded.",
      [
-      "Rs 29,600 non-refundable",
+      "Rs 35,000 University fee",
       "warn"
      ],
      "The University fee and other fees once paid shall not be refunded under any circumstances.",
-     "p1: p.4; p.1; p.3; cq: p.21"
+     "p1: p.4; p.1; p.3; cq26: p.21; p.22"
     ],
     [
      "Don't join",
@@ -126,7 +135,9 @@
    ],
    "gaps": [
     "any rule for candidates holding an all-India, deemed or central seat in the first or second phase."
-   ]
+   ],
+   "yeartag": "Notice lines: 2025-26",
+   "yearnote": "Lines citing the 2026-27 prospectus are this year's rules. Lines citing a phase or other notice are from 2025-26: Telangana's 2026-27 phase notices aren't out yet."
   },
   "r2": {
    "title": "Second phase",
@@ -180,7 +191,9 @@
    ],
    "gaps": [
     "whether a Competent Authority Quota joiner could move to a Management Quota seat between phases: not found in the documents we hold."
-   ]
+   ],
+   "yeartag": "Notice lines: 2025-26",
+   "yearnote": "Lines citing the 2026-27 prospectus are this year's rules. Lines citing a phase or other notice are from 2025-26: Telangana's 2026-27 phase notices aren't out yet."
   },
   "r3": {
    "title": "Mop-up",
@@ -258,7 +271,9 @@
     "the in-service mop-up rules: the University's in-service mop-up notice of 28-01-2026 is no longer on its site.",
     "whether in-service seats left after the extended reporting deadline (4 PM on 12.02.2026) went into this phase: the notices don't say.",
     "how the first-phase condition applies to candidates who registered only after the cut-off was lowered in January 2026: the mop-up notices repeat it and don't say."
-   ]
+   ],
+   "yeartag": "Notice lines: 2025-26",
+   "yearnote": "Lines citing the 2026-27 prospectus are this year's rules. Lines citing a phase or other notice are from 2025-26: Telangana's 2026-27 phase notices aren't out yet."
   },
   "stray": {
    "title": "Stray vacancy phase",
@@ -285,13 +300,13 @@
    "opts": [
     [
      "Join",
-     "Pay the University fee of Rs 29,600 to download the allotment letter, then report with all originals and bonds and pay the tuition fee by the last date.",
+     "Pay the University fee of Rs 35,000 to download the allotment letter, then report with all originals and bonds and pay the tuition fee by the last date.",
      [
-      "Rs 29,600",
+      "Rs 35,000",
       "warn"
      ],
-     "Allotted Candidates have to pay University fee of Rs.29,600/- by way of online payment gate-way and download the allotment letter.",
-     "st: p.2; p.3"
+     "The letter of allotment for admission of selected candidate has to be downloaded from the website after payment of university fee an amount of Rs. 35,000/- (Rupes Thirty-Five thousand Only) by payment gateway.",
+     "p.21; st: p.2; p.3"
     ],
     [
      "Don't join",
@@ -306,7 +321,9 @@
    ],
    "gaps": [
     "how the first-phase condition applies to candidates who registered only after the cut-off was lowered in January 2026: the notices don't say."
-   ]
+   ],
+   "yeartag": "Notice lines: 2025-26",
+   "yearnote": "Lines citing the 2026-27 prospectus are this year's rules. Lines citing a phase or other notice are from 2025-26: Telangana's 2026-27 phase notices aren't out yet."
   },
   "after": {
    "title": "Leaving the course",
@@ -323,13 +340,13 @@
    "opts": [
     [
      "Discontinue after the free exit",
-     "After the last free-exit date (in 2025-26, 4 PM on 23.01.2026 for in-service candidates and, after extensions, 4 PM on 09.02.2026 for non-service candidates) you aren't permitted to withdraw. Discontinuing then costs Rs 50,00,000 and a 3-year bar from PG counselling under KNRUHS; the free-exit notice to those admitted up to the second phase adds the tuition fee for the whole course.",
+     "After the last free-exit date (in 2025-26, 4 PM on 23.01.2026 for in-service candidates and, after extensions, 4 PM on 09.02.2026 for non-service candidates) you aren't permitted to withdraw. Discontinuing then costs Rs 50,00,000 and a 3-year bar from PG counselling under KNRUHS; the 2025-26 free-exit notice to those admitted up to the second phase added the tuition fee for the whole course.",
      [
       "Rs 50,00,000 + bar (+ tuition)",
       "stop"
      ],
-     "Candidates are informed that if they discontinue the course after 04.00 P.M on 23.01.2026 onwards, penalty clause will be applicable with payment of tuition fee for the entire course and Rs.50,00,000/- (Rupees Fifty Lakh Only) of Bond amount and are debarred from admission into PG Medical courses under KNRUHS for 3 years.",
-     "fe: p.1; cq: p.21; st: p.4; fex: p.1; fexl: p.1"
+     "The admitted candidates who discontinue the course after the last date for Free Exit shall have to pay penalty of Rs.50,00,000/- (Rupees Fifty Lakhs only) to prevent seat blocking. They shall be debarred from participating in counselling for admission into Post Graduate Degree, Diploma courses for a period of three (3) years under KNR UHS.",
+     "p.22; fe: p.1; st: p.4; fex: p.1; fexl: p.1"
     ],
     [
      "Bond at admission",
@@ -338,8 +355,8 @@
       "Rs 50,00,000 + stipend",
       "stop"
      ],
-     "All the candidates including In-service candidates joining into the Post Graduate degree, diploma courses shall execute bond on a non-judicial stamp paper of Rs. 100/- as prescribed in Annexure-II to the effect that he / she shall complete the prescribed period of training or in default to pay Rs.50,00,000/- (Rupees Fifty Lakhs only) to the KNRUHS and shall refund the amount received as stipend/salary upto that date to the Government.",
-     "cq: p.20"
+     "All the candidates including In-service candidates joining into the Post Graduate degree, diploma courses shall execute bond on a non-judicial stamp paper of Rs. 100/- as prescribed in Annexure-II to the effect that he / she shall complete the prescribed period of training or in default to pay Rs.50,00,000/- (Rupees Fifty Lakhs only) to the KNRUHS and shall refund the amount received as stipend/salary up to that date to the Government.",
+     "p.21"
     ],
     [
      "Service after PG (non-service)",
@@ -348,34 +365,37 @@
       "1 year; bond Rs 20,00,000 or Rs 10,00,000",
       "warn"
      ],
-     "All Postgraduates (excluding in-service candidates) shall serve the Government of Telangana, if necessary, in Government institutions for a period of one year as per the orders of the Telangana State Government.",
-     "cq: p.20"
+     "All Postgraduates (excluding In-service candidates) shall serve the Government of Telangana, if necessary, in Government institutions for a period of one year as per the orders of the Telangana State Government.",
+     "p.21"
     ]
    ],
    "gaps": [],
-   "who": []
+   "who": [],
+   "yeartag": "Notice lines: 2025-26",
+   "yearnote": "Lines citing the 2026-27 prospectus are this year's rules. Lines citing a phase or other notice are from 2025-26: Telangana's 2026-27 phase notices aren't out yet."
   }
  },
  "money": {
   "reg": [
-   "Registration and processing fee Rs 10,000 (SC/ST Rs 8,000), bank charges extra, non-refundable. University fee Rs 29,600 on your first allotment, not paid again in later phases.",
-   "cq: p.7; p2: p.2; mop: p.2; amop: p.2"
+   "Registration and processing fee Rs 10,000 (SC/ST Rs 8,000), bank charges extra, non-refundable. University fee Rs 35,000 to download the allotment letter; in 2025-26 it wasn't charged again in later phases to those who had paid it.",
+   "p.7; p.21; p2: p.2; mop: p.2; amop: p.2"
   ],
   "dep": [
    "No security deposit is mentioned in the prospectus or the phase notices we hold.",
    ""
   ],
   "lose": [
-   "No deposit is mentioned in the documents we hold. Not joining a mop-up, additional mop-up or stray seat costs a Rs 50 lakh penalty and a 3-year bar.",
+   "No deposit is mentioned in the documents we hold. In 2025-26, not joining a mop-up, additional mop-up or stray seat cost a Rs 50 lakh penalty and a 3-year bar.",
    "mop: p.3-4; amop: p.2; st: p.1-2"
   ],
   "back": [
-   "The notices say the University fee and other fees once paid aren't refunded. In the free exit, the college returned the originals, bonds and tuition fee.",
-   "p1: p.4; fe: p.1"
+   "The 2025-26 notices say the University fee and other fees once paid aren't refunded; in that year's free exit, the college returned the originals, bonds and tuition fee. A double payment is refunded on an e-mail request, only after admissions close.",
+   "p1: p.4; fe: p.1; cq26: p.7"
   ],
   "leave": [
-   "After the free exit: Rs 50,00,000 + a 3-year bar (the free-exit notice to those admitted up to the second phase adds the whole course's tuition). Service bond after PG: Rs 20,00,000 (degree) or Rs 10,00,000 (diploma).",
-   "cq: p.21; p.20; fe: p.1"
+   "After the free exit: Rs 50,00,000 + a 3-year bar (the 2025-26 free-exit notice to those admitted up to the second phase added the whole course's tuition). Service bond after PG: Rs 20,00,000 (degree) or Rs 10,00,000 (diploma).",
+   "p.22; p.21; fe: p.1"
   ]
- }
+ },
+ "yeartag": "2026-27 prospectus · 2025-26 notices"
 }

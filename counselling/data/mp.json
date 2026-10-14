@@ -100,6 +100,12 @@
    "short": "MP admission rules 2026",
    "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2026/Admission%20Rules%20and%20Amendments%202018_d_33.pdf",
    "lang": "Hindi"
+  },
+  "faq26": {
+   "name": "DME MP, Frequently Asked Questions, State Combined NEET PG 2026 counselling (MD/MS, post-MBBS DNB and PG diploma) (14-10-2026)",
+   "short": "FAQ 14-10-2026",
+   "url": "https://dme.mponline.gov.in/ql_dme/DMECounselling_Public/DMEPG/2026/FAQ%202026_38.pdf",
+   "lang": "Hindi"
   }
  },
  "doc": "rules",
@@ -217,8 +223,8 @@
      "rules: p.30; s2: p.1"
     ],
     [
-     "Before choice filling, everyone except Round 1 admitted candidates pays an advance: government colleges Rs 25,000 (reserved categories Rs 12,500), private colleges Rs 2,00,000, NRI Rs 10,00,000. Fresh choices are compulsory, upgrade seekers included.",
-     "faq: p.2; s2: p.1"
+     "Before choice filling, everyone except Round 1 admitted candidates pays an advance: government colleges Rs 25,000 (reserved categories Rs 12,500), private colleges Rs 2,00,000, NRI Rs 10,00,000. Fresh choices are compulsory, upgrade seekers included. For 2026-27, the 2026 FAQ gives the same advances, and its Round 2 line names no exception for Round 1 admitted candidates.",
+     "faq: p.2; s2: p.1; faq26: p.2"
     ],
     [
      "From Round 2, if no candidate with MBBS from Madhya Pradesh is available, that requirement is relaxed for the seats then vacant.",
@@ -467,16 +473,16 @@
    "adv: p.2; faq: p.2; rules: p.29"
   ],
   "dep": [
-   "No Round 1 deposit is stated (the first advisory lists the payments: registration, the Round 2 and mop-up advances, and the college fee at admission). Round 2 advance (not for Round 1 admitted candidates): government colleges Rs 25,000 (reserved Rs 12,500), private Rs 2,00,000, NRI Rs 10,00,000. Mop-up advance: Rs 2,00,000 (NRI Rs 10,00,000).",
-   "faq: p.2; adv: p.3"
+   "No Round 1 deposit is stated (the first advisory lists the payments: registration, the Round 2 and mop-up advances, and the college fee at admission). Round 2 advance (not for Round 1 admitted candidates): government colleges Rs 25,000 (reserved Rs 12,500), private Rs 2,00,000, NRI Rs 10,00,000. Mop-up advance: Rs 2,00,000 (NRI Rs 10,00,000). For 2026-27, the 2026 FAQ gives the same advances, and its Round 2 line names no exception for Round 1 admitted candidates.",
+   "faq: p.2; adv: p.3; faq26: p.2"
   ],
   "lose": [
    "The Round 2 advance, for a Round 2 seat not joined; the mop-up advance, for a mop-up seat not joined; Rs 2 lakh (NRI/OCI Rs 10 lakh) deducted for resigning after Round 2; the Rs 30 lakh bond or the full fee after the mop-up starts.",
    "rules: p.30; p.31; faq: p.4; p.6-7"
   ],
   "back": [
-   "The advance is adjusted in the admission fee if you join, or returned after all rounds if you get no seat. A Round 1 resignation before Round 2 returns the fee less 10 per cent (at most Rs 10,000; NRI Rs 25,000), the FAQ says. For 2026-27, a government or autonomous college's caution money (Rs 3,000) and security deposit (Rs 10,000), paid at admission, are refundable without interest.",
-   "rules: p.8; faq: p.4; fee26: p.1"
+   "The advance is adjusted in the admission fee if you join, or returned after all rounds if you get no seat. A Round 1 resignation before Round 2 returns the fee less 10 per cent (at most Rs 10,000; NRI Rs 25,000), the 2025 and 2026 FAQs say. For 2026-27, a government or autonomous college's caution money (Rs 3,000) and security deposit (Rs 10,000), paid at admission, are refundable without interest.",
+   "rules: p.8; faq: p.4; faq26: p.4; fee26: p.1"
   ],
   "leave": [
    "After the mop-up starts: Rs 30 lakh (government seat) or the whole course's fee (private seat), and you're out of later rounds. A 3-year bar from PG degree admission for resigning outside Rule 15, not completing the course, expulsion or a false claim. In-service: 5 years' service or Rs 50 lakh. Rural-service bond: 1 year's service after the degree or Rs 10 lakh. Post-MBBS DNB or diploma (2026-27): 5 or 3 years' service, or Rs 50 lakh or Rs 30 lakh; Rs 30 lakh for leaving a DNB seat.",
