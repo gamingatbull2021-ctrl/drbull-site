@@ -65,6 +65,11 @@
    "name": "CEE Kerala, Allotment/Admission to Post Graduate Medical (Degree) Courses, Kerala 2026: online applications invited (notification, 12-10-2026)",
    "short": "CEE notification 12-10-2026",
    "url": "https://cee.kerala.gov.in/pgmonline2026/noti_view/313/Upload1"
+  },
+  "dnb26": {
+   "name": "CEE Kerala, Admission to DNB (Post MBBS) course 2026: online applications invited (notification, 14-10-2026)",
+   "short": "DNB notification 14-10-2026",
+   "url": "https://cee.kerala.gov.in/dnbmbbsonline2026/noti_view/323/Upload1"
   }
  },
  "doc": "klp26",
@@ -76,6 +81,10 @@
   [
    "Kerala's CEE allots state-quota seats in government colleges and every seat in private self-financing colleges, NRI and minority seats included, in one counselling: three phases, then stray vacancy filling. As a principle, each state phase runs after the matching MCC round.",
    "klp26: p.4; p.31; p.32; p.42"
+  ],
+  [
+   "For DNB (post-MBBS) 2026, all of Kerala's state-quota seats are for in-service doctors of the Government of Kerala (Medical Education, Health or Insurance Medical Service). Applications close at 12:00 PM on 17/10/2026.",
+   "dnb26: p.1; p.3"
   ]
  ],
  "rounds": {
