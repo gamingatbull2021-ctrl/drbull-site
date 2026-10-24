@@ -481,13 +481,13 @@
     liver: [["Z5EjyxR95s8", "Slim people, fatty liver?", "1:03"]],
     lungs: [["wRpocbipLiI", "When a 6-year-old gets a smoker's lung disease", "1:38"]],
   };
-  const RAIL = [["prvDm_X420I", "Roz ki cholesterol goli ya ek drip? Naya gene-edit trial", "15 Oct", "1:18"],
+  const RAIL = [["HNAXtOwDzHc", "Iron lung: jab polio vaccine nahi thi | World Polio Day", "24 Oct", "0:46"],
+                ["prvDm_X420I", "Roz ki cholesterol goli ya ek drip? Naya gene-edit trial", "15 Oct", "1:18"],
                 ["yeavI7MUoEk", "Trendelenburg gait: the limp of a weak hip", "25 Sep", "0:30"],
                 ["E9nnMc5C-sM", "Walking built the most bone. It didn't significantly cut fractures.", "23 Sep", "1:01"],
                 ["vh31vJ62XMA", "Only 1 in 5 reach hospital in time", "22 Sep", "0:40"],
                 ["YoedkJ9ye88", "Indians eat 8g of salt a day. The limit is 5", "20 Sep", "0:45"],
-                ["Z5EjyxR95s8", "Slim people, fatty liver?", "18 Sep", "1:03"],
-                ["6ydHwERoIrk", "When a balloon can't open a heart blockage", "15 Sep", "0:35"]];
+                ["Z5EjyxR95s8", "Slim people, fatty liver?", "18 Sep", "1:03"]];
   const el = (t, c, x) => { const e = document.createElement(t); if (c) e.className = c; if (x != null) e.textContent = x; return e; };
   const link = (id, film) => { const a = el("a"); a.href = film ? "https://www.youtube.com/watch?v=" + id : "https://www.youtube.com/shorts/" + id; a.target = "_blank"; a.rel = "noopener"; return a; };
 
@@ -526,6 +526,7 @@
   // Titles cleaned of hashtags. [id, title, date, length, topic, long-form?]
   (function () {
     const VIDEOS = [
+      ["HNAXtOwDzHc", "Iron lung: jab polio vaccine nahi thi | World Polio Day", "2026-10-24", "0:46", "body"],
       ["prvDm_X420I", "Roz ki cholesterol goli ya ek drip? Naya gene-edit trial", "2026-10-15", "1:18", "heart"],
       ["yeavI7MUoEk", "Trendelenburg gait: the limp of a weak hip", "2026-09-25", "0:30", "body"],
       ["E9nnMc5C-sM", "Walking built the most bone. It didn't significantly cut fractures.", "2026-09-23", "1:01", "body"],
